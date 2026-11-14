@@ -1,0 +1,546 @@
+bip_39_2_word_array:
+- fault
+- song
+bip_39_2_word_no_space: faultsong
+bip_39_2_word_space: fault song
+bip_39_2_word_underscore: fault_song
+bip_39_3_word_array:
+- fault
+- song
+- advance
+bip_39_3_word_no_space: faultsongadvance
+bip_39_3_word_space: fault song advance
+bip_39_3_word_underscore: fault_song_advance
+bip_39_full_array:
+- fault
+- song
+- advance
+- target
+- fragile
+- slice
+- afford
+- obtain
+- oak
+- business
+- patrol
+- three
+bip_39_full_no_space: faultsongadvancetargetfragilesliceaffordobtainoakbusinesspatrolthree
+bip_39_full_space: fault song advance target fragile slice afford obtain oak business
+  patrol three
+bip_39_full_underscore: fault_song_advance_target_fragile_slice_afford_obtain_oak_business_patrol_three
+classification: project
+color: oomlout_oobb_tool_precision_screwdriver
+description_extra: ''
+description_main: bit_lock_1_width_1_height_3_mm_depth
+directory: parts/tool_precision_screwdriver_version_2_bit_lock
+id: tool_precision_screwdriver_version_2_bit_lock
+id_no_class: tool_precision_screwdriver_version_2_bit_lock
+id_no_size: tool_precision_screwdriver_version_2_bit_lock
+id_no_type: tool_precision_screwdriver_version_2_bit_lock
+id_oobb: tool_precision_screwdriver_version_2_bit_lock
+kwargs:
+  extra: ''
+  filter: bit_lock
+  generate_stl: false
+  height: 1
+  modes:
+  - 3dpr
+  - 'true'
+  navigation: false
+  oobb_name: bit_lock
+  oomp_mode: project
+  oomp_run: false
+  overwrite: true
+  thickness: 3
+  typ: fast
+  width: 1
+legacy_id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_bit_lock_1_width_1_height_3_mm_depth
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/tool_precision_screwdriver_version_2_bit_lock
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/tool_precision_screwdriver_version_2_bit_lock
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/tool_precision_screwdriver_version_2_bit_lock
+md5: 53f9e40feef5c796c11cc497c3e284f0
+md5_10: 53f9e40fee
+md5_10_upper: 53F9E40FEE
+md5_5: 53f9e
+md5_5_upper: 53F9E
+md5_6: 53f9e4
+md5_6_alpha: 39yhw
+md5_6_alpha_upper: 39YHW
+md5_6_upper: 53F9E4
+name: Tool Precision Screwdriver Version 2 Bit Lock
+name_no_class: Tool Precision Screwdriver Version 2 Bit Lock
+name_no_size: Tool Precision Screwdriver Version 2 Bit Lock
+name_no_type: Tool Precision Screwdriver Version 2 Bit Lock
+name_proper: Tool Precision Screwdriver Version 2 Bit Lock
+name_space: tool precision screwdriver version 2 bit lock
+name_upper: TOOL PRECISION SCREWDRIVER VERSION 2 BIT LOCK
+oobb_details:
+  extra: ''
+  height: 1
+  oobb_name: bit_lock
+  oobb_type: bit_lock_version_2
+  run_scad: true
+  run_solidcraft: false
+  thickness: 3
+  width: 1
+oobb_name: bit_lock
+oomlout_ai_roboclick_1:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      classification: project
+      color: oomlout_oobb_tool_precision_screwdriver
+      description_extra: ''
+      description_main: bit_lock_1_width_1_height_3_mm_depth
+      directory: parts\tool_precision_screwdriver_version_2_bit_lock
+      legacy_id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_bit_lock_1_width_1_height_3_mm_depth
+      name: tool_precision_screwdriver_version_2_bit_lock
+      name_proper: Tool Precision Screwdriver Version 2 Bit Lock
+      name_space: tool precision screwdriver version 2 bit lock
+      name_upper: TOOL PRECISION SCREWDRIVER VERSION 2 BIT LOCK
+      oobb_details:
+        extra: ''
+        height: 1
+        oobb_name: bit_lock
+        oobb_type: bit_lock_version_2
+        run_scad: true
+        run_solidcraft: false
+        thickness: 3
+        width: 1
+      oobb_name: bit_lock
+      project_name: oomlout_oobb_tool_precision_screwdriver
+      size: oomlout
+      taxonomy_1: tool_precision_screwdriver
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: version_2
+      taxonomy_3: bit_lock
+      taxonomy_4: ''
+      taxonomy_5: ''
+      taxonomy_6: ''
+      taxonomy_7: ''
+      taxonomy_8: ''
+      taxonomy_9: ''
+      thickness: 3
+      type: github
+      url_chat: ''
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_oomp.svg
+    file_template: C:\gh\oomlout_oobb_tool_precision_screwdriver_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_oomp.pdf
+  retries_until_complete: 0
+oomp_key: oomp_tool_precision_screwdriver_version_2_bit_lock
+project_name: oomlout_oobb_tool_precision_screwdriver
+size: oomlout
+taxonomy_1: tool_precision_screwdriver
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Tool Precision Screwdriver
+taxonomy_1_first_letter: t
+taxonomy_1_first_letter_upper: T
+taxonomy_1_length_1: t
+taxonomy_1_length_2: to
+taxonomy_1_length_3: too
+taxonomy_1_length_4: tool
+taxonomy_1_length_5: tool_
+taxonomy_1_upper: TOOL_PRECISION_SCREWDRIVER
+taxonomy_1_upper_length_1: T
+taxonomy_1_upper_length_2: TO
+taxonomy_1_upper_length_3: TOO
+taxonomy_1_upper_length_4: TOOL
+taxonomy_1_upper_length_5: TOOL_
+taxonomy_2: version_2
+taxonomy_2_capital: Version 2
+taxonomy_2_first_letter: v
+taxonomy_2_first_letter_upper: V
+taxonomy_2_length_1: v
+taxonomy_2_length_2: ve
+taxonomy_2_length_3: ver
+taxonomy_2_length_4: vers
+taxonomy_2_length_5: versi
+taxonomy_2_upper: VERSION_2
+taxonomy_2_upper_length_1: V
+taxonomy_2_upper_length_2: VE
+taxonomy_2_upper_length_3: VER
+taxonomy_2_upper_length_4: VERS
+taxonomy_2_upper_length_5: VERSI
+taxonomy_3: bit_lock
+taxonomy_3_capital: Bit Lock
+taxonomy_3_first_letter: b
+taxonomy_3_first_letter_upper: B
+taxonomy_3_length_1: b
+taxonomy_3_length_2: bi
+taxonomy_3_length_3: bit
+taxonomy_3_length_4: bit_
+taxonomy_3_length_5: bit_l
+taxonomy_3_upper: BIT_LOCK
+taxonomy_3_upper_length_1: B
+taxonomy_3_upper_length_2: BI
+taxonomy_3_upper_length_3: BIT
+taxonomy_3_upper_length_4: BIT_
+taxonomy_3_upper_length_5: BIT_L
+taxonomy_4: ''
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+thickness: 3
+thing:
+  bip_39_2_word_array:
+  - fault
+  - song
+  bip_39_2_word_no_space: faultsong
+  bip_39_2_word_space: fault song
+  bip_39_2_word_underscore: fault_song
+  bip_39_3_word_array:
+  - fault
+  - song
+  - advance
+  bip_39_3_word_no_space: faultsongadvance
+  bip_39_3_word_space: fault song advance
+  bip_39_3_word_underscore: fault_song_advance
+  bip_39_full_array:
+  - fault
+  - song
+  - advance
+  - target
+  - fragile
+  - slice
+  - afford
+  - obtain
+  - oak
+  - business
+  - patrol
+  - three
+  bip_39_full_no_space: faultsongadvancetargetfragilesliceaffordobtainoakbusinesspatrolthree
+  bip_39_full_space: fault song advance target fragile slice afford obtain oak business
+    patrol three
+  bip_39_full_underscore: fault_song_advance_target_fragile_slice_afford_obtain_oak_business_patrol_three
+  classification: project
+  color: oomlout_oobb_tool_precision_screwdriver
+  components:
+  - - - extra: ''
+        height: 1
+        pos:
+        - -3.5
+        - -1.5
+        - 0
+        shape: cube
+        size:
+        - 7
+        - 3
+        - 14
+        type: positive
+        width: 1
+  - inclusion: laser
+    objects:
+    - h: 3
+      pos:
+      - -2.5
+      - 0
+      - 0
+      r: 1.5
+      shape: cylinder
+      type: positive
+    - h: 3
+      pos:
+      - 2.5
+      - 0
+      - 0
+      r: 1.5
+      shape: cylinder
+      type: positive
+    pos:
+    - 0
+    - -1.5
+    - 9.0
+    rot:
+    - 0
+    - 90
+    - 90
+    type: hull
+    typetype: negative
+  - inclusion: 3dpr
+    objects:
+    - h: 3
+      pos:
+      - -2.5
+      - 0
+      - 0
+      r: 1.8
+      shape: cylinder
+      type: positive
+    - h: 3
+      pos:
+      - 2.5
+      - 0
+      - 0
+      r: 1.8
+      shape: cylinder
+      type: positive
+    pos:
+    - 0
+    - -1.5
+    - 9.0
+    rot:
+    - 0
+    - 90
+    - 90
+    type: hull
+    typetype: negative
+  - inclusion: 'true'
+    objects:
+    - h: 3
+      pos:
+      - -2.5
+      - 0
+      - 0
+      r: 1.5
+      shape: cylinder
+      type: positive
+    - h: 3
+      pos:
+      - 2.5
+      - 0
+      - 0
+      r: 1.5
+      shape: cylinder
+      type: positive
+    pos:
+    - 0
+    - -1.5
+    - 9.0
+    rot:
+    - 0
+    - 90
+    - 90
+    type: hull
+    typetype: negative
+  components_objects:
+  - extra: ''
+    filter: bit_lock
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: bit_lock
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 0
+    save_type: none
+    shape: oobb_cube
+    size:
+    - 7
+    - 3
+    - 14
+    thickness: 3
+    typ: fast
+    type: positive
+    width: 1
+  components_string:
+  - oobb_cube_shape_positive_type_bit_lock_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_1_height_bit_lock_oobb_name_3_thickness_1_width_7_3_14_size
+  description: oomlout oobb tool precision screwdriver bit lock 1x1x3
+  description_extra: ''
+  description_main: bit_lock_1_width_1_height_3_mm_depth
+  directory: parts/tool_precision_screwdriver_version_2_bit_lock
+  extra: ''
+  height: 1
+  height_mm: 14
+  id: tool_precision_screwdriver_version_2_bit_lock
+  id_no_class: tool_precision_screwdriver_version_2_bit_lock
+  id_no_size: tool_precision_screwdriver_version_2_bit_lock
+  id_no_type: tool_precision_screwdriver_version_2_bit_lock
+  id_oobb: tool_precision_screwdriver_version_2_bit_lock
+  kwargs:
+    extra: ''
+    filter: bit_lock
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: bit_lock
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    save_type: none
+    thickness: 3
+    typ: fast
+    width: 1
+  legacy_id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_bit_lock_1_width_1_height_3_mm_depth
+  link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/tool_precision_screwdriver_version_2_bit_lock
+  link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/tool_precision_screwdriver_version_2_bit_lock
+  link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/tool_precision_screwdriver_version_2_bit_lock
+  manufacturer: ''
+  md5: 53f9e40feef5c796c11cc497c3e284f0
+  md5_10: 53f9e40fee
+  md5_10_upper: 53F9E40FEE
+  md5_5: 53f9e
+  md5_5_upper: 53F9E
+  md5_6: 53f9e4
+  md5_6_alpha: 39yhw
+  md5_6_alpha_upper: 39YHW
+  md5_6_upper: 53F9E4
+  name: Tool Precision Screwdriver Version 2 Bit Lock
+  name_no_class: Tool Precision Screwdriver Version 2 Bit Lock
+  name_no_size: Tool Precision Screwdriver Version 2 Bit Lock
+  name_no_type: Tool Precision Screwdriver Version 2 Bit Lock
+  name_proper: Tool Precision Screwdriver Version 2 Bit Lock
+  name_short: Oomlout Oobb Tool Precision Screwdriver
+  name_space: tool precision screwdriver version 2 bit lock
+  name_text: Oobb Part Oomlout Oobb Tool Precision Screwdriver Bit Lock 1 Width 1
+    Height 3 mm Depth
+  name_upper: TOOL PRECISION SCREWDRIVER VERSION 2 BIT LOCK
+  oobb_details:
+    extra: ''
+    height: 1
+    oobb_name: bit_lock
+    oobb_type: bit_lock_version_2
+    run_scad: true
+    run_solidcraft: false
+    thickness: 3
+    width: 1
+  oobb_name: bit_lock
+  oomlout_ai_roboclick_1:
+    actions:
+    - command: text_jinja_template
+      convert_to_pdf: false
+      convert_to_png: false
+      dict_data:
+        classification: project
+        color: oomlout_oobb_tool_precision_screwdriver
+        description_extra: ''
+        description_main: bit_lock_1_width_1_height_3_mm_depth
+        directory: parts\tool_precision_screwdriver_version_2_bit_lock
+        legacy_id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_bit_lock_1_width_1_height_3_mm_depth
+        name: tool_precision_screwdriver_version_2_bit_lock
+        name_proper: Tool Precision Screwdriver Version 2 Bit Lock
+        name_space: tool precision screwdriver version 2 bit lock
+        name_upper: TOOL PRECISION SCREWDRIVER VERSION 2 BIT LOCK
+        oobb_details:
+          extra: ''
+          height: 1
+          oobb_name: bit_lock
+          oobb_type: bit_lock_version_2
+          run_scad: true
+          run_solidcraft: false
+          thickness: 3
+          width: 1
+        oobb_name: bit_lock
+        project_name: oomlout_oobb_tool_precision_screwdriver
+        size: oomlout
+        taxonomy_1: tool_precision_screwdriver
+        taxonomy_10: ''
+        taxonomy_11: ''
+        taxonomy_12: ''
+        taxonomy_13: ''
+        taxonomy_14: ''
+        taxonomy_15: ''
+        taxonomy_2: version_2
+        taxonomy_3: bit_lock
+        taxonomy_4: ''
+        taxonomy_5: ''
+        taxonomy_6: ''
+        taxonomy_7: ''
+        taxonomy_8: ''
+        taxonomy_9: ''
+        thickness: 3
+        type: github
+        url_chat: ''
+      dict_data_files: {}
+      dict_data_files_exists: {}
+      file_output: label_oomp.svg
+      file_template: C:\gh\oomlout_oobb_tool_precision_screwdriver_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+      search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+  oomp_key: oomp_tool_precision_screwdriver_version_2_bit_lock
+  part_number: ''
+  project_name: oomlout_oobb_tool_precision_screwdriver
+  short_name: ''
+  size: oomlout
+  taxonomy_1: tool_precision_screwdriver
+  taxonomy_10: ''
+  taxonomy_11: ''
+  taxonomy_12: ''
+  taxonomy_13: ''
+  taxonomy_14: ''
+  taxonomy_15: ''
+  taxonomy_1_capital: Tool Precision Screwdriver
+  taxonomy_1_first_letter: t
+  taxonomy_1_first_letter_upper: T
+  taxonomy_1_length_1: t
+  taxonomy_1_length_2: to
+  taxonomy_1_length_3: too
+  taxonomy_1_length_4: tool
+  taxonomy_1_length_5: tool_
+  taxonomy_1_upper: TOOL_PRECISION_SCREWDRIVER
+  taxonomy_1_upper_length_1: T
+  taxonomy_1_upper_length_2: TO
+  taxonomy_1_upper_length_3: TOO
+  taxonomy_1_upper_length_4: TOOL
+  taxonomy_1_upper_length_5: TOOL_
+  taxonomy_2: version_2
+  taxonomy_2_capital: Version 2
+  taxonomy_2_first_letter: v
+  taxonomy_2_first_letter_upper: V
+  taxonomy_2_length_1: v
+  taxonomy_2_length_2: ve
+  taxonomy_2_length_3: ver
+  taxonomy_2_length_4: vers
+  taxonomy_2_length_5: versi
+  taxonomy_2_upper: VERSION_2
+  taxonomy_2_upper_length_1: V
+  taxonomy_2_upper_length_2: VE
+  taxonomy_2_upper_length_3: VER
+  taxonomy_2_upper_length_4: VERS
+  taxonomy_2_upper_length_5: VERSI
+  taxonomy_3: bit_lock
+  taxonomy_3_capital: Bit Lock
+  taxonomy_3_first_letter: b
+  taxonomy_3_first_letter_upper: B
+  taxonomy_3_length_1: b
+  taxonomy_3_length_2: bi
+  taxonomy_3_length_3: bit
+  taxonomy_3_length_4: bit_
+  taxonomy_3_length_5: bit_l
+  taxonomy_3_upper: BIT_LOCK
+  taxonomy_3_upper_length_1: B
+  taxonomy_3_upper_length_2: BI
+  taxonomy_3_upper_length_3: BIT
+  taxonomy_3_upper_length_4: BIT_
+  taxonomy_3_upper_length_5: BIT_L
+  taxonomy_4: ''
+  taxonomy_5: ''
+  taxonomy_6: ''
+  taxonomy_7: ''
+  taxonomy_8: ''
+  taxonomy_9: ''
+  thickness: 3
+  thickness_mm: 3
+  type: github
+  url_chat: ''
+  width: 1
+  width_mm: 14
+type: github
+url_chat: ''

@@ -1,0 +1,5118 @@
+bip_39_2_word_array:
+- evoke
+- canvas
+bip_39_2_word_no_space: evokecanvas
+bip_39_2_word_space: evoke canvas
+bip_39_2_word_underscore: evoke_canvas
+bip_39_3_word_array:
+- evoke
+- canvas
+- rose
+bip_39_3_word_no_space: evokecanvasrose
+bip_39_3_word_space: evoke canvas rose
+bip_39_3_word_underscore: evoke_canvas_rose
+bip_39_full_array:
+- evoke
+- canvas
+- rose
+- raw
+- weekend
+- arctic
+- gap
+- melt
+- day
+- spirit
+- provide
+- asset
+bip_39_full_no_space: evokecanvasroserawweekendarcticgapmeltdayspiritprovideasset
+bip_39_full_space: evoke canvas rose raw weekend arctic gap melt day spirit provide
+  asset
+bip_39_full_underscore: evoke_canvas_rose_raw_weekend_arctic_gap_melt_day_spirit_provide_asset
+classification: project
+color: oomlout_oobb_tool_precision_screwdriver
+color_parts:
+- main
+- support
+description_extra: hex_shape_2.5_size_extra
+description_main: label_top_1_width_1_height_11.25_mm_depth
+directory: parts/tool_precision_screwdriver_version_2_label_top_hex_2_5_size
+extra: hex_shape_2.5_size
+id: tool_precision_screwdriver_version_2_label_top_hex_2_5_size
+id_no_class: tool_precision_screwdriver_version_2_label_top_hex_2_5_size
+id_no_size: tool_precision_screwdriver_version_2_label_top_hex_2_5_size
+id_no_type: tool_precision_screwdriver_version_2_label_top_hex_2_5_size
+id_oobb: tool_precision_screwdriver_version_2_label_top_hex_2_5_size
+kwargs:
+  extra: hex_shape_2.5_size
+  filter: ''
+  generate_stl: false
+  height: 1
+  modes:
+  - 3dpr
+  - 'true'
+  navigation: false
+  oobb_name: label_top
+  oomp_mode: project
+  oomp_run: false
+  overwrite: true
+  shape: hex
+  siz: '2.5'
+  thickness: 11.25
+  typ: fast
+  width: 1
+legacy_id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_hex_shape_2_5_size_extra
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/tool_precision_screwdriver_version_2_label_top_hex_2_5_size
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/tool_precision_screwdriver_version_2_label_top_hex_2_5_size
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/tool_precision_screwdriver_version_2_label_top_hex_2_5_size
+md5: 4e0436f0594f901657d455381a42b386
+md5_10: 4e0436f059
+md5_10_upper: 4E0436F059
+md5_5: 4e043
+md5_5_upper: 4E043
+md5_6: 4e0436
+md5_6_alpha: 31l4m
+md5_6_alpha_upper: 31L4M
+md5_6_upper: 4E0436
+name: Tool Precision Screwdriver Version 2 Label Top Hex 2 5 Size
+name_no_class: Tool Precision Screwdriver Version 2 Label Top Hex 2 5 Size
+name_no_size: Tool Precision Screwdriver Version 2 Label Top Hex 2 5 Size
+name_no_type: Tool Precision Screwdriver Version 2 Label Top Hex 2 5 Size
+name_proper: Tool Precision Screwdriver Version 2 Label Top Hex 2 5 Size
+name_space: tool precision screwdriver version 2 label top hex 2 5 size
+name_upper: TOOL PRECISION SCREWDRIVER VERSION 2 LABEL TOP HEX 2 5 SIZE
+oobb_details:
+  extra: hex_shape_2.5_size
+  height: 1
+  oobb_name: label_top
+  oobb_type: label_top_version_2
+  run_scad: true
+  run_solidcraft: false
+  shape: hex
+  siz: '2.5'
+  thickness: 11.25
+  width: 1
+oobb_name: label_top
+oomlout_ai_roboclick_1:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      classification: project
+      color: oomlout_oobb_tool_precision_screwdriver
+      color_parts:
+      - main
+      - support
+      description_extra: hex_shape_2.5_size_extra
+      description_main: label_top_1_width_1_height_11.25_mm_depth
+      directory: parts\tool_precision_screwdriver_version_2_label_top_hex_2_5_size
+      extra: hex_shape_2.5_size
+      legacy_id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_hex_shape_2_5_size_extra
+      name: tool_precision_screwdriver_version_2_label_top_hex_2_5_size
+      name_proper: Tool Precision Screwdriver Version 2 Label Top Hex 2 5 Size
+      name_space: tool precision screwdriver version 2 label top hex 2 5 size
+      name_upper: TOOL PRECISION SCREWDRIVER VERSION 2 LABEL TOP HEX 2 5 SIZE
+      oobb_details:
+        extra: hex_shape_2.5_size
+        height: 1
+        oobb_name: label_top
+        oobb_type: label_top_version_2
+        run_scad: true
+        run_solidcraft: false
+        shape: hex
+        siz: '2.5'
+        thickness: 11.25
+        width: 1
+      oobb_name: label_top
+      project_name: oomlout_oobb_tool_precision_screwdriver
+      shape: hex
+      siz: '2.5'
+      size: oomlout
+      taxonomy_1: tool_precision_screwdriver
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: version_2
+      taxonomy_3: label_top
+      taxonomy_4: hex
+      taxonomy_5: 2_5_size
+      taxonomy_6: ''
+      taxonomy_7: ''
+      taxonomy_8: ''
+      taxonomy_9: ''
+      thickness: 11.25
+      type: github
+      url_chat: ''
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_oomp.svg
+    file_template: C:\gh\oomlout_oobb_tool_precision_screwdriver_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_oomp.pdf
+  retries_until_complete: 0
+oomp_key: oomp_tool_precision_screwdriver_version_2_label_top_hex_2_5_size
+project_name: oomlout_oobb_tool_precision_screwdriver
+shape: hex
+siz: '2.5'
+size: oomlout
+taxonomy_1: tool_precision_screwdriver
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Tool Precision Screwdriver
+taxonomy_1_first_letter: t
+taxonomy_1_first_letter_upper: T
+taxonomy_1_length_1: t
+taxonomy_1_length_2: to
+taxonomy_1_length_3: too
+taxonomy_1_length_4: tool
+taxonomy_1_length_5: tool_
+taxonomy_1_upper: TOOL_PRECISION_SCREWDRIVER
+taxonomy_1_upper_length_1: T
+taxonomy_1_upper_length_2: TO
+taxonomy_1_upper_length_3: TOO
+taxonomy_1_upper_length_4: TOOL
+taxonomy_1_upper_length_5: TOOL_
+taxonomy_2: version_2
+taxonomy_2_capital: Version 2
+taxonomy_2_first_letter: v
+taxonomy_2_first_letter_upper: V
+taxonomy_2_length_1: v
+taxonomy_2_length_2: ve
+taxonomy_2_length_3: ver
+taxonomy_2_length_4: vers
+taxonomy_2_length_5: versi
+taxonomy_2_upper: VERSION_2
+taxonomy_2_upper_length_1: V
+taxonomy_2_upper_length_2: VE
+taxonomy_2_upper_length_3: VER
+taxonomy_2_upper_length_4: VERS
+taxonomy_2_upper_length_5: VERSI
+taxonomy_3: label_top
+taxonomy_3_capital: Label Top
+taxonomy_3_first_letter: l
+taxonomy_3_first_letter_upper: L
+taxonomy_3_length_1: l
+taxonomy_3_length_2: la
+taxonomy_3_length_3: lab
+taxonomy_3_length_4: labe
+taxonomy_3_length_5: label
+taxonomy_3_upper: LABEL_TOP
+taxonomy_3_upper_length_1: L
+taxonomy_3_upper_length_2: LA
+taxonomy_3_upper_length_3: LAB
+taxonomy_3_upper_length_4: LABE
+taxonomy_3_upper_length_5: LABEL
+taxonomy_4: hex
+taxonomy_4_capital: Hex
+taxonomy_4_first_letter: h
+taxonomy_4_first_letter_upper: H
+taxonomy_4_length_1: h
+taxonomy_4_length_2: he
+taxonomy_4_length_3: hex
+taxonomy_4_length_4: hex
+taxonomy_4_length_5: hex
+taxonomy_4_upper: HEX
+taxonomy_4_upper_length_1: H
+taxonomy_4_upper_length_2: HE
+taxonomy_4_upper_length_3: HEX
+taxonomy_4_upper_length_4: HEX
+taxonomy_4_upper_length_5: HEX
+taxonomy_5: 2_5_size
+taxonomy_5_capital: 2.5 Size
+taxonomy_5_first_letter: '2'
+taxonomy_5_first_letter_upper: '2'
+taxonomy_5_length_1: '2'
+taxonomy_5_length_2: '2_'
+taxonomy_5_length_3: '2_5'
+taxonomy_5_length_4: '2_5_'
+taxonomy_5_length_5: 2_5_s
+taxonomy_5_upper: 2_5_SIZE
+taxonomy_5_upper_length_1: '2'
+taxonomy_5_upper_length_2: '2_'
+taxonomy_5_upper_length_3: '2_5'
+taxonomy_5_upper_length_4: '2_5_'
+taxonomy_5_upper_length_5: 2_5_S
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+thickness: 11.25
+thing:
+  bip_39_2_word_array:
+  - evoke
+  - canvas
+  bip_39_2_word_no_space: evokecanvas
+  bip_39_2_word_space: evoke canvas
+  bip_39_2_word_underscore: evoke_canvas
+  bip_39_3_word_array:
+  - evoke
+  - canvas
+  - rose
+  bip_39_3_word_no_space: evokecanvasrose
+  bip_39_3_word_space: evoke canvas rose
+  bip_39_3_word_underscore: evoke_canvas_rose
+  bip_39_full_array:
+  - evoke
+  - canvas
+  - rose
+  - raw
+  - weekend
+  - arctic
+  - gap
+  - melt
+  - day
+  - spirit
+  - provide
+  - asset
+  bip_39_full_no_space: evokecanvasroserawweekendarcticgapmeltdayspiritprovideasset
+  bip_39_full_space: evoke canvas rose raw weekend arctic gap melt day spirit provide
+    asset
+  bip_39_full_underscore: evoke_canvas_rose_raw_weekend_arctic_gap_melt_day_spirit_provide_asset
+  classification: project
+  color: oomlout_oobb_tool_precision_screwdriver
+  color_parts:
+  - main
+  - support
+  components:
+  - - depth: 11.25
+      extra: hex_shape_2.5_size
+      h: 11.25
+      height: 1
+      inclusion: laser
+      pos: &id001
+      - 0
+      - 0
+      - 0.0
+      r: 9.75
+      radius: 9.75
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 11.25
+      extra: hex_shape_2.5_size
+      h: 11.25
+      height: 1
+      inclusion: 3dpr
+      pos: *id001
+      r: 9.75
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 11.25
+      extra: hex_shape_2.5_size
+      h: 11.25
+      height: 1
+      inclusion: 'true'
+      pos: *id001
+      r: 9.75
+      shape: cylinder
+      type: positive
+      width: 1
+  - - depth: 9.95
+      extra: hex_shape_2.5_size
+      h: 9.95
+      height: 1
+      inclusion: laser
+      pos: &id002
+      - 0
+      - 0
+      - 0.6500000000000004
+      r: 10.4
+      radius: 10.4
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 9.95
+      extra: hex_shape_2.5_size
+      h: 9.95
+      height: 1
+      inclusion: 3dpr
+      pos: *id002
+      r: 10.4
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 9.95
+      extra: hex_shape_2.5_size
+      h: 9.95
+      height: 1
+      inclusion: 'true'
+      pos: *id002
+      r: 10.4
+      shape: cylinder
+      type: positive
+      width: 1
+  - - depth: 1.3
+      extra: hex_shape_2.5_size
+      height: 1
+      id: 9.1
+      pos:
+      - 0
+      - 0
+      - 0.65
+      shape: oring
+      type: positive
+      width: 1
+  - - depth: 1.3
+      extra: hex_shape_2.5_size
+      height: 1
+      id: 9.1
+      pos:
+      - 0
+      - 0
+      - 10.6
+      shape: oring
+      type: positive
+      width: 1
+  - - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: laser
+      pos: &id003
+      - 10.950000000000001
+      - 0.0
+      - 0.8999999999999999
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: 3dpr
+      pos: *id003
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: 'true'
+      pos: *id003
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: laser
+      pos: &id004
+      - 10.950000000000001
+      - 0.0
+      - 1.8799999999999994
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: 3dpr
+      pos: *id004
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: 'true'
+      pos: *id004
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: laser
+      pos: &id005
+      - 10.950000000000001
+      - 0.0
+      - 8.55
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: 3dpr
+      pos: *id005
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: 'true'
+      pos: *id005
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: laser
+      pos: &id006
+      - 10.289634197605698
+      - 3.745120569416073
+      - 0.8999999999999999
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: 3dpr
+      pos: *id006
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: 'true'
+      pos: *id006
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: laser
+      pos: &id007
+      - 10.289634197605698
+      - 3.745120569416073
+      - 1.8799999999999994
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: 3dpr
+      pos: *id007
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: 'true'
+      pos: *id007
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: laser
+      pos: &id008
+      - 10.289634197605698
+      - 3.745120569416073
+      - 8.55
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: 3dpr
+      pos: *id008
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: 'true'
+      pos: *id008
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: laser
+      pos: &id009
+      - 8.38818665215281
+      - 7.038524326067606
+      - 0.8999999999999999
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: 3dpr
+      pos: *id009
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: 'true'
+      pos: *id009
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: laser
+      pos: &id010
+      - 8.38818665215281
+      - 7.038524326067606
+      - 1.8799999999999994
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: 3dpr
+      pos: *id010
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: 'true'
+      pos: *id010
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: laser
+      pos: &id011
+      - 8.38818665215281
+      - 7.038524326067606
+      - 8.55
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: 3dpr
+      pos: *id011
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: 'true'
+      pos: *id011
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: laser
+      pos: &id012
+      - 5.475000000000001
+      - 9.482978171439603
+      - 0.8999999999999999
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: 3dpr
+      pos: *id012
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: 'true'
+      pos: *id012
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: laser
+      pos: &id013
+      - 5.475000000000001
+      - 9.482978171439603
+      - 1.8799999999999994
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: 3dpr
+      pos: *id013
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: 'true'
+      pos: *id013
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: laser
+      pos: &id014
+      - 5.475000000000001
+      - 9.482978171439603
+      - 8.55
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: 3dpr
+      pos: *id014
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: 'true'
+      pos: *id014
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: laser
+      pos: &id015
+      - 1.9014475454528883
+      - 10.783644895483679
+      - 0.8999999999999999
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: 3dpr
+      pos: *id015
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: 'true'
+      pos: *id015
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: laser
+      pos: &id016
+      - 1.9014475454528883
+      - 10.783644895483679
+      - 1.8799999999999994
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: 3dpr
+      pos: *id016
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: 'true'
+      pos: *id016
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: laser
+      pos: &id017
+      - 1.9014475454528883
+      - 10.783644895483679
+      - 8.55
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: 3dpr
+      pos: *id017
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: 'true'
+      pos: *id017
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: laser
+      pos: &id018
+      - -1.901447545452887
+      - 10.783644895483679
+      - 0.8999999999999999
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: 3dpr
+      pos: *id018
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: 'true'
+      pos: *id018
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: laser
+      pos: &id019
+      - -1.901447545452887
+      - 10.783644895483679
+      - 1.8799999999999994
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: 3dpr
+      pos: *id019
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: 'true'
+      pos: *id019
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: laser
+      pos: &id020
+      - -1.901447545452887
+      - 10.783644895483679
+      - 8.55
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: 3dpr
+      pos: *id020
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: 'true'
+      pos: *id020
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: laser
+      pos: &id021
+      - -5.474999999999998
+      - 9.482978171439605
+      - 0.8999999999999999
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: 3dpr
+      pos: *id021
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: 'true'
+      pos: *id021
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: laser
+      pos: &id022
+      - -5.474999999999998
+      - 9.482978171439605
+      - 1.8799999999999994
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: 3dpr
+      pos: *id022
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: 'true'
+      pos: *id022
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: laser
+      pos: &id023
+      - -5.474999999999998
+      - 9.482978171439605
+      - 8.55
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: 3dpr
+      pos: *id023
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: 'true'
+      pos: *id023
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: laser
+      pos: &id024
+      - -8.38818665215281
+      - 7.038524326067608
+      - 0.8999999999999999
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: 3dpr
+      pos: *id024
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: 'true'
+      pos: *id024
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: laser
+      pos: &id025
+      - -8.38818665215281
+      - 7.038524326067608
+      - 1.8799999999999994
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: 3dpr
+      pos: *id025
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: 'true'
+      pos: *id025
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: laser
+      pos: &id026
+      - -8.38818665215281
+      - 7.038524326067608
+      - 8.55
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: 3dpr
+      pos: *id026
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: 'true'
+      pos: *id026
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: laser
+      pos: &id027
+      - -10.289634197605697
+      - 3.7451205694160747
+      - 0.8999999999999999
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: 3dpr
+      pos: *id027
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: 'true'
+      pos: *id027
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: laser
+      pos: &id028
+      - -10.289634197605697
+      - 3.7451205694160747
+      - 1.8799999999999994
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: 3dpr
+      pos: *id028
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: 'true'
+      pos: *id028
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: laser
+      pos: &id029
+      - -10.289634197605697
+      - 3.7451205694160747
+      - 8.55
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: 3dpr
+      pos: *id029
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: 'true'
+      pos: *id029
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: laser
+      pos: &id030
+      - -10.950000000000001
+      - 1.340988245066352e-15
+      - 0.8999999999999999
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: 3dpr
+      pos: *id030
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: 'true'
+      pos: *id030
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: laser
+      pos: &id031
+      - -10.950000000000001
+      - 1.340988245066352e-15
+      - 1.8799999999999994
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: 3dpr
+      pos: *id031
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: 'true'
+      pos: *id031
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: laser
+      pos: &id032
+      - -10.950000000000001
+      - 1.340988245066352e-15
+      - 8.55
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: 3dpr
+      pos: *id032
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: 'true'
+      pos: *id032
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: laser
+      pos: &id033
+      - -10.289634197605698
+      - -3.745120569416072
+      - 0.8999999999999999
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: 3dpr
+      pos: *id033
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: 'true'
+      pos: *id033
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: laser
+      pos: &id034
+      - -10.289634197605698
+      - -3.745120569416072
+      - 1.8799999999999994
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: 3dpr
+      pos: *id034
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: 'true'
+      pos: *id034
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: laser
+      pos: &id035
+      - -10.289634197605698
+      - -3.745120569416072
+      - 8.55
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: 3dpr
+      pos: *id035
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: 'true'
+      pos: *id035
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: laser
+      pos: &id036
+      - -8.38818665215281
+      - -7.038524326067606
+      - 0.8999999999999999
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: 3dpr
+      pos: *id036
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: 'true'
+      pos: *id036
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: laser
+      pos: &id037
+      - -8.38818665215281
+      - -7.038524326067606
+      - 1.8799999999999994
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: 3dpr
+      pos: *id037
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: 'true'
+      pos: *id037
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: laser
+      pos: &id038
+      - -8.38818665215281
+      - -7.038524326067606
+      - 8.55
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: 3dpr
+      pos: *id038
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: 'true'
+      pos: *id038
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: laser
+      pos: &id039
+      - -5.475000000000005
+      - -9.482978171439603
+      - 0.8999999999999999
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: 3dpr
+      pos: *id039
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: 'true'
+      pos: *id039
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: laser
+      pos: &id040
+      - -5.475000000000005
+      - -9.482978171439603
+      - 1.8799999999999994
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: 3dpr
+      pos: *id040
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: 'true'
+      pos: *id040
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: laser
+      pos: &id041
+      - -5.475000000000005
+      - -9.482978171439603
+      - 8.55
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: 3dpr
+      pos: *id041
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: 'true'
+      pos: *id041
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: laser
+      pos: &id042
+      - -1.9014475454528874
+      - -10.783644895483679
+      - 0.8999999999999999
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: 3dpr
+      pos: *id042
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: 'true'
+      pos: *id042
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: laser
+      pos: &id043
+      - -1.9014475454528874
+      - -10.783644895483679
+      - 1.8799999999999994
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: 3dpr
+      pos: *id043
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: 'true'
+      pos: *id043
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: laser
+      pos: &id044
+      - -1.9014475454528874
+      - -10.783644895483679
+      - 8.55
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: 3dpr
+      pos: *id044
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: 'true'
+      pos: *id044
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: laser
+      pos: &id045
+      - 1.9014475454528834
+      - -10.78364489548368
+      - 0.8999999999999999
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: 3dpr
+      pos: *id045
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: 'true'
+      pos: *id045
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: laser
+      pos: &id046
+      - 1.9014475454528834
+      - -10.78364489548368
+      - 1.8799999999999994
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: 3dpr
+      pos: *id046
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: 'true'
+      pos: *id046
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: laser
+      pos: &id047
+      - 1.9014475454528834
+      - -10.78364489548368
+      - 8.55
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: 3dpr
+      pos: *id047
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: 'true'
+      pos: *id047
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: laser
+      pos: &id048
+      - 5.475000000000001
+      - -9.482978171439603
+      - 0.8999999999999999
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: 3dpr
+      pos: *id048
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: 'true'
+      pos: *id048
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: laser
+      pos: &id049
+      - 5.475000000000001
+      - -9.482978171439603
+      - 1.8799999999999994
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: 3dpr
+      pos: *id049
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: 'true'
+      pos: *id049
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: laser
+      pos: &id050
+      - 5.475000000000001
+      - -9.482978171439603
+      - 8.55
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: 3dpr
+      pos: *id050
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: 'true'
+      pos: *id050
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: laser
+      pos: &id051
+      - 8.388186652152807
+      - -7.038524326067609
+      - 0.8999999999999999
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: 3dpr
+      pos: *id051
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: 'true'
+      pos: *id051
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: laser
+      pos: &id052
+      - 8.388186652152807
+      - -7.038524326067609
+      - 1.8799999999999994
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: 3dpr
+      pos: *id052
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: 'true'
+      pos: *id052
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: laser
+      pos: &id053
+      - 8.388186652152807
+      - -7.038524326067609
+      - 8.55
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: 3dpr
+      pos: *id053
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: 'true'
+      pos: *id053
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: laser
+      pos: &id054
+      - 10.289634197605698
+      - -3.7451205694160716
+      - 0.8999999999999999
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: 3dpr
+      pos: *id054
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 0.9999999999999999
+      extra: hex_shape_2.5_size
+      h: 0.9999999999999999
+      height: 1
+      inclusion: 'true'
+      pos: *id054
+      r1: 0.4
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: laser
+      pos: &id055
+      - 10.289634197605698
+      - -3.7451205694160716
+      - 1.8799999999999994
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: 3dpr
+      pos: *id055
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 6.69
+      extra: hex_shape_2.5_size
+      h: 6.69
+      height: 1
+      inclusion: 'true'
+      pos: *id055
+      r1: 1.15
+      r2: 1.15
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: laser
+      pos: &id056
+      - 10.289634197605698
+      - -3.7451205694160716
+      - 8.55
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: 3dpr
+      pos: *id056
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: 'true'
+      pos: *id056
+      r1: 1.15
+      r2: 0.4
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 1.4700000000000002
+      extra: hex_shape_2.5_size
+      h: 1.4700000000000002
+      height: 1
+      inclusion: laser
+      pos: &id057
+      - 0
+      - 0
+      - 1.25
+      r1: 7.5
+      r2: 7.5
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.4700000000000002
+      extra: hex_shape_2.5_size
+      h: 1.4700000000000002
+      height: 1
+      inclusion: 3dpr
+      pos: *id057
+      r1: 7.5
+      r2: 7.5
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.4700000000000002
+      extra: hex_shape_2.5_size
+      h: 1.4700000000000002
+      height: 1
+      inclusion: 'true'
+      pos: *id057
+      r1: 7.5
+      r2: 7.5
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 5.94
+      extra: hex_shape_2.5_size
+      h: 5.94
+      height: 1
+      inclusion: laser
+      pos: &id058
+      - 0
+      - 0
+      - 2.6999999999999997
+      r1: 8.551875172162198
+      r2: 8.551875172162198
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 5.94
+      extra: hex_shape_2.5_size
+      h: 5.94
+      height: 1
+      inclusion: 3dpr
+      pos: *id058
+      r1: 8.551875172162198
+      r2: 8.551875172162198
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 5.94
+      extra: hex_shape_2.5_size
+      h: 5.94
+      height: 1
+      inclusion: 'true'
+      pos: *id058
+      r1: 8.551875172162198
+      r2: 8.551875172162198
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 0.7000000000000011
+      extra: hex_shape_2.5_size
+      h: 0.7000000000000011
+      height: 1
+      inclusion: laser
+      pos: &id059
+      - 0
+      - 0
+      - 8.619999999999997
+      r1: 8.551875172162198
+      r2: 9.01779455764028
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 0.7000000000000011
+      extra: hex_shape_2.5_size
+      h: 0.7000000000000011
+      height: 1
+      inclusion: 3dpr
+      pos: *id059
+      r1: 8.551875172162198
+      r2: 9.01779455764028
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 0.7000000000000011
+      extra: hex_shape_2.5_size
+      h: 0.7000000000000011
+      height: 1
+      inclusion: 'true'
+      pos: *id059
+      r1: 8.551875172162198
+      r2: 9.01779455764028
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 2.0
+      extra: hex_shape_2.5_size
+      h: 2.0
+      height: 1
+      inclusion: laser
+      pos: &id060
+      - 0
+      - 0
+      - 9.3
+      r1: 9.01779455764028
+      r2: 9.01779455764028
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 2.0
+      extra: hex_shape_2.5_size
+      h: 2.0
+      height: 1
+      inclusion: 3dpr
+      pos: *id060
+      r1: 9.01779455764028
+      r2: 9.01779455764028
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 2.0
+      extra: hex_shape_2.5_size
+      h: 2.0
+      height: 1
+      inclusion: 'true'
+      pos: *id060
+      r1: 9.01779455764028
+      r2: 9.01779455764028
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 0.22
+      extra: hex_shape_2.5_size
+      h: 0.22
+      height: 1
+      inclusion: laser
+      pos: &id061
+      - 22
+      - 0
+      - 0.0
+      r1: 4.0
+      r2: 4.0
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 0.22
+      extra: hex_shape_2.5_size
+      h: 0.22
+      height: 1
+      inclusion: 3dpr
+      pos: *id061
+      r1: 4.0
+      r2: 4.0
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 0.22
+      extra: hex_shape_2.5_size
+      h: 0.22
+      height: 1
+      inclusion: 'true'
+      pos: *id061
+      r1: 4.0
+      r2: 4.0
+      shape: cylinder
+      type: positive
+      width: 1
+  - - depth: 1.2
+      extra: hex_shape_2.5_size
+      h: 1.2
+      height: 1
+      inclusion: laser
+      pos: &id062
+      - 22
+      - 0
+      - 0.19999999999999996
+      r1: 4.0
+      r2: 5.25
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 1.2
+      extra: hex_shape_2.5_size
+      h: 1.2
+      height: 1
+      inclusion: 3dpr
+      pos: *id062
+      r1: 4.0
+      r2: 5.25
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 1.2
+      extra: hex_shape_2.5_size
+      h: 1.2
+      height: 1
+      inclusion: 'true'
+      pos: *id062
+      r1: 4.0
+      r2: 5.25
+      shape: cylinder
+      type: positive
+      width: 1
+  - - depth: 1.17
+      extra: hex_shape_2.5_size
+      h: 1.17
+      height: 1
+      inclusion: laser
+      pos: &id063
+      - 22
+      - 0
+      - 1.38
+      r1: 4.225
+      r2: 4.225
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 1.17
+      extra: hex_shape_2.5_size
+      h: 1.17
+      height: 1
+      inclusion: 3dpr
+      pos: *id063
+      r1: 4.225
+      r2: 4.225
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 1.17
+      extra: hex_shape_2.5_size
+      h: 1.17
+      height: 1
+      inclusion: 'true'
+      pos: *id063
+      r1: 4.225
+      r2: 4.225
+      shape: cylinder
+      type: positive
+      width: 1
+  - - depth: 0.3700000000000001
+      extra: hex_shape_2.5_size
+      h: 0.3700000000000001
+      height: 1
+      inclusion: laser
+      pos: &id064
+      - 22
+      - 0
+      - 2.53
+      r1: 4.225
+      r2: 3.95
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 0.3700000000000001
+      extra: hex_shape_2.5_size
+      h: 0.3700000000000001
+      height: 1
+      inclusion: 3dpr
+      pos: *id064
+      r1: 4.225
+      r2: 3.95
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 0.3700000000000001
+      extra: hex_shape_2.5_size
+      h: 0.3700000000000001
+      height: 1
+      inclusion: 'true'
+      pos: *id064
+      r1: 4.225
+      r2: 3.95
+      shape: cylinder
+      type: positive
+      width: 1
+  - - depth: 3.3
+      extra: hex_shape_2.5_size
+      h: 3.3
+      height: 1
+      inclusion: laser
+      pos: &id065
+      - 22
+      - 0
+      - -0.19999999999999996
+      r: 1.7
+      radius: 1.7
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 3.3
+      extra: hex_shape_2.5_size
+      h: 3.3
+      height: 1
+      inclusion: 3dpr
+      pos: *id065
+      r: 1.7
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 3.3
+      extra: hex_shape_2.5_size
+      h: 3.3
+      height: 1
+      inclusion: 'true'
+      pos: *id065
+      r: 1.7
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: laser
+      pos: &id066
+      - 36
+      - 0
+      - 0.0
+      r: 4
+      radius: 4
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: 3dpr
+      pos: *id066
+      r: 4
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 1.0
+      extra: hex_shape_2.5_size
+      h: 1.0
+      height: 1
+      inclusion: 'true'
+      pos: *id066
+      r: 4
+      shape: cylinder
+      type: positive
+      width: 1
+  - - depth: 5.77
+      extra: hex_shape_2.5_size
+      h: 5.77
+      height: 1
+      inclusion: laser
+      pos: &id067
+      - 36
+      - 0
+      - 0.9800000000000004
+      r: 2.9
+      radius: 2.9
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 5.77
+      extra: hex_shape_2.5_size
+      h: 5.77
+      height: 1
+      inclusion: 3dpr
+      pos: *id067
+      r: 2.9
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 5.77
+      extra: hex_shape_2.5_size
+      h: 5.77
+      height: 1
+      inclusion: 'true'
+      pos: *id067
+      r: 2.9
+      shape: cylinder
+      type: positive
+      width: 1
+  - - depth: 1.77
+      extra: hex_shape_2.5_size
+      h: 1.77
+      height: 1
+      inclusion: laser
+      pos: &id068
+      - 36
+      - 0
+      - -0.050000000000000044
+      r1: 3.47
+      r2: 1.7
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.77
+      extra: hex_shape_2.5_size
+      h: 1.77
+      height: 1
+      inclusion: 3dpr
+      pos: *id068
+      r1: 3.47
+      r2: 1.7
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.77
+      extra: hex_shape_2.5_size
+      h: 1.77
+      height: 1
+      inclusion: 'true'
+      pos: *id068
+      r1: 3.47
+      r2: 1.7
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 5.1
+      extra: hex_shape_2.5_size
+      h: 5.1
+      height: 1
+      inclusion: laser
+      pos: &id069
+      - 36
+      - 0
+      - 1.7000000000000002
+      r1: 1.7
+      r2: 1.7
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 5.1
+      extra: hex_shape_2.5_size
+      h: 5.1
+      height: 1
+      inclusion: 3dpr
+      pos: *id069
+      r1: 1.7
+      r2: 1.7
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 5.1
+      extra: hex_shape_2.5_size
+      h: 5.1
+      height: 1
+      inclusion: 'true'
+      pos: *id069
+      r1: 1.7
+      r2: 1.7
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 0.6
+      extra: hex_shape_2.5_size
+      font: Liberation Sans:style=Bold
+      halign: center
+      height: 0.6
+      pos:
+      - -2.85
+      - -3.5
+      - 0.6
+      rot:
+      - 180
+      - 0
+      - 0
+      shape: text
+      size: 4.0
+      text: '2'
+      type: negative
+      valign: center
+      width: 1
+  - - depth: 0.6
+      extra: hex_shape_2.5_size
+      h: 0.6
+      height: 1
+      inclusion: laser
+      pos: &id070
+      - 0.0
+      - -2.2
+      - 0.0
+      r: 0.55
+      radius: 0.55
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 0.6
+      extra: hex_shape_2.5_size
+      h: 0.6
+      height: 1
+      inclusion: 3dpr
+      pos: *id070
+      r: 0.55
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 0.6
+      extra: hex_shape_2.5_size
+      h: 0.6
+      height: 1
+      inclusion: 'true'
+      pos: *id070
+      r: 0.55
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 0.6
+      extra: hex_shape_2.5_size
+      font: Liberation Sans:style=Bold
+      halign: center
+      height: 0.6
+      pos:
+      - 2.85
+      - -3.5
+      - 0.6
+      rot:
+      - 180
+      - 0
+      - 0
+      shape: text
+      size: 4.0
+      text: '5'
+      type: negative
+      valign: center
+      width: 1
+  - - extra: hex_shape_2.5_size
+      height: 0.6
+      pos:
+      - 0
+      - 3
+      - 0
+      r: 3.0
+      shape: polyg
+      sides: 6
+      type: negative
+      width: 1
+  components_objects:
+  - depth: 11.25
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 5.625
+    radius: 9.75
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: positive
+    width: 1
+  - depth: 9.95
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 5.625
+    radius: 10.4
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: positive
+    width: 1
+  - depth: 1.3
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    id: 9.1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 0.65
+    save_type: none
+    shape: oring
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: positive
+    width: 1
+  - depth: 1.3
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    id: 9.1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 10.6
+    save_type: none
+    shape: oring
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: positive
+    width: 1
+  - depth: 0.9999999999999999
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 10.950000000000001
+    - 0.0
+    - 1.4
+    r1: 0.4
+    r2: 1.15
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 6.69
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 10.950000000000001
+    - 0.0
+    - 5.225
+    r1: 1.15
+    r2: 1.15
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 1.0
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 10.950000000000001
+    - 0.0
+    - 9.05
+    r1: 1.15
+    r2: 0.4
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 0.9999999999999999
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 10.289634197605698
+    - 3.745120569416073
+    - 1.4
+    r1: 0.4
+    r2: 1.15
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 6.69
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 10.289634197605698
+    - 3.745120569416073
+    - 5.225
+    r1: 1.15
+    r2: 1.15
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 1.0
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 10.289634197605698
+    - 3.745120569416073
+    - 9.05
+    r1: 1.15
+    r2: 0.4
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 0.9999999999999999
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 8.38818665215281
+    - 7.038524326067606
+    - 1.4
+    r1: 0.4
+    r2: 1.15
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 6.69
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 8.38818665215281
+    - 7.038524326067606
+    - 5.225
+    r1: 1.15
+    r2: 1.15
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 1.0
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 8.38818665215281
+    - 7.038524326067606
+    - 9.05
+    r1: 1.15
+    r2: 0.4
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 0.9999999999999999
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 5.475000000000001
+    - 9.482978171439603
+    - 1.4
+    r1: 0.4
+    r2: 1.15
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 6.69
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 5.475000000000001
+    - 9.482978171439603
+    - 5.225
+    r1: 1.15
+    r2: 1.15
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 1.0
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 5.475000000000001
+    - 9.482978171439603
+    - 9.05
+    r1: 1.15
+    r2: 0.4
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 0.9999999999999999
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 1.9014475454528883
+    - 10.783644895483679
+    - 1.4
+    r1: 0.4
+    r2: 1.15
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 6.69
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 1.9014475454528883
+    - 10.783644895483679
+    - 5.225
+    r1: 1.15
+    r2: 1.15
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 1.0
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 1.9014475454528883
+    - 10.783644895483679
+    - 9.05
+    r1: 1.15
+    r2: 0.4
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 0.9999999999999999
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - -1.901447545452887
+    - 10.783644895483679
+    - 1.4
+    r1: 0.4
+    r2: 1.15
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 6.69
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - -1.901447545452887
+    - 10.783644895483679
+    - 5.225
+    r1: 1.15
+    r2: 1.15
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 1.0
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - -1.901447545452887
+    - 10.783644895483679
+    - 9.05
+    r1: 1.15
+    r2: 0.4
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 0.9999999999999999
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - -5.474999999999998
+    - 9.482978171439605
+    - 1.4
+    r1: 0.4
+    r2: 1.15
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 6.69
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - -5.474999999999998
+    - 9.482978171439605
+    - 5.225
+    r1: 1.15
+    r2: 1.15
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 1.0
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - -5.474999999999998
+    - 9.482978171439605
+    - 9.05
+    r1: 1.15
+    r2: 0.4
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 0.9999999999999999
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - -8.38818665215281
+    - 7.038524326067608
+    - 1.4
+    r1: 0.4
+    r2: 1.15
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 6.69
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - -8.38818665215281
+    - 7.038524326067608
+    - 5.225
+    r1: 1.15
+    r2: 1.15
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 1.0
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - -8.38818665215281
+    - 7.038524326067608
+    - 9.05
+    r1: 1.15
+    r2: 0.4
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 0.9999999999999999
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - -10.289634197605697
+    - 3.7451205694160747
+    - 1.4
+    r1: 0.4
+    r2: 1.15
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 6.69
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - -10.289634197605697
+    - 3.7451205694160747
+    - 5.225
+    r1: 1.15
+    r2: 1.15
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 1.0
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - -10.289634197605697
+    - 3.7451205694160747
+    - 9.05
+    r1: 1.15
+    r2: 0.4
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 0.9999999999999999
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - -10.950000000000001
+    - 1.340988245066352e-15
+    - 1.4
+    r1: 0.4
+    r2: 1.15
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 6.69
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - -10.950000000000001
+    - 1.340988245066352e-15
+    - 5.225
+    r1: 1.15
+    r2: 1.15
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 1.0
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - -10.950000000000001
+    - 1.340988245066352e-15
+    - 9.05
+    r1: 1.15
+    r2: 0.4
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 0.9999999999999999
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - -10.289634197605698
+    - -3.745120569416072
+    - 1.4
+    r1: 0.4
+    r2: 1.15
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 6.69
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - -10.289634197605698
+    - -3.745120569416072
+    - 5.225
+    r1: 1.15
+    r2: 1.15
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 1.0
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - -10.289634197605698
+    - -3.745120569416072
+    - 9.05
+    r1: 1.15
+    r2: 0.4
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 0.9999999999999999
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - -8.38818665215281
+    - -7.038524326067606
+    - 1.4
+    r1: 0.4
+    r2: 1.15
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 6.69
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - -8.38818665215281
+    - -7.038524326067606
+    - 5.225
+    r1: 1.15
+    r2: 1.15
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 1.0
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - -8.38818665215281
+    - -7.038524326067606
+    - 9.05
+    r1: 1.15
+    r2: 0.4
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 0.9999999999999999
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - -5.475000000000005
+    - -9.482978171439603
+    - 1.4
+    r1: 0.4
+    r2: 1.15
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 6.69
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - -5.475000000000005
+    - -9.482978171439603
+    - 5.225
+    r1: 1.15
+    r2: 1.15
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 1.0
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - -5.475000000000005
+    - -9.482978171439603
+    - 9.05
+    r1: 1.15
+    r2: 0.4
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 0.9999999999999999
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - -1.9014475454528874
+    - -10.783644895483679
+    - 1.4
+    r1: 0.4
+    r2: 1.15
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 6.69
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - -1.9014475454528874
+    - -10.783644895483679
+    - 5.225
+    r1: 1.15
+    r2: 1.15
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 1.0
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - -1.9014475454528874
+    - -10.783644895483679
+    - 9.05
+    r1: 1.15
+    r2: 0.4
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 0.9999999999999999
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 1.9014475454528834
+    - -10.78364489548368
+    - 1.4
+    r1: 0.4
+    r2: 1.15
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 6.69
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 1.9014475454528834
+    - -10.78364489548368
+    - 5.225
+    r1: 1.15
+    r2: 1.15
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 1.0
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 1.9014475454528834
+    - -10.78364489548368
+    - 9.05
+    r1: 1.15
+    r2: 0.4
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 0.9999999999999999
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 5.475000000000001
+    - -9.482978171439603
+    - 1.4
+    r1: 0.4
+    r2: 1.15
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 6.69
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 5.475000000000001
+    - -9.482978171439603
+    - 5.225
+    r1: 1.15
+    r2: 1.15
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 1.0
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 5.475000000000001
+    - -9.482978171439603
+    - 9.05
+    r1: 1.15
+    r2: 0.4
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 0.9999999999999999
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 8.388186652152807
+    - -7.038524326067609
+    - 1.4
+    r1: 0.4
+    r2: 1.15
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 6.69
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 8.388186652152807
+    - -7.038524326067609
+    - 5.225
+    r1: 1.15
+    r2: 1.15
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 1.0
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 8.388186652152807
+    - -7.038524326067609
+    - 9.05
+    r1: 1.15
+    r2: 0.4
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 0.9999999999999999
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 10.289634197605698
+    - -3.7451205694160716
+    - 1.4
+    r1: 0.4
+    r2: 1.15
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 6.69
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 10.289634197605698
+    - -3.7451205694160716
+    - 5.225
+    r1: 1.15
+    r2: 1.15
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 1.0
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 10.289634197605698
+    - -3.7451205694160716
+    - 9.05
+    r1: 1.15
+    r2: 0.4
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 1.4700000000000002
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 1.985
+    r1: 7.5
+    r2: 7.5
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 5.94
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 5.67
+    r1: 8.551875172162198
+    r2: 8.551875172162198
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 0.7000000000000011
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 8.969999999999999
+    r1: 8.551875172162198
+    r2: 9.01779455764028
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 2.0
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 10.3
+    r1: 9.01779455764028
+    r2: 9.01779455764028
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 0.22
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 22
+    - 0
+    - 0.11
+    r1: 4.0
+    r2: 4.0
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: positive
+    width: 1
+  - depth: 1.2
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 22
+    - 0
+    - 0.7999999999999999
+    r1: 4.0
+    r2: 5.25
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: positive
+    width: 1
+  - depth: 1.17
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 22
+    - 0
+    - 1.9649999999999999
+    r1: 4.225
+    r2: 4.225
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: positive
+    width: 1
+  - depth: 0.3700000000000001
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 22
+    - 0
+    - 2.715
+    r1: 4.225
+    r2: 3.95
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: positive
+    width: 1
+  - depth: 3.3
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 22
+    - 0
+    - 1.45
+    radius: 1.7
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 1.0
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 36
+    - 0
+    - 0.5
+    radius: 4
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: positive
+    width: 1
+  - depth: 5.77
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 36
+    - 0
+    - 3.865
+    radius: 2.9
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: positive
+    width: 1
+  - depth: 1.77
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 36
+    - 0
+    - 0.835
+    r1: 3.47
+    r2: 1.7
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 5.1
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 36
+    - 0
+    - 4.25
+    r1: 1.7
+    r2: 1.7
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 0.6
+    extra: hex_shape_2.5_size
+    filter: ''
+    font: Liberation Sans:style=Bold
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - -2.85
+    - -3.5
+    - 0.6
+    rot:
+    - 180
+    - 0
+    - 0
+    save_type: none
+    shape: oobb_text
+    siz: '2.5'
+    size: 4.0
+    text: '2'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 0.6
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 0.0
+    - -2.2
+    - 0.3
+    radius: 0.55
+    save_type: none
+    shape: oobb_cylinder
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 0.6
+    extra: hex_shape_2.5_size
+    filter: ''
+    font: Liberation Sans:style=Bold
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 2.85
+    - -3.5
+    - 0.6
+    rot:
+    - 180
+    - 0
+    - 0
+    save_type: none
+    shape: oobb_text
+    siz: '2.5'
+    size: 4.0
+    text: '5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  - extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 0.6
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 0
+    - 3
+    - 0
+    radius: 3.0
+    save_type: none
+    shape: polyg
+    sides: 6
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    type: negative
+    width: 1
+  components_string:
+  - oobb_cylinder_shape_positive_type_11.25_depth_0_0_5.625_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_9.75_radius
+  - oobb_cylinder_shape_positive_type_9.95_depth_0_0_5.625_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_10.4_radius
+  - oring_shape_positive_type_1.3_depth_0_0_0.65_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_9.1_id
+  - oring_shape_positive_type_1.3_depth_0_0_10.6_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_9.1_id
+  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_10.950000000000001_0.0_1.4_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_6.69_depth_10.950000000000001_0.0_5.225_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_1.0_depth_10.950000000000001_0.0_9.05_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
+  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_10.289634197605698_3.745120569416073_1.4_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_6.69_depth_10.289634197605698_3.745120569416073_5.225_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_1.0_depth_10.289634197605698_3.745120569416073_9.05_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
+  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_8.38818665215281_7.038524326067606_1.4_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_6.69_depth_8.38818665215281_7.038524326067606_5.225_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_1.0_depth_8.38818665215281_7.038524326067606_9.05_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
+  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_5.475000000000001_9.482978171439603_1.4_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_6.69_depth_5.475000000000001_9.482978171439603_5.225_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_1.0_depth_5.475000000000001_9.482978171439603_9.05_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
+  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_1.9014475454528883_10.783644895483679_1.4_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_6.69_depth_1.9014475454528883_10.783644895483679_5.225_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_1.0_depth_1.9014475454528883_10.783644895483679_9.05_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
+  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_-1.901447545452887_10.783644895483679_1.4_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_6.69_depth_-1.901447545452887_10.783644895483679_5.225_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_1.0_depth_-1.901447545452887_10.783644895483679_9.05_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
+  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_-5.474999999999998_9.482978171439605_1.4_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_6.69_depth_-5.474999999999998_9.482978171439605_5.225_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_1.0_depth_-5.474999999999998_9.482978171439605_9.05_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
+  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_-8.38818665215281_7.038524326067608_1.4_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_6.69_depth_-8.38818665215281_7.038524326067608_5.225_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_1.0_depth_-8.38818665215281_7.038524326067608_9.05_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
+  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_-10.289634197605697_3.7451205694160747_1.4_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_6.69_depth_-10.289634197605697_3.7451205694160747_5.225_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_1.0_depth_-10.289634197605697_3.7451205694160747_9.05_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
+  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_-10.950000000000001_1.340988245066352e-15_1.4_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_6.69_depth_-10.950000000000001_1.340988245066352e-15_5.225_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_1.0_depth_-10.950000000000001_1.340988245066352e-15_9.05_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
+  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_-10.289634197605698_-3.745120569416072_1.4_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_6.69_depth_-10.289634197605698_-3.745120569416072_5.225_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_1.0_depth_-10.289634197605698_-3.745120569416072_9.05_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
+  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_-8.38818665215281_-7.038524326067606_1.4_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_6.69_depth_-8.38818665215281_-7.038524326067606_5.225_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_1.0_depth_-8.38818665215281_-7.038524326067606_9.05_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
+  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_-5.475000000000005_-9.482978171439603_1.4_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_6.69_depth_-5.475000000000005_-9.482978171439603_5.225_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_1.0_depth_-5.475000000000005_-9.482978171439603_9.05_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
+  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_-1.9014475454528874_-10.783644895483679_1.4_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_6.69_depth_-1.9014475454528874_-10.783644895483679_5.225_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_1.0_depth_-1.9014475454528874_-10.783644895483679_9.05_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
+  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_1.9014475454528834_-10.78364489548368_1.4_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_6.69_depth_1.9014475454528834_-10.78364489548368_5.225_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_1.0_depth_1.9014475454528834_-10.78364489548368_9.05_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
+  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_5.475000000000001_-9.482978171439603_1.4_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_6.69_depth_5.475000000000001_-9.482978171439603_5.225_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_1.0_depth_5.475000000000001_-9.482978171439603_9.05_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
+  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_8.388186652152807_-7.038524326067609_1.4_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_6.69_depth_8.388186652152807_-7.038524326067609_5.225_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_1.0_depth_8.388186652152807_-7.038524326067609_9.05_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
+  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_10.289634197605698_-3.7451205694160716_1.4_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_6.69_depth_10.289634197605698_-3.7451205694160716_5.225_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_1.0_depth_10.289634197605698_-3.7451205694160716_9.05_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
+  - oobb_cylinder_shape_negative_type_1.4700000000000002_depth_0_0_1.985_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_7.5_r1_7.5_r2
+  - oobb_cylinder_shape_negative_type_5.94_depth_0_0_5.67_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_8.551875172162198_r1_8.551875172162198_r2
+  - oobb_cylinder_shape_negative_type_0.7000000000000011_depth_0_0_8.969999999999999_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_8.551875172162198_r1_9.01779455764028_r2
+  - oobb_cylinder_shape_negative_type_2.0_depth_0_0_10.3_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_9.01779455764028_r1_9.01779455764028_r2
+  - oobb_cylinder_shape_positive_type_0.22_depth_22_0_0.11_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_4.0_r1_4.0_r2
+  - oobb_cylinder_shape_positive_type_1.2_depth_22_0_0.7999999999999999_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_4.0_r1_5.25_r2
+  - oobb_cylinder_shape_positive_type_1.17_depth_22_0_1.9649999999999999_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_4.225_r1_4.225_r2
+  - oobb_cylinder_shape_positive_type_0.3700000000000001_depth_22_0_2.715_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_4.225_r1_3.95_r2
+  - oobb_cylinder_shape_negative_type_3.3_depth_22_0_1.45_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_1.7_radius
+  - oobb_cylinder_shape_positive_type_1.0_depth_36_0_0.5_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_4_radius
+  - oobb_cylinder_shape_positive_type_5.77_depth_36_0_3.865_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_2.9_radius
+  - oobb_cylinder_shape_negative_type_1.77_depth_36_0_0.835_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_3.47_r1_1.7_r2
+  - oobb_cylinder_shape_negative_type_5.1_depth_36_0_4.25_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_1.7_r1_1.7_r2
+  - oobb_text_shape_negative_type_0.6_depth_-2.85_-3.5_0.6_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_2_text_liberationsans:style=bold_font_4.0_size_180_0_0_rot
+  - oobb_cylinder_shape_negative_type_0.6_depth_0.0_-2.2_0.3_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_0.55_radius
+  - oobb_text_shape_negative_type_0.6_depth_2.85_-3.5_0.6_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_1_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_5_text_liberationsans:style=bold_font_4.0_size_180_0_0_rot
+  - polyg_shape_negative_type_0_3_0_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_hex_shape_2.5_size_extra_0.6_height_label_top_oobb_name_2.5_siz_11.25_thickness_1_width_6_sides_3.0_radius
+  description: oomlout oobb tool precision screwdriver label top 1x1x11.25
+  description_extra: hex_shape_2.5_size_extra
+  description_main: label_top_1_width_1_height_11.25_mm_depth
+  directory: parts/tool_precision_screwdriver_version_2_label_top_hex_2_5_size
+  extra: hex_shape_2.5_size
+  height: 1
+  height_mm: 14
+  id: tool_precision_screwdriver_version_2_label_top_hex_2_5_size
+  id_no_class: tool_precision_screwdriver_version_2_label_top_hex_2_5_size
+  id_no_size: tool_precision_screwdriver_version_2_label_top_hex_2_5_size
+  id_no_type: tool_precision_screwdriver_version_2_label_top_hex_2_5_size
+  id_oobb: tool_precision_screwdriver_version_2_label_top_hex_2_5_size
+  kwargs:
+    extra: hex_shape_2.5_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    save_type: none
+    shape: hex
+    siz: '2.5'
+    thickness: 11.25
+    typ: fast
+    width: 1
+  legacy_id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_hex_shape_2_5_size_extra
+  link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/tool_precision_screwdriver_version_2_label_top_hex_2_5_size
+  link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/tool_precision_screwdriver_version_2_label_top_hex_2_5_size
+  link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/tool_precision_screwdriver_version_2_label_top_hex_2_5_size
+  manufacturer: ''
+  md5: 4e0436f0594f901657d455381a42b386
+  md5_10: 4e0436f059
+  md5_10_upper: 4E0436F059
+  md5_5: 4e043
+  md5_5_upper: 4E043
+  md5_6: 4e0436
+  md5_6_alpha: 31l4m
+  md5_6_alpha_upper: 31L4M
+  md5_6_upper: 4E0436
+  name: Tool Precision Screwdriver Version 2 Label Top Hex 2 5 Size
+  name_no_class: Tool Precision Screwdriver Version 2 Label Top Hex 2 5 Size
+  name_no_size: Tool Precision Screwdriver Version 2 Label Top Hex 2 5 Size
+  name_no_type: Tool Precision Screwdriver Version 2 Label Top Hex 2 5 Size
+  name_proper: Tool Precision Screwdriver Version 2 Label Top Hex 2 5 Size
+  name_short: Oomlout Oobb Tool Precision Screwdriver
+  name_space: tool precision screwdriver version 2 label top hex 2 5 size
+  name_text: Oobb Part Oomlout Oobb Tool Precision Screwdriver Label Top 1 Width 1
+    Height 11 25 mm Depth Hex Shape 2D5 Size Extra
+  name_upper: TOOL PRECISION SCREWDRIVER VERSION 2 LABEL TOP HEX 2 5 SIZE
+  oobb_details:
+    extra: hex_shape_2.5_size
+    height: 1
+    oobb_name: label_top
+    oobb_type: label_top_version_2
+    run_scad: true
+    run_solidcraft: false
+    shape: hex
+    siz: '2.5'
+    thickness: 11.25
+    width: 1
+  oobb_name: label_top
+  oomlout_ai_roboclick_1:
+    actions:
+    - command: text_jinja_template
+      convert_to_pdf: false
+      convert_to_png: false
+      dict_data:
+        classification: project
+        color: oomlout_oobb_tool_precision_screwdriver
+        color_parts:
+        - main
+        - support
+        description_extra: hex_shape_2.5_size_extra
+        description_main: label_top_1_width_1_height_11.25_mm_depth
+        directory: parts\tool_precision_screwdriver_version_2_label_top_hex_2_5_size
+        extra: hex_shape_2.5_size
+        legacy_id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_hex_shape_2_5_size_extra
+        name: tool_precision_screwdriver_version_2_label_top_hex_2_5_size
+        name_proper: Tool Precision Screwdriver Version 2 Label Top Hex 2 5 Size
+        name_space: tool precision screwdriver version 2 label top hex 2 5 size
+        name_upper: TOOL PRECISION SCREWDRIVER VERSION 2 LABEL TOP HEX 2 5 SIZE
+        oobb_details:
+          extra: hex_shape_2.5_size
+          height: 1
+          oobb_name: label_top
+          oobb_type: label_top_version_2
+          run_scad: true
+          run_solidcraft: false
+          shape: hex
+          siz: '2.5'
+          thickness: 11.25
+          width: 1
+        oobb_name: label_top
+        project_name: oomlout_oobb_tool_precision_screwdriver
+        shape: hex
+        siz: '2.5'
+        size: oomlout
+        taxonomy_1: tool_precision_screwdriver
+        taxonomy_10: ''
+        taxonomy_11: ''
+        taxonomy_12: ''
+        taxonomy_13: ''
+        taxonomy_14: ''
+        taxonomy_15: ''
+        taxonomy_2: version_2
+        taxonomy_3: label_top
+        taxonomy_4: hex
+        taxonomy_5: 2_5_size
+        taxonomy_6: ''
+        taxonomy_7: ''
+        taxonomy_8: ''
+        taxonomy_9: ''
+        thickness: 11.25
+        type: github
+        url_chat: ''
+      dict_data_files: {}
+      dict_data_files_exists: {}
+      file_output: label_oomp.svg
+      file_template: C:\gh\oomlout_oobb_tool_precision_screwdriver_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+      search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+  oomp_key: oomp_tool_precision_screwdriver_version_2_label_top_hex_2_5_size
+  part_number: ''
+  project_name: oomlout_oobb_tool_precision_screwdriver
+  shape: hex
+  short_name: ''
+  siz: '2.5'
+  size: oomlout
+  taxonomy_1: tool_precision_screwdriver
+  taxonomy_10: ''
+  taxonomy_11: ''
+  taxonomy_12: ''
+  taxonomy_13: ''
+  taxonomy_14: ''
+  taxonomy_15: ''
+  taxonomy_1_capital: Tool Precision Screwdriver
+  taxonomy_1_first_letter: t
+  taxonomy_1_first_letter_upper: T
+  taxonomy_1_length_1: t
+  taxonomy_1_length_2: to
+  taxonomy_1_length_3: too
+  taxonomy_1_length_4: tool
+  taxonomy_1_length_5: tool_
+  taxonomy_1_upper: TOOL_PRECISION_SCREWDRIVER
+  taxonomy_1_upper_length_1: T
+  taxonomy_1_upper_length_2: TO
+  taxonomy_1_upper_length_3: TOO
+  taxonomy_1_upper_length_4: TOOL
+  taxonomy_1_upper_length_5: TOOL_
+  taxonomy_2: version_2
+  taxonomy_2_capital: Version 2
+  taxonomy_2_first_letter: v
+  taxonomy_2_first_letter_upper: V
+  taxonomy_2_length_1: v
+  taxonomy_2_length_2: ve
+  taxonomy_2_length_3: ver
+  taxonomy_2_length_4: vers
+  taxonomy_2_length_5: versi
+  taxonomy_2_upper: VERSION_2
+  taxonomy_2_upper_length_1: V
+  taxonomy_2_upper_length_2: VE
+  taxonomy_2_upper_length_3: VER
+  taxonomy_2_upper_length_4: VERS
+  taxonomy_2_upper_length_5: VERSI
+  taxonomy_3: label_top
+  taxonomy_3_capital: Label Top
+  taxonomy_3_first_letter: l
+  taxonomy_3_first_letter_upper: L
+  taxonomy_3_length_1: l
+  taxonomy_3_length_2: la
+  taxonomy_3_length_3: lab
+  taxonomy_3_length_4: labe
+  taxonomy_3_length_5: label
+  taxonomy_3_upper: LABEL_TOP
+  taxonomy_3_upper_length_1: L
+  taxonomy_3_upper_length_2: LA
+  taxonomy_3_upper_length_3: LAB
+  taxonomy_3_upper_length_4: LABE
+  taxonomy_3_upper_length_5: LABEL
+  taxonomy_4: hex
+  taxonomy_4_capital: Hex
+  taxonomy_4_first_letter: h
+  taxonomy_4_first_letter_upper: H
+  taxonomy_4_length_1: h
+  taxonomy_4_length_2: he
+  taxonomy_4_length_3: hex
+  taxonomy_4_length_4: hex
+  taxonomy_4_length_5: hex
+  taxonomy_4_upper: HEX
+  taxonomy_4_upper_length_1: H
+  taxonomy_4_upper_length_2: HE
+  taxonomy_4_upper_length_3: HEX
+  taxonomy_4_upper_length_4: HEX
+  taxonomy_4_upper_length_5: HEX
+  taxonomy_5: 2_5_size
+  taxonomy_5_capital: 2.5 Size
+  taxonomy_5_first_letter: '2'
+  taxonomy_5_first_letter_upper: '2'
+  taxonomy_5_length_1: '2'
+  taxonomy_5_length_2: '2_'
+  taxonomy_5_length_3: '2_5'
+  taxonomy_5_length_4: '2_5_'
+  taxonomy_5_length_5: 2_5_s
+  taxonomy_5_upper: 2_5_SIZE
+  taxonomy_5_upper_length_1: '2'
+  taxonomy_5_upper_length_2: '2_'
+  taxonomy_5_upper_length_3: '2_5'
+  taxonomy_5_upper_length_4: '2_5_'
+  taxonomy_5_upper_length_5: 2_5_S
+  taxonomy_6: ''
+  taxonomy_7: ''
+  taxonomy_8: ''
+  taxonomy_9: ''
+  thickness: 11.25
+  thickness_mm: 11.25
+  type: github
+  url_chat: ''
+  width: 1
+  width_mm: 14
+type: github
+url_chat: ''

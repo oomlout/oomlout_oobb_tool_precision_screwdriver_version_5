@@ -1,0 +1,34 @@
+classification: project
+color: oomlout_oobb_tool_precision_screwdriver
+description_extra: ''
+description_main: bit_lock_1_width_1_height_3_mm_depth
+legacy_id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_bit_lock_1_width_1_height_3_mm_depth
+oobb_details:
+  extra: ''
+  height: 1
+  oobb_name: bit_lock
+  oobb_type: bit_lock_version_1
+  run_scad: true
+  run_solidcraft: false
+  thickness: 3
+  width: 1
+oobb_name: bit_lock
+project_name: oomlout_oobb_tool_precision_screwdriver
+size: oomlout
+taxonomy_1: tool_precision_screwdriver
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: version_1
+taxonomy_3: bit_lock
+taxonomy_4: ''
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+thickness: 3
+type: github

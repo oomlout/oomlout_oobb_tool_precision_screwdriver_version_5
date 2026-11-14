@@ -1,0 +1,33 @@
+classification: project
+color: oomlout_oobb_tool_precision_screwdriver
+description_extra: ''
+description_main: bearing_mount_1_width_1_height_6.75_mm_depth
+oobb_details:
+  extra: ''
+  height: 1
+  oobb_name: bearing_mount
+  oobb_type: bearing_mount_version_2
+  run_scad: true
+  run_solidcraft: false
+  thickness: 6.75
+  width: 1
+oobb_name: bearing_mount
+project_name: oomlout_oobb_tool_precision_screwdriver
+size: oomlout
+taxonomy_1: tool_precision_screwdriver
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: version_2
+taxonomy_3: bearing_mount
+taxonomy_4: ''
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+thickness: 6.75
+type: github

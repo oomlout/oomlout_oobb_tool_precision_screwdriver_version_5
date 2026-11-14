@@ -1,0 +1,2813 @@
+{
+  "schema": 1,
+  "renders": [
+    {
+      "id": "tool_precision_screwdriver_version_1_bit_lock",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_1_bit_lock/3dpr.stl",
+      "source_sha256": "082b48af09e9f92cf456fc30a9fc29b5f6d08f4cbfeced64f68bd9cd7dac4ca7",
+      "image": "parts/tool_precision_screwdriver_version_1_bit_lock/3dpr_presentation.png",
+      "dimensions_mm": [
+        7.0,
+        3.0,
+        14.0
+      ],
+      "key": "358027a7db8cb45e57fc9547",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Bit Lock \u2014 Print layout",
+      "image_sha256": "966bb5048af7bcd202e399dee5ba2c03cf2b512f4834dfd94030b9c5f6fff7e2"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_bit_lock",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_1_bit_lock/true.stl",
+      "source_sha256": "2c659b9c4c6950539f00c691facc8a32cf36175facd1488ca0505cf35adc315f",
+      "image": "parts/tool_precision_screwdriver_version_1_bit_lock/true_presentation.png",
+      "dimensions_mm": [
+        7.0,
+        3.0,
+        14.0
+      ],
+      "key": "29e4f70812d82f196dcce97e",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Bit Lock \u2014 Nominal / assembly",
+      "image_sha256": "c8925d6e08177493e837cfe2222078d0139cb63158749736e3fbac6706464dd8"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_hex_0_7_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_hex_0_7_size/3dpr.stl",
+      "source_sha256": "c76e0e70eb20c2e939e78dee6e401c71daa5696930a52e1acddf1489eebb93bd",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_hex_0_7_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "bb09e54606ee10e27d68c460",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Hex 0 7 Size \u2014 Print layout",
+      "image_sha256": "7d8f90e1f006a5c81864f249ac1b89eb5db0d521f15a93c25015b4082c77c660"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_hex_0_7_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_hex_0_7_size/true.stl",
+      "source_sha256": "c76e0e70eb20c2e939e78dee6e401c71daa5696930a52e1acddf1489eebb93bd",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_hex_0_7_size/true_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "aec48dba28ed431a604be4be",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Hex 0 7 Size \u2014 Nominal / assembly",
+      "image_sha256": "d273f67745cf913aebfde8d93041701f5fa7b588665a77ac80f337e5ce20f766"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_hex_0_9_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_hex_0_9_size/3dpr.stl",
+      "source_sha256": "21e382c3243d5cf808a48f917ff4681780e8f6805c41b77ddd7887d89de7be4c",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_hex_0_9_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "cdd130a54d7371f3e175f9a7",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Hex 0 9 Size \u2014 Print layout",
+      "image_sha256": "39198a99231707b8087c5b8bcf4f7501ce4cf25b5cd84338b6c0dd3ff05c3d7d"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_hex_0_9_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_hex_0_9_size/true.stl",
+      "source_sha256": "21e382c3243d5cf808a48f917ff4681780e8f6805c41b77ddd7887d89de7be4c",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_hex_0_9_size/true_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "7e4752c2b8d72de6dc604405",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Hex 0 9 Size \u2014 Nominal / assembly",
+      "image_sha256": "5e73e75f59a86a3b3865cda447655b7a2bf10dd0ffe2d0ab3a666f52541821d4"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_hex_1_3_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_hex_1_3_size/3dpr.stl",
+      "source_sha256": "c7bb0ec1b7263beb6b3e6eb75f2c2e899b9eb763aba872e01e4b896ec7a173c2",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_hex_1_3_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "584dc2746fe79a57901a0888",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Hex 1 3 Size \u2014 Print layout",
+      "image_sha256": "5e680a22a2251a372569b27aff7835e7969446847d6599bc9540a1952d51696b"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_hex_1_3_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_hex_1_3_size/true.stl",
+      "source_sha256": "c7bb0ec1b7263beb6b3e6eb75f2c2e899b9eb763aba872e01e4b896ec7a173c2",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_hex_1_3_size/true_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "bccd1f331d8bfe096bee5830",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Hex 1 3 Size \u2014 Nominal / assembly",
+      "image_sha256": "dec36165a1861456b483f350947ad1036c3e118e6f357391304bbe0ace142f16"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_hex_1_5_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_hex_1_5_size/3dpr.stl",
+      "source_sha256": "097f311ebf366a71dc1657c115340f3080317d2def49f6e376e4df2dc4594e91",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_hex_1_5_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "fb3d9834bb317f42a0004683",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Hex 1 5 Size \u2014 Print layout",
+      "image_sha256": "24f19131b983bea9a8979c43c8483630789c62ea87746446ed51154b9581ac83"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_hex_1_5_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_hex_1_5_size/true.stl",
+      "source_sha256": "097f311ebf366a71dc1657c115340f3080317d2def49f6e376e4df2dc4594e91",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_hex_1_5_size/true_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "3374de1a9dcf568f90f0277c",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Hex 1 5 Size \u2014 Nominal / assembly",
+      "image_sha256": "6523e183c840fbb6c64fe3c2fbf2fb5e3a664ce2b400e40f8e1c3ac00c3c7dc8"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_hex_2_5_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_hex_2_5_size/3dpr.stl",
+      "source_sha256": "45b986d04bc466a39e9c5470899e486a724c20722ec1f6d8de48255cfbdcbdef",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_hex_2_5_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "63d78de13286981a72167e7c",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Hex 2 5 Size \u2014 Print layout",
+      "image_sha256": "1a3239b64e40154695f00e47b4276f93d3da2fbaec5db180d0fa23069a40e622"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_hex_2_5_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_hex_2_5_size/true.stl",
+      "source_sha256": "45b986d04bc466a39e9c5470899e486a724c20722ec1f6d8de48255cfbdcbdef",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_hex_2_5_size/true_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "c5450c038787aa0fbb962917",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Hex 2 5 Size \u2014 Nominal / assembly",
+      "image_sha256": "777b4ff761f9f7c3016c1894f6e4abffbc0a90f63907f06d721e177bae70443c"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_hex_2_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_hex_2_size/3dpr.stl",
+      "source_sha256": "84ab7c0283b90092fb7187be128f8e570bd0a5d01d43d9cdf5ed87471dc5a7dc",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_hex_2_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "e06d7db19b61e2349f91980e",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Hex 2 Size \u2014 Print layout",
+      "image_sha256": "3eacbb3a8a2635adc329bdffb87f6c856bdf163b24d534d1af87db4cec905326"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_hex_2_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_hex_2_size/true.stl",
+      "source_sha256": "84ab7c0283b90092fb7187be128f8e570bd0a5d01d43d9cdf5ed87471dc5a7dc",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_hex_2_size/true_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "c0c8129f74835c087a61a201",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Hex 2 Size \u2014 Nominal / assembly",
+      "image_sha256": "9c5facb8ed966d6dea1198d03c6e464c4e47e18b23621a317f9f0200b68bd716"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_hex_3_5_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_hex_3_5_size/3dpr.stl",
+      "source_sha256": "eded74fdfa1f826081cb416849bc3f6c67dda5a1b401cc0a72e7017813729223",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_hex_3_5_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "61955d1d69c0126bf93ee310",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Hex 3 5 Size \u2014 Print layout",
+      "image_sha256": "8056553f8bb59b093bda234b9e1cdab4dc0ed37ab7e77419c4a2193e12e8c8c2"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_hex_3_5_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_hex_3_5_size/true.stl",
+      "source_sha256": "eded74fdfa1f826081cb416849bc3f6c67dda5a1b401cc0a72e7017813729223",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_hex_3_5_size/true_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "e8b1db5cedae17db99f2bfda",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Hex 3 5 Size \u2014 Nominal / assembly",
+      "image_sha256": "482f1d1117f5118988659d0d9c4b1d434cc12f8cef1720bfad1d44e302d7f36e"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_hex_3_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_hex_3_size/3dpr.stl",
+      "source_sha256": "e9b163ea1c1230f79896e0059cba255630b88bbd4a524eb4b5e2c1d10b18a8f8",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_hex_3_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "bdcd4a398664cdf1f6064244",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Hex 3 Size \u2014 Print layout",
+      "image_sha256": "308cd1de3c42f6db8398801c1d539b291b6363f3d57581305dd406a4c6e47b5e"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_hex_3_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_hex_3_size/true.stl",
+      "source_sha256": "e9b163ea1c1230f79896e0059cba255630b88bbd4a524eb4b5e2c1d10b18a8f8",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_hex_3_size/true_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "de405025b20ebf4a5d58a780",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Hex 3 Size \u2014 Nominal / assembly",
+      "image_sha256": "47bf4f4cdb99d827618081d2146fc2eae8746732a7a0251b55e25b7da4c7981c"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_hex_4_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_hex_4_size/3dpr.stl",
+      "source_sha256": "3d95ba787e17420ae34a0943a7f3e59a6dbbb6e6259916a1611556d7b50715f6",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_hex_4_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "e0b5463d4ac2dfd1b80aa865",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Hex 4 Size \u2014 Print layout",
+      "image_sha256": "de522dbd0097f4876f83ffa804926c44381944126359b6ff777ccd8228647022"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_hex_4_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_hex_4_size/true.stl",
+      "source_sha256": "3d95ba787e17420ae34a0943a7f3e59a6dbbb6e6259916a1611556d7b50715f6",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_hex_4_size/true_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "2483d3b0f15798842c67e2fc",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Hex 4 Size \u2014 Nominal / assembly",
+      "image_sha256": "95f9a41024239f1d366aa1f427935f520bd73617de1e7af79e67aa22b17f26d3"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_hex_5_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_hex_5_size/3dpr.stl",
+      "source_sha256": "74cb1005c5154c5648601e25dbb20cd863d81815102f99f2adbfd0212ce6907e",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_hex_5_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "2b71dd98fa020506769ab259",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Hex 5 Size \u2014 Print layout",
+      "image_sha256": "a7872437fffecdb4ec5f6353b4936deba7768b93d7c61db1ba14db4dbb315a8d"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_hex_5_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_hex_5_size/true.stl",
+      "source_sha256": "74cb1005c5154c5648601e25dbb20cd863d81815102f99f2adbfd0212ce6907e",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_hex_5_size/true_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "290cc341b130e318aa23326e",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Hex 5 Size \u2014 Nominal / assembly",
+      "image_sha256": "6c9ca83fa13836b8468f6ae736073ad761ce7d4614a2a2ada8b00dc09ce584fb"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_phillips_000_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_phillips_000_size/3dpr.stl",
+      "source_sha256": "5e353fdf0a920b93101f37c2d0d3bec711d481f951fb295898f5452181937b43",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_phillips_000_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "6c521f9b78cb2d6fc7015a4f",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Phillips 000 Size \u2014 Print layout",
+      "image_sha256": "d8c045ebb1585d58554f76a801bc55a23f737999f411d5f97ae34a039cd728da"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_phillips_000_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_phillips_000_size/true.stl",
+      "source_sha256": "5e353fdf0a920b93101f37c2d0d3bec711d481f951fb295898f5452181937b43",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_phillips_000_size/true_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "aefeecd2de71f768eb18a4a4",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Phillips 000 Size \u2014 Nominal / assembly",
+      "image_sha256": "530d43f320b23ab1c20c31db3b2ee6ee75bdf78f8f02e9ee92ddadd033e73725"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_phillips_00_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_phillips_00_size/3dpr.stl",
+      "source_sha256": "0651c7a3479c87659b950b1f90b54c76f5f689915994affcebc6155385b86254",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_phillips_00_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "fe8a1e08f83582c40dc5ea16",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Phillips 00 Size \u2014 Print layout",
+      "image_sha256": "b5b11fda40aeeed1bfa7d6d6b0bac0f9e6ca2a427af6bf1a01ba95ed6ad24349"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_phillips_00_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_phillips_00_size/true.stl",
+      "source_sha256": "0651c7a3479c87659b950b1f90b54c76f5f689915994affcebc6155385b86254",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_phillips_00_size/true_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "62fb1af051a55021aa37228d",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Phillips 00 Size \u2014 Nominal / assembly",
+      "image_sha256": "1fd0c89bf44f854d6f72f7c85ceaf0735602cac2b70797f7b60d5d1bec1c88ab"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_phillips_0_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_phillips_0_size/3dpr.stl",
+      "source_sha256": "9037dfbad8584b5bed4b66dcb34e91422a8f96b77cec5b97039b2bf6e1fbb37a",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_phillips_0_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "8e946bfe455e2a7b2615c714",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Phillips 0 Size \u2014 Print layout",
+      "image_sha256": "22ef4912e1c5b857bcbaffd6001474100972f07412580f15b2542e33f7bb7178"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_phillips_0_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_phillips_0_size/true.stl",
+      "source_sha256": "9037dfbad8584b5bed4b66dcb34e91422a8f96b77cec5b97039b2bf6e1fbb37a",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_phillips_0_size/true_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "6df5b094bce01489f9d346a9",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Phillips 0 Size \u2014 Nominal / assembly",
+      "image_sha256": "4244044e18fc99d9175f09f2ae91e1f239b05f3821b9887d8006eb5e5e3f22aa"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_phillips_1_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_phillips_1_size/3dpr.stl",
+      "source_sha256": "8e5dcfad2550b54f914438bbeae1b9d76defec7b098ecf813d901f549ef333be",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_phillips_1_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "3fabc3e56b4eadc754eed4b1",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Phillips 1 Size \u2014 Print layout",
+      "image_sha256": "18590b7003fe3cbcc2ad00ca183d93b80bd2422562e6714ee6c73fdc7b33067e"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_phillips_1_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_phillips_1_size/true.stl",
+      "source_sha256": "8e5dcfad2550b54f914438bbeae1b9d76defec7b098ecf813d901f549ef333be",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_phillips_1_size/true_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "858148310eb59e567c3d83bd",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Phillips 1 Size \u2014 Nominal / assembly",
+      "image_sha256": "bad670779ae3a2a5c9460326e9ee8bffa3028ad2d19d6de365baec63171e1db5"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_phillips_2_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_phillips_2_size/3dpr.stl",
+      "source_sha256": "b9d4b0cb7829aef9086494ee01f6d290ff5431b1015a2b316c4bf3f5610c14e7",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_phillips_2_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "7b083039031c51d32f7a54d4",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Phillips 2 Size \u2014 Print layout",
+      "image_sha256": "7d5bbcbaa403f4d16453389e7ae1f496c005fff53bc2341ed54f904c09bf87ad"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_phillips_2_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_phillips_2_size/true.stl",
+      "source_sha256": "b9d4b0cb7829aef9086494ee01f6d290ff5431b1015a2b316c4bf3f5610c14e7",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_phillips_2_size/true_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "3cdffcc6b3bc3ad45ff8c64e",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Phillips 2 Size \u2014 Nominal / assembly",
+      "image_sha256": "37761ab0d1edfe94fd2465df3baab6099c31d00656a4e9bd6fa534b415bc0b86"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_slotted_0_8_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_slotted_0_8_size/3dpr.stl",
+      "source_sha256": "16847eb1dfa5d74577562470ab3480f7170c8de403034b929b56fbc7f394c23e",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_slotted_0_8_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "cd7889bcdb39e232c94ba0d8",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Slotted 0 8 Size \u2014 Print layout",
+      "image_sha256": "b569b12986ffd253296da3fe5be5b74f3d7f9b39e98976027e98e7a5e9d4862b"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_slotted_0_8_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_slotted_0_8_size/true.stl",
+      "source_sha256": "16847eb1dfa5d74577562470ab3480f7170c8de403034b929b56fbc7f394c23e",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_slotted_0_8_size/true_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "cde9e20b08d22d7622efd471",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Slotted 0 8 Size \u2014 Nominal / assembly",
+      "image_sha256": "696bdaccbe8d655568f8bd75ec69ddd20aaa562cd3ca2814de463edce6af56a2"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_slotted_1_2_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_slotted_1_2_size/3dpr.stl",
+      "source_sha256": "277b7129d17470de37f8198089f36a5623674ba5d4d3a731f3b269c8ad981fe5",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_slotted_1_2_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "382f57c314694ccc1b45abcc",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Slotted 1 2 Size \u2014 Print layout",
+      "image_sha256": "f0cdf1b0dacbf439df66dc6b19476746fee4e27293efa959e4351983ca46cf2d"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_slotted_1_2_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_slotted_1_2_size/true.stl",
+      "source_sha256": "277b7129d17470de37f8198089f36a5623674ba5d4d3a731f3b269c8ad981fe5",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_slotted_1_2_size/true_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "b81142d559e6a5365686a978",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Slotted 1 2 Size \u2014 Nominal / assembly",
+      "image_sha256": "aecd38fce823e16af7eca9e0fa07f85733c700f466ef4be8993dc9f23b452863"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_slotted_1_5_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_slotted_1_5_size/3dpr.stl",
+      "source_sha256": "c6ff4a6025ac8f5f81e7ad5c5a6f118c5e6380d425a88f8e34484907899fa5a5",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_slotted_1_5_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "f8cf5622955280f9c906b893",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Slotted 1 5 Size \u2014 Print layout",
+      "image_sha256": "ad55135b78ba0a1f698c8e0fa751d10170c135f0d33e18f9515fe5c8ca913f9c"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_slotted_1_5_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_slotted_1_5_size/true.stl",
+      "source_sha256": "c6ff4a6025ac8f5f81e7ad5c5a6f118c5e6380d425a88f8e34484907899fa5a5",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_slotted_1_5_size/true_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "6ff061c157fca768653caf10",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Slotted 1 5 Size \u2014 Nominal / assembly",
+      "image_sha256": "45bcbd4c401cbcb38b31c4e32e66733f2032ee1bb1fece3c89725119c62a6309"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_slotted_1_8_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_slotted_1_8_size/3dpr.stl",
+      "source_sha256": "f6f0fac9d55d6f7a3617269d0a91fe86e959326988eeac3d981a5f3774758acc",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_slotted_1_8_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "13535d2b356429a380466719",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Slotted 1 8 Size \u2014 Print layout",
+      "image_sha256": "9c9e7f768a8abd05817bfbefbe8653d486cd4512c2b923abfdf939d6a4602c40"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_slotted_1_8_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_slotted_1_8_size/true.stl",
+      "source_sha256": "f6f0fac9d55d6f7a3617269d0a91fe86e959326988eeac3d981a5f3774758acc",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_slotted_1_8_size/true_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "0184b1e421538d882f6dc441",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Slotted 1 8 Size \u2014 Nominal / assembly",
+      "image_sha256": "be52b749adb435a2c8a94898bc11b7eab7c7c3c33d1b5970516926769b6eaa0d"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_slotted_1_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_slotted_1_size/3dpr.stl",
+      "source_sha256": "04fcfe1d23f12912d6a29cb26fa1c6b75be610c528b039b5b041e098e2ee67fd",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_slotted_1_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "b399f028489780745beda809",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Slotted 1 Size \u2014 Print layout",
+      "image_sha256": "a20788c9b7e1ad992ed8105d88a3a9f89c6755b0ba0f5698834fc4112efc6754"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_slotted_1_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_slotted_1_size/true.stl",
+      "source_sha256": "04fcfe1d23f12912d6a29cb26fa1c6b75be610c528b039b5b041e098e2ee67fd",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_slotted_1_size/true_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "6c0c52308e9cf181d51aac23",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Slotted 1 Size \u2014 Nominal / assembly",
+      "image_sha256": "7408deffeb6a522adb58cf5269a7388d2bf70e7c8561b32f605bf7d9e6cc2d00"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_slotted_2_5_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_slotted_2_5_size/3dpr.stl",
+      "source_sha256": "9ef493d2c86e593c2bb422f5ddfa54c31fe28fc634be139b338806f4370be068",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_slotted_2_5_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "a8c4292ac8839acda5b1941c",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Slotted 2 5 Size \u2014 Print layout",
+      "image_sha256": "ce5dfea9240173c9924227bdbe87a1ba6dab21e2c231ab3f5ad58e6fee0af9ed"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_slotted_2_5_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_slotted_2_5_size/true.stl",
+      "source_sha256": "9ef493d2c86e593c2bb422f5ddfa54c31fe28fc634be139b338806f4370be068",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_slotted_2_5_size/true_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "5d6726afab8af0b57b1c1f70",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Slotted 2 5 Size \u2014 Nominal / assembly",
+      "image_sha256": "bd69f1186ca36445e01766abe5cd2cfa289269452b81fdb8970337844746cc17"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_slotted_2_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_slotted_2_size/3dpr.stl",
+      "source_sha256": "bcb658118a733aed7d9b2a39da94de661b8cbf9e1b4b1e4482561cb9d60f769d",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_slotted_2_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "cc3d2fcb59c342be02fc14c8",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Slotted 2 Size \u2014 Print layout",
+      "image_sha256": "2a3e1652e6bb6cdd5f42d6060e8f78415850697530a87ff5e702e1f9e235987b"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_slotted_2_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_slotted_2_size/true.stl",
+      "source_sha256": "bcb658118a733aed7d9b2a39da94de661b8cbf9e1b4b1e4482561cb9d60f769d",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_slotted_2_size/true_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "3522abe86d020b620e4676ed",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Slotted 2 Size \u2014 Nominal / assembly",
+      "image_sha256": "95467186d3c151d17d1a37bd5e2cd8392a79df5e2539cbf042965421fec64832"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_slotted_3_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_slotted_3_size/3dpr.stl",
+      "source_sha256": "b79e6fd96e2efba1229603596d7f4da1f92ba2f1d7d7acd0b0e5e671b62f2c99",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_slotted_3_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "424125b3351e8360da054c4f",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Slotted 3 Size \u2014 Print layout",
+      "image_sha256": "2a034edd242cb0e7df5afa52123204d8336d0982aa0017bc5a919c35341f825c"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_slotted_3_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_slotted_3_size/true.stl",
+      "source_sha256": "b79e6fd96e2efba1229603596d7f4da1f92ba2f1d7d7acd0b0e5e671b62f2c99",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_slotted_3_size/true_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "b6325a3f11cc23ad952a31d5",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Slotted 3 Size \u2014 Nominal / assembly",
+      "image_sha256": "2b10630071d607b6765ac6d989a356769a41729b7d6fa82db4fca62832730516"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_slotted_4_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_slotted_4_size/3dpr.stl",
+      "source_sha256": "25241382eeb0156629cd6269a18304654b64a9b9ee33d291f1fccb0612a07888",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_slotted_4_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "065f93dbdfbf18d162856ffe",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Slotted 4 Size \u2014 Print layout",
+      "image_sha256": "be443859cddbf0dd409703e2ec225aef0b0b31408887545c486e1d8c9ef6ccc1"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_label_top_slotted_4_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_1_label_top_slotted_4_size/true.stl",
+      "source_sha256": "25241382eeb0156629cd6269a18304654b64a9b9ee33d291f1fccb0612a07888",
+      "image": "parts/tool_precision_screwdriver_version_1_label_top_slotted_4_size/true_presentation.png",
+      "dimensions_mm": [
+        16.0,
+        15.968,
+        7.5
+      ],
+      "key": "d3c19c61c1ee291780a77556",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Label Top Slotted 4 Size \u2014 Nominal / assembly",
+      "image_sha256": "435b4e1765d7b10683ee963141ddc78e4927cce7aca25ddf4a25c50275c7afd0"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_precision_screwdriver_2_25_mm_diameter_bit_main",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_2_25_mm_diameter_bit_main/3dpr.stl",
+      "source_sha256": "3873c999e0a3b75a208a6e2013c0785e90aea7874851951076c2abf2bd06b1ed",
+      "image": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_2_25_mm_diameter_bit_main/3dpr_presentation.png",
+      "dimensions_mm": [
+        17.964,
+        17.964,
+        108.0
+      ],
+      "key": "7e043e7a8c242fa87a4b3e87",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Precision Screwdriver 2 25 Mm Diameter Bit Main \u2014 Print layout",
+      "image_sha256": "14fd71cc645000da52c0190399b3f77806c73e5d7f3a6925925466410f7b0973"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_precision_screwdriver_2_25_mm_diameter_bit_main",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_2_25_mm_diameter_bit_main/true.stl",
+      "source_sha256": "1c8fd9fbaa5846752f4ca9bd4c652b69c473a2cba94e028d4533380049f8660a",
+      "image": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_2_25_mm_diameter_bit_main/true_presentation.png",
+      "dimensions_mm": [
+        17.964,
+        17.964,
+        108.0
+      ],
+      "key": "d8f56ea6637c6bf80e3fc41b",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Precision Screwdriver 2 25 Mm Diameter Bit Main \u2014 Nominal / assembly",
+      "image_sha256": "03e170ba3d60c2f69ac3f551ba973d79c4402e62d48c98b64628b5c1a64c2714"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_precision_screwdriver_2_5_mm_diameter_bit_main",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_2_5_mm_diameter_bit_main/3dpr.stl",
+      "source_sha256": "592b771a35ca68fb18dbf322e074bce33083bf89089386e8982d9b8cb7a98713",
+      "image": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_2_5_mm_diameter_bit_main/3dpr_presentation.png",
+      "dimensions_mm": [
+        17.964,
+        17.964,
+        107.824
+      ],
+      "key": "dbc66f70c60bd44afc3d165c",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Precision Screwdriver 2 5 Mm Diameter Bit Main \u2014 Print layout",
+      "image_sha256": "92c4c402be87bf07cd8248b83705109fd7690d9eecac80c7a03c696a4845c378"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_precision_screwdriver_2_5_mm_diameter_bit_main",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_2_5_mm_diameter_bit_main/true.stl",
+      "source_sha256": "457b92e301eabb2d9901c7a88f88fc2d07ada5da9694eea68062f4d2054aef61",
+      "image": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_2_5_mm_diameter_bit_main/true_presentation.png",
+      "dimensions_mm": [
+        17.964,
+        17.964,
+        107.824
+      ],
+      "key": "56218a51abc187807b4b0d00",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Precision Screwdriver 2 5 Mm Diameter Bit Main \u2014 Nominal / assembly",
+      "image_sha256": "4ea357782548ad58e91a85984bf272697e318d96db8cdc4dc32f50e47317749a"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_precision_screwdriver_2_75_mm_diameter_bit_main",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_2_75_mm_diameter_bit_main/3dpr.stl",
+      "source_sha256": "27d86fd5823ad8ddd160d7cc4a1fd8eda2bb5d5390df0eb3f339540ca95d2a09",
+      "image": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_2_75_mm_diameter_bit_main/3dpr_presentation.png",
+      "dimensions_mm": [
+        17.964,
+        17.964,
+        107.647
+      ],
+      "key": "42c4d34c939e9f8db7b80d89",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Precision Screwdriver 2 75 Mm Diameter Bit Main \u2014 Print layout",
+      "image_sha256": "61316d3c495ec65582be12eaf4a9fdb1faf60e05bc223b3b12df8075242e0bd0"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_precision_screwdriver_2_75_mm_diameter_bit_main",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_2_75_mm_diameter_bit_main/true.stl",
+      "source_sha256": "1999d348f06b524e4ef9823ca4b291b47eb55b823ce53b0856f87e5a7a639d69",
+      "image": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_2_75_mm_diameter_bit_main/true_presentation.png",
+      "dimensions_mm": [
+        17.964,
+        17.964,
+        107.647
+      ],
+      "key": "b440d954b6f22bddf3476108",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Precision Screwdriver 2 75 Mm Diameter Bit Main \u2014 Nominal / assembly",
+      "image_sha256": "bb6f85fddf7bfb6cc1342079c56930d3ed04440ed9a3d692ba3db73f841e15db"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_precision_screwdriver_2_mm_diameter_bit_main",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_2_mm_diameter_bit_main/3dpr.stl",
+      "source_sha256": "fd8dbbaec1844c17576ac5187729093d7e16ac06c19ab099e447661eede2c24d",
+      "image": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_2_mm_diameter_bit_main/3dpr_presentation.png",
+      "dimensions_mm": [
+        17.964,
+        17.964,
+        108.0
+      ],
+      "key": "711cbda053b91e8f233a6fcf",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Precision Screwdriver 2 Mm Diameter Bit Main \u2014 Print layout",
+      "image_sha256": "8bc846128a1874c5b6cbcc7e6216ad25a052262ec1c8b837e838818c1b7d5ef2"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_precision_screwdriver_2_mm_diameter_bit_main",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_2_mm_diameter_bit_main/true.stl",
+      "source_sha256": "21e9cab478b065d2224919dabb58b9eccbbe39b71a5264833dc3e360bad3fd14",
+      "image": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_2_mm_diameter_bit_main/true_presentation.png",
+      "dimensions_mm": [
+        17.964,
+        17.964,
+        108.0
+      ],
+      "key": "2ea90656c6e622f9cba0660e",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Precision Screwdriver 2 Mm Diameter Bit Main \u2014 Nominal / assembly",
+      "image_sha256": "ba03f5dca4865e6ccf4675ab1265f0d0395613180478191a133bbccf89d7545f"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_precision_screwdriver_3_25_mm_diameter_bit_main",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_3_25_mm_diameter_bit_main/3dpr.stl",
+      "source_sha256": "7f6ea676b04ba3d230876acec09600f1231123ec5e844ddc7fcb06448d6f3384",
+      "image": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_3_25_mm_diameter_bit_main/3dpr_presentation.png",
+      "dimensions_mm": [
+        17.964,
+        17.964,
+        107.294
+      ],
+      "key": "5ff16f65a41659d5f7b241bd",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Precision Screwdriver 3 25 Mm Diameter Bit Main \u2014 Print layout",
+      "image_sha256": "1f63261867718f5117d7380479875ab665734c2ac37d861351c65a588770e9be"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_precision_screwdriver_3_25_mm_diameter_bit_main",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_3_25_mm_diameter_bit_main/true.stl",
+      "source_sha256": "5bf6d67fc4e681f12b6e5eb5b31b3c27d987a7aa875eb53224e312df2c54f480",
+      "image": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_3_25_mm_diameter_bit_main/true_presentation.png",
+      "dimensions_mm": [
+        17.964,
+        17.964,
+        107.294
+      ],
+      "key": "55f6c02af57e2fece5c5ed70",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Precision Screwdriver 3 25 Mm Diameter Bit Main \u2014 Nominal / assembly",
+      "image_sha256": "a1d8064a41067d8bc23751f3eb31bcf4d1233b908ad69693b81c72b97425727d"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_precision_screwdriver_3_5_mm_diameter_bit_main",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_3_5_mm_diameter_bit_main/3dpr.stl",
+      "source_sha256": "d36e26d7e2387a97544a80ff615c0d01d0bd5600d951e9b0a05bd162dcef0943",
+      "image": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_3_5_mm_diameter_bit_main/3dpr_presentation.png",
+      "dimensions_mm": [
+        17.964,
+        17.964,
+        107.118
+      ],
+      "key": "731772941e17b93d502ec520",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Precision Screwdriver 3 5 Mm Diameter Bit Main \u2014 Print layout",
+      "image_sha256": "960fe005d488a9ef32a28797a7e16bc796932fd2d230c93ea7b24707cbb76828"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_precision_screwdriver_3_5_mm_diameter_bit_main",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_3_5_mm_diameter_bit_main/true.stl",
+      "source_sha256": "65bd0ddd066ca447fafd9329053bda20866d86fd2b15e765e3f89cf89dd0a5fc",
+      "image": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_3_5_mm_diameter_bit_main/true_presentation.png",
+      "dimensions_mm": [
+        17.964,
+        17.964,
+        107.118
+      ],
+      "key": "cd9d4cbf865dd58f0e9a385d",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Precision Screwdriver 3 5 Mm Diameter Bit Main \u2014 Nominal / assembly",
+      "image_sha256": "be78d1efd60e23ad26923ef2dd1f15db6516ec9a3d984c95602b304ef7a756e5"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_precision_screwdriver_3_75_mm_diameter_bit_main",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_3_75_mm_diameter_bit_main/3dpr.stl",
+      "source_sha256": "49035c7a10e34d538a5c8a62a13b2fbd3cba8e401113e18c58733d408be624e1",
+      "image": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_3_75_mm_diameter_bit_main/3dpr_presentation.png",
+      "dimensions_mm": [
+        17.964,
+        17.964,
+        106.941
+      ],
+      "key": "edff3832b1dd046be59c4711",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Precision Screwdriver 3 75 Mm Diameter Bit Main \u2014 Print layout",
+      "image_sha256": "ac13f1b285c4727e2b47be17d34a889496956883c6db8bc006ad107970148868"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_precision_screwdriver_3_75_mm_diameter_bit_main",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_3_75_mm_diameter_bit_main/true.stl",
+      "source_sha256": "b246147b299cf4f3e628a80f44eaecd53bd67973775cb6921a1967743bb119b3",
+      "image": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_3_75_mm_diameter_bit_main/true_presentation.png",
+      "dimensions_mm": [
+        17.964,
+        17.964,
+        106.941
+      ],
+      "key": "78061f5ee6bb2524b48cc5b2",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Precision Screwdriver 3 75 Mm Diameter Bit Main \u2014 Nominal / assembly",
+      "image_sha256": "58740b7ff3b66c85be47e780c1bc7f13f5560dd9e3b76da4eb73a96ab1173c9a"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_precision_screwdriver_3_mm_diameter_bit_main",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_3_mm_diameter_bit_main/3dpr.stl",
+      "source_sha256": "250398cf046d0d5b0f658fa50ce538a6814f521abdbee3ff002ecaef21f0c9fd",
+      "image": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_3_mm_diameter_bit_main/3dpr_presentation.png",
+      "dimensions_mm": [
+        17.964,
+        17.964,
+        107.471
+      ],
+      "key": "3d839774cbd6fefa112a0d91",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Precision Screwdriver 3 Mm Diameter Bit Main \u2014 Print layout",
+      "image_sha256": "ce109f8ecb7f2b364807398a7a27a5a2044dcafbdd8fb12d0f930da1c7f1d6e4"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_precision_screwdriver_3_mm_diameter_bit_main",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_3_mm_diameter_bit_main/true.stl",
+      "source_sha256": "5f47330b7ccbc6519927d3d6030cee39080d9a41ee77ac7153dfbcd3c1f59319",
+      "image": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_3_mm_diameter_bit_main/true_presentation.png",
+      "dimensions_mm": [
+        17.964,
+        17.964,
+        107.471
+      ],
+      "key": "f7ada3984feb7e21fcde6d4a",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Precision Screwdriver 3 Mm Diameter Bit Main \u2014 Nominal / assembly",
+      "image_sha256": "706b91f56d872623544daf75f19b318e5a8e4c07bc29747d1ab44551db31d5bc"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_precision_screwdriver_4_25_mm_diameter_bit_main",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_4_25_mm_diameter_bit_main/3dpr.stl",
+      "source_sha256": "2ba441921ee8e35198e3c8e593f35e1c8ec568277e946365882433bd6831efe1",
+      "image": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_4_25_mm_diameter_bit_main/3dpr_presentation.png",
+      "dimensions_mm": [
+        17.964,
+        17.964,
+        106.588
+      ],
+      "key": "24436b55604428f3a44400cd",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Precision Screwdriver 4 25 Mm Diameter Bit Main \u2014 Print layout",
+      "image_sha256": "5f514ed49f70ed25b4b0aa79b7150f339a6d137dbed323ce9b242a34c9a151fd"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_precision_screwdriver_4_25_mm_diameter_bit_main",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_4_25_mm_diameter_bit_main/true.stl",
+      "source_sha256": "f6682e26c8f0692b2f95b95bc7e198ac586ad7df78df9b804f8d02546b8fb068",
+      "image": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_4_25_mm_diameter_bit_main/true_presentation.png",
+      "dimensions_mm": [
+        17.964,
+        17.964,
+        106.588
+      ],
+      "key": "98c5b6ed191b3762ecad7845",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Precision Screwdriver 4 25 Mm Diameter Bit Main \u2014 Nominal / assembly",
+      "image_sha256": "b154dce49c3f4483e50566529072ae66054a1bf3f2bf2edca4bef5a8cb4f3699"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_precision_screwdriver_4_5_mm_diameter_bit_main",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_4_5_mm_diameter_bit_main/3dpr.stl",
+      "source_sha256": "d25c41e396e302ac2e86b93466715fa9b9b816e04c4f1de67262769640912b27",
+      "image": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_4_5_mm_diameter_bit_main/3dpr_presentation.png",
+      "dimensions_mm": [
+        17.964,
+        17.964,
+        106.412
+      ],
+      "key": "b5b229a0a85ebe73d8df19b6",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Precision Screwdriver 4 5 Mm Diameter Bit Main \u2014 Print layout",
+      "image_sha256": "7f623f4b357088de6e00664d30dc56d75fe578583a91e59622b9859a9ca677f4"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_precision_screwdriver_4_5_mm_diameter_bit_main",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_4_5_mm_diameter_bit_main/true.stl",
+      "source_sha256": "ac7748c35339e3eb6fcd164176f8f2fc25629fa0dc40aaaab547e4116f3cf350",
+      "image": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_4_5_mm_diameter_bit_main/true_presentation.png",
+      "dimensions_mm": [
+        17.964,
+        17.964,
+        106.412
+      ],
+      "key": "214406be515553f1f64991eb",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Precision Screwdriver 4 5 Mm Diameter Bit Main \u2014 Nominal / assembly",
+      "image_sha256": "5ba0b378b114fa877312567d200e54fb57c884ab9125f9bacd4d8a1c20331d17"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_precision_screwdriver_4_75_mm_diameter_bit_main",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_4_75_mm_diameter_bit_main/3dpr.stl",
+      "source_sha256": "8a4daf617c0181eeb097dae23261d04eddd0dcc3b5ea1c57d7b2469a13203300",
+      "image": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_4_75_mm_diameter_bit_main/3dpr_presentation.png",
+      "dimensions_mm": [
+        17.964,
+        17.964,
+        106.235
+      ],
+      "key": "42484edb1d437f71a28bcdea",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Precision Screwdriver 4 75 Mm Diameter Bit Main \u2014 Print layout",
+      "image_sha256": "c6dee823aa6c5cc4393c1ea1c40cd8b1e4378a42e785a535168285b84ffde113"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_precision_screwdriver_4_75_mm_diameter_bit_main",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_4_75_mm_diameter_bit_main/true.stl",
+      "source_sha256": "ce645f7d0c878805d9bad72daefc42ee22e71dd13d021ede8af856094ca49631",
+      "image": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_4_75_mm_diameter_bit_main/true_presentation.png",
+      "dimensions_mm": [
+        17.964,
+        17.964,
+        106.235
+      ],
+      "key": "2e921135c3c53c396dd7b160",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Precision Screwdriver 4 75 Mm Diameter Bit Main \u2014 Nominal / assembly",
+      "image_sha256": "68149cdf15b87e795d02c3ee76c2278671462dc3523dd8ccb33b6110a3fb8f21"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_precision_screwdriver_4_mm_diameter_bit_main",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_4_mm_diameter_bit_main/3dpr.stl",
+      "source_sha256": "699fa99fb4b4b710746eaa29988f17fdafca39042ccbe7acb66dfc6757a07f84",
+      "image": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_4_mm_diameter_bit_main/3dpr_presentation.png",
+      "dimensions_mm": [
+        17.964,
+        17.964,
+        106.765
+      ],
+      "key": "052e58f5a397c655fcf7daaa",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Precision Screwdriver 4 Mm Diameter Bit Main \u2014 Print layout",
+      "image_sha256": "8c2d1dabac45d285a1257b06979f7d2beca1144e266437fba0f5d8774c974b08"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_precision_screwdriver_4_mm_diameter_bit_main",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_4_mm_diameter_bit_main/true.stl",
+      "source_sha256": "ef965b0a1392f3d5e833fafff4f0fa570f6a6611006b6284c4cea74fd70f4401",
+      "image": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_4_mm_diameter_bit_main/true_presentation.png",
+      "dimensions_mm": [
+        17.964,
+        17.964,
+        106.765
+      ],
+      "key": "9ae1fd12786449cd026c5918",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Precision Screwdriver 4 Mm Diameter Bit Main \u2014 Nominal / assembly",
+      "image_sha256": "6307b643539a97f6bd0567c3c699b80c9f78c4be2a3affb11bb30569265eb475"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_precision_screwdriver_5_mm_diameter_bit_main",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_5_mm_diameter_bit_main/3dpr.stl",
+      "source_sha256": "73d23725da05e969d1285288617f8738831d3382d7909a0277c3dfe3cc159d0d",
+      "image": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_5_mm_diameter_bit_main/3dpr_presentation.png",
+      "dimensions_mm": [
+        17.964,
+        17.964,
+        106.059
+      ],
+      "key": "a0186917225d6d37e7512bbb",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Precision Screwdriver 5 Mm Diameter Bit Main \u2014 Print layout",
+      "image_sha256": "0346eed6fc13c64765d57a97f97618d2b809baec276fce3810afc99b32c7ced5"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_1_precision_screwdriver_5_mm_diameter_bit_main",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_5_mm_diameter_bit_main/true.stl",
+      "source_sha256": "b5e534369f647e2424bf5d649c9741b7947d6df777ff7c4ea7b3e07512a345b4",
+      "image": "parts/tool_precision_screwdriver_version_1_precision_screwdriver_5_mm_diameter_bit_main/true_presentation.png",
+      "dimensions_mm": [
+        17.964,
+        17.964,
+        106.059
+      ],
+      "key": "11ffbf09f554f3d8f8d10419",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 1 Precision Screwdriver 5 Mm Diameter Bit Main \u2014 Nominal / assembly",
+      "image_sha256": "7496dbe3488d142f2a387053a319e8f30fcc00e511febb8bd97e002e59a90486"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_bearing_mount",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_2_bearing_mount/3dpr.stl",
+      "source_sha256": "10fd74cb34a25997c82c1d27c310eb29080f619c879f4ef7b6295dade57690a8",
+      "image": "parts/tool_precision_screwdriver_version_2_bearing_mount/3dpr_presentation.png",
+      "dimensions_mm": [
+        38.3,
+        11.708,
+        7.2
+      ],
+      "key": "a0bdd1df3ec1045f0ed2298c",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Bearing Mount \u2014 Print layout",
+      "image_sha256": "64f76e6e952fa29225f34d4db467e59aa4ed1b2efbfe30beb9f82a3d4cda5266"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_bearing_mount",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_2_bearing_mount/true.stl",
+      "source_sha256": "10fd74cb34a25997c82c1d27c310eb29080f619c879f4ef7b6295dade57690a8",
+      "image": "parts/tool_precision_screwdriver_version_2_bearing_mount/true_presentation.png",
+      "dimensions_mm": [
+        38.3,
+        11.708,
+        7.2
+      ],
+      "key": "c97c1930ecd3bac20366106d",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Bearing Mount \u2014 Nominal / assembly",
+      "image_sha256": "c26f16a58e90474c60c3d5089a76df7bab9e7385fd4855a20cf2fac44ac49bd8"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_bit_lock",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_2_bit_lock/3dpr.stl",
+      "source_sha256": "082b48af09e9f92cf456fc30a9fc29b5f6d08f4cbfeced64f68bd9cd7dac4ca7",
+      "image": "parts/tool_precision_screwdriver_version_2_bit_lock/3dpr_presentation.png",
+      "dimensions_mm": [
+        7.0,
+        3.0,
+        14.0
+      ],
+      "key": "2aa4ebaf92ab8d3949b524cd",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Bit Lock \u2014 Print layout",
+      "image_sha256": "64424b4c6aee15262769726c728b095b60b6796ce429bf851aa33b7edeb509ef"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_bit_lock",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_2_bit_lock/true.stl",
+      "source_sha256": "2c659b9c4c6950539f00c691facc8a32cf36175facd1488ca0505cf35adc315f",
+      "image": "parts/tool_precision_screwdriver_version_2_bit_lock/true_presentation.png",
+      "dimensions_mm": [
+        7.0,
+        3.0,
+        14.0
+      ],
+      "key": "8ffa4c1111f534e50bb1da9c",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Bit Lock \u2014 Nominal / assembly",
+      "image_sha256": "d357a99afdbd4af281cb3c4c75e9db24bc40304c9f69a052bdee0fae0f65c27f"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_fit_coupons",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_2_fit_coupons/3dpr.stl",
+      "source_sha256": "1d8aa115cc4fff6ca37d407dc9c463909c403d2b5db2b5d057f14ac1cdb3353d",
+      "image": "parts/tool_precision_screwdriver_version_2_fit_coupons/3dpr_presentation.png",
+      "dimensions_mm": [
+        72.0,
+        34.619,
+        21.0
+      ],
+      "key": "976194745c536b27687ecc85",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Fit Coupons \u2014 Print layout",
+      "image_sha256": "a9ab6592b24def35c2359117177bd6025afe51c23c2999727d3242154cd98fd3"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_fit_coupons",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_2_fit_coupons/true.stl",
+      "source_sha256": "71527b0c480360f969c6b714d7345da3cc23e7e24f2e25cad208dc02c515ba37",
+      "image": "parts/tool_precision_screwdriver_version_2_fit_coupons/true_presentation.png",
+      "dimensions_mm": [
+        72.0,
+        34.619,
+        21.0
+      ],
+      "key": "ce7eb209d6c86548fd8b339a",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Fit Coupons \u2014 Nominal / assembly",
+      "image_sha256": "300588a83ddf6256d21f2293c18e01fceaef76e4575ab69462d75f3b039984b2"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_hex_0_7_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_hex_0_7_size/3dpr.stl",
+      "source_sha256": "4904d8013b162e7c4568022c92d9eb76487e8afc6c5dfe383786f7bf848d5071",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_hex_0_7_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "ba30071ca554ea4c9a124969",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Hex 0 7 Size \u2014 Print layout",
+      "image_sha256": "62bd800576b99bb806b6f5f0ed20e45b679507df087f081320ac814510d4e3b6"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_hex_0_7_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_hex_0_7_size/true.stl",
+      "source_sha256": "4904d8013b162e7c4568022c92d9eb76487e8afc6c5dfe383786f7bf848d5071",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_hex_0_7_size/true_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "ada9771928501514aa079ef5",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Hex 0 7 Size \u2014 Nominal / assembly",
+      "image_sha256": "97f8cf54d64a9a8720e8fb105de3962761f5c55b650df1291251564ad8b76a67"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_hex_0_9_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_hex_0_9_size/3dpr.stl",
+      "source_sha256": "cc42ffbaf33f280aaa078d933f5f30e01f8f3fb192d7c8539cc6a0eff25120a8",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_hex_0_9_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "62540f9db8d40e171de6e082",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Hex 0 9 Size \u2014 Print layout",
+      "image_sha256": "3465a33f04063b8ca68537fc04886d183cdc9fe4479e9120f226f6a2b9042b06"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_hex_0_9_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_hex_0_9_size/true.stl",
+      "source_sha256": "cc42ffbaf33f280aaa078d933f5f30e01f8f3fb192d7c8539cc6a0eff25120a8",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_hex_0_9_size/true_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "b16c1304eb0ad0f9c87220da",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Hex 0 9 Size \u2014 Nominal / assembly",
+      "image_sha256": "0fc441736f38c8f083afd79b986eb034e18f45acf7df483d620594b8b8663384"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_hex_1_3_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_hex_1_3_size/3dpr.stl",
+      "source_sha256": "902653a9e201d5b670d7704d212947784ebd646f5c10a8b3145c4dd232a8a6d7",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_hex_1_3_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "fcc1d52b456f88dbeece30fd",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Hex 1 3 Size \u2014 Print layout",
+      "image_sha256": "05c8c212bb0a4c5386ee67c4615ee92dabef84ecbfd702cf0eb36ccf23189baf"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_hex_1_3_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_hex_1_3_size/true.stl",
+      "source_sha256": "902653a9e201d5b670d7704d212947784ebd646f5c10a8b3145c4dd232a8a6d7",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_hex_1_3_size/true_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "91dc81a4942deb37b613de44",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Hex 1 3 Size \u2014 Nominal / assembly",
+      "image_sha256": "1bb50b057e5203b61e69c3786a4bac23b78e9e3b13177ebe6b5e14aced775fbc"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_hex_1_5_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_hex_1_5_size/3dpr.stl",
+      "source_sha256": "9fd12f0ab5bc3c0e438eb64f43b45336a80375a1225d519afce8d37c4e287f43",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_hex_1_5_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "de39d8905be8ab89ccb6884b",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Hex 1 5 Size \u2014 Print layout",
+      "image_sha256": "1a114e09e324e55f7a3d71eec4a626d4209d2c958eefaebff93f351af8b006c4"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_hex_1_5_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_hex_1_5_size/true.stl",
+      "source_sha256": "9fd12f0ab5bc3c0e438eb64f43b45336a80375a1225d519afce8d37c4e287f43",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_hex_1_5_size/true_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "0db0f96cbf159f94e29070ec",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Hex 1 5 Size \u2014 Nominal / assembly",
+      "image_sha256": "3f935c1cb550bdd81cff6b1d9ebaead4ca5ba1bd8340644215999e115917b1b5"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_hex_2_5_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_hex_2_5_size/3dpr.stl",
+      "source_sha256": "6e438c07832349df1cb6f432e301e7887e04cfd117c1fbcf260eaf564b50c45f",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_hex_2_5_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "86ba74ece58a4d1a70e3aacc",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Hex 2 5 Size \u2014 Print layout",
+      "image_sha256": "bfd6536771d12333259a8d927fc7b5f6d76f12403459a11a16d4ba3138f6ca69"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_hex_2_5_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_hex_2_5_size/true.stl",
+      "source_sha256": "6e438c07832349df1cb6f432e301e7887e04cfd117c1fbcf260eaf564b50c45f",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_hex_2_5_size/true_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "5f398499f3f458a8c0d93b5a",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Hex 2 5 Size \u2014 Nominal / assembly",
+      "image_sha256": "3dd3eeb729f5f85578930afe33c12343562e9c42b80c7392c5d8b4f9351d03b4"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_hex_2_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_hex_2_size/3dpr.stl",
+      "source_sha256": "569bca668a9430cb64c2b9e64812777c20033cb0327b038db020366e64596531",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_hex_2_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "e3e7f57555d0c0d06e1c9581",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Hex 2 Size \u2014 Print layout",
+      "image_sha256": "31fc42efc502d461af0c42ea7b5d294d7be9e6d15a8006e738b70a87ad403f7f"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_hex_2_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_hex_2_size/true.stl",
+      "source_sha256": "569bca668a9430cb64c2b9e64812777c20033cb0327b038db020366e64596531",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_hex_2_size/true_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "e1a3b3603fa1559eeabed818",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Hex 2 Size \u2014 Nominal / assembly",
+      "image_sha256": "a46006a1589de348655fb07d09312f19b21d923744236827411044fba291ed91"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_hex_3_5_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_hex_3_5_size/3dpr.stl",
+      "source_sha256": "4143a88f51f66826742898a7e97f860a4101baeec497d076a4d77d96dbe2e805",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_hex_3_5_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "61e25520cf3c424e426c70eb",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Hex 3 5 Size \u2014 Print layout",
+      "image_sha256": "0815d3d4d72132d76b797a97a2d15ba43a105605dd3697d8f04500ea4395d3e9"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_hex_3_5_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_hex_3_5_size/true.stl",
+      "source_sha256": "4143a88f51f66826742898a7e97f860a4101baeec497d076a4d77d96dbe2e805",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_hex_3_5_size/true_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "07eaef1474bb0ac7b146e6a5",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Hex 3 5 Size \u2014 Nominal / assembly",
+      "image_sha256": "f3f5f9e4fd895ffdb3c8e4ef073d8bae61af6bc7b83e6b18f83673521f8f108e"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_hex_3_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_hex_3_size/3dpr.stl",
+      "source_sha256": "cdf68d2d4777b5bb735cab5a9dec7098bb6e728c0586f060d99aadaad9dc05a4",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_hex_3_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "4de55794b5b047a113a85031",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Hex 3 Size \u2014 Print layout",
+      "image_sha256": "86bef1b63ba421353d7b20c0f57ee0eb8234b6d7516f5127b687e315b0c986b4"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_hex_3_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_hex_3_size/true.stl",
+      "source_sha256": "cdf68d2d4777b5bb735cab5a9dec7098bb6e728c0586f060d99aadaad9dc05a4",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_hex_3_size/true_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "017fa8a668b9995a210a8a40",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Hex 3 Size \u2014 Nominal / assembly",
+      "image_sha256": "69ae5cb00aad11716057a232f6ccb53366b859f2e6714e1c6d0432d6d08c1d90"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_hex_4_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_hex_4_size/3dpr.stl",
+      "source_sha256": "7afcd74ea8582993b6e9c5b80c78e72e4d288fcf373f75474c3b2f03df44b925",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_hex_4_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "999fe067ec255ea6bc2ed152",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Hex 4 Size \u2014 Print layout",
+      "image_sha256": "5d6f713be8ba1e56a18012332265a01859a5a9a4ed7b5e26a6df571d8e2ee9e9"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_hex_4_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_hex_4_size/true.stl",
+      "source_sha256": "7afcd74ea8582993b6e9c5b80c78e72e4d288fcf373f75474c3b2f03df44b925",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_hex_4_size/true_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "7923113ab3f403f8f14944f0",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Hex 4 Size \u2014 Nominal / assembly",
+      "image_sha256": "852f53102ca9053e1a5cfe3a2d794ab7173dbdb6710fb41fb74c10866f285e69"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_hex_5_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_hex_5_size/3dpr.stl",
+      "source_sha256": "c8c94c6401f2da7763fe5755a15abd6275a852a88ec7b40c39fdd7cb8aa3d3cd",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_hex_5_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "9b67ba50ec18621fe1a32958",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Hex 5 Size \u2014 Print layout",
+      "image_sha256": "a501c99b3f4a89e6e8a144c9211332ed154c30c3ca941975bed5db5bd0a5a886"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_hex_5_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_hex_5_size/true.stl",
+      "source_sha256": "c8c94c6401f2da7763fe5755a15abd6275a852a88ec7b40c39fdd7cb8aa3d3cd",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_hex_5_size/true_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "de8550e7b8f74201dff6223e",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Hex 5 Size \u2014 Nominal / assembly",
+      "image_sha256": "fb1e6bba2eb8549a09ca70834805c72f04786a3821d7d80ae62c4312d6fa5e88"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_phillips_000_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_phillips_000_size/3dpr.stl",
+      "source_sha256": "5e60d4a957f2853a7d319eba31b4dc6f501db476037c4df345408c9bfa42f0a4",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_phillips_000_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "4e88ba3b3eb2d3704399dc84",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Phillips 000 Size \u2014 Print layout",
+      "image_sha256": "2efc925c23e7b29e1fe4418d489463bac9f1294492d2b6feb7f15b9f5893c7de"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_phillips_000_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_phillips_000_size/true.stl",
+      "source_sha256": "5e60d4a957f2853a7d319eba31b4dc6f501db476037c4df345408c9bfa42f0a4",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_phillips_000_size/true_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "6dba03bd1c10f8b77fa27f87",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Phillips 000 Size \u2014 Nominal / assembly",
+      "image_sha256": "e6b94d7c7abd8f9bfe811226868983064ea3f6a810bf9d197a971a4d6316940e"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_phillips_00_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_phillips_00_size/3dpr.stl",
+      "source_sha256": "568e74b7f99aeedc33f71e4590520b2a48a3850aced52e9e8e6aa7821b782659",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_phillips_00_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "8b8d647dbb2c2ea4d0786e56",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Phillips 00 Size \u2014 Print layout",
+      "image_sha256": "707fe7c42b4cf5d61f1931fa0db8cdf5683fac309cdc3c80d1e06b9f80388367"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_phillips_00_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_phillips_00_size/true.stl",
+      "source_sha256": "568e74b7f99aeedc33f71e4590520b2a48a3850aced52e9e8e6aa7821b782659",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_phillips_00_size/true_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "4af1fb4c6de7102479c57d2f",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Phillips 00 Size \u2014 Nominal / assembly",
+      "image_sha256": "29225cc2af3cf2aa244803843e33bd871f32b7c982b368df102f68815904e630"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_phillips_0_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_phillips_0_size/3dpr.stl",
+      "source_sha256": "a442897f28ec8e063e17e799aeed4d0de416d5a1c00f34ea4b5a44bbe00d5a51",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_phillips_0_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "270ee0b40c88626231521b50",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Phillips 0 Size \u2014 Print layout",
+      "image_sha256": "654482b12ed1b4a44565f4069e641e926df5a5a1e419fa2710e3d3f82a750aa0"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_phillips_0_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_phillips_0_size/true.stl",
+      "source_sha256": "a442897f28ec8e063e17e799aeed4d0de416d5a1c00f34ea4b5a44bbe00d5a51",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_phillips_0_size/true_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "d20f3d03fb7acc796ca2636c",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Phillips 0 Size \u2014 Nominal / assembly",
+      "image_sha256": "5b69cc9bc6974791a06810fb18571185598bdc517b55606eed6ff4c3a3c6b954"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_phillips_1_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_phillips_1_size/3dpr.stl",
+      "source_sha256": "69133e82d9ef25a52ec5194613be7f1bdd8644ae29d166dc53a8e479d9ab7860",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_phillips_1_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "59a38ea9b9101c1564786fe7",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Phillips 1 Size \u2014 Print layout",
+      "image_sha256": "3e904f2821c3aa6593c45010bc776f3f71aeb83cade167ecb00568b2ec5f7804"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_phillips_1_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_phillips_1_size/true.stl",
+      "source_sha256": "69133e82d9ef25a52ec5194613be7f1bdd8644ae29d166dc53a8e479d9ab7860",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_phillips_1_size/true_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "32ddcfcbde479423ecfcaf47",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Phillips 1 Size \u2014 Nominal / assembly",
+      "image_sha256": "c241498457ebefa8179acf821c3038e33a86054f5a5901dc30100c0bc5ae784b"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_phillips_2_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_phillips_2_size/3dpr.stl",
+      "source_sha256": "15890f8fe9c73eed10663eaef06e6b3186b6c4c8ee51b9ea3f76c472d3091258",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_phillips_2_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "d12737bed6861a12d4a6021c",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Phillips 2 Size \u2014 Print layout",
+      "image_sha256": "1c2425a3072eec2fa4b07279ab482cdf280cbb3f9391fe01ba49e2a64b1c08e9"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_phillips_2_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_phillips_2_size/true.stl",
+      "source_sha256": "15890f8fe9c73eed10663eaef06e6b3186b6c4c8ee51b9ea3f76c472d3091258",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_phillips_2_size/true_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "7df4e90e83998107ae877a6a",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Phillips 2 Size \u2014 Nominal / assembly",
+      "image_sha256": "c85d9479a08516b057129035126fee16f40ae5fb8953efc010a5afbec392e5b8"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_slotted_0_8_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_slotted_0_8_size/3dpr.stl",
+      "source_sha256": "c29e333ee639606f562ec1ec30e01a9ad69fcb52fc4021c8c8653329749f82de",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_slotted_0_8_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "25db1a995be467f88597ef2c",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Slotted 0 8 Size \u2014 Print layout",
+      "image_sha256": "4e46cc811c5307c4b0a4bcc86eec10f0f1d4a4a66f48b7e4a77364ba0322c7e8"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_slotted_0_8_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_slotted_0_8_size/true.stl",
+      "source_sha256": "c29e333ee639606f562ec1ec30e01a9ad69fcb52fc4021c8c8653329749f82de",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_slotted_0_8_size/true_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "b926dd8706c28e9b9e9322ba",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Slotted 0 8 Size \u2014 Nominal / assembly",
+      "image_sha256": "bd71f123d1c3a3e4b3012e08b0b8cd4e413c0995050ae9e6a4f3da2c9d6c23c2"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_slotted_1_2_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_slotted_1_2_size/3dpr.stl",
+      "source_sha256": "99753f17a6c776ae94dac56ed87e9d8da3dc694285b958fad2ff5cb06e308ab5",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_slotted_1_2_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "8e1e355c27dd11679c482094",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Slotted 1 2 Size \u2014 Print layout",
+      "image_sha256": "69e65fe950ef1862b9eec69f9ef5492e8e3e93331516846c189a1ffee9a883ae"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_slotted_1_2_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_slotted_1_2_size/true.stl",
+      "source_sha256": "99753f17a6c776ae94dac56ed87e9d8da3dc694285b958fad2ff5cb06e308ab5",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_slotted_1_2_size/true_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "3639285c78a55ec1353a9fce",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Slotted 1 2 Size \u2014 Nominal / assembly",
+      "image_sha256": "7682773fb57897f22303c2525b20352db54ce1faae8f621dc9b530d7526ef079"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_slotted_1_5_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_slotted_1_5_size/3dpr.stl",
+      "source_sha256": "ffc2657ee9bfe5541fa7db92257887aa5235a19ef97d13e9b8af4885db3bbc6d",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_slotted_1_5_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "a65e76aecb8f27f18282398d",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Slotted 1 5 Size \u2014 Print layout",
+      "image_sha256": "0d3ce9c0544bdae866deb844f3b441a5493eaf48b1c9d8c54107de50c56d2290"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_slotted_1_5_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_slotted_1_5_size/true.stl",
+      "source_sha256": "ffc2657ee9bfe5541fa7db92257887aa5235a19ef97d13e9b8af4885db3bbc6d",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_slotted_1_5_size/true_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "7a99d2040752b7a6be027ab9",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Slotted 1 5 Size \u2014 Nominal / assembly",
+      "image_sha256": "c6c188eb42d524d477388f7ee8c0ef78b0dc92683910c4bb8296f739d3195f1b"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_slotted_1_8_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_slotted_1_8_size/3dpr.stl",
+      "source_sha256": "386901687d7cd4c7592d01e818689d36f7d300b0e3b650ca6d82400250822517",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_slotted_1_8_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "53f588f2904aefaf0c974ed6",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Slotted 1 8 Size \u2014 Print layout",
+      "image_sha256": "ece7ea93bac60a583e09ae037b9443f7249bf65a087249234cdbd2bf8d0279d1"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_slotted_1_8_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_slotted_1_8_size/true.stl",
+      "source_sha256": "386901687d7cd4c7592d01e818689d36f7d300b0e3b650ca6d82400250822517",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_slotted_1_8_size/true_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "9028cc3f2cb7af9e2044fdba",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Slotted 1 8 Size \u2014 Nominal / assembly",
+      "image_sha256": "70394ec68092bf41b88ac416733482674b58fcca061c288ab3f6e5d94282cf1c"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_slotted_1_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_slotted_1_size/3dpr.stl",
+      "source_sha256": "b8e6333b81a9b4a360e1d6f46b75a2a829a6f1b7421b77c253a6e0cbc222bc75",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_slotted_1_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "f7725581d1ce8ad634f0a552",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Slotted 1 Size \u2014 Print layout",
+      "image_sha256": "0a6e23a8467928c69995c69004bc25d0ea4248c9ae34e76e5dbd49dd3428760a"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_slotted_1_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_slotted_1_size/true.stl",
+      "source_sha256": "b8e6333b81a9b4a360e1d6f46b75a2a829a6f1b7421b77c253a6e0cbc222bc75",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_slotted_1_size/true_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "122d475da3fcdaa187b3bc95",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Slotted 1 Size \u2014 Nominal / assembly",
+      "image_sha256": "1be556b403425a16c5349b82f59304f49a3489381b312e6176dc1b6fb9cf13c1"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_slotted_2_5_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_slotted_2_5_size/3dpr.stl",
+      "source_sha256": "0cf7ccc3396aa91bf34193cbd3d51c16f7bdd0d180afcd51785bd754ef398219",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_slotted_2_5_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "f0bb77b91c24747bc0605655",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Slotted 2 5 Size \u2014 Print layout",
+      "image_sha256": "8ad3f7ac844e95e4876ea8c14d2a69ac739326d4eee63e333e0b6efa90f0bf0b"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_slotted_2_5_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_slotted_2_5_size/true.stl",
+      "source_sha256": "0cf7ccc3396aa91bf34193cbd3d51c16f7bdd0d180afcd51785bd754ef398219",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_slotted_2_5_size/true_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "ec6a607976b28140aba28117",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Slotted 2 5 Size \u2014 Nominal / assembly",
+      "image_sha256": "9fbae283794b699f6e972894f7d5510f018f6c9e7ab1cc1e76ce0632c62b7ca3"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_slotted_2_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_slotted_2_size/3dpr.stl",
+      "source_sha256": "9e2fa7d9623e980aecfc2abd78bae1ff61c328c3c605d092a89880a88e792926",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_slotted_2_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "5796d33040bc44da4af8ce39",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Slotted 2 Size \u2014 Print layout",
+      "image_sha256": "d69a17a7dd86263286b98746054603b8ebd9cf278c77d8194b804621a341eb7a"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_slotted_2_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_slotted_2_size/true.stl",
+      "source_sha256": "9e2fa7d9623e980aecfc2abd78bae1ff61c328c3c605d092a89880a88e792926",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_slotted_2_size/true_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "d6fdf90e720c93bb6f2d1be2",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Slotted 2 Size \u2014 Nominal / assembly",
+      "image_sha256": "be9166c5b43d30e11acca99c663ffa2f55c1d24491c3d2657c78993fd13c415c"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_slotted_3_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_slotted_3_size/3dpr.stl",
+      "source_sha256": "cfbacef03dbefa17b20d9cf5e84fdf044a5c023c273766f20abec3042daebb70",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_slotted_3_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "bb0becf543b331800f052f32",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Slotted 3 Size \u2014 Print layout",
+      "image_sha256": "acd6bfbbd851597fc78e6b45ad9e99ccd460c7f297cb9fbca4ed494fd1ea6a61"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_slotted_3_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_slotted_3_size/true.stl",
+      "source_sha256": "cfbacef03dbefa17b20d9cf5e84fdf044a5c023c273766f20abec3042daebb70",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_slotted_3_size/true_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "c9ae20e99229b5dca91454af",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Slotted 3 Size \u2014 Nominal / assembly",
+      "image_sha256": "6efdffd071d7dbb45b1f45072587476d5231ee828326965e6f8b6939495421aa"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_slotted_4_size",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_slotted_4_size/3dpr.stl",
+      "source_sha256": "8d711304114f2408530c9f5577e0e5f70e0443cfa327967f52aea57cb7b408c7",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_slotted_4_size/3dpr_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "fb244513960371889b40a0a1",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Slotted 4 Size \u2014 Print layout",
+      "image_sha256": "aaf0821c5f38d598d8409a12869ee24fca9dbd635d660cb8ff27212889553662"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_label_top_slotted_4_size",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_2_label_top_slotted_4_size/true.stl",
+      "source_sha256": "8d711304114f2408530c9f5577e0e5f70e0443cfa327967f52aea57cb7b408c7",
+      "image": "parts/tool_precision_screwdriver_version_2_label_top_slotted_4_size/true_presentation.png",
+      "dimensions_mm": [
+        50.4,
+        20.759,
+        11.25
+      ],
+      "key": "ab2eb96149827c885e35afd0",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Label Top Slotted 4 Size \u2014 Nominal / assembly",
+      "image_sha256": "2998e5e0db2b090bde3098db9f3e843a7a7abd9d698cb69d377f7eb9aeafe601"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_precision_screwdriver_2_25_mm_diameter_bit_main",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_2_25_mm_diameter_bit_main/3dpr.stl",
+      "source_sha256": "6c17314b3710ee0700ac6c3e256a8d30bb806dd1a3f80ec6f69a8289a95fae31",
+      "image": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_2_25_mm_diameter_bit_main/3dpr_presentation.png",
+      "dimensions_mm": [
+        55.6,
+        16.667,
+        101.5
+      ],
+      "key": "54f635d0de3687717d2843a5",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Precision Screwdriver 2 25 Mm Diameter Bit Main \u2014 Print layout",
+      "image_sha256": "1d3b303580b4a6cd12239fbb3428a772b51d0dfaa42e34059f795fb26d5bfc79"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_precision_screwdriver_2_25_mm_diameter_bit_main",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_2_25_mm_diameter_bit_main/true.stl",
+      "source_sha256": "1f6e9ca9d9be1677ccc7e7221683a92263a4ee1eb6a04743069697ba6297006c",
+      "image": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_2_25_mm_diameter_bit_main/true_presentation.png",
+      "dimensions_mm": [
+        55.6,
+        16.667,
+        101.5
+      ],
+      "key": "7cf76ee49ec286e065f2dd0d",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Precision Screwdriver 2 25 Mm Diameter Bit Main \u2014 Nominal / assembly",
+      "image_sha256": "92ffcefc695e68a6fa95e4823670cb8dcf3f114a38b26d27e5d45c6f0c4eebd9"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_precision_screwdriver_2_5_mm_diameter_bit_main",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_2_5_mm_diameter_bit_main/3dpr.stl",
+      "source_sha256": "c86da7903d11fb234f11faac1fd1863f08befcec4ce3a6d95ac7cfef7d3c11ba",
+      "image": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_2_5_mm_diameter_bit_main/3dpr_presentation.png",
+      "dimensions_mm": [
+        55.6,
+        16.667,
+        101.5
+      ],
+      "key": "ee3f2bf0a28658e6015d9482",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Precision Screwdriver 2 5 Mm Diameter Bit Main \u2014 Print layout",
+      "image_sha256": "74b23a3adf34abbca6427b58105559214cb30923706d0e952cec6ca0435edff7"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_precision_screwdriver_2_5_mm_diameter_bit_main",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_2_5_mm_diameter_bit_main/true.stl",
+      "source_sha256": "98278b3eea7f1416ebd369e46cbf6a15a7f6199edb212b3fcd01693759375ff6",
+      "image": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_2_5_mm_diameter_bit_main/true_presentation.png",
+      "dimensions_mm": [
+        55.6,
+        16.667,
+        101.5
+      ],
+      "key": "df2bf0bdf61b8e3b5acf4cbf",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Precision Screwdriver 2 5 Mm Diameter Bit Main \u2014 Nominal / assembly",
+      "image_sha256": "0954146578e91e37dba69988ec06d5bfdaf5c9d6496e88c613a31defb043077b"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_precision_screwdriver_2_75_mm_diameter_bit_main",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_2_75_mm_diameter_bit_main/3dpr.stl",
+      "source_sha256": "5ac7290e24a0458bbcfc9f9323105f0cfc3b1632bc712eb2e4e854907b8e96af",
+      "image": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_2_75_mm_diameter_bit_main/3dpr_presentation.png",
+      "dimensions_mm": [
+        55.6,
+        16.667,
+        101.5
+      ],
+      "key": "d5b8ad890de249bb20c1e2f9",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Precision Screwdriver 2 75 Mm Diameter Bit Main \u2014 Print layout",
+      "image_sha256": "5801c5b660160b80c5a6e255ad422c09b188ad91727b9c8d822f2b58980a3ce8"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_precision_screwdriver_2_75_mm_diameter_bit_main",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_2_75_mm_diameter_bit_main/true.stl",
+      "source_sha256": "0499b1aca2fa24a78baea16b3447f2d3529a3fbd26e2d99c852ae74a65432e24",
+      "image": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_2_75_mm_diameter_bit_main/true_presentation.png",
+      "dimensions_mm": [
+        55.6,
+        16.667,
+        101.5
+      ],
+      "key": "890536c8078300c9a104b9d0",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Precision Screwdriver 2 75 Mm Diameter Bit Main \u2014 Nominal / assembly",
+      "image_sha256": "3634c8b412a12b8f37154023fd355cf72a6e671e2ae113eb40a34948d9c21b2c"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_precision_screwdriver_2_mm_diameter_bit_main",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_2_mm_diameter_bit_main/3dpr.stl",
+      "source_sha256": "b8def8da82af9e853ec578e4a283986522f2532b4808739119cc2c1712ae54e3",
+      "image": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_2_mm_diameter_bit_main/3dpr_presentation.png",
+      "dimensions_mm": [
+        55.6,
+        16.667,
+        101.5
+      ],
+      "key": "0ff07ce8a3097fc6b6991eb4",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Precision Screwdriver 2 Mm Diameter Bit Main \u2014 Print layout",
+      "image_sha256": "7333f414079c7b5c22491ebd192adb9e12af960ad1105ebc9e67bd8e6d4989c3"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_precision_screwdriver_2_mm_diameter_bit_main",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_2_mm_diameter_bit_main/true.stl",
+      "source_sha256": "7b04054601812a9761a7334c169a102720a6515333457b751ec69ee4e2f3fdf1",
+      "image": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_2_mm_diameter_bit_main/true_presentation.png",
+      "dimensions_mm": [
+        55.6,
+        16.667,
+        101.5
+      ],
+      "key": "98ebb6ff2ac4635409ee98a0",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Precision Screwdriver 2 Mm Diameter Bit Main \u2014 Nominal / assembly",
+      "image_sha256": "20e58c8a0ba240263984e2480bbc6de4600b977afa5e33f6c9677c1f226326ec"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_precision_screwdriver_3_25_mm_diameter_bit_main",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_3_25_mm_diameter_bit_main/3dpr.stl",
+      "source_sha256": "0e1e095b53e412873e1ba8e30da0d744ce6918750f36085ccadfe960c475cd5f",
+      "image": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_3_25_mm_diameter_bit_main/3dpr_presentation.png",
+      "dimensions_mm": [
+        55.6,
+        16.667,
+        101.5
+      ],
+      "key": "59d4ae6f4a9f0d283d3ee4dc",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Precision Screwdriver 3 25 Mm Diameter Bit Main \u2014 Print layout",
+      "image_sha256": "9c903959bbc98faf7634c7f437b4dbc99a1fbe766f636aca1f3ac109781f2466"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_precision_screwdriver_3_25_mm_diameter_bit_main",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_3_25_mm_diameter_bit_main/true.stl",
+      "source_sha256": "3bf06d6240338da8bdfe5ba00cea0abf2bddda48dbdbdcbbb6787ea38a5b930e",
+      "image": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_3_25_mm_diameter_bit_main/true_presentation.png",
+      "dimensions_mm": [
+        55.6,
+        16.667,
+        101.5
+      ],
+      "key": "b9c07b878853c7e7062082ab",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Precision Screwdriver 3 25 Mm Diameter Bit Main \u2014 Nominal / assembly",
+      "image_sha256": "6cc0baf57f27a36c470b0b34907f33272689ea884708a6ea95454262f0645ebb"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_precision_screwdriver_3_5_mm_diameter_bit_main",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_3_5_mm_diameter_bit_main/3dpr.stl",
+      "source_sha256": "614f53596d5310369f0a4dc4df45a47b84be86a17c43bbf78fbb0704a4b1c6f4",
+      "image": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_3_5_mm_diameter_bit_main/3dpr_presentation.png",
+      "dimensions_mm": [
+        55.6,
+        16.667,
+        101.5
+      ],
+      "key": "e5294f56b664cd04c7fe304f",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Precision Screwdriver 3 5 Mm Diameter Bit Main \u2014 Print layout",
+      "image_sha256": "c3389c62577e62b6a45f569cc4a51ac44f2171752b92abafeaa16b17c23c6042"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_precision_screwdriver_3_5_mm_diameter_bit_main",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_3_5_mm_diameter_bit_main/true.stl",
+      "source_sha256": "2247d4ac406df2b09ab8f4baea2fc93e9f5a23e4a25a9f8619302a4778187682",
+      "image": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_3_5_mm_diameter_bit_main/true_presentation.png",
+      "dimensions_mm": [
+        55.6,
+        16.667,
+        101.5
+      ],
+      "key": "57bb20ab02832ac7f5823e9b",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Precision Screwdriver 3 5 Mm Diameter Bit Main \u2014 Nominal / assembly",
+      "image_sha256": "18967a1e6bb1f0f0737a82ae16bf879524b3f26be8ce728516e8d51335f24dd6"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_precision_screwdriver_3_75_mm_diameter_bit_main",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_3_75_mm_diameter_bit_main/3dpr.stl",
+      "source_sha256": "265d9c3e1d9d8a238749ba472b1a5de9832d77fbba6ead1aa6cb285a6b5ea74b",
+      "image": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_3_75_mm_diameter_bit_main/3dpr_presentation.png",
+      "dimensions_mm": [
+        55.6,
+        16.667,
+        101.5
+      ],
+      "key": "61182b28d81f7b3c27e40d84",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Precision Screwdriver 3 75 Mm Diameter Bit Main \u2014 Print layout",
+      "image_sha256": "d5fcfb7aed65a7945c3aa744e3ef2ee8c44e4299e52f09a1f7223c622fd5ca52"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_precision_screwdriver_3_75_mm_diameter_bit_main",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_3_75_mm_diameter_bit_main/true.stl",
+      "source_sha256": "76a9ab55071b0b4360bc6f7275f803ffbae7e2c51a97e1a38e40c88830a6e44f",
+      "image": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_3_75_mm_diameter_bit_main/true_presentation.png",
+      "dimensions_mm": [
+        55.6,
+        16.667,
+        101.5
+      ],
+      "key": "e13350152e6ce1cdf166f1cd",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Precision Screwdriver 3 75 Mm Diameter Bit Main \u2014 Nominal / assembly",
+      "image_sha256": "a1c0c99d77e08030e0236ceeb145752fdc6a326866a617506abecb3c407369e5"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_precision_screwdriver_3_mm_diameter_bit_main",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_3_mm_diameter_bit_main/3dpr.stl",
+      "source_sha256": "206f2d54b57a397708dce7ec6b5e0be8c7ea42550a3caf283b900937cfc8cff6",
+      "image": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_3_mm_diameter_bit_main/3dpr_presentation.png",
+      "dimensions_mm": [
+        55.6,
+        16.667,
+        101.5
+      ],
+      "key": "f831de2eccaa6d68110b8527",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Precision Screwdriver 3 Mm Diameter Bit Main \u2014 Print layout",
+      "image_sha256": "5da3be1e3d8f5f4e6e62fa0b421e7553b38d52476e5a67af9cacc1cdf106afe9"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_precision_screwdriver_3_mm_diameter_bit_main",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_3_mm_diameter_bit_main/true.stl",
+      "source_sha256": "36589abf68e53c3c9993bda3140325ba22a20860f204d3b5e33a65a46ac2960d",
+      "image": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_3_mm_diameter_bit_main/true_presentation.png",
+      "dimensions_mm": [
+        55.6,
+        16.667,
+        101.5
+      ],
+      "key": "b5cdabfbd36a071945b858e4",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Precision Screwdriver 3 Mm Diameter Bit Main \u2014 Nominal / assembly",
+      "image_sha256": "3eeaad6588c704c3a66d6b16a8c67f535c82243e02f1cfce6422350910565eec"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_precision_screwdriver_4_25_mm_diameter_bit_main",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_4_25_mm_diameter_bit_main/3dpr.stl",
+      "source_sha256": "1fda42c53a06c86041fcbee3cc0194b761c7b387da04aa46fc033d14c41e8f89",
+      "image": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_4_25_mm_diameter_bit_main/3dpr_presentation.png",
+      "dimensions_mm": [
+        55.6,
+        16.667,
+        101.5
+      ],
+      "key": "e076ccdf202ea96fa041a2fb",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Precision Screwdriver 4 25 Mm Diameter Bit Main \u2014 Print layout",
+      "image_sha256": "08bd33b7fe689d42b57359856e5f980717efe8d3079518c993cd7f56b3b4f3ef"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_precision_screwdriver_4_25_mm_diameter_bit_main",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_4_25_mm_diameter_bit_main/true.stl",
+      "source_sha256": "644c8d2d2ef47442fc4a75e21300fbf4a715e36e13a7cc382a4cc3d302818afa",
+      "image": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_4_25_mm_diameter_bit_main/true_presentation.png",
+      "dimensions_mm": [
+        55.6,
+        16.667,
+        101.5
+      ],
+      "key": "6f364b1913bbe0b26ef8f8ff",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Precision Screwdriver 4 25 Mm Diameter Bit Main \u2014 Nominal / assembly",
+      "image_sha256": "8c1d229d9244d0c815e7335f47c76ca86b72083bcd6fd8b71f66d9e483215de7"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_precision_screwdriver_4_5_mm_diameter_bit_main",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_4_5_mm_diameter_bit_main/3dpr.stl",
+      "source_sha256": "ff4c5ef6c56969d59efff0c8bd69dc7451f307f355c614a5e9904483b46d353c",
+      "image": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_4_5_mm_diameter_bit_main/3dpr_presentation.png",
+      "dimensions_mm": [
+        55.6,
+        16.667,
+        101.5
+      ],
+      "key": "8ea39e4c9436175256c35f2f",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Precision Screwdriver 4 5 Mm Diameter Bit Main \u2014 Print layout",
+      "image_sha256": "1100b1ed2f9630b56b6512c7e867fd039d171f5c8bb6a2ada83c7608949a28a2"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_precision_screwdriver_4_5_mm_diameter_bit_main",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_4_5_mm_diameter_bit_main/true.stl",
+      "source_sha256": "280e8a7ebb5a8c0af804b3b954a75d2b1e72ba394ec4efc0878db4bcae038791",
+      "image": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_4_5_mm_diameter_bit_main/true_presentation.png",
+      "dimensions_mm": [
+        55.6,
+        16.667,
+        101.5
+      ],
+      "key": "4ad5904213083c51ea96ed56",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Precision Screwdriver 4 5 Mm Diameter Bit Main \u2014 Nominal / assembly",
+      "image_sha256": "85c8392c321ba5c8209736b445ddbad9883ffff9cab8c3891999501b873b6bd7"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_precision_screwdriver_4_75_mm_diameter_bit_main",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_4_75_mm_diameter_bit_main/3dpr.stl",
+      "source_sha256": "3bbc9de356341b076192f335c0ffd153b83cc4ec31946509457ea0297d825723",
+      "image": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_4_75_mm_diameter_bit_main/3dpr_presentation.png",
+      "dimensions_mm": [
+        55.6,
+        16.667,
+        101.5
+      ],
+      "key": "2ec6fa4c061fd8445e887fa3",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Precision Screwdriver 4 75 Mm Diameter Bit Main \u2014 Print layout",
+      "image_sha256": "cc3983dc18c1e7e0f4d88969667df2dfe08b4add2da9dccb20346e6bf4de14f1"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_precision_screwdriver_4_75_mm_diameter_bit_main",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_4_75_mm_diameter_bit_main/true.stl",
+      "source_sha256": "aea9049dec184f0ef30e21443854d6e21692380829c3a0254e2c3fddf73deccb",
+      "image": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_4_75_mm_diameter_bit_main/true_presentation.png",
+      "dimensions_mm": [
+        55.6,
+        16.667,
+        101.5
+      ],
+      "key": "a0474d3742e8483f5e034877",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Precision Screwdriver 4 75 Mm Diameter Bit Main \u2014 Nominal / assembly",
+      "image_sha256": "2836d4836a47b8f0e3fff8c38384c82325318f9ad68259a07d78d6c15cf2b8b9"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_precision_screwdriver_4_mm_diameter_bit_main",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_4_mm_diameter_bit_main/3dpr.stl",
+      "source_sha256": "7e0d68a91561169be60cf52af56665ce3c26e321c365763929fe9ba8664006ad",
+      "image": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_4_mm_diameter_bit_main/3dpr_presentation.png",
+      "dimensions_mm": [
+        55.6,
+        16.667,
+        101.5
+      ],
+      "key": "88bfa655b6bd029a488a95ac",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Precision Screwdriver 4 Mm Diameter Bit Main \u2014 Print layout",
+      "image_sha256": "0ac209dcc33a9db3d226fe059be5c5aed148d4a094bddea9e92277203dda037a"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_precision_screwdriver_4_mm_diameter_bit_main",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_4_mm_diameter_bit_main/true.stl",
+      "source_sha256": "dfdb0c5159561729c6c636a4b75ea397d3dc6348be8c932cd21ad776c9f4a44a",
+      "image": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_4_mm_diameter_bit_main/true_presentation.png",
+      "dimensions_mm": [
+        55.6,
+        16.667,
+        101.5
+      ],
+      "key": "2aa647d33afc65be1644ca2a",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Precision Screwdriver 4 Mm Diameter Bit Main \u2014 Nominal / assembly",
+      "image_sha256": "12a14fa6daf420795b31d7ef531a2085c09432736d8ba1f77c1e8ed3710678b2"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_precision_screwdriver_5_mm_diameter_bit_main",
+      "variant": "3dpr",
+      "source": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_5_mm_diameter_bit_main/3dpr.stl",
+      "source_sha256": "62ed180dcfc38758dec26127e0a43fbcb9e4d183559dbfa45f07bf806427d4a8",
+      "image": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_5_mm_diameter_bit_main/3dpr_presentation.png",
+      "dimensions_mm": [
+        55.6,
+        16.667,
+        101.5
+      ],
+      "key": "35a0198c8933a52019b5f0ea",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Precision Screwdriver 5 Mm Diameter Bit Main \u2014 Print layout",
+      "image_sha256": "22e1c55bbf7c6985562467fa8ccc6054f525cd66bd2a0c94040f5f0f3048a8fc"
+    },
+    {
+      "id": "tool_precision_screwdriver_version_2_precision_screwdriver_5_mm_diameter_bit_main",
+      "variant": "true",
+      "source": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_5_mm_diameter_bit_main/true.stl",
+      "source_sha256": "13b0b9ebd5ba9ab0609c4b6ccba176a91720bbf3865708734f6e2bf81dbd8f5b",
+      "image": "parts/tool_precision_screwdriver_version_2_precision_screwdriver_5_mm_diameter_bit_main/true_presentation.png",
+      "dimensions_mm": [
+        55.6,
+        16.667,
+        101.5
+      ],
+      "key": "2cef0b98e907d4baf798f0ff",
+      "sheet_version": 1,
+      "renderer_sha256": "381b23f18ce1a9e05327b876214573ca7046fd871c07fbb493305a9cf8143001",
+      "blender": "Blender 5.2.2 LTS",
+      "label": "Tool Precision Screwdriver Version 2 Precision Screwdriver 5 Mm Diameter Bit Main \u2014 Nominal / assembly",
+      "image_sha256": "0c9a21e5e4470d00fcfc87be6002d8a4e2d3276d339ade2b51ad5a1585f73ffc"
+    }
+  ]
+}

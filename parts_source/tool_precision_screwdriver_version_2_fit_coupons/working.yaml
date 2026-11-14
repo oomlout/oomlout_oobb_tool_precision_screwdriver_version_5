@@ -1,0 +1,33 @@
+classification: project
+color: oomlout_oobb_tool_precision_screwdriver
+description_extra: ''
+description_main: fit_coupons_1_width_1_height_21_mm_depth
+oobb_details:
+  extra: ''
+  height: 1
+  oobb_name: fit_coupons
+  oobb_type: fit_coupons_version_2
+  run_scad: true
+  run_solidcraft: false
+  thickness: 21
+  width: 1
+oobb_name: fit_coupons
+project_name: oomlout_oobb_tool_precision_screwdriver
+size: oomlout
+taxonomy_1: tool_precision_screwdriver
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: version_2
+taxonomy_3: fit_coupons
+taxonomy_4: ''
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+thickness: 21
+type: github

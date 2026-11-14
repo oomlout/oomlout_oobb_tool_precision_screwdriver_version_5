@@ -1,0 +1,850 @@
+bip_39_2_word_array:
+- clump
+- dust
+bip_39_2_word_no_space: clumpdust
+bip_39_2_word_space: clump dust
+bip_39_2_word_underscore: clump_dust
+bip_39_3_word_array:
+- clump
+- dust
+- jealous
+bip_39_3_word_no_space: clumpdustjealous
+bip_39_3_word_space: clump dust jealous
+bip_39_3_word_underscore: clump_dust_jealous
+bip_39_full_array:
+- clump
+- dust
+- jealous
+- inner
+- recipe
+- stable
+- elephant
+- purpose
+- tackle
+- ladder
+- sell
+- wheat
+bip_39_full_no_space: clumpdustjealousinnerrecipestableelephantpurposetackleladdersellwheat
+bip_39_full_space: clump dust jealous inner recipe stable elephant purpose tackle
+  ladder sell wheat
+bip_39_full_underscore: clump_dust_jealous_inner_recipe_stable_elephant_purpose_tackle_ladder_sell_wheat
+classification: project
+color: oomlout_oobb_tool_precision_screwdriver
+description_extra: phillips_shape_000_size_extra
+description_main: label_top_1_width_1_height_1.5_mm_depth
+directory: parts/tool_precision_screwdriver_version_1_label_top_phillips_000_size
+extra: phillips_shape_000_size
+id: tool_precision_screwdriver_version_1_label_top_phillips_000_size
+id_no_class: tool_precision_screwdriver_version_1_label_top_phillips_000_size
+id_no_size: tool_precision_screwdriver_version_1_label_top_phillips_000_size
+id_no_type: tool_precision_screwdriver_version_1_label_top_phillips_000_size
+id_oobb: tool_precision_screwdriver_version_1_label_top_phillips_000_size
+kwargs:
+  extra: phillips_shape_000_size
+  filter: ''
+  generate_stl: false
+  height: 1
+  modes:
+  - 3dpr
+  - 'true'
+  navigation: false
+  oobb_name: label_top
+  oomp_mode: project
+  oomp_run: false
+  overwrite: true
+  shape: phillips
+  siz: '000'
+  thickness: 1.5
+  typ: fast
+  width: 1
+legacy_id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_phillips_shape_000_size_extra
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/tool_precision_screwdriver_version_1_label_top_phillips_000_size
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/tool_precision_screwdriver_version_1_label_top_phillips_000_size
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/tool_precision_screwdriver_version_1_label_top_phillips_000_size
+md5: 2c4889de3a3b3ba791f573dd0f8f0dfc
+md5_10: 2c4889de3a
+md5_10_upper: 2C4889DE3A
+md5_5: 2c488
+md5_5_upper: 2C488
+md5_6: 2c4889
+md5_6_alpha: 1q7bd
+md5_6_alpha_upper: 1Q7BD
+md5_6_upper: 2C4889
+name: Tool Precision Screwdriver Version 1 Label Top Phillips 000 Size
+name_no_class: Tool Precision Screwdriver Version 1 Label Top Phillips 000 Size
+name_no_size: Tool Precision Screwdriver Version 1 Label Top Phillips 000 Size
+name_no_type: Tool Precision Screwdriver Version 1 Label Top Phillips 000 Size
+name_proper: Tool Precision Screwdriver Version 1 Label Top Phillips 000 Size
+name_space: tool precision screwdriver version 1 label top phillips 000 size
+name_upper: TOOL PRECISION SCREWDRIVER VERSION 1 LABEL TOP PHILLIPS 000 SIZE
+oobb_details:
+  extra: phillips_shape_000_size
+  height: 1
+  oobb_name: label_top
+  oobb_type: label_top_version_1
+  run_scad: true
+  run_solidcraft: false
+  shape: phillips
+  siz: '000'
+  thickness: 1.5
+  width: 1
+oobb_name: label_top
+oomlout_ai_roboclick_1:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      classification: project
+      color: oomlout_oobb_tool_precision_screwdriver
+      description_extra: phillips_shape_000_size_extra
+      description_main: label_top_1_width_1_height_1.5_mm_depth
+      directory: parts\tool_precision_screwdriver_version_1_label_top_phillips_000_size
+      extra: phillips_shape_000_size
+      legacy_id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_phillips_shape_000_size_extra
+      name: tool_precision_screwdriver_version_1_label_top_phillips_000_size
+      name_proper: Tool Precision Screwdriver Version 1 Label Top Phillips 000 Size
+      name_space: tool precision screwdriver version 1 label top phillips 000 size
+      name_upper: TOOL PRECISION SCREWDRIVER VERSION 1 LABEL TOP PHILLIPS 000 SIZE
+      oobb_details:
+        extra: phillips_shape_000_size
+        height: 1
+        oobb_name: label_top
+        oobb_type: label_top_version_1
+        run_scad: true
+        run_solidcraft: false
+        shape: phillips
+        siz: '000'
+        thickness: 1.5
+        width: 1
+      oobb_name: label_top
+      project_name: oomlout_oobb_tool_precision_screwdriver
+      shape: phillips
+      siz: '000'
+      size: oomlout
+      taxonomy_1: tool_precision_screwdriver
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: version_1
+      taxonomy_3: label_top
+      taxonomy_4: phillips
+      taxonomy_5: 000_size
+      taxonomy_6: ''
+      taxonomy_7: ''
+      taxonomy_8: ''
+      taxonomy_9: ''
+      thickness: 1.5
+      type: github
+      url_chat: ''
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_oomp.svg
+    file_template: C:\gh\oomlout_oobb_tool_precision_screwdriver_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_oomp.pdf
+  retries_until_complete: 0
+oomp_key: oomp_tool_precision_screwdriver_version_1_label_top_phillips_000_size
+project_name: oomlout_oobb_tool_precision_screwdriver
+shape: phillips
+siz: '000'
+size: oomlout
+taxonomy_1: tool_precision_screwdriver
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Tool Precision Screwdriver
+taxonomy_1_first_letter: t
+taxonomy_1_first_letter_upper: T
+taxonomy_1_length_1: t
+taxonomy_1_length_2: to
+taxonomy_1_length_3: too
+taxonomy_1_length_4: tool
+taxonomy_1_length_5: tool_
+taxonomy_1_upper: TOOL_PRECISION_SCREWDRIVER
+taxonomy_1_upper_length_1: T
+taxonomy_1_upper_length_2: TO
+taxonomy_1_upper_length_3: TOO
+taxonomy_1_upper_length_4: TOOL
+taxonomy_1_upper_length_5: TOOL_
+taxonomy_2: version_1
+taxonomy_2_capital: Version 1
+taxonomy_2_first_letter: v
+taxonomy_2_first_letter_upper: V
+taxonomy_2_length_1: v
+taxonomy_2_length_2: ve
+taxonomy_2_length_3: ver
+taxonomy_2_length_4: vers
+taxonomy_2_length_5: versi
+taxonomy_2_upper: VERSION_1
+taxonomy_2_upper_length_1: V
+taxonomy_2_upper_length_2: VE
+taxonomy_2_upper_length_3: VER
+taxonomy_2_upper_length_4: VERS
+taxonomy_2_upper_length_5: VERSI
+taxonomy_3: label_top
+taxonomy_3_capital: Label Top
+taxonomy_3_first_letter: l
+taxonomy_3_first_letter_upper: L
+taxonomy_3_length_1: l
+taxonomy_3_length_2: la
+taxonomy_3_length_3: lab
+taxonomy_3_length_4: labe
+taxonomy_3_length_5: label
+taxonomy_3_upper: LABEL_TOP
+taxonomy_3_upper_length_1: L
+taxonomy_3_upper_length_2: LA
+taxonomy_3_upper_length_3: LAB
+taxonomy_3_upper_length_4: LABE
+taxonomy_3_upper_length_5: LABEL
+taxonomy_4: phillips
+taxonomy_4_capital: Phillips
+taxonomy_4_first_letter: p
+taxonomy_4_first_letter_upper: P
+taxonomy_4_length_1: p
+taxonomy_4_length_2: ph
+taxonomy_4_length_3: phi
+taxonomy_4_length_4: phil
+taxonomy_4_length_5: phill
+taxonomy_4_upper: PHILLIPS
+taxonomy_4_upper_length_1: P
+taxonomy_4_upper_length_2: PH
+taxonomy_4_upper_length_3: PHI
+taxonomy_4_upper_length_4: PHIL
+taxonomy_4_upper_length_5: PHILL
+taxonomy_5: 000_size
+taxonomy_5_capital: 000 Size
+taxonomy_5_first_letter: '0'
+taxonomy_5_first_letter_upper: '0'
+taxonomy_5_length_1: '0'
+taxonomy_5_length_2: '00'
+taxonomy_5_length_3: '000'
+taxonomy_5_length_4: '000_'
+taxonomy_5_length_5: 000_s
+taxonomy_5_upper: 000_SIZE
+taxonomy_5_upper_length_1: '0'
+taxonomy_5_upper_length_2: '00'
+taxonomy_5_upper_length_3: '000'
+taxonomy_5_upper_length_4: '000_'
+taxonomy_5_upper_length_5: 000_S
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+thickness: 1.5
+thing:
+  bip_39_2_word_array:
+  - clump
+  - dust
+  bip_39_2_word_no_space: clumpdust
+  bip_39_2_word_space: clump dust
+  bip_39_2_word_underscore: clump_dust
+  bip_39_3_word_array:
+  - clump
+  - dust
+  - jealous
+  bip_39_3_word_no_space: clumpdustjealous
+  bip_39_3_word_space: clump dust jealous
+  bip_39_3_word_underscore: clump_dust_jealous
+  bip_39_full_array:
+  - clump
+  - dust
+  - jealous
+  - inner
+  - recipe
+  - stable
+  - elephant
+  - purpose
+  - tackle
+  - ladder
+  - sell
+  - wheat
+  bip_39_full_no_space: clumpdustjealousinnerrecipestableelephantpurposetackleladdersellwheat
+  bip_39_full_space: clump dust jealous inner recipe stable elephant purpose tackle
+    ladder sell wheat
+  bip_39_full_underscore: clump_dust_jealous_inner_recipe_stable_elephant_purpose_tackle_ladder_sell_wheat
+  classification: project
+  color: oomlout_oobb_tool_precision_screwdriver
+  components:
+  - - depth: 1.5
+      extra: phillips_shape_000_size
+      h: 1.5
+      height: 1
+      inclusion: laser
+      pos: &id001
+      - 0
+      - 0
+      - 0.0
+      r: 6.5
+      radius: 6.5
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 1.5
+      extra: phillips_shape_000_size
+      h: 1.5
+      height: 1
+      inclusion: 3dpr
+      pos: *id001
+      r: 6.5
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 1.5
+      extra: phillips_shape_000_size
+      h: 1.5
+      height: 1
+      inclusion: 'true'
+      pos: *id001
+      r: 6.5
+      shape: cylinder
+      type: positive
+      width: 1
+  - - depth: 3.0
+      extra: phillips_shape_000_size
+      height: 1
+      id: 5.0
+      pos:
+      - 0
+      - 0
+      - 0
+      shape: oring
+      type: positive
+      width: 1
+  - - - extra: phillips_shape_000_size
+        height: 1
+        pos:
+        - -25.0
+        - -25.0
+        - -50
+        shape: cube
+        size:
+        - 50
+        - 50
+        - 50
+        type: negative
+        width: 1
+  - - extra: phillips_shape_000_size
+      height: 6
+      pos:
+      - 0
+      - 0
+      - -6
+      r: 3.8658550000000003
+      shape: polyg
+      sides: 6
+      type: positive_positive
+      width: 1
+  - - depth: 3
+      extra: phillips_shape_000_size
+      height: 1
+      id: 3
+      m: '#'
+      pos:
+      - 0
+      - 0
+      - -6
+      shape: oring
+      type: negative_negative
+      width: 1
+  - - - depth: 1
+        extra: phillips_shape_000_size
+        height: 1
+        m: '#'
+        pos:
+        - -3.0
+        - -3.75
+        - 0.5
+        shape: cube
+        size:
+        - 6
+        - 1.5
+        - 1
+        type: negative
+        width: 1
+  - - - depth: 1
+        extra: phillips_shape_000_size
+        height: 1
+        m: '#'
+        pos:
+        - -0.75
+        - -6.0
+        - 0.5
+        shape: cube
+        size:
+        - 1.5
+        - 6
+        - 1
+        type: negative
+        width: 1
+  - - depth: 1
+      extra: phillips_shape_000_size
+      font: Liberation Sans:style=Bold
+      halign: center
+      height: 1
+      m: '#'
+      pos:
+      - 0
+      - 3.5
+      - 0.5
+      shape: text
+      size: 4
+      text: '000'
+      type: negative
+      valign: center
+      width: 1
+  components_objects:
+  - depth: 1.5
+    extra: phillips_shape_000_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 0.75
+    radius: 6.5
+    save_type: none
+    shape: oobb_cylinder
+    siz: '000'
+    thickness: 1.5
+    typ: fast
+    type: positive
+    width: 1
+  - depth: 3.0
+    extra: phillips_shape_000_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    id: 5.0
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 0
+    save_type: none
+    shape: oring
+    siz: '000'
+    thickness: 1.5
+    typ: fast
+    type: positive
+    width: 1
+  - extra: phillips_shape_000_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - -50
+    save_type: none
+    shape: oobb_cube
+    siz: '000'
+    size:
+    - 50
+    - 50
+    - 50
+    thickness: 1.5
+    typ: fast
+    type: negative
+    width: 1
+  - extra: phillips_shape_000_size
+    filter: ''
+    generate_stl: false
+    height: 6
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - -6
+    radius: 3.8658550000000003
+    save_type: none
+    shape: polyg
+    sides: 6
+    siz: '000'
+    thickness: 1.5
+    typ: fast
+    type: positive_positive
+    width: 1
+  - depth: 3
+    extra: phillips_shape_000_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    id: 3
+    m: '#'
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - -6
+    save_type: none
+    shape: oring
+    siz: '000'
+    thickness: 1.5
+    typ: fast
+    type: negative_negative
+    width: 1
+  - depth: 1
+    extra: phillips_shape_000_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 0
+    - -3
+    - 0.5
+    save_type: none
+    shape: oobb_cube
+    siz: '000'
+    size:
+    - 6
+    - 1.5
+    - 1
+    thickness: 1.5
+    typ: fast
+    type: n
+    width: 1
+  - depth: 1
+    extra: phillips_shape_000_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 0
+    - -3
+    - 0.5
+    save_type: none
+    shape: oobb_cube
+    siz: '000'
+    size:
+    - 1.5
+    - 6
+    - 1
+    thickness: 1.5
+    typ: fast
+    type: n
+    width: 1
+  - depth: 1
+    extra: phillips_shape_000_size
+    filter: ''
+    font: Liberation Sans:style=Bold
+    generate_stl: false
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 0
+    - 3.5
+    - 0.5
+    save_type: none
+    shape: oobb_text
+    siz: '000'
+    size: 4
+    text: '000'
+    thickness: 1.5
+    typ: fast
+    type: n
+    width: 1
+  components_string:
+  - oobb_cylinder_shape_positive_type_1.5_depth_0_0_0.75_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_phillips_shape_000_size_extra_1_height_label_top_oobb_name_000_siz_1.5_thickness_1_width_6.5_radius
+  - oring_shape_positive_type_3.0_depth_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_phillips_shape_000_size_extra_1_height_label_top_oobb_name_000_siz_1.5_thickness_1_width_5.0_id
+  - oobb_cube_shape_negative_type_0_0_-50_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_phillips_shape_000_size_extra_1_height_label_top_oobb_name_000_siz_1.5_thickness_1_width_50_50_50_size
+  - polyg_shape_positive_positive_type_0_0_-6_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_phillips_shape_000_size_extra_6_height_label_top_oobb_name_000_siz_1.5_thickness_1_width_6_sides_3.8658550000000003_radius
+  - oring_shape_negative_negative_type_3_depth_0_0_-6_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_phillips_shape_000_size_extra_1_height_label_top_oobb_name_000_siz_1.5_thickness_1_width_3_id
+  - oobb_cube_shape_n_type_1_depth_0_-3_0.5_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_phillips_shape_000_size_extra_1_height_label_top_oobb_name_000_siz_1.5_thickness_1_width_6_1.5_1_size
+  - oobb_cube_shape_n_type_1_depth_0_-3_0.5_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_phillips_shape_000_size_extra_1_height_label_top_oobb_name_000_siz_1.5_thickness_1_width_1.5_6_1_size
+  - oobb_text_shape_n_type_1_depth_0_3.5_0.5_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_phillips_shape_000_size_extra_1_height_label_top_oobb_name_000_siz_1.5_thickness_1_width_000_text_liberationsans:style=bold_font_4_size
+  description: oomlout oobb tool precision screwdriver label top 1x1x1.5
+  description_extra: phillips_shape_000_size_extra
+  description_main: label_top_1_width_1_height_1.5_mm_depth
+  directory: parts/tool_precision_screwdriver_version_1_label_top_phillips_000_size
+  extra: phillips_shape_000_size
+  height: 1
+  height_mm: 14
+  id: tool_precision_screwdriver_version_1_label_top_phillips_000_size
+  id_no_class: tool_precision_screwdriver_version_1_label_top_phillips_000_size
+  id_no_size: tool_precision_screwdriver_version_1_label_top_phillips_000_size
+  id_no_type: tool_precision_screwdriver_version_1_label_top_phillips_000_size
+  id_oobb: tool_precision_screwdriver_version_1_label_top_phillips_000_size
+  kwargs:
+    extra: phillips_shape_000_size
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: label_top
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    save_type: none
+    shape: phillips
+    siz: '000'
+    thickness: 1.5
+    typ: fast
+    width: 1
+  legacy_id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_phillips_shape_000_size_extra
+  link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/tool_precision_screwdriver_version_1_label_top_phillips_000_size
+  link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/tool_precision_screwdriver_version_1_label_top_phillips_000_size
+  link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/tool_precision_screwdriver_version_1_label_top_phillips_000_size
+  manufacturer: ''
+  md5: 2c4889de3a3b3ba791f573dd0f8f0dfc
+  md5_10: 2c4889de3a
+  md5_10_upper: 2C4889DE3A
+  md5_5: 2c488
+  md5_5_upper: 2C488
+  md5_6: 2c4889
+  md5_6_alpha: 1q7bd
+  md5_6_alpha_upper: 1Q7BD
+  md5_6_upper: 2C4889
+  name: Tool Precision Screwdriver Version 1 Label Top Phillips 000 Size
+  name_no_class: Tool Precision Screwdriver Version 1 Label Top Phillips 000 Size
+  name_no_size: Tool Precision Screwdriver Version 1 Label Top Phillips 000 Size
+  name_no_type: Tool Precision Screwdriver Version 1 Label Top Phillips 000 Size
+  name_proper: Tool Precision Screwdriver Version 1 Label Top Phillips 000 Size
+  name_short: Oomlout Oobb Tool Precision Screwdriver
+  name_space: tool precision screwdriver version 1 label top phillips 000 size
+  name_text: Oobb Part Oomlout Oobb Tool Precision Screwdriver Label Top 1 Width 1
+    Height 1 5 mm Depth Phillips Shape 000 Size Extra
+  name_upper: TOOL PRECISION SCREWDRIVER VERSION 1 LABEL TOP PHILLIPS 000 SIZE
+  oobb_details:
+    extra: phillips_shape_000_size
+    height: 1
+    oobb_name: label_top
+    oobb_type: label_top_version_1
+    run_scad: true
+    run_solidcraft: false
+    shape: phillips
+    siz: '000'
+    thickness: 1.5
+    width: 1
+  oobb_name: label_top
+  oomlout_ai_roboclick_1:
+    actions:
+    - command: text_jinja_template
+      convert_to_pdf: false
+      convert_to_png: false
+      dict_data:
+        classification: project
+        color: oomlout_oobb_tool_precision_screwdriver
+        description_extra: phillips_shape_000_size_extra
+        description_main: label_top_1_width_1_height_1.5_mm_depth
+        directory: parts\tool_precision_screwdriver_version_1_label_top_phillips_000_size
+        extra: phillips_shape_000_size
+        legacy_id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_phillips_shape_000_size_extra
+        name: tool_precision_screwdriver_version_1_label_top_phillips_000_size
+        name_proper: Tool Precision Screwdriver Version 1 Label Top Phillips 000 Size
+        name_space: tool precision screwdriver version 1 label top phillips 000 size
+        name_upper: TOOL PRECISION SCREWDRIVER VERSION 1 LABEL TOP PHILLIPS 000 SIZE
+        oobb_details:
+          extra: phillips_shape_000_size
+          height: 1
+          oobb_name: label_top
+          oobb_type: label_top_version_1
+          run_scad: true
+          run_solidcraft: false
+          shape: phillips
+          siz: '000'
+          thickness: 1.5
+          width: 1
+        oobb_name: label_top
+        project_name: oomlout_oobb_tool_precision_screwdriver
+        shape: phillips
+        siz: '000'
+        size: oomlout
+        taxonomy_1: tool_precision_screwdriver
+        taxonomy_10: ''
+        taxonomy_11: ''
+        taxonomy_12: ''
+        taxonomy_13: ''
+        taxonomy_14: ''
+        taxonomy_15: ''
+        taxonomy_2: version_1
+        taxonomy_3: label_top
+        taxonomy_4: phillips
+        taxonomy_5: 000_size
+        taxonomy_6: ''
+        taxonomy_7: ''
+        taxonomy_8: ''
+        taxonomy_9: ''
+        thickness: 1.5
+        type: github
+        url_chat: ''
+      dict_data_files: {}
+      dict_data_files_exists: {}
+      file_output: label_oomp.svg
+      file_template: C:\gh\oomlout_oobb_tool_precision_screwdriver_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+      search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+  oomp_key: oomp_tool_precision_screwdriver_version_1_label_top_phillips_000_size
+  part_number: ''
+  project_name: oomlout_oobb_tool_precision_screwdriver
+  shape: phillips
+  short_name: ''
+  siz: '000'
+  size: oomlout
+  taxonomy_1: tool_precision_screwdriver
+  taxonomy_10: ''
+  taxonomy_11: ''
+  taxonomy_12: ''
+  taxonomy_13: ''
+  taxonomy_14: ''
+  taxonomy_15: ''
+  taxonomy_1_capital: Tool Precision Screwdriver
+  taxonomy_1_first_letter: t
+  taxonomy_1_first_letter_upper: T
+  taxonomy_1_length_1: t
+  taxonomy_1_length_2: to
+  taxonomy_1_length_3: too
+  taxonomy_1_length_4: tool
+  taxonomy_1_length_5: tool_
+  taxonomy_1_upper: TOOL_PRECISION_SCREWDRIVER
+  taxonomy_1_upper_length_1: T
+  taxonomy_1_upper_length_2: TO
+  taxonomy_1_upper_length_3: TOO
+  taxonomy_1_upper_length_4: TOOL
+  taxonomy_1_upper_length_5: TOOL_
+  taxonomy_2: version_1
+  taxonomy_2_capital: Version 1
+  taxonomy_2_first_letter: v
+  taxonomy_2_first_letter_upper: V
+  taxonomy_2_length_1: v
+  taxonomy_2_length_2: ve
+  taxonomy_2_length_3: ver
+  taxonomy_2_length_4: vers
+  taxonomy_2_length_5: versi
+  taxonomy_2_upper: VERSION_1
+  taxonomy_2_upper_length_1: V
+  taxonomy_2_upper_length_2: VE
+  taxonomy_2_upper_length_3: VER
+  taxonomy_2_upper_length_4: VERS
+  taxonomy_2_upper_length_5: VERSI
+  taxonomy_3: label_top
+  taxonomy_3_capital: Label Top
+  taxonomy_3_first_letter: l
+  taxonomy_3_first_letter_upper: L
+  taxonomy_3_length_1: l
+  taxonomy_3_length_2: la
+  taxonomy_3_length_3: lab
+  taxonomy_3_length_4: labe
+  taxonomy_3_length_5: label
+  taxonomy_3_upper: LABEL_TOP
+  taxonomy_3_upper_length_1: L
+  taxonomy_3_upper_length_2: LA
+  taxonomy_3_upper_length_3: LAB
+  taxonomy_3_upper_length_4: LABE
+  taxonomy_3_upper_length_5: LABEL
+  taxonomy_4: phillips
+  taxonomy_4_capital: Phillips
+  taxonomy_4_first_letter: p
+  taxonomy_4_first_letter_upper: P
+  taxonomy_4_length_1: p
+  taxonomy_4_length_2: ph
+  taxonomy_4_length_3: phi
+  taxonomy_4_length_4: phil
+  taxonomy_4_length_5: phill
+  taxonomy_4_upper: PHILLIPS
+  taxonomy_4_upper_length_1: P
+  taxonomy_4_upper_length_2: PH
+  taxonomy_4_upper_length_3: PHI
+  taxonomy_4_upper_length_4: PHIL
+  taxonomy_4_upper_length_5: PHILL
+  taxonomy_5: 000_size
+  taxonomy_5_capital: 000 Size
+  taxonomy_5_first_letter: '0'
+  taxonomy_5_first_letter_upper: '0'
+  taxonomy_5_length_1: '0'
+  taxonomy_5_length_2: '00'
+  taxonomy_5_length_3: '000'
+  taxonomy_5_length_4: '000_'
+  taxonomy_5_length_5: 000_s
+  taxonomy_5_upper: 000_SIZE
+  taxonomy_5_upper_length_1: '0'
+  taxonomy_5_upper_length_2: '00'
+  taxonomy_5_upper_length_3: '000'
+  taxonomy_5_upper_length_4: '000_'
+  taxonomy_5_upper_length_5: 000_S
+  taxonomy_6: ''
+  taxonomy_7: ''
+  taxonomy_8: ''
+  taxonomy_9: ''
+  thickness: 1.5
+  thickness_mm: 1.5
+  type: github
+  url_chat: ''
+  width: 1
+  width_mm: 14
+type: github
+url_chat: ''

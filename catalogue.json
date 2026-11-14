@@ -1,0 +1,10 @@
+{
+  "title": "OOBB precision screwdriver",
+  "summary": "Precision screwdriver components, fit samples, labels and referenced purchased hardware.",
+  "parts": "Select the intended screwdriver generation and component. Purchased hardware records are clearly identified and do not receive invented printable meshes.",
+  "assembly": "Follow the existing project guide and version-specific build notes for assembly and two-colour printing. Keep the selected generation\u2019s mating parts together.",
+  "modes": [
+    "3dpr",
+    "true"
+  ]
+}

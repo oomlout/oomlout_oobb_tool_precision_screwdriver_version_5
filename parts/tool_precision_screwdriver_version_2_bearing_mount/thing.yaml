@@ -1,0 +1,1141 @@
+bip_39_2_word_array:
+- alone
+- hospital
+bip_39_2_word_no_space: alonehospital
+bip_39_2_word_space: alone hospital
+bip_39_2_word_underscore: alone_hospital
+bip_39_3_word_array:
+- alone
+- hospital
+- summer
+bip_39_3_word_no_space: alonehospitalsummer
+bip_39_3_word_space: alone hospital summer
+bip_39_3_word_underscore: alone_hospital_summer
+bip_39_full_array:
+- alone
+- hospital
+- summer
+- extra
+- release
+- fortune
+- arch
+- approve
+- kiwi
+- acoustic
+- craft
+- entry
+bip_39_full_no_space: alonehospitalsummerextrareleasefortunearchapprovekiwiacousticcraftentry
+bip_39_full_space: alone hospital summer extra release fortune arch approve kiwi acoustic
+  craft entry
+bip_39_full_underscore: alone_hospital_summer_extra_release_fortune_arch_approve_kiwi_acoustic_craft_entry
+classification: project
+color: oomlout_oobb_tool_precision_screwdriver
+description_extra: ''
+description_main: bearing_mount_1_width_1_height_6.75_mm_depth
+directory: parts/tool_precision_screwdriver_version_2_bearing_mount
+id: tool_precision_screwdriver_version_2_bearing_mount
+id_no_class: tool_precision_screwdriver_version_2_bearing_mount
+id_no_size: tool_precision_screwdriver_version_2_bearing_mount
+id_no_type: tool_precision_screwdriver_version_2_bearing_mount
+id_oobb: tool_precision_screwdriver_version_2_bearing_mount
+kwargs:
+  extra: ''
+  filter: ''
+  generate_stl: false
+  height: 1
+  modes:
+  - 3dpr
+  - 'true'
+  navigation: false
+  oobb_name: bearing_mount
+  oomp_mode: project
+  oomp_run: false
+  overwrite: true
+  thickness: 6.75
+  typ: fast
+  width: 1
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/tool_precision_screwdriver_version_2_bearing_mount
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/tool_precision_screwdriver_version_2_bearing_mount
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/tool_precision_screwdriver_version_2_bearing_mount
+md5: 06edbf64a88b52b702c0567b6040c825
+md5_10: 06edbf64a8
+md5_10_upper: 06EDBF64A8
+md5_5: 06edb
+md5_5_upper: 06EDB
+md5_6: 06edbf
+md5_6_alpha: 9qdb
+md5_6_alpha_upper: 9QDB
+md5_6_upper: 06EDBF
+name: Tool Precision Screwdriver Version 2 Bearing Mount
+name_no_class: Tool Precision Screwdriver Version 2 Bearing Mount
+name_no_size: Tool Precision Screwdriver Version 2 Bearing Mount
+name_no_type: Tool Precision Screwdriver Version 2 Bearing Mount
+name_proper: Tool Precision Screwdriver Version 2 Bearing Mount
+name_space: tool precision screwdriver version 2 bearing mount
+name_upper: TOOL PRECISION SCREWDRIVER VERSION 2 BEARING MOUNT
+oobb_details:
+  extra: ''
+  height: 1
+  oobb_name: bearing_mount
+  oobb_type: bearing_mount_version_2
+  run_scad: true
+  run_solidcraft: false
+  thickness: 6.75
+  width: 1
+oobb_name: bearing_mount
+oomlout_ai_roboclick_1:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      classification: project
+      color: oomlout_oobb_tool_precision_screwdriver
+      description_extra: ''
+      description_main: bearing_mount_1_width_1_height_6.75_mm_depth
+      directory: parts\tool_precision_screwdriver_version_2_bearing_mount
+      name: tool_precision_screwdriver_version_2_bearing_mount
+      name_proper: Tool Precision Screwdriver Version 2 Bearing Mount
+      name_space: tool precision screwdriver version 2 bearing mount
+      name_upper: TOOL PRECISION SCREWDRIVER VERSION 2 BEARING MOUNT
+      oobb_details:
+        extra: ''
+        height: 1
+        oobb_name: bearing_mount
+        oobb_type: bearing_mount_version_2
+        run_scad: true
+        run_solidcraft: false
+        thickness: 6.75
+        width: 1
+      oobb_name: bearing_mount
+      project_name: oomlout_oobb_tool_precision_screwdriver
+      size: oomlout
+      taxonomy_1: tool_precision_screwdriver
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: version_2
+      taxonomy_3: bearing_mount
+      taxonomy_4: ''
+      taxonomy_5: ''
+      taxonomy_6: ''
+      taxonomy_7: ''
+      taxonomy_8: ''
+      taxonomy_9: ''
+      thickness: 6.75
+      type: github
+      url_chat: ''
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_oomp.svg
+    file_template: C:\gh\oomlout_oobb_tool_precision_screwdriver_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_oomp.pdf
+  retries_until_complete: 0
+oomp_key: oomp_tool_precision_screwdriver_version_2_bearing_mount
+project_name: oomlout_oobb_tool_precision_screwdriver
+size: oomlout
+taxonomy_1: tool_precision_screwdriver
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Tool Precision Screwdriver
+taxonomy_1_first_letter: t
+taxonomy_1_first_letter_upper: T
+taxonomy_1_length_1: t
+taxonomy_1_length_2: to
+taxonomy_1_length_3: too
+taxonomy_1_length_4: tool
+taxonomy_1_length_5: tool_
+taxonomy_1_upper: TOOL_PRECISION_SCREWDRIVER
+taxonomy_1_upper_length_1: T
+taxonomy_1_upper_length_2: TO
+taxonomy_1_upper_length_3: TOO
+taxonomy_1_upper_length_4: TOOL
+taxonomy_1_upper_length_5: TOOL_
+taxonomy_2: version_2
+taxonomy_2_capital: Version 2
+taxonomy_2_first_letter: v
+taxonomy_2_first_letter_upper: V
+taxonomy_2_length_1: v
+taxonomy_2_length_2: ve
+taxonomy_2_length_3: ver
+taxonomy_2_length_4: vers
+taxonomy_2_length_5: versi
+taxonomy_2_upper: VERSION_2
+taxonomy_2_upper_length_1: V
+taxonomy_2_upper_length_2: VE
+taxonomy_2_upper_length_3: VER
+taxonomy_2_upper_length_4: VERS
+taxonomy_2_upper_length_5: VERSI
+taxonomy_3: bearing_mount
+taxonomy_3_capital: Bearing Mount
+taxonomy_3_first_letter: b
+taxonomy_3_first_letter_upper: B
+taxonomy_3_length_1: b
+taxonomy_3_length_2: be
+taxonomy_3_length_3: bea
+taxonomy_3_length_4: bear
+taxonomy_3_length_5: beari
+taxonomy_3_upper: BEARING_MOUNT
+taxonomy_3_upper_length_1: B
+taxonomy_3_upper_length_2: BE
+taxonomy_3_upper_length_3: BEA
+taxonomy_3_upper_length_4: BEAR
+taxonomy_3_upper_length_5: BEARI
+taxonomy_4: ''
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+thickness: 6.75
+thing:
+  bip_39_2_word_array:
+  - alone
+  - hospital
+  bip_39_2_word_no_space: alonehospital
+  bip_39_2_word_space: alone hospital
+  bip_39_2_word_underscore: alone_hospital
+  bip_39_3_word_array:
+  - alone
+  - hospital
+  - summer
+  bip_39_3_word_no_space: alonehospitalsummer
+  bip_39_3_word_space: alone hospital summer
+  bip_39_3_word_underscore: alone_hospital_summer
+  bip_39_full_array:
+  - alone
+  - hospital
+  - summer
+  - extra
+  - release
+  - fortune
+  - arch
+  - approve
+  - kiwi
+  - acoustic
+  - craft
+  - entry
+  bip_39_full_no_space: alonehospitalsummerextrareleasefortunearchapprovekiwiacousticcraftentry
+  bip_39_full_space: alone hospital summer extra release fortune arch approve kiwi
+    acoustic craft entry
+  bip_39_full_underscore: alone_hospital_summer_extra_release_fortune_arch_approve_kiwi_acoustic_craft_entry
+  classification: project
+  color: oomlout_oobb_tool_precision_screwdriver
+  components:
+  - objects:
+    - - depth: 4.6
+        extra: ''
+        h: 4.6
+        height: 1
+        inclusion: laser
+        pos: &id001
+        - 0
+        - 0
+        - 0.0
+        r1: 6.35
+        r2: 6.481428571428571
+        shape: cylinder
+        type: positive
+        width: 1
+      - depth: 4.6
+        extra: ''
+        h: 4.6
+        height: 1
+        inclusion: 3dpr
+        pos: *id001
+        r1: 6.35
+        r2: 6.481428571428571
+        shape: cylinder
+        type: positive
+        width: 1
+      - depth: 4.6
+        extra: ''
+        h: 4.6
+        height: 1
+        inclusion: 'true'
+        pos: *id001
+        r1: 6.35
+        r2: 6.481428571428571
+        shape: cylinder
+        type: positive
+        width: 1
+    - - - extra: ''
+          height: 1
+          pos:
+          - -13.6
+          - -9.0
+          - -0.2
+          shape: cube
+          size:
+          - 10
+          - 18
+          - 5
+          type: negative
+          width: 1
+    - - - extra: ''
+          height: 1
+          pos:
+          - 3.5999999999999996
+          - -9.0
+          - -0.2
+          shape: cube
+          size:
+          - 10
+          - 18
+          - 5
+          type: negative
+          width: 1
+    - - - extra: ''
+          height: 1
+          pos:
+          - -8.0
+          - -14.95
+          - -0.2
+          shape: cube
+          size:
+          - 16
+          - 10
+          - 5
+          type: negative
+          width: 1
+    - - - extra: ''
+          height: 1
+          pos:
+          - -8.2
+          - -13.6
+          - -0.2
+          shape: cube
+          size:
+          - 6
+          - 10
+          - 5
+          type: negative
+          width: 1
+    - - - extra: ''
+          height: 1
+          pos:
+          - 2.2
+          - -13.6
+          - -0.2
+          shape: cube
+          size:
+          - 6
+          - 10
+          - 5
+          type: negative
+          width: 1
+    - - - extra: ''
+          height: 1
+          pos:
+          - -3.8
+          - -5.15
+          - 0.6
+          shape: cube
+          size:
+          - 7.6
+          - 8.5
+          - 2.55
+          type: negative
+          width: 1
+    - - extra: ''
+        height: 3.12
+        pos:
+        - 0
+        - 0
+        - 0.58
+        r: 3.290896534380867
+        rot:
+        - 0
+        - 0
+        - 30
+        shape: polyg
+        sides: 6
+        type: negative
+        width: 1
+    - - depth: 5.0
+        extra: ''
+        h: 5.0
+        height: 1
+        inclusion: laser
+        pos: &id002
+        - 0
+        - 0
+        - -0.20000000000000018
+        r: 1.7
+        radius: 1.7
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 5.0
+        extra: ''
+        h: 5.0
+        height: 1
+        inclusion: 3dpr
+        pos: *id002
+        r: 1.7
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 5.0
+        extra: ''
+        h: 5.0
+        height: 1
+        inclusion: 'true'
+        pos: *id002
+        r: 1.7
+        shape: cylinder
+        type: negative
+        width: 1
+    pos:
+    - -2.3
+    - 0
+    - 3.6
+    rot:
+    - 0
+    - 90
+    - 0
+    type: rotation
+    typetype: positive
+  - - depth: 0.22
+      extra: ''
+      h: 0.22
+      height: 1
+      inclusion: laser
+      pos: &id003
+      - 18
+      - 0
+      - 0.0
+      r1: 4.0
+      r2: 4.0
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 0.22
+      extra: ''
+      h: 0.22
+      height: 1
+      inclusion: 3dpr
+      pos: *id003
+      r1: 4.0
+      r2: 4.0
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 0.22
+      extra: ''
+      h: 0.22
+      height: 1
+      inclusion: 'true'
+      pos: *id003
+      r1: 4.0
+      r2: 4.0
+      shape: cylinder
+      type: positive
+      width: 1
+  - - depth: 1.2
+      extra: ''
+      h: 1.2
+      height: 1
+      inclusion: laser
+      pos: &id004
+      - 18
+      - 0
+      - 0.19999999999999996
+      r1: 4.0
+      r2: 5.25
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 1.2
+      extra: ''
+      h: 1.2
+      height: 1
+      inclusion: 3dpr
+      pos: *id004
+      r1: 4.0
+      r2: 5.25
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 1.2
+      extra: ''
+      h: 1.2
+      height: 1
+      inclusion: 'true'
+      pos: *id004
+      r1: 4.0
+      r2: 5.25
+      shape: cylinder
+      type: positive
+      width: 1
+  - - depth: 1.17
+      extra: ''
+      h: 1.17
+      height: 1
+      inclusion: laser
+      pos: &id005
+      - 18
+      - 0
+      - 1.38
+      r1: 4.225
+      r2: 4.225
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 1.17
+      extra: ''
+      h: 1.17
+      height: 1
+      inclusion: 3dpr
+      pos: *id005
+      r1: 4.225
+      r2: 4.225
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 1.17
+      extra: ''
+      h: 1.17
+      height: 1
+      inclusion: 'true'
+      pos: *id005
+      r1: 4.225
+      r2: 4.225
+      shape: cylinder
+      type: positive
+      width: 1
+  - - depth: 0.3700000000000001
+      extra: ''
+      h: 0.3700000000000001
+      height: 1
+      inclusion: laser
+      pos: &id006
+      - 18
+      - 0
+      - 2.53
+      r1: 4.225
+      r2: 3.95
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 0.3700000000000001
+      extra: ''
+      h: 0.3700000000000001
+      height: 1
+      inclusion: 3dpr
+      pos: *id006
+      r1: 4.225
+      r2: 3.95
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 0.3700000000000001
+      extra: ''
+      h: 0.3700000000000001
+      height: 1
+      inclusion: 'true'
+      pos: *id006
+      r1: 4.225
+      r2: 3.95
+      shape: cylinder
+      type: positive
+      width: 1
+  - - depth: 3.3
+      extra: ''
+      h: 3.3
+      height: 1
+      inclusion: laser
+      pos: &id007
+      - 18
+      - 0
+      - -0.19999999999999996
+      r: 1.7
+      radius: 1.7
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 3.3
+      extra: ''
+      h: 3.3
+      height: 1
+      inclusion: 3dpr
+      pos: *id007
+      r: 1.7
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 3.3
+      extra: ''
+      h: 3.3
+      height: 1
+      inclusion: 'true'
+      pos: *id007
+      r: 1.7
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 1.0
+      extra: ''
+      h: 1.0
+      height: 1
+      inclusion: laser
+      pos: &id008
+      - 32
+      - 0
+      - 0.0
+      r: 4
+      radius: 4
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 1.0
+      extra: ''
+      h: 1.0
+      height: 1
+      inclusion: 3dpr
+      pos: *id008
+      r: 4
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 1.0
+      extra: ''
+      h: 1.0
+      height: 1
+      inclusion: 'true'
+      pos: *id008
+      r: 4
+      shape: cylinder
+      type: positive
+      width: 1
+  - - depth: 5.77
+      extra: ''
+      h: 5.77
+      height: 1
+      inclusion: laser
+      pos: &id009
+      - 32
+      - 0
+      - 0.9800000000000004
+      r: 2.9
+      radius: 2.9
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 5.77
+      extra: ''
+      h: 5.77
+      height: 1
+      inclusion: 3dpr
+      pos: *id009
+      r: 2.9
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 5.77
+      extra: ''
+      h: 5.77
+      height: 1
+      inclusion: 'true'
+      pos: *id009
+      r: 2.9
+      shape: cylinder
+      type: positive
+      width: 1
+  - - depth: 1.77
+      extra: ''
+      h: 1.77
+      height: 1
+      inclusion: laser
+      pos: &id010
+      - 32
+      - 0
+      - -0.050000000000000044
+      r1: 3.47
+      r2: 1.7
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.77
+      extra: ''
+      h: 1.77
+      height: 1
+      inclusion: 3dpr
+      pos: *id010
+      r1: 3.47
+      r2: 1.7
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.77
+      extra: ''
+      h: 1.77
+      height: 1
+      inclusion: 'true'
+      pos: *id010
+      r1: 3.47
+      r2: 1.7
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 5.1
+      extra: ''
+      h: 5.1
+      height: 1
+      inclusion: laser
+      pos: &id011
+      - 32
+      - 0
+      - 1.7000000000000002
+      r1: 1.7
+      r2: 1.7
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 5.1
+      extra: ''
+      h: 5.1
+      height: 1
+      inclusion: 3dpr
+      pos: *id011
+      r1: 1.7
+      r2: 1.7
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 5.1
+      extra: ''
+      h: 5.1
+      height: 1
+      inclusion: 'true'
+      pos: *id011
+      r1: 1.7
+      r2: 1.7
+      shape: cylinder
+      type: negative
+      width: 1
+  components_objects:
+  - depth: 0.22
+    extra: ''
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: bearing_mount
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 18
+    - 0
+    - 0.11
+    r1: 4.0
+    r2: 4.0
+    save_type: none
+    shape: oobb_cylinder
+    thickness: 6.75
+    typ: fast
+    type: positive
+    width: 1
+  - depth: 1.2
+    extra: ''
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: bearing_mount
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 18
+    - 0
+    - 0.7999999999999999
+    r1: 4.0
+    r2: 5.25
+    save_type: none
+    shape: oobb_cylinder
+    thickness: 6.75
+    typ: fast
+    type: positive
+    width: 1
+  - depth: 1.17
+    extra: ''
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: bearing_mount
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 18
+    - 0
+    - 1.9649999999999999
+    r1: 4.225
+    r2: 4.225
+    save_type: none
+    shape: oobb_cylinder
+    thickness: 6.75
+    typ: fast
+    type: positive
+    width: 1
+  - depth: 0.3700000000000001
+    extra: ''
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: bearing_mount
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 18
+    - 0
+    - 2.715
+    r1: 4.225
+    r2: 3.95
+    save_type: none
+    shape: oobb_cylinder
+    thickness: 6.75
+    typ: fast
+    type: positive
+    width: 1
+  - depth: 3.3
+    extra: ''
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: bearing_mount
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 18
+    - 0
+    - 1.45
+    radius: 1.7
+    save_type: none
+    shape: oobb_cylinder
+    thickness: 6.75
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 1.0
+    extra: ''
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: bearing_mount
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 32
+    - 0
+    - 0.5
+    radius: 4
+    save_type: none
+    shape: oobb_cylinder
+    thickness: 6.75
+    typ: fast
+    type: positive
+    width: 1
+  - depth: 5.77
+    extra: ''
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: bearing_mount
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 32
+    - 0
+    - 3.865
+    radius: 2.9
+    save_type: none
+    shape: oobb_cylinder
+    thickness: 6.75
+    typ: fast
+    type: positive
+    width: 1
+  - depth: 1.77
+    extra: ''
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: bearing_mount
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 32
+    - 0
+    - 0.835
+    r1: 3.47
+    r2: 1.7
+    save_type: none
+    shape: oobb_cylinder
+    thickness: 6.75
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 5.1
+    extra: ''
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: bearing_mount
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 32
+    - 0
+    - 4.25
+    r1: 1.7
+    r2: 1.7
+    save_type: none
+    shape: oobb_cylinder
+    thickness: 6.75
+    typ: fast
+    type: negative
+    width: 1
+  components_string:
+  - oobb_cylinder_shape_positive_type_0.22_depth_18_0_0.11_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_1_height_bearing_mount_oobb_name_6.75_thickness_1_width_4.0_r1_4.0_r2
+  - oobb_cylinder_shape_positive_type_1.2_depth_18_0_0.7999999999999999_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_1_height_bearing_mount_oobb_name_6.75_thickness_1_width_4.0_r1_5.25_r2
+  - oobb_cylinder_shape_positive_type_1.17_depth_18_0_1.9649999999999999_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_1_height_bearing_mount_oobb_name_6.75_thickness_1_width_4.225_r1_4.225_r2
+  - oobb_cylinder_shape_positive_type_0.3700000000000001_depth_18_0_2.715_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_1_height_bearing_mount_oobb_name_6.75_thickness_1_width_4.225_r1_3.95_r2
+  - oobb_cylinder_shape_negative_type_3.3_depth_18_0_1.45_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_1_height_bearing_mount_oobb_name_6.75_thickness_1_width_1.7_radius
+  - oobb_cylinder_shape_positive_type_1.0_depth_32_0_0.5_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_1_height_bearing_mount_oobb_name_6.75_thickness_1_width_4_radius
+  - oobb_cylinder_shape_positive_type_5.77_depth_32_0_3.865_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_1_height_bearing_mount_oobb_name_6.75_thickness_1_width_2.9_radius
+  - oobb_cylinder_shape_negative_type_1.77_depth_32_0_0.835_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_1_height_bearing_mount_oobb_name_6.75_thickness_1_width_3.47_r1_1.7_r2
+  - oobb_cylinder_shape_negative_type_5.1_depth_32_0_4.25_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_1_height_bearing_mount_oobb_name_6.75_thickness_1_width_1.7_r1_1.7_r2
+  description: oomlout oobb tool precision screwdriver bearing mount 1x1x6.75
+  description_extra: ''
+  description_main: bearing_mount_1_width_1_height_6.75_mm_depth
+  directory: parts/tool_precision_screwdriver_version_2_bearing_mount
+  extra: ''
+  height: 1
+  height_mm: 14
+  id: tool_precision_screwdriver_version_2_bearing_mount
+  id_no_class: tool_precision_screwdriver_version_2_bearing_mount
+  id_no_size: tool_precision_screwdriver_version_2_bearing_mount
+  id_no_type: tool_precision_screwdriver_version_2_bearing_mount
+  id_oobb: tool_precision_screwdriver_version_2_bearing_mount
+  kwargs:
+    extra: ''
+    filter: ''
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: bearing_mount
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    save_type: none
+    thickness: 6.75
+    typ: fast
+    width: 1
+  link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/tool_precision_screwdriver_version_2_bearing_mount
+  link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/tool_precision_screwdriver_version_2_bearing_mount
+  link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/tool_precision_screwdriver_version_2_bearing_mount
+  manufacturer: ''
+  md5: 06edbf64a88b52b702c0567b6040c825
+  md5_10: 06edbf64a8
+  md5_10_upper: 06EDBF64A8
+  md5_5: 06edb
+  md5_5_upper: 06EDB
+  md5_6: 06edbf
+  md5_6_alpha: 9qdb
+  md5_6_alpha_upper: 9QDB
+  md5_6_upper: 06EDBF
+  name: Tool Precision Screwdriver Version 2 Bearing Mount
+  name_no_class: Tool Precision Screwdriver Version 2 Bearing Mount
+  name_no_size: Tool Precision Screwdriver Version 2 Bearing Mount
+  name_no_type: Tool Precision Screwdriver Version 2 Bearing Mount
+  name_proper: Tool Precision Screwdriver Version 2 Bearing Mount
+  name_short: Oomlout Oobb Tool Precision Screwdriver
+  name_space: tool precision screwdriver version 2 bearing mount
+  name_text: Oobb Part Oomlout Oobb Tool Precision Screwdriver Bearing Mount 1 Width
+    1 Height 6 75 mm Depth
+  name_upper: TOOL PRECISION SCREWDRIVER VERSION 2 BEARING MOUNT
+  oobb_details:
+    extra: ''
+    height: 1
+    oobb_name: bearing_mount
+    oobb_type: bearing_mount_version_2
+    run_scad: true
+    run_solidcraft: false
+    thickness: 6.75
+    width: 1
+  oobb_name: bearing_mount
+  oomlout_ai_roboclick_1:
+    actions:
+    - command: text_jinja_template
+      convert_to_pdf: false
+      convert_to_png: false
+      dict_data:
+        classification: project
+        color: oomlout_oobb_tool_precision_screwdriver
+        description_extra: ''
+        description_main: bearing_mount_1_width_1_height_6.75_mm_depth
+        directory: parts\tool_precision_screwdriver_version_2_bearing_mount
+        name: tool_precision_screwdriver_version_2_bearing_mount
+        name_proper: Tool Precision Screwdriver Version 2 Bearing Mount
+        name_space: tool precision screwdriver version 2 bearing mount
+        name_upper: TOOL PRECISION SCREWDRIVER VERSION 2 BEARING MOUNT
+        oobb_details:
+          extra: ''
+          height: 1
+          oobb_name: bearing_mount
+          oobb_type: bearing_mount_version_2
+          run_scad: true
+          run_solidcraft: false
+          thickness: 6.75
+          width: 1
+        oobb_name: bearing_mount
+        project_name: oomlout_oobb_tool_precision_screwdriver
+        size: oomlout
+        taxonomy_1: tool_precision_screwdriver
+        taxonomy_10: ''
+        taxonomy_11: ''
+        taxonomy_12: ''
+        taxonomy_13: ''
+        taxonomy_14: ''
+        taxonomy_15: ''
+        taxonomy_2: version_2
+        taxonomy_3: bearing_mount
+        taxonomy_4: ''
+        taxonomy_5: ''
+        taxonomy_6: ''
+        taxonomy_7: ''
+        taxonomy_8: ''
+        taxonomy_9: ''
+        thickness: 6.75
+        type: github
+        url_chat: ''
+      dict_data_files: {}
+      dict_data_files_exists: {}
+      file_output: label_oomp.svg
+      file_template: C:\gh\oomlout_oobb_tool_precision_screwdriver_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+      search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+  oomp_key: oomp_tool_precision_screwdriver_version_2_bearing_mount
+  part_number: ''
+  project_name: oomlout_oobb_tool_precision_screwdriver
+  short_name: ''
+  size: oomlout
+  taxonomy_1: tool_precision_screwdriver
+  taxonomy_10: ''
+  taxonomy_11: ''
+  taxonomy_12: ''
+  taxonomy_13: ''
+  taxonomy_14: ''
+  taxonomy_15: ''
+  taxonomy_1_capital: Tool Precision Screwdriver
+  taxonomy_1_first_letter: t
+  taxonomy_1_first_letter_upper: T
+  taxonomy_1_length_1: t
+  taxonomy_1_length_2: to
+  taxonomy_1_length_3: too
+  taxonomy_1_length_4: tool
+  taxonomy_1_length_5: tool_
+  taxonomy_1_upper: TOOL_PRECISION_SCREWDRIVER
+  taxonomy_1_upper_length_1: T
+  taxonomy_1_upper_length_2: TO
+  taxonomy_1_upper_length_3: TOO
+  taxonomy_1_upper_length_4: TOOL
+  taxonomy_1_upper_length_5: TOOL_
+  taxonomy_2: version_2
+  taxonomy_2_capital: Version 2
+  taxonomy_2_first_letter: v
+  taxonomy_2_first_letter_upper: V
+  taxonomy_2_length_1: v
+  taxonomy_2_length_2: ve
+  taxonomy_2_length_3: ver
+  taxonomy_2_length_4: vers
+  taxonomy_2_length_5: versi
+  taxonomy_2_upper: VERSION_2
+  taxonomy_2_upper_length_1: V
+  taxonomy_2_upper_length_2: VE
+  taxonomy_2_upper_length_3: VER
+  taxonomy_2_upper_length_4: VERS
+  taxonomy_2_upper_length_5: VERSI
+  taxonomy_3: bearing_mount
+  taxonomy_3_capital: Bearing Mount
+  taxonomy_3_first_letter: b
+  taxonomy_3_first_letter_upper: B
+  taxonomy_3_length_1: b
+  taxonomy_3_length_2: be
+  taxonomy_3_length_3: bea
+  taxonomy_3_length_4: bear
+  taxonomy_3_length_5: beari
+  taxonomy_3_upper: BEARING_MOUNT
+  taxonomy_3_upper_length_1: B
+  taxonomy_3_upper_length_2: BE
+  taxonomy_3_upper_length_3: BEA
+  taxonomy_3_upper_length_4: BEAR
+  taxonomy_3_upper_length_5: BEARI
+  taxonomy_4: ''
+  taxonomy_5: ''
+  taxonomy_6: ''
+  taxonomy_7: ''
+  taxonomy_8: ''
+  taxonomy_9: ''
+  thickness: 6.75
+  thickness_mm: 6.75
+  type: github
+  url_chat: ''
+  width: 1
+  width_mm: 14
+type: github
+url_chat: ''

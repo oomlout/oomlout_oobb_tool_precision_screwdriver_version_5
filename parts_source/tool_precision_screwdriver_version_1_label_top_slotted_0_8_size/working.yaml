@@ -1,0 +1,39 @@
+classification: project
+color: oomlout_oobb_tool_precision_screwdriver
+description_extra: slotted_shape_0.8_size_extra
+description_main: label_top_1_width_1_height_1.5_mm_depth
+extra: slotted_shape_0.8_size
+legacy_id: project_github_oomlout_oomlout_oobb_tool_precision_screwdriver_label_top_1_width_1_height_1_5_mm_depth_slotted_shape_0_8_size_extra
+oobb_details:
+  extra: slotted_shape_0.8_size
+  height: 1
+  oobb_name: label_top
+  oobb_type: label_top_version_1
+  run_scad: true
+  run_solidcraft: false
+  shape: slotted
+  siz: '0.8'
+  thickness: 1.5
+  width: 1
+oobb_name: label_top
+project_name: oomlout_oobb_tool_precision_screwdriver
+shape: slotted
+siz: '0.8'
+size: oomlout
+taxonomy_1: tool_precision_screwdriver
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: version_1
+taxonomy_3: label_top
+taxonomy_4: slotted
+taxonomy_5: 0_8_size
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+thickness: 1.5
+type: github
