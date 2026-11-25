@@ -3,6 +3,22 @@ color: oomlout_oobb_tool_precision_screwdriver
 color_parts:
 - main
 - support
+colour_bands:
+- colour: yellow
+  from_mm: 1.4
+  hex: '#FBC02D'
+  role: Drive
+  to_mm: 3.0
+- colour: red
+  from_mm: 4.0
+  hex: '#D32F2F'
+  role: Digit 2
+  to_mm: 5.0
+- colour: green
+  from_mm: 5.8
+  hex: '#388E3C'
+  role: Digit 5
+  to_mm: 6.8
 description_extra: torx_shape_T25_size_extra
 description_main: label_top_1_width_1_height_11.25_mm_depth
 extra: torx_shape_T25_size
@@ -10,7 +26,7 @@ id: tool_precision_screwdriver_version_3_label_top_torx_t25_size
 id_oobb: tool_precision_screwdriver_version_3_label_top_torx_t25_size
 kwargs:
   extra: torx_shape_T25_size
-  filter: ''
+  filter: version_3_label_top
   generate_stl: false
   height: 1
   modes:
@@ -65,6 +81,22 @@ thing:
   color_parts:
   - main
   - support
+  colour_bands:
+  - colour: yellow
+    from_mm: 1.4
+    hex: '#FBC02D'
+    role: Drive
+    to_mm: 3.0
+  - colour: red
+    from_mm: 4.0
+    hex: '#D32F2F'
+    role: Digit 2
+    to_mm: 5.0
+  - colour: green
+    from_mm: 5.8
+    hex: '#388E3C'
+    role: Digit 5
+    to_mm: 6.8
   components:
   - - depth: 11.25
       extra: torx_shape_T25_size
@@ -2506,7 +2538,7 @@ thing:
   components_objects:
   - depth: 11.25
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -2531,7 +2563,7 @@ thing:
     width: 1
   - depth: 9.95
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -2556,7 +2588,7 @@ thing:
     width: 1
   - depth: 1.3
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     id: 9.1
@@ -2581,7 +2613,7 @@ thing:
     width: 1
   - depth: 1.3
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     id: 9.1
@@ -2606,7 +2638,7 @@ thing:
     width: 1
   - depth: 0.9999999999999999
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -2632,7 +2664,7 @@ thing:
     width: 1
   - depth: 6.69
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -2658,7 +2690,7 @@ thing:
     width: 1
   - depth: 1.0
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -2684,7 +2716,7 @@ thing:
     width: 1
   - depth: 0.9999999999999999
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -2710,7 +2742,7 @@ thing:
     width: 1
   - depth: 6.69
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -2736,7 +2768,7 @@ thing:
     width: 1
   - depth: 1.0
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -2762,7 +2794,7 @@ thing:
     width: 1
   - depth: 0.9999999999999999
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -2788,7 +2820,7 @@ thing:
     width: 1
   - depth: 6.69
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -2814,7 +2846,7 @@ thing:
     width: 1
   - depth: 1.0
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -2840,7 +2872,7 @@ thing:
     width: 1
   - depth: 0.9999999999999999
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -2866,7 +2898,7 @@ thing:
     width: 1
   - depth: 6.69
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -2892,7 +2924,7 @@ thing:
     width: 1
   - depth: 1.0
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -2918,7 +2950,7 @@ thing:
     width: 1
   - depth: 0.9999999999999999
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -2944,7 +2976,7 @@ thing:
     width: 1
   - depth: 6.69
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -2970,7 +3002,7 @@ thing:
     width: 1
   - depth: 1.0
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -2996,7 +3028,7 @@ thing:
     width: 1
   - depth: 0.9999999999999999
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -3022,7 +3054,7 @@ thing:
     width: 1
   - depth: 6.69
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -3048,7 +3080,7 @@ thing:
     width: 1
   - depth: 1.0
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -3074,7 +3106,7 @@ thing:
     width: 1
   - depth: 0.9999999999999999
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -3100,7 +3132,7 @@ thing:
     width: 1
   - depth: 6.69
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -3126,7 +3158,7 @@ thing:
     width: 1
   - depth: 1.0
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -3152,7 +3184,7 @@ thing:
     width: 1
   - depth: 0.9999999999999999
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -3178,7 +3210,7 @@ thing:
     width: 1
   - depth: 6.69
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -3204,7 +3236,7 @@ thing:
     width: 1
   - depth: 1.0
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -3230,7 +3262,7 @@ thing:
     width: 1
   - depth: 0.9999999999999999
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -3256,7 +3288,7 @@ thing:
     width: 1
   - depth: 6.69
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -3282,7 +3314,7 @@ thing:
     width: 1
   - depth: 1.0
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -3308,7 +3340,7 @@ thing:
     width: 1
   - depth: 0.9999999999999999
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -3334,7 +3366,7 @@ thing:
     width: 1
   - depth: 6.69
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -3360,7 +3392,7 @@ thing:
     width: 1
   - depth: 1.0
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -3386,7 +3418,7 @@ thing:
     width: 1
   - depth: 0.9999999999999999
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -3412,7 +3444,7 @@ thing:
     width: 1
   - depth: 6.69
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -3438,7 +3470,7 @@ thing:
     width: 1
   - depth: 1.0
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -3464,7 +3496,7 @@ thing:
     width: 1
   - depth: 0.9999999999999999
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -3490,7 +3522,7 @@ thing:
     width: 1
   - depth: 6.69
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -3516,7 +3548,7 @@ thing:
     width: 1
   - depth: 1.0
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -3542,7 +3574,7 @@ thing:
     width: 1
   - depth: 0.9999999999999999
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -3568,7 +3600,7 @@ thing:
     width: 1
   - depth: 6.69
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -3594,7 +3626,7 @@ thing:
     width: 1
   - depth: 1.0
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -3620,7 +3652,7 @@ thing:
     width: 1
   - depth: 0.9999999999999999
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -3646,7 +3678,7 @@ thing:
     width: 1
   - depth: 6.69
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -3672,7 +3704,7 @@ thing:
     width: 1
   - depth: 1.0
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -3698,7 +3730,7 @@ thing:
     width: 1
   - depth: 0.9999999999999999
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -3724,7 +3756,7 @@ thing:
     width: 1
   - depth: 6.69
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -3750,7 +3782,7 @@ thing:
     width: 1
   - depth: 1.0
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -3776,7 +3808,7 @@ thing:
     width: 1
   - depth: 0.9999999999999999
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -3802,7 +3834,7 @@ thing:
     width: 1
   - depth: 6.69
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -3828,7 +3860,7 @@ thing:
     width: 1
   - depth: 1.0
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -3854,7 +3886,7 @@ thing:
     width: 1
   - depth: 0.9999999999999999
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -3880,7 +3912,7 @@ thing:
     width: 1
   - depth: 6.69
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -3906,7 +3938,7 @@ thing:
     width: 1
   - depth: 1.0
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -3932,7 +3964,7 @@ thing:
     width: 1
   - depth: 0.9999999999999999
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -3958,7 +3990,7 @@ thing:
     width: 1
   - depth: 6.69
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -3984,7 +4016,7 @@ thing:
     width: 1
   - depth: 1.0
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -4010,7 +4042,7 @@ thing:
     width: 1
   - depth: 1.4700000000000002
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -4036,7 +4068,7 @@ thing:
     width: 1
   - depth: 5.94
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -4062,7 +4094,7 @@ thing:
     width: 1
   - depth: 0.7000000000000011
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -4088,7 +4120,7 @@ thing:
     width: 1
   - depth: 2.0
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:
@@ -4114,7 +4146,7 @@ thing:
     width: 1
   - depth: 0.6
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     font: Liberation Sans:style=Bold
     generate_stl: false
     height: 1
@@ -4145,7 +4177,7 @@ thing:
     width: 1
   - depth: 0.6
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     font: Liberation Sans:style=Bold
     generate_stl: false
     height: 1
@@ -4176,7 +4208,7 @@ thing:
     width: 1
   - depth: 0.6
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     font: Liberation Sans:style=Bold
     generate_stl: false
     height: 1
@@ -4206,7 +4238,7 @@ thing:
     type: negative
     width: 1
   - extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 0.6
     modes:
@@ -4422,72 +4454,72 @@ thing:
     type: negative
     width: 1
   components_string:
-  - oobb_cylinder_shape_positive_type_11.25_depth_0_0_5.625_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_9.75_radius
-  - oobb_cylinder_shape_positive_type_9.95_depth_0_0_5.625_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_10.4_radius
-  - oring_shape_positive_type_1.3_depth_0_0_0.65_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_9.1_id
-  - oring_shape_positive_type_1.3_depth_0_0_10.6_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_9.1_id
-  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_10.950000000000001_0.0_1.4_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
-  - oobb_cylinder_shape_negative_type_6.69_depth_10.950000000000001_0.0_5.225_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
-  - oobb_cylinder_shape_negative_type_1.0_depth_10.950000000000001_0.0_9.05_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
-  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_10.289634197605698_3.745120569416073_1.4_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
-  - oobb_cylinder_shape_negative_type_6.69_depth_10.289634197605698_3.745120569416073_5.225_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
-  - oobb_cylinder_shape_negative_type_1.0_depth_10.289634197605698_3.745120569416073_9.05_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
-  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_8.38818665215281_7.038524326067606_1.4_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
-  - oobb_cylinder_shape_negative_type_6.69_depth_8.38818665215281_7.038524326067606_5.225_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
-  - oobb_cylinder_shape_negative_type_1.0_depth_8.38818665215281_7.038524326067606_9.05_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
-  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_5.475000000000001_9.482978171439603_1.4_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
-  - oobb_cylinder_shape_negative_type_6.69_depth_5.475000000000001_9.482978171439603_5.225_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
-  - oobb_cylinder_shape_negative_type_1.0_depth_5.475000000000001_9.482978171439603_9.05_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
-  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_1.9014475454528883_10.783644895483679_1.4_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
-  - oobb_cylinder_shape_negative_type_6.69_depth_1.9014475454528883_10.783644895483679_5.225_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
-  - oobb_cylinder_shape_negative_type_1.0_depth_1.9014475454528883_10.783644895483679_9.05_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
-  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_-1.901447545452887_10.783644895483679_1.4_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
-  - oobb_cylinder_shape_negative_type_6.69_depth_-1.901447545452887_10.783644895483679_5.225_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
-  - oobb_cylinder_shape_negative_type_1.0_depth_-1.901447545452887_10.783644895483679_9.05_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
-  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_-5.474999999999998_9.482978171439605_1.4_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
-  - oobb_cylinder_shape_negative_type_6.69_depth_-5.474999999999998_9.482978171439605_5.225_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
-  - oobb_cylinder_shape_negative_type_1.0_depth_-5.474999999999998_9.482978171439605_9.05_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
-  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_-8.38818665215281_7.038524326067608_1.4_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
-  - oobb_cylinder_shape_negative_type_6.69_depth_-8.38818665215281_7.038524326067608_5.225_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
-  - oobb_cylinder_shape_negative_type_1.0_depth_-8.38818665215281_7.038524326067608_9.05_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
-  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_-10.289634197605697_3.7451205694160747_1.4_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
-  - oobb_cylinder_shape_negative_type_6.69_depth_-10.289634197605697_3.7451205694160747_5.225_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
-  - oobb_cylinder_shape_negative_type_1.0_depth_-10.289634197605697_3.7451205694160747_9.05_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
-  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_-10.950000000000001_1.340988245066352e-15_1.4_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
-  - oobb_cylinder_shape_negative_type_6.69_depth_-10.950000000000001_1.340988245066352e-15_5.225_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
-  - oobb_cylinder_shape_negative_type_1.0_depth_-10.950000000000001_1.340988245066352e-15_9.05_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
-  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_-10.289634197605698_-3.745120569416072_1.4_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
-  - oobb_cylinder_shape_negative_type_6.69_depth_-10.289634197605698_-3.745120569416072_5.225_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
-  - oobb_cylinder_shape_negative_type_1.0_depth_-10.289634197605698_-3.745120569416072_9.05_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
-  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_-8.38818665215281_-7.038524326067606_1.4_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
-  - oobb_cylinder_shape_negative_type_6.69_depth_-8.38818665215281_-7.038524326067606_5.225_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
-  - oobb_cylinder_shape_negative_type_1.0_depth_-8.38818665215281_-7.038524326067606_9.05_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
-  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_-5.475000000000005_-9.482978171439603_1.4_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
-  - oobb_cylinder_shape_negative_type_6.69_depth_-5.475000000000005_-9.482978171439603_5.225_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
-  - oobb_cylinder_shape_negative_type_1.0_depth_-5.475000000000005_-9.482978171439603_9.05_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
-  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_-1.9014475454528874_-10.783644895483679_1.4_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
-  - oobb_cylinder_shape_negative_type_6.69_depth_-1.9014475454528874_-10.783644895483679_5.225_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
-  - oobb_cylinder_shape_negative_type_1.0_depth_-1.9014475454528874_-10.783644895483679_9.05_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
-  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_1.9014475454528834_-10.78364489548368_1.4_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
-  - oobb_cylinder_shape_negative_type_6.69_depth_1.9014475454528834_-10.78364489548368_5.225_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
-  - oobb_cylinder_shape_negative_type_1.0_depth_1.9014475454528834_-10.78364489548368_9.05_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
-  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_5.475000000000001_-9.482978171439603_1.4_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
-  - oobb_cylinder_shape_negative_type_6.69_depth_5.475000000000001_-9.482978171439603_5.225_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
-  - oobb_cylinder_shape_negative_type_1.0_depth_5.475000000000001_-9.482978171439603_9.05_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
-  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_8.388186652152807_-7.038524326067609_1.4_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
-  - oobb_cylinder_shape_negative_type_6.69_depth_8.388186652152807_-7.038524326067609_5.225_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
-  - oobb_cylinder_shape_negative_type_1.0_depth_8.388186652152807_-7.038524326067609_9.05_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
-  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_10.289634197605698_-3.7451205694160716_1.4_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
-  - oobb_cylinder_shape_negative_type_6.69_depth_10.289634197605698_-3.7451205694160716_5.225_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
-  - oobb_cylinder_shape_negative_type_1.0_depth_10.289634197605698_-3.7451205694160716_9.05_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
-  - oobb_cylinder_shape_negative_type_1.4700000000000002_depth_0_0_1.985_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_7.5_r1_7.5_r2
-  - oobb_cylinder_shape_negative_type_5.94_depth_0_0_5.67_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_8.551875172162198_r1_8.551875172162198_r2
-  - oobb_cylinder_shape_negative_type_0.7000000000000011_depth_0_0_8.969999999999999_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_8.551875172162198_r1_9.01779455764028_r2
-  - oobb_cylinder_shape_negative_type_2.0_depth_0_0_10.3_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_9.01779455764028_r1_9.01779455764028_r2
-  - oobb_text_shape_negative_type_0.6_depth_-3.65_-3.5_0.6_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_t_text_liberationsans:style=bold_font_4.0_size_180_0_0_rot
-  - oobb_text_shape_negative_type_0.6_depth_0.0_-3.5_0.6_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_2_text_liberationsans:style=bold_font_4.0_size_180_0_0_rot
-  - oobb_text_shape_negative_type_0.6_depth_3.65_-3.5_0.6_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_5_text_liberationsans:style=bold_font_4.0_size_180_0_0_rot
-  - polygon_shape_negative_type_0_3_0_pos_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_0.6_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_3.1_0.0_3.0439902950186117_0.1995136647114984_2.8847272103883213_0.3797815421059436_2.646888617374527_0.5264988810722369_2.3665182744082176_0.6341066605011758_2.0844354103556904_0.7075704773708675_1.8388718910678303_0.761685676746956_1.658746676795018_0.818003336606089_1.55884572681199_0.9_1.5377850082788151_1.0275150922444565_1.5790750912955211_1.211666933596394_1.6549917135488983_1.4513887792304347_1.7324116139070416_1.7324116139070416_1.779405714759903_2.0290233430980913_1.7712640685463372_2.3083562761315313_1.6947790495515949_2.5364160920036563_1.5500000000000005_2.68467875173176_1.3492112454670173_2.735929756715155_1.1134631418419842_2.688137818237475_0.8674829026146248_2.555522224170328_0.6341066605011758_2.3665182744082176_0.42944369680679173_2.1589592566013023_0.2597967997723095_1.9733526103433505_0.120961668516203_1.8455184288505457_1.102182119232618e-16_1.8000000000000003_-0.12096166851620277_1.8455184288505457_-0.25979679977230924_1.9733526103433503_-0.42944369680679134_2.158959256601302_-0.6341066605011755_2.366518274408217_-0.8674829026146244_2.555522224170328_-1.1134631418419831_2.688137818237475_-1.3492112454670169_2.735929756715155_-1.5499999999999994_2.68467875173176_-1.6947790495515944_2.536416092003656_-1.7712640685463372_2.3083562761315313_-1.7794057147599032_2.0290233430980913_-1.7324116139070418_1.732411613907042_-1.6549917135488983_1.4513887792304352_-1.5790750912955214_1.211666933596395_-1.5377850082788156_1.0275150922444576_-1.55884572681199_0.9_-1.6587466767950174_0.8180033366060897_-1.8388718910678303_0.7616856767469562_-2.084435410355689_0.7075704773708675_-2.3665182744082154_0.634106660501176_-2.646888617374527_0.5264988810722366_-2.8847272103883204_0.37978154210594467_-3.0439902950186117_0.1995136647114986_-3.1_3.796405077356795e-16_-3.043990295018612_-0.19951366471149784_-2.8847272103883213_-0.37978154210594417_-2.646888617374528_-0.5264988810722362_-2.366518274408217_-0.6341066605011759_-2.0844354103556904_-0.7075704773708673_-1.8388718910678312_-0.7616856767469561_-1.6587466767950179_-0.8180033366060894_-1.5588457268119902_-0.8999999999999996_-1.5377850082788154_-1.0275150922444558_-1.5790750912955211_-1.211666933596394_-1.6549917135488978_-1.4513887792304343_-1.7324116139070413_-1.7324116139070393_-1.7794057147599032_-2.0290233430980904_-1.7712640685463374_-2.30835627613153_-1.6947790495515942_-2.5364160920036567_-1.5500000000000014_-2.6846787517317594_-1.349211245467018_-2.7359297567151555_-1.1134631418419827_-2.688137818237474_-0.8674829026146252_-2.5555222241703284_-0.6341066605011755_-2.366518274408217_-0.42944369680679256_-2.1589592566013027_-0.2597967997723094_-1.973352610343351_-0.12096166851620195_-1.8455184288505448_-3.3065463576978537e-16_-1.8000000000000003_0.12096166851620122_-1.8455184288505442_0.2597967997723086_-1.9733526103433503_0.4294436968067915_-2.1589592566013014_0.6341066605011743_-2.3665182744082163_0.8674829026146239_-2.5555222241703275_1.1134631418419814_-2.688137818237473_1.3492112454670167_-2.735929756715155_1.5500000000000005_-2.68467875173176_1.6947790495515938_-2.536416092003658_1.7712640685463361_-2.3083562761315344_1.7794057147599027_-2.0290233430980895_1.732411613907041_-1.7324116139070416_1.6549917135488992_-1.451388779230435_1.5790750912955214_-1.2116669335963952_1.5377850082788151_-1.0275150922444585_1.5588457268119893_-0.9000000000000009_1.658746676795018_-0.8180033366060894_1.8388718910678303_-0.7616856767469555_2.084435410355689_-0.7075704773708676_2.366518274408215_-0.6341066605011774_2.646888617374524_-0.5264988810722376_2.8847272103883217_-0.37978154210594395_3.0439902950186117_-0.1995136647114976_points
+  - oobb_cylinder_shape_positive_type_11.25_depth_0_0_5.625_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_9.75_radius
+  - oobb_cylinder_shape_positive_type_9.95_depth_0_0_5.625_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_10.4_radius
+  - oring_shape_positive_type_1.3_depth_0_0_0.65_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_9.1_id
+  - oring_shape_positive_type_1.3_depth_0_0_10.6_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_9.1_id
+  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_10.950000000000001_0.0_1.4_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_6.69_depth_10.950000000000001_0.0_5.225_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_1.0_depth_10.950000000000001_0.0_9.05_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
+  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_10.289634197605698_3.745120569416073_1.4_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_6.69_depth_10.289634197605698_3.745120569416073_5.225_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_1.0_depth_10.289634197605698_3.745120569416073_9.05_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
+  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_8.38818665215281_7.038524326067606_1.4_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_6.69_depth_8.38818665215281_7.038524326067606_5.225_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_1.0_depth_8.38818665215281_7.038524326067606_9.05_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
+  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_5.475000000000001_9.482978171439603_1.4_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_6.69_depth_5.475000000000001_9.482978171439603_5.225_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_1.0_depth_5.475000000000001_9.482978171439603_9.05_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
+  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_1.9014475454528883_10.783644895483679_1.4_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_6.69_depth_1.9014475454528883_10.783644895483679_5.225_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_1.0_depth_1.9014475454528883_10.783644895483679_9.05_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
+  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_-1.901447545452887_10.783644895483679_1.4_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_6.69_depth_-1.901447545452887_10.783644895483679_5.225_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_1.0_depth_-1.901447545452887_10.783644895483679_9.05_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
+  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_-5.474999999999998_9.482978171439605_1.4_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_6.69_depth_-5.474999999999998_9.482978171439605_5.225_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_1.0_depth_-5.474999999999998_9.482978171439605_9.05_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
+  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_-8.38818665215281_7.038524326067608_1.4_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_6.69_depth_-8.38818665215281_7.038524326067608_5.225_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_1.0_depth_-8.38818665215281_7.038524326067608_9.05_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
+  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_-10.289634197605697_3.7451205694160747_1.4_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_6.69_depth_-10.289634197605697_3.7451205694160747_5.225_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_1.0_depth_-10.289634197605697_3.7451205694160747_9.05_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
+  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_-10.950000000000001_1.340988245066352e-15_1.4_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_6.69_depth_-10.950000000000001_1.340988245066352e-15_5.225_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_1.0_depth_-10.950000000000001_1.340988245066352e-15_9.05_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
+  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_-10.289634197605698_-3.745120569416072_1.4_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_6.69_depth_-10.289634197605698_-3.745120569416072_5.225_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_1.0_depth_-10.289634197605698_-3.745120569416072_9.05_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
+  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_-8.38818665215281_-7.038524326067606_1.4_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_6.69_depth_-8.38818665215281_-7.038524326067606_5.225_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_1.0_depth_-8.38818665215281_-7.038524326067606_9.05_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
+  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_-5.475000000000005_-9.482978171439603_1.4_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_6.69_depth_-5.475000000000005_-9.482978171439603_5.225_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_1.0_depth_-5.475000000000005_-9.482978171439603_9.05_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
+  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_-1.9014475454528874_-10.783644895483679_1.4_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_6.69_depth_-1.9014475454528874_-10.783644895483679_5.225_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_1.0_depth_-1.9014475454528874_-10.783644895483679_9.05_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
+  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_1.9014475454528834_-10.78364489548368_1.4_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_6.69_depth_1.9014475454528834_-10.78364489548368_5.225_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_1.0_depth_1.9014475454528834_-10.78364489548368_9.05_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
+  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_5.475000000000001_-9.482978171439603_1.4_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_6.69_depth_5.475000000000001_-9.482978171439603_5.225_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_1.0_depth_5.475000000000001_-9.482978171439603_9.05_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
+  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_8.388186652152807_-7.038524326067609_1.4_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_6.69_depth_8.388186652152807_-7.038524326067609_5.225_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_1.0_depth_8.388186652152807_-7.038524326067609_9.05_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
+  - oobb_cylinder_shape_negative_type_0.9999999999999999_depth_10.289634197605698_-3.7451205694160716_1.4_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_0.4_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_6.69_depth_10.289634197605698_-3.7451205694160716_5.225_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_1.15_r2
+  - oobb_cylinder_shape_negative_type_1.0_depth_10.289634197605698_-3.7451205694160716_9.05_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_1.15_r1_0.4_r2
+  - oobb_cylinder_shape_negative_type_1.4700000000000002_depth_0_0_1.985_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_7.5_r1_7.5_r2
+  - oobb_cylinder_shape_negative_type_5.94_depth_0_0_5.67_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_8.551875172162198_r1_8.551875172162198_r2
+  - oobb_cylinder_shape_negative_type_0.7000000000000011_depth_0_0_8.969999999999999_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_8.551875172162198_r1_9.01779455764028_r2
+  - oobb_cylinder_shape_negative_type_2.0_depth_0_0_10.3_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_9.01779455764028_r1_9.01779455764028_r2
+  - oobb_text_shape_negative_type_0.6_depth_-3.65_-3.5_0.6_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_t_text_liberationsans:style=bold_font_4.0_size_180_0_0_rot
+  - oobb_text_shape_negative_type_0.6_depth_0.0_-3.5_0.6_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_2_text_liberationsans:style=bold_font_4.0_size_180_0_0_rot
+  - oobb_text_shape_negative_type_0.6_depth_3.65_-3.5_0.6_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_1_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_5_text_liberationsans:style=bold_font_4.0_size_180_0_0_rot
+  - polygon_shape_negative_type_0_3_0_pos_version_3_label_top_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_false_generate_stl_project_oomp_mode_torx_shape_t25_size_extra_0.6_height_label_top_oobb_name_t25_siz_11.25_thickness_1_width_3.1_0.0_3.0439902950186117_0.1995136647114984_2.8847272103883213_0.3797815421059436_2.646888617374527_0.5264988810722369_2.3665182744082176_0.6341066605011758_2.0844354103556904_0.7075704773708675_1.8388718910678303_0.761685676746956_1.658746676795018_0.818003336606089_1.55884572681199_0.9_1.5377850082788151_1.0275150922444565_1.5790750912955211_1.211666933596394_1.6549917135488983_1.4513887792304347_1.7324116139070416_1.7324116139070416_1.779405714759903_2.0290233430980913_1.7712640685463372_2.3083562761315313_1.6947790495515949_2.5364160920036563_1.5500000000000005_2.68467875173176_1.3492112454670173_2.735929756715155_1.1134631418419842_2.688137818237475_0.8674829026146248_2.555522224170328_0.6341066605011758_2.3665182744082176_0.42944369680679173_2.1589592566013023_0.2597967997723095_1.9733526103433505_0.120961668516203_1.8455184288505457_1.102182119232618e-16_1.8000000000000003_-0.12096166851620277_1.8455184288505457_-0.25979679977230924_1.9733526103433503_-0.42944369680679134_2.158959256601302_-0.6341066605011755_2.366518274408217_-0.8674829026146244_2.555522224170328_-1.1134631418419831_2.688137818237475_-1.3492112454670169_2.735929756715155_-1.5499999999999994_2.68467875173176_-1.6947790495515944_2.536416092003656_-1.7712640685463372_2.3083562761315313_-1.7794057147599032_2.0290233430980913_-1.7324116139070418_1.732411613907042_-1.6549917135488983_1.4513887792304352_-1.5790750912955214_1.211666933596395_-1.5377850082788156_1.0275150922444576_-1.55884572681199_0.9_-1.6587466767950174_0.8180033366060897_-1.8388718910678303_0.7616856767469562_-2.084435410355689_0.7075704773708675_-2.3665182744082154_0.634106660501176_-2.646888617374527_0.5264988810722366_-2.8847272103883204_0.37978154210594467_-3.0439902950186117_0.1995136647114986_-3.1_3.796405077356795e-16_-3.043990295018612_-0.19951366471149784_-2.8847272103883213_-0.37978154210594417_-2.646888617374528_-0.5264988810722362_-2.366518274408217_-0.6341066605011759_-2.0844354103556904_-0.7075704773708673_-1.8388718910678312_-0.7616856767469561_-1.6587466767950179_-0.8180033366060894_-1.5588457268119902_-0.8999999999999996_-1.5377850082788154_-1.0275150922444558_-1.5790750912955211_-1.211666933596394_-1.6549917135488978_-1.4513887792304343_-1.7324116139070413_-1.7324116139070393_-1.7794057147599032_-2.0290233430980904_-1.7712640685463374_-2.30835627613153_-1.6947790495515942_-2.5364160920036567_-1.5500000000000014_-2.6846787517317594_-1.349211245467018_-2.7359297567151555_-1.1134631418419827_-2.688137818237474_-0.8674829026146252_-2.5555222241703284_-0.6341066605011755_-2.366518274408217_-0.42944369680679256_-2.1589592566013027_-0.2597967997723094_-1.973352610343351_-0.12096166851620195_-1.8455184288505448_-3.3065463576978537e-16_-1.8000000000000003_0.12096166851620122_-1.8455184288505442_0.2597967997723086_-1.9733526103433503_0.4294436968067915_-2.1589592566013014_0.6341066605011743_-2.3665182744082163_0.8674829026146239_-2.5555222241703275_1.1134631418419814_-2.688137818237473_1.3492112454670167_-2.735929756715155_1.5500000000000005_-2.68467875173176_1.6947790495515938_-2.536416092003658_1.7712640685463361_-2.3083562761315344_1.7794057147599027_-2.0290233430980895_1.732411613907041_-1.7324116139070416_1.6549917135488992_-1.451388779230435_1.5790750912955214_-1.2116669335963952_1.5377850082788151_-1.0275150922444585_1.5588457268119893_-0.9000000000000009_1.658746676795018_-0.8180033366060894_1.8388718910678303_-0.7616856767469555_2.084435410355689_-0.7075704773708676_2.366518274408215_-0.6341066605011774_2.646888617374524_-0.5264988810722376_2.8847272103883217_-0.37978154210594395_3.0439902950186117_-0.1995136647114976_points
   description: oomlout oobb tool precision screwdriver label top 1x1x11.25
   description_extra: torx_shape_T25_size_extra
   description_main: label_top_1_width_1_height_11.25_mm_depth
@@ -4495,9 +4527,10 @@ thing:
   height: 1
   height_mm: 14
   id: tool_precision_screwdriver_version_3_label_top_torx_t25_size
+  id_oobb: tool_precision_screwdriver_version_3_label_top_torx_t25_size
   kwargs:
     extra: torx_shape_T25_size
-    filter: ''
+    filter: version_3_label_top
     generate_stl: false
     height: 1
     modes:

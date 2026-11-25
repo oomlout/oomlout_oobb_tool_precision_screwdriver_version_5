@@ -20,7 +20,7 @@ def colour_bands(family, size):
     band = {}
     band["role"] = "Drive"
     band["from_mm"] = 1.4
-    band["to_mm"] = 2.6
+    band["to_mm"] = 3.0
     band["colour"] = entry["color"]
     band["hex"] = entry["hex"]
     bands.append(band)
@@ -35,12 +35,15 @@ def colour_bands(family, size):
         digits = f"{int(tenths):02d}"
     if not digits.isascii() or not digits.isdigit() or len(digits) > 3:
         raise ValueError(f"Unsupported cap marking {size}")
+    # Five 0.2 mm layers per digit and four teal layers between digits.
+    digit_width_mm = 1.0
+    teal_gap_mm = 0.8
     for index, digit in enumerate(digits):
         row = next(row for row in entries if row["resistor_digit"] == int(digit))
         band = {}
         band["role"] = f"Digit {digit}"
-        band["from_mm"] = round(4.0 + index * 1.6, 1)
-        band["to_mm"] = round(4.8 + index * 1.6, 1)
+        band["from_mm"] = round(4.0 + index * (digit_width_mm + teal_gap_mm), 1)
+        band["to_mm"] = round(band["from_mm"] + digit_width_mm, 1)
         band["colour"] = row["color"]
         band["hex"] = row["hex"]
         bands.append(band)

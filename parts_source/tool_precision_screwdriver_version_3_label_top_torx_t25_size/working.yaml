@@ -8,17 +8,17 @@ colour_bands:
   from_mm: 1.4
   hex: '#FBC02D'
   role: Drive
-  to_mm: 2.6
+  to_mm: 3.0
 - colour: red
   from_mm: 4.0
   hex: '#D32F2F'
   role: Digit 2
-  to_mm: 4.8
+  to_mm: 5.0
 - colour: green
-  from_mm: 5.6
+  from_mm: 5.8
   hex: '#388E3C'
   role: Digit 5
-  to_mm: 6.4
+  to_mm: 6.8
 description_extra: torx_shape_T25_size_extra
 description_main: label_top_1_width_1_height_11.25_mm_depth
 extra: torx_shape_T25_size

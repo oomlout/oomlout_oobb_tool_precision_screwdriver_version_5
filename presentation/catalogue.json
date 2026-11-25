@@ -12,14 +12,14 @@
         20.759,
         11.25
       ],
-      "key": "a442d13d1f549743460beb20",
+      "key": "a9002af8f3e58665d81d766d",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Hex 0.7 bearing cap \u00b7 Print model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_hex_0_7_size/3dpr_banded.3mf",
-      "banded_sha256": "150fe3e3ff06eebf24c9daa873819cd176712afe073c9bd37dbb0a3c11046235",
-      "image_sha256": "97f828855da25a545bd178c92c9537adb90fa4066fcf28eae3da7ebeb1583263"
+      "banded_sha256": "f08a8da3cf38e3851c7b00cff0909abc1ad7c753a0704c9571f9b887885aaa4f",
+      "image_sha256": "cf10eca434cea7cd267c9058047a7da6525e0a1731da4a476cb8559dccccd212"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_hex_0_7_size",
@@ -32,14 +32,14 @@
         20.759,
         11.25
       ],
-      "key": "1ca3bc5d464229fb612e899e",
+      "key": "9a518447c78b358ee54e2072",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Hex 0.7 bearing cap \u00b7 Nominal model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_hex_0_7_size/3dpr_banded.3mf",
-      "banded_sha256": "150fe3e3ff06eebf24c9daa873819cd176712afe073c9bd37dbb0a3c11046235",
-      "image_sha256": "99dfcbd69a43fa8dca18fbeba8cdf188007115792ff66b502c96b5f745b29576"
+      "banded_sha256": "f08a8da3cf38e3851c7b00cff0909abc1ad7c753a0704c9571f9b887885aaa4f",
+      "image_sha256": "c82eda9353aa59f5d1b221879a87c2c2ce070fd901804339d8dd49dbe1fb0e87"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_hex_0_9_size",
@@ -52,14 +52,14 @@
         20.759,
         11.25
       ],
-      "key": "c366bb6a104d38c23629e725",
+      "key": "7847b1a315b43a1c502364d7",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Hex 0.9 bearing cap \u00b7 Print model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_hex_0_9_size/3dpr_banded.3mf",
-      "banded_sha256": "36dee99bdfb4395f5ebc99ea0cc1a2952dbd69506e6c5349396772473483ade0",
-      "image_sha256": "32ef89f902adfb2cb3fc7e7ed83191ea57d88b94d07d13f89a2e85bc372c936c"
+      "banded_sha256": "08e40f27532ad5b839a8dc75a602d3d06a5e72544d22b365636db7aa9cf5ea48",
+      "image_sha256": "9ef7c6a9728d135cb2bede7b4eeb6f1978b0aab915d3d3a18eb2dee76d3bc702"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_hex_0_9_size",
@@ -72,14 +72,14 @@
         20.759,
         11.25
       ],
-      "key": "7de66d3fcad8a3caa3525593",
+      "key": "abec720a3a57093c94dd1c76",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Hex 0.9 bearing cap \u00b7 Nominal model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_hex_0_9_size/3dpr_banded.3mf",
-      "banded_sha256": "36dee99bdfb4395f5ebc99ea0cc1a2952dbd69506e6c5349396772473483ade0",
-      "image_sha256": "b05e68e05d4ee8fc01e1e8fcf200a639954a611a7093edf67f055b8821f4caa7"
+      "banded_sha256": "08e40f27532ad5b839a8dc75a602d3d06a5e72544d22b365636db7aa9cf5ea48",
+      "image_sha256": "f290ff544e2c357b349765da9862ec763cb2fd3a64c940fe4a43e4306829e223"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_hex_1_3_size",
@@ -92,14 +92,14 @@
         20.759,
         11.25
       ],
-      "key": "236e334c0e7a058c2972f060",
+      "key": "b9864c4bfb181ba57fbbd926",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Hex 1.3 bearing cap \u00b7 Print model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_hex_1_3_size/3dpr_banded.3mf",
-      "banded_sha256": "cc6466130973660eeb9accb3142df8c319d6922c4bf36caa97d5939b688704d8",
-      "image_sha256": "e36e3367fa065ed2b49a8061d75a53509cc3811d53f5164d56f808bde18f9e8b"
+      "banded_sha256": "30d090a87d36197dc1442fc5281028c745b291e147774db49a265e359be1850a",
+      "image_sha256": "9dbc63e1442b1e235482e965e6e483346e995d12c3cb2c63c2b450cee82f6b5a"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_hex_1_3_size",
@@ -112,14 +112,14 @@
         20.759,
         11.25
       ],
-      "key": "c8b7b54b3cac687a25d39c3d",
+      "key": "57df7aa2739bdffcce1c4738",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Hex 1.3 bearing cap \u00b7 Nominal model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_hex_1_3_size/3dpr_banded.3mf",
-      "banded_sha256": "cc6466130973660eeb9accb3142df8c319d6922c4bf36caa97d5939b688704d8",
-      "image_sha256": "867a31a55fc950624576b4328fbd828992903e2380a9534067513de7e80b68fd"
+      "banded_sha256": "30d090a87d36197dc1442fc5281028c745b291e147774db49a265e359be1850a",
+      "image_sha256": "3c8ba49b9be82c8e59b773b742d8ada3edf2487ddc06dffdd7e40898b1e9f54a"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_hex_1_5_size",
@@ -132,14 +132,14 @@
         20.759,
         11.25
       ],
-      "key": "7b39b7222ff3fd6862299fdc",
+      "key": "e15d1434b18e1cdcf2a420d2",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Hex 1.5 bearing cap \u00b7 Print model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_hex_1_5_size/3dpr_banded.3mf",
-      "banded_sha256": "2ecd559ad6361833638fe7982114faad7c7ece3f99b20ad15de7e9bffc1affcb",
-      "image_sha256": "09acec863ec9f29e0282a89310b469903d142371f2ec954259ea84dd28377df9"
+      "banded_sha256": "6f1a7f413e65581fdbe866368f8eccd338f34f8d19bad0d64a12cdba79c253f9",
+      "image_sha256": "3789acefce8f1c21c84de49ca04421ed18656cfea08724dcb9655ba043505dec"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_hex_1_5_size",
@@ -152,14 +152,14 @@
         20.759,
         11.25
       ],
-      "key": "f181a2942041bea8d44b10e3",
+      "key": "ead07f2816593f741e38f4da",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Hex 1.5 bearing cap \u00b7 Nominal model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_hex_1_5_size/3dpr_banded.3mf",
-      "banded_sha256": "2ecd559ad6361833638fe7982114faad7c7ece3f99b20ad15de7e9bffc1affcb",
-      "image_sha256": "e68de54d9a1cba31f8f242737c72dfd39465e16ec210589a6c6df31b8c2f30d2"
+      "banded_sha256": "6f1a7f413e65581fdbe866368f8eccd338f34f8d19bad0d64a12cdba79c253f9",
+      "image_sha256": "5b16b8326d5ff39dece8ed181aa8e4b18ac159f93ce6be0c62c7e91e6e85a37e"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_hex_2_5_size",
@@ -172,14 +172,14 @@
         20.759,
         11.25
       ],
-      "key": "032b50cc07dbaf7997ae12ce",
+      "key": "9209d649c085798a997316a6",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Hex 2.5 bearing cap \u00b7 Print model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_hex_2_5_size/3dpr_banded.3mf",
-      "banded_sha256": "658cbeddd66b8544c38ffaf1b998451eb77b103d4e585a712c3b06d63c4d45f6",
-      "image_sha256": "6f4db595079deba217ef4bc5d15b215a474c5a10819451407e114b918220b962"
+      "banded_sha256": "2ab318f677b1ccdf72c6a38be2ea134a57bc84cfadaff45603fc4eeb96bc0e8c",
+      "image_sha256": "aa38803007752579408ee5f0c24b2f4cae6d9eb424ad315536b897e15f431c9c"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_hex_2_5_size",
@@ -192,14 +192,14 @@
         20.759,
         11.25
       ],
-      "key": "7d2cd9e1f2ba533489b51fe4",
+      "key": "2a5215fae125878630f2a56f",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Hex 2.5 bearing cap \u00b7 Nominal model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_hex_2_5_size/3dpr_banded.3mf",
-      "banded_sha256": "658cbeddd66b8544c38ffaf1b998451eb77b103d4e585a712c3b06d63c4d45f6",
-      "image_sha256": "fa2a03c70c8b1761eb7fe20e33f8033787ee8dc4bb4c3d94414f9bbcd8e4006c"
+      "banded_sha256": "2ab318f677b1ccdf72c6a38be2ea134a57bc84cfadaff45603fc4eeb96bc0e8c",
+      "image_sha256": "cdeea877bc58ae9bf413206c0183c81003d3364a20c2e1f456c9643def7ad419"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_hex_2_size",
@@ -212,14 +212,14 @@
         20.759,
         11.25
       ],
-      "key": "22d031b758b8ddc25b4b1fc4",
+      "key": "ca25787689018631a0ad0cb5",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Hex 2 bearing cap \u00b7 Print model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_hex_2_size/3dpr_banded.3mf",
-      "banded_sha256": "f3cc876c84979c252635bd7ee0331cb7b35ff434315c097e477e38e0bfb7306d",
-      "image_sha256": "ce179bf13e5c349f49aafed9b96cfd8e1626ae8a242206213b18d24fa00b5392"
+      "banded_sha256": "91dc8b6995ce45608e3dc5b637db3c64dd9b4d773e096d3101bc936de63a6ff6",
+      "image_sha256": "6085c0ef4c37ab8e21413ba18b3daf4585ead548173d7a2c7d46d91627eb2971"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_hex_2_size",
@@ -232,14 +232,14 @@
         20.759,
         11.25
       ],
-      "key": "55c19dbb08ea41df33d236c8",
+      "key": "6d417dc4e359c7df4dc3d575",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Hex 2 bearing cap \u00b7 Nominal model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_hex_2_size/3dpr_banded.3mf",
-      "banded_sha256": "f3cc876c84979c252635bd7ee0331cb7b35ff434315c097e477e38e0bfb7306d",
-      "image_sha256": "e2dc4364bc6a11e767640984d590dbdda313f1c6e14e46b651eb234a6e1fe8ef"
+      "banded_sha256": "91dc8b6995ce45608e3dc5b637db3c64dd9b4d773e096d3101bc936de63a6ff6",
+      "image_sha256": "883b211f90df8d6b3ed37f96f02adaa4f22584ff6ba054730c75a116bab08dd6"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_hex_3_5_size",
@@ -252,14 +252,14 @@
         20.759,
         11.25
       ],
-      "key": "1aa8f7503dbab65c62d58c08",
+      "key": "9018a8027dc895115bb8360b",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Hex 3.5 bearing cap \u00b7 Print model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_hex_3_5_size/3dpr_banded.3mf",
-      "banded_sha256": "7b8d04b6962909f4921246e01bf57910c82d92ab02918226cffa7cdeebc1f0a3",
-      "image_sha256": "5fda36789343ff15218e741572c760e52a076d223fa274d1d1686b74df8c4ff1"
+      "banded_sha256": "931d244c26f691ff293c4ff7c6ecf4f6408aad59e260f70e0dc5eb9709c1214c",
+      "image_sha256": "c646e445865d7dda7d867f2fd297d7f0f4b715e6e46dc7dc9b94622632ceb472"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_hex_3_5_size",
@@ -272,14 +272,14 @@
         20.759,
         11.25
       ],
-      "key": "d4d4e98a5be796126e328cbb",
+      "key": "2c57e746841f97d14b45f13e",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Hex 3.5 bearing cap \u00b7 Nominal model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_hex_3_5_size/3dpr_banded.3mf",
-      "banded_sha256": "7b8d04b6962909f4921246e01bf57910c82d92ab02918226cffa7cdeebc1f0a3",
-      "image_sha256": "69c66833966f40ff99010404862931467dbdb66ad774d5db503f3c850f286223"
+      "banded_sha256": "931d244c26f691ff293c4ff7c6ecf4f6408aad59e260f70e0dc5eb9709c1214c",
+      "image_sha256": "db2dfe1c14cc27ec53a4ba485935dd3bc01333fcf34f7397550c7e4f376247aa"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_hex_3_size",
@@ -292,14 +292,14 @@
         20.759,
         11.25
       ],
-      "key": "4da82dd7b5b050a89ccbfc93",
+      "key": "7ceb54ca1d3e33deb701514d",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Hex 3 bearing cap \u00b7 Print model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_hex_3_size/3dpr_banded.3mf",
-      "banded_sha256": "893f18cd913149677afd32a2321257ed2b91b84931d15c7a52196ee023d5aea3",
-      "image_sha256": "e5cae4286075eba48eb86042577e716df192b994613ec7ddb23b8f26bac6b8f2"
+      "banded_sha256": "12e724101890e84baf89c5e8f3802043887bb8b278d988456380949bd879a9f4",
+      "image_sha256": "e575843312b402f8cdb98d9d77d2257eb5c5d2d71ca1198e28c15666bf4767ce"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_hex_3_size",
@@ -312,14 +312,14 @@
         20.759,
         11.25
       ],
-      "key": "e3c9b207263ecf386bb12e71",
+      "key": "5504aaed48944e326bce51a0",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Hex 3 bearing cap \u00b7 Nominal model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_hex_3_size/3dpr_banded.3mf",
-      "banded_sha256": "893f18cd913149677afd32a2321257ed2b91b84931d15c7a52196ee023d5aea3",
-      "image_sha256": "dd995aeb15e37f8462da6980a62c2a9e9ba8a0c500bc985c54d9d501abc63ed1"
+      "banded_sha256": "12e724101890e84baf89c5e8f3802043887bb8b278d988456380949bd879a9f4",
+      "image_sha256": "260cebbb0aac190ec8755c9075e7e5ac2c7e812351c7c9d43e4b2e4f9fc90d9c"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_hex_4_size",
@@ -332,14 +332,14 @@
         20.759,
         11.25
       ],
-      "key": "dbcc451bd1024354d577ba80",
+      "key": "75bc7bc2da2b54d7ab82d264",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Hex 4 bearing cap \u00b7 Print model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_hex_4_size/3dpr_banded.3mf",
-      "banded_sha256": "78a9cb53590ca8ba1b47a9de5ff8af96367db116bad0d4e81a6eb45b8c624807",
-      "image_sha256": "43beb13d21a42d52d4464151355dbbffe41323086355f4219fa90c7ba4a4df00"
+      "banded_sha256": "f85bdff44f1275b67e6effbbd09e35a134ad9ab2c103d4cb269aef6256d18b55",
+      "image_sha256": "765a6c2a4ea56a1d6ac9046962effdb0f3052eb9dfe5fd5a7195f85441309857"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_hex_4_size",
@@ -352,14 +352,14 @@
         20.759,
         11.25
       ],
-      "key": "9f3d8a0c090d27ac6775881d",
+      "key": "04c4620bcd8dcc26d48b1673",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Hex 4 bearing cap \u00b7 Nominal model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_hex_4_size/3dpr_banded.3mf",
-      "banded_sha256": "78a9cb53590ca8ba1b47a9de5ff8af96367db116bad0d4e81a6eb45b8c624807",
-      "image_sha256": "ccda2c65e035e263e8b91b2f6ef4b3f0fae21b6d093fcbaf6fa02c9fd4169fa2"
+      "banded_sha256": "f85bdff44f1275b67e6effbbd09e35a134ad9ab2c103d4cb269aef6256d18b55",
+      "image_sha256": "20c5cd41eeef4f898628277328125412dd3225b0ca14d1062d6a5506fc1a5350"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_hex_5_size",
@@ -372,14 +372,14 @@
         20.759,
         11.25
       ],
-      "key": "7d488d807ebd843f5b336937",
+      "key": "c9e2888f235fe33bd9571131",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Hex 5 bearing cap \u00b7 Print model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_hex_5_size/3dpr_banded.3mf",
-      "banded_sha256": "0edcf6cda94076ce77586dc1961319f90a8817247a8f73928ae0b1f0abf5d142",
-      "image_sha256": "e945d52098686f7c942db529d118418f131ee738984af5f216ecfe2fb0f28012"
+      "banded_sha256": "e960131bcf31e7982b84d4c3f1b67b93c3bed64b35dd917f2d54a2ed207f5422",
+      "image_sha256": "c247423d1a83c1e4743d960a44d4de81e779873aa27e19b713ad9a334e4c7eb1"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_hex_5_size",
@@ -392,14 +392,14 @@
         20.759,
         11.25
       ],
-      "key": "031ab1800951f3376e1b501e",
+      "key": "f671b25affc3cd20e1c14f49",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Hex 5 bearing cap \u00b7 Nominal model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_hex_5_size/3dpr_banded.3mf",
-      "banded_sha256": "0edcf6cda94076ce77586dc1961319f90a8817247a8f73928ae0b1f0abf5d142",
-      "image_sha256": "e71164f3e3010aa5577469536ec6c0fe2d455cd5a894d3c5e5edc06cd4c1337e"
+      "banded_sha256": "e960131bcf31e7982b84d4c3f1b67b93c3bed64b35dd917f2d54a2ed207f5422",
+      "image_sha256": "2cb3bddd8dd9c6239c42fcfcfcaa04e2680b7cd080adb70e823dc371210c02d1"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_phillips_000_size",
@@ -412,14 +412,14 @@
         20.759,
         11.25
       ],
-      "key": "ebc0fc57ce83d3dc1c7509a2",
+      "key": "d74555a51c312433d81c829d",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Phillips 000 bearing cap \u00b7 Print model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_phillips_000_size/3dpr_banded.3mf",
-      "banded_sha256": "3b6514f57ce5b5dc29f72445c3bdca90bf95bdcac4b53993c7659dfaea2e82b9",
-      "image_sha256": "ed10ea17b31dab471699ea430b5d4df6e33ffc6ba410894f44527c9227e84fba"
+      "banded_sha256": "2219b2d617fa309880b717b93c895a838a0bc75e2989f51ef22414841e0072c0",
+      "image_sha256": "540fb3f323f95796d086e63cdade94539197f062fb69eb191b21e698d8c1e6c0"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_phillips_000_size",
@@ -432,14 +432,14 @@
         20.759,
         11.25
       ],
-      "key": "82ce5d94a1884464f480175b",
+      "key": "c883d553e0994df2617391fb",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Phillips 000 bearing cap \u00b7 Nominal model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_phillips_000_size/3dpr_banded.3mf",
-      "banded_sha256": "3b6514f57ce5b5dc29f72445c3bdca90bf95bdcac4b53993c7659dfaea2e82b9",
-      "image_sha256": "e21b38df1f4c577851dd141a2c220cc0d19a5bf3268703800a88f2215a23b474"
+      "banded_sha256": "2219b2d617fa309880b717b93c895a838a0bc75e2989f51ef22414841e0072c0",
+      "image_sha256": "247c63d8551e2d181909a334563a881b7664bdb424b47463859196e582526810"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_phillips_00_size",
@@ -452,14 +452,14 @@
         20.759,
         11.25
       ],
-      "key": "10365fd385bbfc4823bb6f91",
+      "key": "265ba39bfc96c3cb915a2add",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Phillips 00 bearing cap \u00b7 Print model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_phillips_00_size/3dpr_banded.3mf",
-      "banded_sha256": "5992affd52c5bfdedb70a35edb2d896bff7e19a240ed642018fce1ab45011f21",
-      "image_sha256": "5f1a9afe6ae9f47fc957ab1c8d31bc2b67eeea4b2a71186e6153499323cd98de"
+      "banded_sha256": "dfedf8df6f9aee5ae648a722cc3c18783635ca79dbc9be447fe4e2e8d1e5d74e",
+      "image_sha256": "1a0fd71b558e60d6a482a48dd92dcc84733b329deaa6f161650919c670bbc4ca"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_phillips_00_size",
@@ -472,14 +472,14 @@
         20.759,
         11.25
       ],
-      "key": "4fd4fbebfc9a42a607b171dd",
+      "key": "69eb86551b4213c7650c8c88",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Phillips 00 bearing cap \u00b7 Nominal model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_phillips_00_size/3dpr_banded.3mf",
-      "banded_sha256": "5992affd52c5bfdedb70a35edb2d896bff7e19a240ed642018fce1ab45011f21",
-      "image_sha256": "30d2eeace0cd8dc70218caf2cb3a583701082ff0a454da784fb07af2528e922a"
+      "banded_sha256": "dfedf8df6f9aee5ae648a722cc3c18783635ca79dbc9be447fe4e2e8d1e5d74e",
+      "image_sha256": "bc04d9b61cb8e7c7f32773f2530a2aaad812299f05fc92a58b7e4d6571392d4c"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_phillips_0_size",
@@ -492,14 +492,14 @@
         20.759,
         11.25
       ],
-      "key": "860cd101d8583b3815eb6344",
+      "key": "a01cdee1c1c6f6210b42d66b",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Phillips 0 bearing cap \u00b7 Print model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_phillips_0_size/3dpr_banded.3mf",
-      "banded_sha256": "3e18a823d8723956e4561be14a6a7f311d2f8e4d88cf8e099cefa741d30b4c26",
-      "image_sha256": "fcd5b16177fc1f5c54c7d4a4b61191bfcc42d496c5b50fa797de80dbfd053def"
+      "banded_sha256": "1991f0a5feb06043a118cd0d4e275689aea65a2970f894bc2eae33139497fd00",
+      "image_sha256": "b64c304c9ce5ac73ebcbbf1d69483dc4db364ceb00b11b21aac04d43d0f70338"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_phillips_0_size",
@@ -512,14 +512,14 @@
         20.759,
         11.25
       ],
-      "key": "260f089b6be9174584cc620b",
+      "key": "b6e647ffa120f95bd6900310",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Phillips 0 bearing cap \u00b7 Nominal model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_phillips_0_size/3dpr_banded.3mf",
-      "banded_sha256": "3e18a823d8723956e4561be14a6a7f311d2f8e4d88cf8e099cefa741d30b4c26",
-      "image_sha256": "4ad89716e6fab164a23a9980ec51630640e7d32168afb6306663702e12f372f3"
+      "banded_sha256": "1991f0a5feb06043a118cd0d4e275689aea65a2970f894bc2eae33139497fd00",
+      "image_sha256": "e3f09afa57e77f9676afcbc5cb26170245fa0bded76ad76c7db5c75ade23bfa3"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_phillips_1_size",
@@ -532,14 +532,14 @@
         20.759,
         11.25
       ],
-      "key": "d7f277684ec8db8ea61c76ce",
+      "key": "8881bfdb5811b1822ab53e92",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Phillips 1 bearing cap \u00b7 Print model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_phillips_1_size/3dpr_banded.3mf",
-      "banded_sha256": "d7091adc85df1c8628cf34aca61bef6567838be2c4dbaebd38b7122ca3d7e2ee",
-      "image_sha256": "74461c17fbd9cd3901767a7c3ddcfb5b7396c1f3ae637887ba2bb040a0589ce2"
+      "banded_sha256": "0a24411615c65adac606079b6a1591cb1d06b4a100154b009172f4a22ce084f1",
+      "image_sha256": "b8061aac9f5fd853591815e05c6b6cc611080051b5d28ea01b74f0709e4b0220"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_phillips_1_size",
@@ -552,14 +552,14 @@
         20.759,
         11.25
       ],
-      "key": "26083b6c010e9f29ce04d82f",
+      "key": "9ae607f1f666a25b61613267",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Phillips 1 bearing cap \u00b7 Nominal model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_phillips_1_size/3dpr_banded.3mf",
-      "banded_sha256": "d7091adc85df1c8628cf34aca61bef6567838be2c4dbaebd38b7122ca3d7e2ee",
-      "image_sha256": "dc8409e5787d51da5e19c1986cb3717a241109733fa0a0fb84a3944adeafd021"
+      "banded_sha256": "0a24411615c65adac606079b6a1591cb1d06b4a100154b009172f4a22ce084f1",
+      "image_sha256": "e0d650f13fe3aac0c0f6b7a9cf7cb8937ad560f6a4e2b622e6fc6839676da03a"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_phillips_2_size",
@@ -572,14 +572,14 @@
         20.759,
         11.25
       ],
-      "key": "5b8bae954bd6be223145951b",
+      "key": "ffc316233a537e32676d0d30",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Phillips 2 bearing cap \u00b7 Print model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_phillips_2_size/3dpr_banded.3mf",
-      "banded_sha256": "44024c1ba064e29950dbd0dd05dac53e3c33bbe8154e4cc5d9dbfe157db91bfb",
-      "image_sha256": "8a9e0307e534d93db9df4cc784de716530c79199c15f0bd96eed9019873a1f93"
+      "banded_sha256": "06cd462ec79c44e10dbe449524ecad5b3e99611be47e69bfd3d3be305e0788cb",
+      "image_sha256": "e76a29a1eba4ddb56086cdc44885a83f5a69f0fa855eef1814f1317d868145c9"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_phillips_2_size",
@@ -592,14 +592,14 @@
         20.759,
         11.25
       ],
-      "key": "3fff2fff20cef274fb19587d",
+      "key": "8a31fca6d471ac5f570301b3",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Phillips 2 bearing cap \u00b7 Nominal model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_phillips_2_size/3dpr_banded.3mf",
-      "banded_sha256": "44024c1ba064e29950dbd0dd05dac53e3c33bbe8154e4cc5d9dbfe157db91bfb",
-      "image_sha256": "9a41874cc5c5c1918e667e99d668ec62683d5f0daae585352107aff5cfa8f15c"
+      "banded_sha256": "06cd462ec79c44e10dbe449524ecad5b3e99611be47e69bfd3d3be305e0788cb",
+      "image_sha256": "9d0274b1cc79c8136f4e870d141c4ed350f9866616bb828726dab0aae26f115b"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_slotted_0_8_size",
@@ -612,14 +612,14 @@
         20.759,
         11.25
       ],
-      "key": "09f90c740151edf0ec63cfff",
+      "key": "72bb5a89060b19ee76cc92ff",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Slotted 0.8 bearing cap \u00b7 Print model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_slotted_0_8_size/3dpr_banded.3mf",
-      "banded_sha256": "afed363283aeba5ab6abcc858440208e773a5cca04c3ea61b371d0026e9e7bba",
-      "image_sha256": "8adc1f12ec977e77c7a51097be747009a3aad26d92b7167cef0fc6348e4867d5"
+      "banded_sha256": "0d2f58d43d32003e3452c8bf61be0ec091ba5353b36090f92e4980c27f450b51",
+      "image_sha256": "a811f6fda4d260b345204a0a7b6cdc6b8ac57e119dacee4145d8f4356590aa91"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_slotted_0_8_size",
@@ -632,14 +632,14 @@
         20.759,
         11.25
       ],
-      "key": "f6b61db331536e10b9a58ab3",
+      "key": "7dd81a85a88f407e2e7dd24a",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Slotted 0.8 bearing cap \u00b7 Nominal model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_slotted_0_8_size/3dpr_banded.3mf",
-      "banded_sha256": "afed363283aeba5ab6abcc858440208e773a5cca04c3ea61b371d0026e9e7bba",
-      "image_sha256": "822c4cc081d6ce334c2a5a02a23ea485e79e5be27ed7042efcf6ee83f5472fbe"
+      "banded_sha256": "0d2f58d43d32003e3452c8bf61be0ec091ba5353b36090f92e4980c27f450b51",
+      "image_sha256": "ac12a7522316bd18d18a23b14db0b221aee9cb0490847531b0c3e92444e60998"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_slotted_1_2_size",
@@ -652,14 +652,14 @@
         20.759,
         11.25
       ],
-      "key": "40cb2994566f5a5e80c7b5ce",
+      "key": "c405481e1fbac264f67195ff",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Slotted 1.2 bearing cap \u00b7 Print model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_slotted_1_2_size/3dpr_banded.3mf",
-      "banded_sha256": "e104503a7f3ba5506dcd78b30ab64dc18fcf88228d27f25952d7ed73c303fa34",
-      "image_sha256": "18676764273b240acacfe5196577fa058db7643e5278b82998b130b4c1cfa175"
+      "banded_sha256": "1c2ccec99032ab216c1a976bb8793276577970e4c9754df711423e29eb5421f7",
+      "image_sha256": "fddf16ed904e456430687c4dd24ea096b7ab33a316cd697a76bc46cc9ced8e6b"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_slotted_1_2_size",
@@ -672,14 +672,14 @@
         20.759,
         11.25
       ],
-      "key": "3e3d2d7ea056c2053865b94d",
+      "key": "727d36b73e19e33232b5cd9c",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Slotted 1.2 bearing cap \u00b7 Nominal model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_slotted_1_2_size/3dpr_banded.3mf",
-      "banded_sha256": "e104503a7f3ba5506dcd78b30ab64dc18fcf88228d27f25952d7ed73c303fa34",
-      "image_sha256": "01eb936d74e8442c2c6ad0e0966912ad646127211d5332a7577ec47e9b1cbee1"
+      "banded_sha256": "1c2ccec99032ab216c1a976bb8793276577970e4c9754df711423e29eb5421f7",
+      "image_sha256": "05c9fc53bdd3abfc408d4190e52333412db23aeaf51f48e78df9ec866e38212f"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_slotted_1_5_size",
@@ -692,14 +692,14 @@
         20.759,
         11.25
       ],
-      "key": "5e5dbb352fc11af53e50c394",
+      "key": "8bd39c08e6f62da5490026c2",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Slotted 1.5 bearing cap \u00b7 Print model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_slotted_1_5_size/3dpr_banded.3mf",
-      "banded_sha256": "53f40457b25a978d0ce81439175a89d2fb89ac9ac260312c1b350e8b87b851e8",
-      "image_sha256": "038e6a565c4e51ac5decfce4a9c9d115732f8df05de4b45ec0b840d1bf28deef"
+      "banded_sha256": "6bcb6c675549edd315737155785b2c343839cb31d6c148ef4577d61107855fde",
+      "image_sha256": "1828be53ec76afdbf27806516d784c83d196b8a2f7edf0773e58cea178af07b3"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_slotted_1_5_size",
@@ -712,14 +712,14 @@
         20.759,
         11.25
       ],
-      "key": "3f3bbb09e109845b5663d099",
+      "key": "4525f9ae6098b4afd2506a37",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Slotted 1.5 bearing cap \u00b7 Nominal model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_slotted_1_5_size/3dpr_banded.3mf",
-      "banded_sha256": "53f40457b25a978d0ce81439175a89d2fb89ac9ac260312c1b350e8b87b851e8",
-      "image_sha256": "da48073baa760ce0e47f550a096553c053123cba847d112e559943799685cfb5"
+      "banded_sha256": "6bcb6c675549edd315737155785b2c343839cb31d6c148ef4577d61107855fde",
+      "image_sha256": "f51f2d0f8cd39b2c3b48c64c7ad5b7ed5f689ae5a3aba1728a36f34656bc02e9"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_slotted_1_8_size",
@@ -732,14 +732,14 @@
         20.759,
         11.25
       ],
-      "key": "b19e0685d4654d644535069f",
+      "key": "971f4c7f47505da6e5e52890",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Slotted 1.8 bearing cap \u00b7 Print model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_slotted_1_8_size/3dpr_banded.3mf",
-      "banded_sha256": "b4e652735e65e427f41bc6a01ab3d6a1b7d5101936ec09462e6dd59dfd04bef9",
-      "image_sha256": "853df2a893728baff37152d5d7caf2a34afcc190907b5304f0a4eb19f4e55b08"
+      "banded_sha256": "b9dffc29ddcd3cb7b2390958b50452e138a1eead9b41b67f744e72d493e0a267",
+      "image_sha256": "cf1753588b4e3bf9c476a535b53e293169e59c3a5fb0ad33f1142b89b83f3f4f"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_slotted_1_8_size",
@@ -752,14 +752,14 @@
         20.759,
         11.25
       ],
-      "key": "e9e74b97b5e1092b837ed00e",
+      "key": "aac548b52ea2a5cb6916a70b",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Slotted 1.8 bearing cap \u00b7 Nominal model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_slotted_1_8_size/3dpr_banded.3mf",
-      "banded_sha256": "b4e652735e65e427f41bc6a01ab3d6a1b7d5101936ec09462e6dd59dfd04bef9",
-      "image_sha256": "9ee443ed07763a488c107e169588be30fa074687a71856f2f0e1df1fe6e00f01"
+      "banded_sha256": "b9dffc29ddcd3cb7b2390958b50452e138a1eead9b41b67f744e72d493e0a267",
+      "image_sha256": "167b9d8f67a4e5bc7f8f5e65c73eb15c176be351fa19db2fa321d1ce1721f9a1"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_slotted_1_size",
@@ -772,14 +772,14 @@
         20.759,
         11.25
       ],
-      "key": "e63a95226d917cf72fe311fb",
+      "key": "4823993c1748423a2110814d",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Slotted 1 bearing cap \u00b7 Print model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_slotted_1_size/3dpr_banded.3mf",
-      "banded_sha256": "67d3b1c148893315824636237ce0b0a519e261bd9489eecf8a090c4837e71998",
-      "image_sha256": "e4e16e094c12b92e1051697fc26922f169b0e8be13e4ac68d155ec38e186351e"
+      "banded_sha256": "9f34cb2d64643c5119bbec82074ce370615fec76b3279c45a86774d33d2dc90e",
+      "image_sha256": "679914a601029a737b3a94b7caf3482d31991172d3f6f7abda6cd5018396219e"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_slotted_1_size",
@@ -792,14 +792,14 @@
         20.759,
         11.25
       ],
-      "key": "083e6c4b4cee8a78a5e0e99b",
+      "key": "32e333821d55894d0a2da1cd",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Slotted 1 bearing cap \u00b7 Nominal model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_slotted_1_size/3dpr_banded.3mf",
-      "banded_sha256": "67d3b1c148893315824636237ce0b0a519e261bd9489eecf8a090c4837e71998",
-      "image_sha256": "b4455ab86bef515cae872651be787fb674763f6ac6f8c428adf8d687568398bc"
+      "banded_sha256": "9f34cb2d64643c5119bbec82074ce370615fec76b3279c45a86774d33d2dc90e",
+      "image_sha256": "038643182d439a0e82011a4bf4b16a8d72d9db43687fdb85d8088e5489732ddf"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_slotted_2_5_size",
@@ -812,14 +812,14 @@
         20.759,
         11.25
       ],
-      "key": "90da9e6d616b3c463f59f494",
+      "key": "f404aaa14793e1881917d93e",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Slotted 2.5 bearing cap \u00b7 Print model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_slotted_2_5_size/3dpr_banded.3mf",
-      "banded_sha256": "e8cda6212fba922ef6d046758d9d7dec0354551f0bfc7de092dabad11e8204e6",
-      "image_sha256": "870a00372bca4afbccda9bc4546c4c3fb0e3a65081d0c52c27f18d6ea98ade43"
+      "banded_sha256": "88adcabb3edb334068dffe23efd27630916ae8ec2935d390b967836bb4b4ce45",
+      "image_sha256": "fd4cc5934067bc3c84561c27627b4d6d8d167031472764d6caf4d17e16d5c94f"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_slotted_2_5_size",
@@ -832,14 +832,14 @@
         20.759,
         11.25
       ],
-      "key": "5b743a0b012a72a7ff5c5aa6",
+      "key": "3b582822480c6bcac6f96519",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Slotted 2.5 bearing cap \u00b7 Nominal model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_slotted_2_5_size/3dpr_banded.3mf",
-      "banded_sha256": "e8cda6212fba922ef6d046758d9d7dec0354551f0bfc7de092dabad11e8204e6",
-      "image_sha256": "b71ccd6fda675aec981aab852a88c1cc428324d7e21ad92e2ec330079253cefa"
+      "banded_sha256": "88adcabb3edb334068dffe23efd27630916ae8ec2935d390b967836bb4b4ce45",
+      "image_sha256": "fa4eae1c396e56da9a052f48ea951e23bea7c2983f2a0aa24f32cb6834c166af"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_slotted_2_size",
@@ -852,14 +852,14 @@
         20.759,
         11.25
       ],
-      "key": "97026ca80955f81a8fc2df11",
+      "key": "046533ae0579ace03aacf5c8",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Slotted 2 bearing cap \u00b7 Print model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_slotted_2_size/3dpr_banded.3mf",
-      "banded_sha256": "d6949a3401480bf854d90064f1afcb9447e61e281a4306e606f22fdc9fb73c20",
-      "image_sha256": "e70d0783b7b3476a9624d89a5fcfcda1f2e9c257ab8fbd1daef8782f23e8ab99"
+      "banded_sha256": "3c3556d221b27389b25ac82a9d0d8dcc8177b051d905d9537bf7caccbfa2cf57",
+      "image_sha256": "4c4909099594000aefce4ad53e08825064698b0003db568c060bcb035aa2e5ed"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_slotted_2_size",
@@ -872,14 +872,14 @@
         20.759,
         11.25
       ],
-      "key": "848edb15cc6ca902f0de9d6e",
+      "key": "5f838b626ceb72b749cbae74",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Slotted 2 bearing cap \u00b7 Nominal model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_slotted_2_size/3dpr_banded.3mf",
-      "banded_sha256": "d6949a3401480bf854d90064f1afcb9447e61e281a4306e606f22fdc9fb73c20",
-      "image_sha256": "87888c5a68ebf18fbb44f04abcbb71c09e3a39ae6da213149c7fb3bc9b490930"
+      "banded_sha256": "3c3556d221b27389b25ac82a9d0d8dcc8177b051d905d9537bf7caccbfa2cf57",
+      "image_sha256": "d53833a7de2f5f597778bb99b8d7125ed7fb0eea1c6a5399788396126cf7f634"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_slotted_3_size",
@@ -892,14 +892,14 @@
         20.759,
         11.25
       ],
-      "key": "251dcd1eb23b22cd5a74cce9",
+      "key": "2396770d439035c0fe0d95fa",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Slotted 3 bearing cap \u00b7 Print model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_slotted_3_size/3dpr_banded.3mf",
-      "banded_sha256": "0f5653acfd95afa7b2c86276b9d28d9a3fc779b51dc6785bd4812185f40c2479",
-      "image_sha256": "7ee1fb9e625e52745c34200eaa8b3cd75f465b552e84e68aec6d41f4b35927d5"
+      "banded_sha256": "42c1134730b823c2487b2311e892ad997659e53a36b73199a8c324675e1e49dd",
+      "image_sha256": "1e9831d21e883ab11d460c2766321782aa46e5fd865b8f02af217ed944ec6a34"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_slotted_3_size",
@@ -912,14 +912,14 @@
         20.759,
         11.25
       ],
-      "key": "c978abf3a1973d725f3be57a",
+      "key": "a06e47f1b2f5bd8e92e6a9e7",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Slotted 3 bearing cap \u00b7 Nominal model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_slotted_3_size/3dpr_banded.3mf",
-      "banded_sha256": "0f5653acfd95afa7b2c86276b9d28d9a3fc779b51dc6785bd4812185f40c2479",
-      "image_sha256": "c25e0566ae31204da37d41c997920fa60b91ca110994999a7d4ee2a6d577aa2c"
+      "banded_sha256": "42c1134730b823c2487b2311e892ad997659e53a36b73199a8c324675e1e49dd",
+      "image_sha256": "180a9f010def496620d0c00adbf5752646d7d6699accfc866a79f97279aef148"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_slotted_4_size",
@@ -932,14 +932,14 @@
         20.759,
         11.25
       ],
-      "key": "153686b32b862cdf4fb6435f",
+      "key": "928d7a6bff6a50623f69f1ff",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Slotted 4 bearing cap \u00b7 Print model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_slotted_4_size/3dpr_banded.3mf",
-      "banded_sha256": "5a7c15ec13f563722790429bad2a271772940eb0a19dc0c05d8012bd2cf315c6",
-      "image_sha256": "54c5626260ff6d69fd2b7639303fc843a37711737563af26c35f34d246265aca"
+      "banded_sha256": "4488458bf8585f96d5c6686d273442dfab9f2b6bb76923ad260843feaf768734",
+      "image_sha256": "4e225e9f5468fa24939bf1d967ce245c869a87ae7ca3d82c6f6e3cb0383bf68d"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_slotted_4_size",
@@ -952,14 +952,14 @@
         20.759,
         11.25
       ],
-      "key": "c8a3999da129737065693109",
+      "key": "564a0fbfcc2636aeafbc63e8",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Slotted 4 bearing cap \u00b7 Nominal model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_slotted_4_size/3dpr_banded.3mf",
-      "banded_sha256": "5a7c15ec13f563722790429bad2a271772940eb0a19dc0c05d8012bd2cf315c6",
-      "image_sha256": "45bb9facf09f0f9c0b1172e08ae9fea8276a1ddb711c7584f7be5ca9f88e11ff"
+      "banded_sha256": "4488458bf8585f96d5c6686d273442dfab9f2b6bb76923ad260843feaf768734",
+      "image_sha256": "28157fb6d2644c41f821a528c397fea49426e68275f30c0b29d8962807fd17e2"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_torx_t10_size",
@@ -972,14 +972,14 @@
         20.759,
         11.25
       ],
-      "key": "855874ca7077687581044032",
+      "key": "84f1d68da17c3c728ffea8e0",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Torx T10 bearing cap \u00b7 Print model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_torx_t10_size/3dpr_banded.3mf",
-      "banded_sha256": "a9bdfe5e7681a77b2361f5350eee192bcffecad3a0cbf9fa7f74d9cfadeeabc2",
-      "image_sha256": "0038fa5802f756ac408ab959c3c44336cfe3afffc5a8b02c89c2b8a2b44c2092"
+      "banded_sha256": "b80db10baf46cb2b03cb328db2feabdfbc1697195fbbf4d74d471d551c741691",
+      "image_sha256": "215c7772093d5b7219ec4a46e218599fce918bea6f79c3b5225dcaecdf9a74b8"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_torx_t10_size",
@@ -992,14 +992,14 @@
         20.759,
         11.25
       ],
-      "key": "2de67cc34bfd9c28eaf229b3",
+      "key": "c351d3b076e0bc9f8a69ba01",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Torx T10 bearing cap \u00b7 Nominal model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_torx_t10_size/3dpr_banded.3mf",
-      "banded_sha256": "a9bdfe5e7681a77b2361f5350eee192bcffecad3a0cbf9fa7f74d9cfadeeabc2",
-      "image_sha256": "c0e2720e6cf9540e93a8ed6dcdaec23e05d43c44cd99c61e99c5234e8928c425"
+      "banded_sha256": "b80db10baf46cb2b03cb328db2feabdfbc1697195fbbf4d74d471d551c741691",
+      "image_sha256": "62a523cd62d3b439eec60302c3a59be018ab1949335216de2d330b4aab6a12ca"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_torx_t15_size",
@@ -1012,14 +1012,14 @@
         20.759,
         11.25
       ],
-      "key": "ef1835d3b2d13146ea2b6628",
+      "key": "397ef676211aaac59b67ed20",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Torx T15 bearing cap \u00b7 Print model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_torx_t15_size/3dpr_banded.3mf",
-      "banded_sha256": "d47191ff8065b033ab854ddae28143313bb1a3ece2b5662408eb5388e10e4a75",
-      "image_sha256": "dce2e4aa2b2f023cbcc4177f4457894726875e2cbef86bad71792b51f75f1f4b"
+      "banded_sha256": "71c20838c9184228e6f2fd237ec841b7550a426f1572c61a3174afbcbf170490",
+      "image_sha256": "749f0d8c4dee7368533876580b60865f750dba15b060bbe4ca1f7d16ee368279"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_torx_t15_size",
@@ -1032,14 +1032,14 @@
         20.759,
         11.25
       ],
-      "key": "a70d5494d349d42af24f319a",
+      "key": "e595c0ea17af50dc53990779",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Torx T15 bearing cap \u00b7 Nominal model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_torx_t15_size/3dpr_banded.3mf",
-      "banded_sha256": "d47191ff8065b033ab854ddae28143313bb1a3ece2b5662408eb5388e10e4a75",
-      "image_sha256": "ab8a6d0261e55fed087d2ece5ab0715830261d0821d8153327bfbdbb7d4673e6"
+      "banded_sha256": "71c20838c9184228e6f2fd237ec841b7550a426f1572c61a3174afbcbf170490",
+      "image_sha256": "0145d1ed38a36ce19f3536cd3f43b04d4e012a20748fb187fafc859c25dd539d"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_torx_t20_size",
@@ -1052,14 +1052,14 @@
         20.759,
         11.25
       ],
-      "key": "08c3a1e3bb1c5b5ae19ddfee",
+      "key": "782eefe75e2d7332f5c4ef30",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Torx T20 bearing cap \u00b7 Print model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_torx_t20_size/3dpr_banded.3mf",
-      "banded_sha256": "c3bf7adfc18ca2b1682d32771bb2d6b6827e602126ab99694ca3101a6303e99b",
-      "image_sha256": "91c726c005aa8169419e509272cf9b9f48a506d65ecbc992ff9d764ca8fcd915"
+      "banded_sha256": "c2390966cc7735e1267192bef11f56e5492b107a2a23ee2ce3f75232c060a355",
+      "image_sha256": "98bf7f37459c634312a7779d3264c57a62f31799517d04b802f44bf840bb0c83"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_torx_t20_size",
@@ -1072,14 +1072,14 @@
         20.759,
         11.25
       ],
-      "key": "c2e2603f0b14693b88f4409c",
+      "key": "35dba0efa9a5dfa8ededfe22",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Torx T20 bearing cap \u00b7 Nominal model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_torx_t20_size/3dpr_banded.3mf",
-      "banded_sha256": "c3bf7adfc18ca2b1682d32771bb2d6b6827e602126ab99694ca3101a6303e99b",
-      "image_sha256": "4d211e01d06f22e8af18f849b1bb8f7c9ec619f2599ae14ebafda24d4fd69ece"
+      "banded_sha256": "c2390966cc7735e1267192bef11f56e5492b107a2a23ee2ce3f75232c060a355",
+      "image_sha256": "f16ebe90c3a0391b4b12ed4e4dae1a342f3fab6cf56996755a91a6e6da3c6fd7"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_torx_t25_size",
@@ -1092,14 +1092,14 @@
         20.759,
         11.25
       ],
-      "key": "61120d16afe741fe7ff57278",
+      "key": "a60e1d0016f358c95d117096",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Torx T25 bearing cap \u00b7 Print model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_torx_t25_size/3dpr_banded.3mf",
-      "banded_sha256": "ed9242ef28069a3c31b046fed0472c848cfb4f6005f52c60ba9240ddf886ac56",
-      "image_sha256": "002200cc6100cf2f4c24f78d4bf437d73f25c5582b9014dd60469252681140fa"
+      "banded_sha256": "3b3e788206816e2849af3c6bdd31b60ee153d50a4387b2d43a4c4b181ce213f3",
+      "image_sha256": "53375fbf28e156838628e97ba20d37875e03babff5a894d64ab78aefcd5da5af"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_torx_t25_size",
@@ -1112,14 +1112,14 @@
         20.759,
         11.25
       ],
-      "key": "6de0bd1b0069e82c55d2e02d",
+      "key": "a99e04c48f37e44392466edb",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Torx T25 bearing cap \u00b7 Nominal model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_torx_t25_size/3dpr_banded.3mf",
-      "banded_sha256": "ed9242ef28069a3c31b046fed0472c848cfb4f6005f52c60ba9240ddf886ac56",
-      "image_sha256": "8acd75ffd3cb91e891372d9f6a97003d42176fbb10e4f4bf96447a9f077c4204"
+      "banded_sha256": "3b3e788206816e2849af3c6bdd31b60ee153d50a4387b2d43a4c4b181ce213f3",
+      "image_sha256": "3981352fd325753013d32aa68f82e01daeb9188d7461be3dcf04050aab59d958"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_torx_t2_size",
@@ -1132,14 +1132,14 @@
         20.759,
         11.25
       ],
-      "key": "617b7a94181ace0f0243ec0e",
+      "key": "2cd49e9338b83cfff27b3e96",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Torx T2 bearing cap \u00b7 Print model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_torx_t2_size/3dpr_banded.3mf",
-      "banded_sha256": "40a948f64bea1e5842eb34851a1487ba6ff34429b219c64d305af12ad55e2a3b",
-      "image_sha256": "4ad0e4c96b2566314921245d39dc3ae7b50a487bc5e6a1d89fc1d3b811eb0c3d"
+      "banded_sha256": "6178c2f9b8b35540ebcc03d5319fe4c753b1a07f3ec3ae0bb3dc6dfd0f8ec090",
+      "image_sha256": "8e52f1d3ce8e8b5a5fc63eaa422083c5d5d8b91ba7a8563d023ecaab9f509ca8"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_torx_t2_size",
@@ -1152,14 +1152,14 @@
         20.759,
         11.25
       ],
-      "key": "84b0963c47f0e86afb8668af",
+      "key": "26e660c4400b95e2fcbf157f",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Torx T2 bearing cap \u00b7 Nominal model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_torx_t2_size/3dpr_banded.3mf",
-      "banded_sha256": "40a948f64bea1e5842eb34851a1487ba6ff34429b219c64d305af12ad55e2a3b",
-      "image_sha256": "4159c214182377ee7e2bb7615921818b94a07f4bf3e1be15b76bce355ba77e4b"
+      "banded_sha256": "6178c2f9b8b35540ebcc03d5319fe4c753b1a07f3ec3ae0bb3dc6dfd0f8ec090",
+      "image_sha256": "8de88fdc4edede611a6d9a7fe3aab1dbfdf7b03c7b7f037fde0af01ba5bc6401"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_torx_t3_size",
@@ -1172,14 +1172,14 @@
         20.759,
         11.25
       ],
-      "key": "22bd1340e5c453577de05749",
+      "key": "fd87056851fcc4f39e3e83b0",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Torx T3 bearing cap \u00b7 Print model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_torx_t3_size/3dpr_banded.3mf",
-      "banded_sha256": "33af1e563ea08f57e47d41d24ee8ff44595aead9096372a98e4a532360599c5b",
-      "image_sha256": "a672bba812da8548a1d84a95ef4dd66b21726c2d6a1e471693342fc239e8ff14"
+      "banded_sha256": "798cb92ff47c9122383b6f25503743dd8f9af5b8873d893f7ae1505fb992d0e5",
+      "image_sha256": "36991094d6aa8e53bed608e64f171cb95ac1cef6b758685d07165ffb976bd053"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_torx_t3_size",
@@ -1192,14 +1192,14 @@
         20.759,
         11.25
       ],
-      "key": "cf2e60017292a7ae593bac10",
+      "key": "b1f42f65b6eb9c08b6b70161",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Torx T3 bearing cap \u00b7 Nominal model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_torx_t3_size/3dpr_banded.3mf",
-      "banded_sha256": "33af1e563ea08f57e47d41d24ee8ff44595aead9096372a98e4a532360599c5b",
-      "image_sha256": "87231227ed1e83c7b3c2e330ddf5b59d90950bfe0e0c24e5152fb36ec95bc056"
+      "banded_sha256": "798cb92ff47c9122383b6f25503743dd8f9af5b8873d893f7ae1505fb992d0e5",
+      "image_sha256": "cf76b165ccb349a07db8dd269519fcb32ea5d122e005a0f1a73b4c057fb84cb3"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_torx_t4_size",
@@ -1212,14 +1212,14 @@
         20.759,
         11.25
       ],
-      "key": "d97d0aa40c02a0ecf21133d5",
+      "key": "995e99338d3e293d2bee950e",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Torx T4 bearing cap \u00b7 Print model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_torx_t4_size/3dpr_banded.3mf",
-      "banded_sha256": "e428ec16a2c943b7f4a634bf354bb5ae61f53ee4874b880fe52156f823d1d4d1",
-      "image_sha256": "8c5c4c8e67f97e4443ec064b49fe5c8bbe6ae939ecab14d6666903ff9ded07d7"
+      "banded_sha256": "a8dca1d1d95487185e79f1954df87b03e2f92ef98b9d715411adc57c338af9ee",
+      "image_sha256": "0bcd5c9421704fa7fda62bc2e3d8a7beb11cd55db1123a925196811c3ab86aa7"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_torx_t4_size",
@@ -1232,14 +1232,14 @@
         20.759,
         11.25
       ],
-      "key": "7eacb666fde00e6ddf0ffdf9",
+      "key": "4e8fcddd2b543f1b2a2d98bf",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Torx T4 bearing cap \u00b7 Nominal model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_torx_t4_size/3dpr_banded.3mf",
-      "banded_sha256": "e428ec16a2c943b7f4a634bf354bb5ae61f53ee4874b880fe52156f823d1d4d1",
-      "image_sha256": "87fd498e81951567d29da56fc24c6c06f3d7691d8eda6d900b39d301578ff02c"
+      "banded_sha256": "a8dca1d1d95487185e79f1954df87b03e2f92ef98b9d715411adc57c338af9ee",
+      "image_sha256": "c11ffa226e4cab7c9b264c4fa7404924674b67307b9c977a9a89bf3c753d3c32"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_torx_t5_size",
@@ -1252,14 +1252,14 @@
         20.759,
         11.25
       ],
-      "key": "41a82bb9cca3cd1abdcec387",
+      "key": "bc467f24a39329b76d30a856",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Torx T5 bearing cap \u00b7 Print model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_torx_t5_size/3dpr_banded.3mf",
-      "banded_sha256": "a66e254c1190b614f47875a04b9432f2eba7f0811ee3e93c77823caaf6460778",
-      "image_sha256": "89948becc510e4323293ecc2cfd3872557dc9cdded55416e29571e593b7cc5f4"
+      "banded_sha256": "5d11a94adc0a398978b0192493152a349f1c87437f27996425c9356d7a57da85",
+      "image_sha256": "29205c22eca9a216d1dfc808b3a3656a2ab4df66e404083a718d2df03ad3a9b6"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_torx_t5_size",
@@ -1272,14 +1272,14 @@
         20.759,
         11.25
       ],
-      "key": "e3702e472d8b7714a59b7562",
+      "key": "dcf6aff4eaa42b9fe07817a9",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Torx T5 bearing cap \u00b7 Nominal model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_torx_t5_size/3dpr_banded.3mf",
-      "banded_sha256": "a66e254c1190b614f47875a04b9432f2eba7f0811ee3e93c77823caaf6460778",
-      "image_sha256": "2933f3dab5ecc88710a575c31bc810a47f1ecca5114e9e10bf09ba698b83f765"
+      "banded_sha256": "5d11a94adc0a398978b0192493152a349f1c87437f27996425c9356d7a57da85",
+      "image_sha256": "d85c7950b54b283519b4fd083b04249a92c4cca1a41080327592e781fa14e9fe"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_torx_t6_size",
@@ -1292,14 +1292,14 @@
         20.759,
         11.25
       ],
-      "key": "7d15c6cb49a43b8e867e1288",
+      "key": "151cf8792b334f27c2c0eb4d",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Torx T6 bearing cap \u00b7 Print model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_torx_t6_size/3dpr_banded.3mf",
-      "banded_sha256": "a543d5d2f41b4bbc6adcd97abc15d776a20101a36f09ba447c6f072dff1cc29e",
-      "image_sha256": "4fbb22704f92b8a392664f9e9e3b80962162d3ce8d860bc38a565ff352ff33b3"
+      "banded_sha256": "a1ed4cfd042b8c8734bdfe8f7e179eca2fd81eeb2d1be6c44bcd45049070e04c",
+      "image_sha256": "fcde0329fec82c690083ea043442cbcfce6ee14eaaf4ed8c38811626d6b571a7"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_torx_t6_size",
@@ -1312,14 +1312,14 @@
         20.759,
         11.25
       ],
-      "key": "af65675f78ebd655f5cdb56c",
+      "key": "53e8392c7e823227b1978145",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Torx T6 bearing cap \u00b7 Nominal model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_torx_t6_size/3dpr_banded.3mf",
-      "banded_sha256": "a543d5d2f41b4bbc6adcd97abc15d776a20101a36f09ba447c6f072dff1cc29e",
-      "image_sha256": "7fba49a4295d6cc079a09dcd044396b792fa25e31f11a04752a5bef6b87947dc"
+      "banded_sha256": "a1ed4cfd042b8c8734bdfe8f7e179eca2fd81eeb2d1be6c44bcd45049070e04c",
+      "image_sha256": "b6d46f70a5fd21e4ef81ff9a9ccbf5244ef338292c00dc77e8d0a2ce33864f59"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_torx_t7_size",
@@ -1332,14 +1332,14 @@
         20.759,
         11.25
       ],
-      "key": "751f6e8bf141fba4e29aa7f8",
+      "key": "7955d904fc55329991f70d0f",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Torx T7 bearing cap \u00b7 Print model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_torx_t7_size/3dpr_banded.3mf",
-      "banded_sha256": "0b030203e7f3ca5c64464fb08208afcb80af5bbf523108961c394166bc5e410b",
-      "image_sha256": "6356a30d6df1ee22074dfcae1b4293375b2a8c1a37cb314f73f86683e2842c4d"
+      "banded_sha256": "128e430607c271652f1912481755f2adab21a293a6ada91642643523a310ec80",
+      "image_sha256": "1d63fb3b0511155ec72497aebd459f7a4a6deffbe0bfbc84523ecff4310b7dc6"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_torx_t7_size",
@@ -1352,14 +1352,14 @@
         20.759,
         11.25
       ],
-      "key": "97a3d7b69d5b80e7d905cb2b",
+      "key": "6afd60926d1f0cb5ccaddbfe",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Torx T7 bearing cap \u00b7 Nominal model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_torx_t7_size/3dpr_banded.3mf",
-      "banded_sha256": "0b030203e7f3ca5c64464fb08208afcb80af5bbf523108961c394166bc5e410b",
-      "image_sha256": "1c5b7721339d26137420b1c597707c990cb0a5d6d772bfb8a33318ea6ad62a5b"
+      "banded_sha256": "128e430607c271652f1912481755f2adab21a293a6ada91642643523a310ec80",
+      "image_sha256": "35de655675450a74166f36154de3d5b2273d4909d9f1f6fe1b2f528c842153af"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_torx_t8_size",
@@ -1372,14 +1372,14 @@
         20.759,
         11.25
       ],
-      "key": "8231f6033f9e11a81360732a",
+      "key": "05d2c2b34b18b7c2851806c4",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Torx T8 bearing cap \u00b7 Print model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_torx_t8_size/3dpr_banded.3mf",
-      "banded_sha256": "72abd836a8e5d0649e3b95cea303008bca27a9e32970ad1dca558ad1bf85ee25",
-      "image_sha256": "09ba2a8f78ff5fe85148e337eebe85e558a8ec2be87e34cc8236aef701b6f35e"
+      "banded_sha256": "425b99bab7e0f7517440501fdaa817a59340b7fa7bfa3a5a265485131cc2f9e1",
+      "image_sha256": "091243ddc3149173fff2649d0ef6339a8ce96a2ea9277102ee126baa3233b277"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_torx_t8_size",
@@ -1392,14 +1392,14 @@
         20.759,
         11.25
       ],
-      "key": "89918cc19c134e780900f8f6",
+      "key": "4b7114075bce776e0095cf71",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Torx T8 bearing cap \u00b7 Nominal model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_torx_t8_size/3dpr_banded.3mf",
-      "banded_sha256": "72abd836a8e5d0649e3b95cea303008bca27a9e32970ad1dca558ad1bf85ee25",
-      "image_sha256": "9a02b5fa4e7bcba613e3406ea1c8bedcce2be25b547b2a907d4900952965dbf5"
+      "banded_sha256": "425b99bab7e0f7517440501fdaa817a59340b7fa7bfa3a5a265485131cc2f9e1",
+      "image_sha256": "f09958a5375e8d80be784c9c1825def5a4ef6d0cca96cfd9cbc6e3e7755ecbf9"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_torx_t9_size",
@@ -1412,14 +1412,14 @@
         20.759,
         11.25
       ],
-      "key": "5aeaf717b423680197bb155f",
+      "key": "a2b41e3ccf982d05eb89db95",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Torx T9 bearing cap \u00b7 Print model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_torx_t9_size/3dpr_banded.3mf",
-      "banded_sha256": "b996ca104b005fd1210df81525e4cf629a619f2dfde83ba51e517b7f1eaae4c8",
-      "image_sha256": "5170eba465cfc62cc9738400c911c10a7162797a19216c52ed72945c13f9125c"
+      "banded_sha256": "de4671a57fb2c5fae451100464e90d1b73305829dd906e8737e68a21871f3b75",
+      "image_sha256": "9ca654c9b53b7df622578fe06fef4f894f104e2619d98124c5f3ad8a32d2fc68"
     },
     {
       "id": "tool_precision_screwdriver_version_3_label_top_torx_t9_size",
@@ -1432,14 +1432,14 @@
         20.759,
         11.25
       ],
-      "key": "b4bcd461d9c25b0858d83ec4",
+      "key": "56f72db06ea9a3cd0850d9b2",
       "sheet_version": 1,
       "renderer_sha256": "c1d08dd4b0b9abe5c7900c7411ec78b3ffe2633934a351f011d6da25b0e46651",
       "blender": "Blender 5.2.2 LTS",
       "label": "Torx T9 bearing cap \u00b7 Nominal model, face shown upright",
       "banded_source": "parts/tool_precision_screwdriver_version_3_label_top_torx_t9_size/3dpr_banded.3mf",
-      "banded_sha256": "b996ca104b005fd1210df81525e4cf629a619f2dfde83ba51e517b7f1eaae4c8",
-      "image_sha256": "08ee2d31b32fa5a232967ad965364bb0d88933e0a696c797bcb3958a5ae1ec12"
+      "banded_sha256": "de4671a57fb2c5fae451100464e90d1b73305829dd906e8737e68a21871f3b75",
+      "image_sha256": "c826a5e37cf717852a46e0d491eaad94cc804af0a5ad8a32033f2ed15c847fc5"
     },
     {
       "id": "tool_precision_screwdriver_version_3_precision_screwdriver_2_25_mm_diameter_bit_main",

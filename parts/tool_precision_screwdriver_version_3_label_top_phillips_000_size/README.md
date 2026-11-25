@@ -13,10 +13,10 @@ Filaments (3): teal, black, red.
 
 | Band from the palm face | Filament | Print Z (mm) |
 | --- | --- | --- |
-| Drive | Red | 1.4–2.6 |
-| Digit 0 | Black | 4.0–4.8 |
-| Digit 0 | Black | 5.6–6.4 |
-| Digit 0 | Black | 7.2–8.0 |
+| Drive | Red | 1.4–3.0 |
+| Digit 0 | Black | 4.0–5.0 |
+| Digit 0 | Black | 5.8–6.8 |
+| Digit 0 | Black | 7.6–8.6 |
 
 Print face down. Assign teal to the shell and black to the marking. For a two-colour cap, import these two STLs together at their original coordinates.
 
@@ -42,6 +42,27 @@ color: oomlout_oobb_tool_precision_screwdriver
 color_parts:
 - main
 - support
+colour_bands:
+- colour: red
+  from_mm: 1.4
+  hex: '#D32F2F'
+  role: Drive
+  to_mm: 3.0
+- colour: black
+  from_mm: 4.0
+  hex: '#000000'
+  role: Digit 0
+  to_mm: 5.0
+- colour: black
+  from_mm: 5.8
+  hex: '#000000'
+  role: Digit 0
+  to_mm: 6.8
+- colour: black
+  from_mm: 7.6
+  hex: '#000000'
+  role: Digit 0
+  to_mm: 8.6
 description_extra: phillips_shape_000_size_extra
 description_main: label_top_1_width_1_height_11.25_mm_depth
 extra: phillips_shape_000_size
@@ -49,7 +70,7 @@ id: tool_precision_screwdriver_version_3_label_top_phillips_000_size
 id_oobb: tool_precision_screwdriver_version_3_label_top_phillips_000_size
 kwargs:
   extra: phillips_shape_000_size
-  filter: ''
+  filter: version_3_label_top
   generate_stl: false
   height: 1
   modes:
@@ -99,27 +120,6 @@ taxonomy_8: ''
 taxonomy_9: ''
 thickness: 11.25
 type: github
-colour_bands:
-- colour: red
-  from_mm: 1.4
-  hex: '#D32F2F'
-  role: Drive
-  to_mm: 2.6
-- colour: black
-  from_mm: 4.0
-  hex: '#000000'
-  role: Digit 0
-  to_mm: 4.8
-- colour: black
-  from_mm: 5.6
-  hex: '#000000'
-  role: Digit 0
-  to_mm: 6.4
-- colour: black
-  from_mm: 7.2
-  hex: '#000000'
-  role: Digit 0
-  to_mm: 8.0
 ```
 
 </details>

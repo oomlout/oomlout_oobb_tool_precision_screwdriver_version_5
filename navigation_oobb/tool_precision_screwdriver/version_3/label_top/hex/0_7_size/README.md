@@ -13,9 +13,9 @@ Filaments (4): teal, black, green, violet.
 
 | Band from the palm face | Filament | Print Z (mm) |
 | --- | --- | --- |
-| Drive | Green | 1.4–2.6 |
-| Digit 0 | Black | 4.0–4.8 |
-| Digit 7 | Violet | 5.6–6.4 |
+| Drive | Green | 1.4–3.0 |
+| Digit 0 | Black | 4.0–5.0 |
+| Digit 7 | Violet | 5.8–6.8 |
 
 Print face down. Assign teal to the shell and black to the marking. For a two-colour cap, import these two STLs together at their original coordinates.
 
@@ -41,6 +41,22 @@ color: oomlout_oobb_tool_precision_screwdriver
 color_parts:
 - main
 - support
+colour_bands:
+- colour: green
+  from_mm: 1.4
+  hex: '#388E3C'
+  role: Drive
+  to_mm: 3.0
+- colour: black
+  from_mm: 4.0
+  hex: '#000000'
+  role: Digit 0
+  to_mm: 5.0
+- colour: violet
+  from_mm: 5.8
+  hex: '#7B1FA2'
+  role: Digit 7
+  to_mm: 6.8
 description_extra: hex_shape_0.7_size_extra
 description_main: label_top_1_width_1_height_11.25_mm_depth
 extra: hex_shape_0.7_size
@@ -48,7 +64,7 @@ id: tool_precision_screwdriver_version_3_label_top_hex_0_7_size
 id_oobb: tool_precision_screwdriver_version_3_label_top_hex_0_7_size
 kwargs:
   extra: hex_shape_0.7_size
-  filter: ''
+  filter: version_3_label_top
   generate_stl: false
   height: 1
   modes:
@@ -98,22 +114,6 @@ taxonomy_8: ''
 taxonomy_9: ''
 thickness: 11.25
 type: github
-colour_bands:
-- colour: green
-  from_mm: 1.4
-  hex: '#388E3C'
-  role: Drive
-  to_mm: 2.6
-- colour: black
-  from_mm: 4.0
-  hex: '#000000'
-  role: Digit 0
-  to_mm: 4.8
-- colour: violet
-  from_mm: 5.6
-  hex: '#7B1FA2'
-  role: Digit 7
-  to_mm: 6.4
 ```
 
 </details>

@@ -3,6 +3,22 @@ color: oomlout_oobb_tool_precision_screwdriver
 color_parts:
 - main
 - support
+colour_bands:
+- colour: green
+  from_mm: 1.4
+  hex: '#388E3C'
+  role: Drive
+  to_mm: 3.0
+- colour: brown
+  from_mm: 4.0
+  hex: '#7B3F00'
+  role: Digit 1
+  to_mm: 5.0
+- colour: orange
+  from_mm: 5.8
+  hex: '#F57C00'
+  role: Digit 3
+  to_mm: 6.8
 description_extra: hex_shape_1.3_size_extra
 description_main: label_top_1_width_1_height_11.25_mm_depth
 extra: hex_shape_1.3_size
@@ -10,7 +26,7 @@ id: tool_precision_screwdriver_version_3_label_top_hex_1_3_size
 id_oobb: tool_precision_screwdriver_version_3_label_top_hex_1_3_size
 kwargs:
   extra: hex_shape_1.3_size
-  filter: ''
+  filter: version_3_label_top
   generate_stl: false
   height: 1
   modes:
@@ -60,19 +76,3 @@ taxonomy_8: ''
 taxonomy_9: ''
 thickness: 11.25
 type: github
-colour_bands:
-- colour: green
-  from_mm: 1.4
-  hex: '#388E3C'
-  role: Drive
-  to_mm: 2.6
-- colour: brown
-  from_mm: 4.0
-  hex: '#7B3F00'
-  role: Digit 1
-  to_mm: 4.8
-- colour: orange
-  from_mm: 5.6
-  hex: '#F57C00'
-  role: Digit 3
-  to_mm: 6.4

@@ -8,12 +8,12 @@ colour_bands:
   from_mm: 1.4
   hex: '#FBC02D'
   role: Drive
-  to_mm: 2.6
+  to_mm: 3.0
 - colour: yellow
   from_mm: 4.0
   hex: '#FBC02D'
   role: Digit 4
-  to_mm: 4.8
+  to_mm: 5.0
 description_extra: torx_shape_T4_size_extra
 description_main: label_top_1_width_1_height_11.25_mm_depth
 extra: torx_shape_T4_size

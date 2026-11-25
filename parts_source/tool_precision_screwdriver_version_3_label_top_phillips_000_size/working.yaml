@@ -8,22 +8,22 @@ colour_bands:
   from_mm: 1.4
   hex: '#D32F2F'
   role: Drive
-  to_mm: 2.6
+  to_mm: 3.0
 - colour: black
   from_mm: 4.0
   hex: '#000000'
   role: Digit 0
-  to_mm: 4.8
+  to_mm: 5.0
 - colour: black
-  from_mm: 5.6
+  from_mm: 5.8
   hex: '#000000'
   role: Digit 0
-  to_mm: 6.4
+  to_mm: 6.8
 - colour: black
-  from_mm: 7.2
+  from_mm: 7.6
   hex: '#000000'
   role: Digit 0
-  to_mm: 8.0
+  to_mm: 8.6
 description_extra: phillips_shape_000_size_extra
 description_main: label_top_1_width_1_height_11.25_mm_depth
 extra: phillips_shape_000_size

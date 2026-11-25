@@ -3,6 +3,17 @@ color: oomlout_oobb_tool_precision_screwdriver
 color_parts:
 - main
 - support
+colour_bands:
+- colour: yellow
+  from_mm: 1.4
+  hex: '#FBC02D'
+  role: Drive
+  to_mm: 3.0
+- colour: orange
+  from_mm: 4.0
+  hex: '#F57C00'
+  role: Digit 3
+  to_mm: 5.0
 description_extra: torx_shape_T3_size_extra
 description_main: label_top_1_width_1_height_11.25_mm_depth
 extra: torx_shape_T3_size
@@ -10,7 +21,7 @@ id: tool_precision_screwdriver_version_3_label_top_torx_t3_size
 id_oobb: tool_precision_screwdriver_version_3_label_top_torx_t3_size
 kwargs:
   extra: torx_shape_T3_size
-  filter: ''
+  filter: version_3_label_top
   generate_stl: false
   height: 1
   modes:
@@ -60,14 +71,3 @@ taxonomy_8: ''
 taxonomy_9: ''
 thickness: 11.25
 type: github
-colour_bands:
-- colour: yellow
-  from_mm: 1.4
-  hex: '#FBC02D'
-  role: Drive
-  to_mm: 2.6
-- colour: orange
-  from_mm: 4.0
-  hex: '#F57C00'
-  role: Digit 3
-  to_mm: 4.8
