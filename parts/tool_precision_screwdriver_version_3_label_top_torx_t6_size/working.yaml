@@ -1,0 +1,73 @@
+classification: project
+color: oomlout_oobb_tool_precision_screwdriver
+color_parts:
+- main
+- support
+description_extra: torx_shape_T6_size_extra
+description_main: label_top_1_width_1_height_11.25_mm_depth
+extra: torx_shape_T6_size
+id: tool_precision_screwdriver_version_3_label_top_torx_t6_size
+id_oobb: tool_precision_screwdriver_version_3_label_top_torx_t6_size
+kwargs:
+  extra: torx_shape_T6_size
+  filter: ''
+  generate_stl: false
+  height: 1
+  modes:
+  - 3dpr
+  - 'true'
+  navigation: false
+  oobb_name: label_top
+  oomp_mode: project
+  oomp_run: false
+  overwrite: true
+  shape: torx
+  siz: T6
+  thickness: 11.25
+  typ: fast
+  width: 1
+name_proper: Tool Precision Screwdriver Version 3 Label Top Torx T6 Size
+oobb_details:
+  extra: torx_shape_T6_size
+  height: 1
+  oobb_name: label_top
+  oobb_type: label_top_version_3
+  run_scad: true
+  run_solidcraft: false
+  shape: torx
+  siz: T6
+  thickness: 11.25
+  width: 1
+oobb_name: label_top
+project_name: oomlout_oobb_tool_precision_screwdriver
+shape: torx
+siz: T6
+size: oomlout
+taxonomy_1: tool_precision_screwdriver
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: version_3
+taxonomy_3: label_top
+taxonomy_4: torx
+taxonomy_5: t6_size
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+thickness: 11.25
+type: github
+colour_bands:
+- colour: yellow
+  from_mm: 1.4
+  hex: '#FBC02D'
+  role: Drive
+  to_mm: 2.6
+- colour: blue
+  from_mm: 4.0
+  hex: '#1976D2'
+  role: Digit 6
+  to_mm: 4.8

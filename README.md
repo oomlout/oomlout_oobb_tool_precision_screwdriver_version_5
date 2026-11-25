@@ -1,33 +1,25 @@
 <!-- oobb-presentation:start -->
 # OOBB precision screwdriver
 
-AI-generated images and instructions. Errors possible.
+A printable, bearing-capped handle for long quarter-inch hex bits. Choose the handle by the round shaft diameter and the cap by the drive marking. Each printable part includes STL and OpenSCAD files.
 
-## Summary
+The Oomlout precision screwdriver is the starting design. Wera Kraftform Micro and the iFixit Precision Bit Driver informed the fingertip waist and grip texture. [Original screwdriver by Oomlout](https://github.com/oomlout/oomlout_oobb_tool_precision_screwdriver) · [Oomlout](https://github.com/oomlout)
 
-Precision screwdriver components, fit samples, labels and referenced purchased hardware.
+[![Assembled teal precision driver with a banded cap](assembly/render/raw/book_cover.png)](parts/version_3/README.md)
 
-This is an entirely AI-generated coding project. The generated outputs are included and usually work, but the main purpose of publishing it is to give others a starting point for modifying the project with their own AI tools.
+[Choose a handle and cap](parts/version_3/README.md#choose-the-two-print-files) · [Four-step assembly](assembly/README.md)
 
-![Example CAD preview](parts/tool_precision_screwdriver_version_1_bit_lock/3dpr_presentation.png)
+This is an entirely AI-generated coding project. The source code is largely unreadable by humans, but usable generated files are included. It is published so others can use their own AI tools to understand, modify and regenerate the design.
 
-[Example part](parts/tool_precision_screwdriver_version_1_bit_lock/)
+AI-generated CAD images and instructions. Errors possible.
 
-## Details
+The dimensions and assembly clearances have been checked in CAD. The compact grip and the bearing press fit still need a physical trial.
 
-This catalogue contains **79 records**. [Browse OOBB navigation](navigation_oobb/).
+| Image | Version and description | Main README | HTML assembly instructions | PDF download |
+| --- | --- | --- | --- | --- |
+| [<img src="assembly/render/raw/book_cover.png" width="150" alt="Compact screwdriver">](parts/version_3/README.md) | [Version 3](parts/version_3/README.md) · 101.6 mm capped, waisted grip and Torx labels | [Design and print files](parts/version_3/README.md) | [Standalone viewer](assembly/assembly_instructions.html) | [Landscape A4 PDF](assembly/assembly_instructions.pdf) |
+| [<img src="archive/v1-v2/assembly_version_2.png" width="150" alt="Version 2">](archive/v1-v2/VERSION_2_BUILD.md) | [Version 2](archive/v1-v2/VERSION_2_BUILD.md) · First 606 bearing assembly, 111.6 mm nose to palm | [Archived design](archive/v1-v2/VERSION_2_BUILD.md) | — | — |
+| [<img src="archive/v1-v2/parts/tool_precision_screwdriver_version_1_precision_screwdriver_3_5_mm_diameter_bit_main/3dpr_presentation.png" width="150" alt="Version 1">](archive/v1-v2/navigation_oobb/tool_precision_screwdriver/version_1/README.md) | [Version 1](archive/v1-v2/navigation_oobb/tool_precision_screwdriver/version_1/README.md) · Original plug-style topper and handle | [Archived design](archive/v1-v2/navigation_oobb/tool_precision_screwdriver/version_1/README.md) | — | — |
 
-Each part has one canonical folder, its full OOMP ID and complete metadata. Navigation links open folders; use GitHub’s file pane to browse the available files.
-
-[Build and maintenance guide](CATALOGUE_BUILD.md)
-
-## Parts
-
-Select the intended screwdriver generation and component. Purchased hardware records are clearly identified and do not receive invented printable meshes.
-
-## Assembly
-
-Follow the existing project guide and version-specific build notes for assembly and two-colour printing. Keep the selected generation’s mating parts together.
-
-[Project guide and existing assembly notes](PROJECT_GUIDE.md)
+[Browse handles and caps](navigation_oobb/tool_precision_screwdriver/version_3/) · [CAD build and maintenance](CATALOGUE_BUILD.md) · [Archive](archive/README.md)
 <!-- oobb-presentation:end -->

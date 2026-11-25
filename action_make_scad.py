@@ -18,5 +18,5 @@ def main(**kwargs):
     working.run(**kwargs)
 
 if __name__ == '__main__':
-    kwargs = {}
-    main(**kwargs)
+    from catalogue import build
+    build(populate=True)

@@ -1,0 +1,18 @@
+{
+  "page_count": 1,
+  "steps": 4,
+  "pdf_sha256": "115866e8e11edc6efc4b5e1ae301160266f0db88666affc12c5cecaaa1555593",
+  "html_sha256": "5b218f0fd80430fad497aeb760c17ce435041d8937035f80a240e30993dddc70",
+  "html_slides": 1,
+  "html_steps": 4,
+  "html_self_contained": true,
+  "html_layout": "a4-landscape-four-step",
+  "html_instruction_page_steps": [
+    [
+      1,
+      2,
+      3,
+      4
+    ]
+  ]
+}

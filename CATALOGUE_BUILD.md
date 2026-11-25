@@ -1,56 +1,29 @@
-# Catalogue build and maintenance
+# Build the precision screwdriver catalogue
 
-The canonical catalogue is `parts/`; each `parts_source/<OOMP ID>/working.yaml`
-supplies its metadata and geometry parameters. The existing project geometry
-functions remain in `working_scad.py`. The refresh preserves the active catalogue,
-including local geometry changes, and never scans archived or legacy folders.
+The version 3 catalogue has one handle plate per round bit shaft diameter and one cap per drive and size. Purchased hardware has its own record. The retired [catalogues, drawings and source YAMLs](archive/README.md) are outside the active scanners.
 
 ## Rebuild
 
-Install `requirements-catalogue.txt` in the project's configured Python environment.
-The existing OOBB library must also be importable. OpenSCAD and Blender are required;
-use `OPENSCAD_EXE` and `BLENDER_EXE` when they are not on PATH. Native projects retain
-their `solidcraft/config.json` helper and Python configuration.
+Install the OOBB and OOMP version 5 Python libraries used by this project, OpenSCAD, Blender, and the packages in `requirements-catalogue.txt`. Use `OPENSCAD_EXE` or `BLENDER_EXE` when needed.
 
-Run `python catalogue.py build` (or the project's make-all entry). All active source
-records are merged synchronously, CAD is generated using the project's recipes,
-STLs are exported with checked subprocess results, previews are completed, and only
-then are READMEs/navigation generated and validated. A failed export or render
-fails the build. OpenSCAD STLs remain enabled where they are the production source.
-The timing-belt storage adapter uses its native recipe and avoids duplicate STL export.
+```powershell
+python catalogue.py build --populate --workers 4
+python verify_screwdriver_version_3.py
+python -m unittest discover -s tests -q
+```
 
-Use `--filter <OOMP-ID-substring>` for a focused build; unchanged parts stay in the
-catalogue. Use `--populate` explicitly to regenerate the source catalogue definitions.
-Use `--native` to additionally run an available native adapter. Legacy Roboclick/
-CorelDraw actions are opt-in with `--legacy-actions`; make-all does not launch desktop
-automation by default. Existing labels and specialised examples are preserved.
+The build runs `working_oomp_populate`, synchronous `working_oomp` source materialisation, and `working_scad`. It exports the production and nominal meshes, a teal five-piece handle 3MF per shaft diameter, registered label STLs and a material-assigned banded 3MF per cap, studio sheets, cap face previews, illustrated assembly instructions, and Markdown navigation. `python working.py` also performs a populated build. Without `--populate`, the source YAMLs and catalogue definition already on disk control the build.
 
-`python catalogue.py render` refreshes previews and docs. `python catalogue.py docs`
-refreshes documentation alone; `python catalogue.py verify` checks coverage, artifact
-hashes, PNGs and generated local links. `python working_navigation.py` is compatible
-with older navigation callers and generates only text.
+For a single variant, use e.g. `python catalogue.py build --filter version_3_label_top_torx_t5_size`. Use `python catalogue.py render` after exporting meshes independently, `python catalogue.py docs` for Markdown alone, and `python catalogue.py verify` to check navigation, local links, renders, and the manual. Published models live under `parts`, and each printable navigation leaf carries a byte-verified production STL. The shared instructions live under `assembly`.
 
-## Documentation contract
+## Edit the design or instructions
 
-Root READMEs contain Summary, Details, Parts and Assembly, one example and a link
-to the first branching discovery category. They do not enumerate every part or
-file. Every part page includes the full OOMP ID, complete YAML details, a preview
-where printable geometry exists, and links to folders. Purchased hardware is labelled
-explicitly and gets no invented mesh. Existing project instructions are retained in
-`PROJECT_GUIDE.md` when present. Text outside generation markers is preserved.
-
-Navigation categories contain README files; terminal records contain README.md and
-oomp_id.txt only. Final selection links go directly to the canonical part folder.
-The generator refuses to silently remove legacy copied assets: archive those first.
-
-## Rendering and validation
-
-The vendored Blender worker uses the OOBB satin-teal, warm-background studio style
-on actual STL geometry, with angled/top views and a measured envelope. It does not
-invent details, alter holes or smooth away geometry. Raw views and logs stay under
-ignored `build/`; final 1600×1000 sheets and a SHA256 manifest are published.
-Cache identity includes geometry, renderer, Blender version, label and sheet code.
-Both ASCII and binary STL are accepted. Purchased hardware records are not rendered.
+- [Drawing routines](working_scad_version_3.py) use the existing multiline `p3` style. Grip stations and wrench lands are in `draw_handle_body_version_3`. The cap socket uses a 0.07 mm allowance on **diameter**.
+- [Populate definitions](working_oomp_populate.py) own the diameters, style–size pairs, project description, source credits, design study, version rows, book style, inventory and numbered assembly sequence. Run with `--populate` after changing these.
+- [Colour separations](screwdriver_book/bands.py) use a local copy of the [OOMP Band 5 definitions](source_file/oomp_drive_type_colours.yaml) from `oomp_hardware_color_code/source_files/band_definition_band_5/working.yaml`. The 3MF writer splits the production cap at printable layer heights and preserves the registered face inlay.
+- [README generation](screwdriver_book/readmes.py) links every active part to the [communal assembly guide](assembly/README.md). Four steps in populate supply the shared Markdown, the one-page A4 sheet and its offline HTML viewer. The images use the production cap’s 3MF material assignments. The version README contains the print selector, colour key and design study.
+- The studio and face renders reside in the canonical part folders. The shared illustrations, PDF, viewer, hardware inventory and source hashes live under [assembly](assembly/). Hardware codes identify specifications; redirect registration and website publication are separate operations.
+- [OOBB README guidelines](https://github.com/oomlout/oomlout_oobb_version_5/blob/main/README_GUIDELINES.md) · [Assembly instructions guide](https://github.com/oomlout/oomlout_oobb_version_5/blob/main/ASSEMBLY_INSTRUCTIONS_GUIDE.md)
 
 ## Storage and Git history
 

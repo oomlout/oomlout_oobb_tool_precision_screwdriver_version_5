@@ -4,5 +4,5 @@
 [Canonical parts](../parts/)
 
 - [hardware](../parts/hardware_screw_countersunk_m3_black_6_mm_length_hex_head/)
-- [tool_precision_screwdriver](tool_precision_screwdriver/)
+- [tool_precision_screwdriver](tool_precision_screwdriver/version_3/)
 <!-- oobb-presentation:end -->

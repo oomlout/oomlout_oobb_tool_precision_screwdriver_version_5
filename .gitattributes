@@ -21,9 +21,12 @@
 /examples/** whitespace=cr-at-eol
 
 # Retained reference assets/templates preserve their original formatting.
-/old_version/** -text -whitespace
+/archive/v1-v2/old_version/** -text -whitespace
 /source_file/** -whitespace
 /data/** -whitespace
 *.md whitespace=cr-at-eol,-blank-at-eol
 
-/old_version/** -text -whitespace
+
+# Preserve retired production parts and sources exactly.
+/archive/v1-v2/parts/** -text -whitespace
+/archive/v1-v2/parts_source/** -text -whitespace

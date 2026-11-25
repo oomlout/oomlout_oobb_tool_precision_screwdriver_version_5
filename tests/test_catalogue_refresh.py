@@ -58,6 +58,15 @@ class CatalogueTests(unittest.TestCase):
         rows={p['id']:p for _,p in catalogue.records(self.root)}
         self.assertEqual(rows['sample_2']['oobb_details']['width'],99)
         self.assertEqual(rows['sample_10']['oobb_details']['width'],10)
+    def test_version_index_and_numbered_assembly_regenerate_together(self):
+        from screwdriver_book.readmes import version_pages
+        config = catalogue.config()
+        pages = version_pages(self.root, config, [])
+        version = pages[self.root / config['version_folder'] / 'README.md']
+        self.assertIn('assembly_instructions.html', pages[self.root / 'README.md'])
+        for number, step in enumerate(config['steps'], 1):
+            self.assertNotIn(step['action'], version)
+            self.assertIn(step['action'], pages[self.root / 'assembly/README.md'])
     def test_missing_printable_geometry_is_an_error(self):
         with self.assertRaisesRegex(ValueError,'Missing production mesh'):catalogue.sources(self.root)
     def test_purchased_hardware_needs_no_invented_mesh(self):

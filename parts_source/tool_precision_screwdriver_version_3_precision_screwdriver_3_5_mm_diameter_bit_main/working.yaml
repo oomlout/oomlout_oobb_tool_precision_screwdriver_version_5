@@ -1,0 +1,38 @@
+classification: project
+color: oomlout_oobb_tool_precision_screwdriver
+description_extra: 3.5_mm_diameter_bit_main_extra
+description_main: precision_screwdriver_1_width_1_height_91.5_mm_depth
+diameter_bit_main: 3.5
+extra: 3.5_mm_diameter_bit_main
+oobb_details:
+  diameter_bit_main: 3.5
+  extra: 3.5_mm_diameter_bit_main
+  height: 1
+  oobb_name: precision_screwdriver
+  oobb_type: precision_screwdriver_version_3
+  radius_bit_main: 1.75
+  run_scad: true
+  run_solidcraft: false
+  thickness: 91.5
+  width: 1
+oobb_name: precision_screwdriver
+project_name: oomlout_oobb_tool_precision_screwdriver
+radius_bit_main: 1.75
+size: oomlout
+taxonomy_1: tool_precision_screwdriver
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: version_3
+taxonomy_3: precision_screwdriver
+taxonomy_4: 3_5_mm_diameter_bit_main
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+thickness: 91.5
+type: github

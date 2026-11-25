@@ -74,8 +74,49 @@ def page(part, source, destination, cfg):
     detail = part.get('oobb_details') or {}
     purchased = not detail
     title = part.get('name_proper') or part['id'].replace('_', ' ').title()
+    summary = 'Purchased hardware referenced by this project.' if purchased else cfg['summary']
+    if cfg.get('version_folder') and not purchased:
+        if detail['oobb_name'] == 'label_top':
+            title = f"{detail['shape'].title()} {detail['siz']} bearing cap"
+            summary = "A closed, marked palm cap with a 17.07 mm seat for the 606 bearing. Fits every version 3 shaft diameter."
+        else:
+            title = f"Precision handle for a {detail['diameter_bit_main']} mm bit shaft"
+            summary = "A 91.5 mm handle with 10 and 13 mm spanner flats for long quarter-inch hex-shank bits."
+    if cfg.get("assembly_folder"):
+        def link(label, target):
+            return f"[{label}]({relative(target, destination)})"
+        common = root / cfg["assembly_folder"] / "README.md"
+        lines = ["# " + title, "", summary, ""]
+        if not purchased:
+            lines += ["![CAD preview](" + relative(source / "3dpr_presentation.png", destination) + ")", "", NOTICE, ""]
+            if part.get("colour_bands"):
+                colours = dict.fromkeys(["teal", "black"] + [band["colour"] for band in part["colour_bands"]])
+                lines += [link("Download the colour-banded cap (3MF)", source / "3dpr_banded.3mf"),
+                          "", f"Filaments ({len(colours)}): " + ", ".join(colours) + ".",
+                          "", "| Band from the palm face | Filament | Print Z (mm) |", "| --- | --- | --- |"]
+                for band in part["colour_bands"]:
+                    lines.append(f'| {band["role"]} | {band["colour"].title()} | {band["from_mm"]:.1f}–{band["to_mm"]:.1f} |')
+                lines += ["", "Print face down. Assign teal to the shell and black to the marking. For a two-colour cap, import these two STLs together at their original coordinates.", "",
+                          link("Teal shell STL", source / "3dpr_color_main.stl") + " · " + link("Black marking STL", source / "3dpr_color_support.stl"),
+                          "", link("Single-colour engraved STL", source / "3dpr.stl")]
+            else:
+                lines += [link("Download the teal handle plate (3MF)", source / "3dpr_teal.3mf") + " · " +
+                          link("Five-piece plate (STL)", source / "3dpr.stl"), "",
+                          "Print the body in teal. The plate includes the slotted key, side-loading nut cradle, bearing lifter and countersunk insert."]
+        lines += ["", link("Shared assembly guide", common) + " · " + link("Choose handles and caps", root / cfg["version_folder"] / "README.md"),
+                  "", f'**OOMP ID**  \n`{part["id"]}`', "", link("Full part definition (YAML)", source / "working.yaml")]
+        lines += ["", link("Part folder", source) + " · " + link("OOBB navigation", root / "navigation_oobb")]
+        metadata = yaml.safe_dump(part, sort_keys=False, allow_unicode=True).rstrip()
+        fence = "`" * max([3] + [len(m.group()) + 1 for m in re.finditer(r"`+", metadata)])
+        lines += ["", "<details>", "<summary>Full part metadata</summary>", "", fence + "yaml",
+                  metadata, fence, "", "</details>"]
+        return "\n".join(lines)
     lines = [f'# {safe_text(title)}', '', NOTICE, '', '## Summary', '',
-             ('Purchased hardware referenced by this project.' if purchased else cfg['summary']), '', ORIGIN, '']
+             summary, '', ORIGIN, '']
+    if cfg.get("version_folder") and detail.get("oobb_name") == "label_top":
+        face = source / "palm_face.png"
+        if face.exists():
+            lines.extend([f"![Cap marking]({relative(face, destination)})", ""])
     preview = source / '3dpr_presentation.png'
     if preview.exists():
         lines += [f'![CAD preview]({relative(preview, destination)})', '']
@@ -104,8 +145,11 @@ def navigation(root=ROOT):
         for p in nav.rglob('*'):
             if p.is_symlink() or (hasattr(p,'is_junction') and p.is_junction()):raise ValueError(f'Linked navigation: {p}')
             if p.is_file() and p.name not in ('README.md','oomp_id.txt'):
-                raise ValueError('Archive legacy navigation before adopting the text-only generator: '+str(p))
+                if cfg.get("assembly_folder") and p.name == "3dpr.stl" and (p.parent / "oomp_id.txt").is_file():
+                    continue
+                raise ValueError('Archive legacy navigation before regenerating this path: '+str(p))
     leaves={}; dirs={Path('.')}; pages={}
+    mesh_copies = {}
     active=records(root)
     taxonomy_paths={part['id']:Path(*[segment(part[f'taxonomy_{i}']) for i in range(1,16) if part.get(f'taxonomy_{i}') not in (None,'','default')]) for _,part in active}
     prefix_ids={identity for identity,path in taxonomy_paths.items() if any(path != other and path in other.parents for other in taxonomy_paths.values())}
@@ -120,6 +164,10 @@ def navigation(root=ROOT):
         target=nav/leaf/'README.md'
         pages[target]=generated(target,page(part,source,target,cfg))
         pages[nav/leaf/'oomp_id.txt']=part['id']+'\n'
+        if cfg.get("assembly_folder") and part.get("oobb_details"):
+            mesh = source / "3dpr.stl"
+            if mesh.is_file():
+                mesh_copies[nav / leaf / mesh.name] = mesh
         canonical=source/'README.md';pages[canonical]=generated(canonical,page(part,source,canonical,cfg))
     if any(a != b and a in b.parents for a in leaves for b in leaves):
         raise ValueError('A part taxonomy cannot also be a category')
@@ -148,7 +196,16 @@ def navigation(root=ROOT):
            '[Build and maintenance guide](CATALOGUE_BUILD.md)','',
            '## Parts','',cfg['parts'],'','## Assembly','',cfg['assembly'],'']
     if (root/'PROJECT_GUIDE.md').exists():lines+=['[Project guide and existing assembly notes](PROJECT_GUIDE.md)','']
-    pages[dest]=generated(dest,'\n'.join(lines))
+    if cfg.get("version_folder"):
+        from screwdriver_book.readmes import version_pages
+        for target, body in version_pages(root, cfg, active).items():
+            pages[target] = generated(target, body)
+    else:
+        pages[dest]=generated(dest,'\n'.join(lines))
+    # Reject unowned geometry before updating the navigation markers.
+    for existing in nav.rglob("*.stl"):
+        if existing not in mesh_copies:
+            raise ValueError(f"Archive retired navigation geometry before rebuilding: {existing}")
     # Compute and validate every page before replacing anything.
     for p,content in pages.items():
         p.parent.mkdir(parents=True,exist_ok=True)
@@ -160,9 +217,14 @@ def navigation(root=ROOT):
             except PermissionError:
                 if attempt==19:raise
                 time.sleep(0.1)
+    for destination, source in mesh_copies.items():
+        if not destination.exists() or sha(destination) != sha(source):
+            temporary = destination.with_suffix(".stl.tmp")
+            shutil.copyfile(source, temporary)
+            os.replace(temporary, destination)
     if nav.exists():
         for p in nav.rglob('*'):
-            if p.is_file() and p not in pages:
+            if p.is_file() and p not in pages and p not in mesh_copies:
                 old=p.read_text(encoding='utf-8')
                 if p.name=='README.md' and (START not in old or old.split(START)[0].strip() or old.split(END)[-1].strip()):
                     raise ValueError(f'Preserve manual notes before retiring navigation: {p}')
@@ -194,6 +256,15 @@ def sync_sources(root=ROOT, part_filter=''):
         if data.get('id',p.parent.name)!=p.parent.name:raise ValueError(f'Source ID mismatch: {p}')
         target=root/'parts'/p.parent.name/'working.yaml';target.parent.mkdir(parents=True,exist_ok=True)
         existing=yaml.safe_load(target.read_text(encoding='utf-8')) if target.exists() else {}
+        for asset in data.get("file_copy", []):
+            source = root / asset["file_source"]
+            destination = target.parent / asset["file_destination"]
+            # Seed supplier notes once. Navigation owns the generated block,
+            # and users may add notes around it on subsequent builds.
+            if destination.name.lower() == "readme.md" and destination.exists():
+                continue
+            if not destination.exists() or sha(source) != sha(destination):
+                shutil.copy2(source, destination)
         existing.update(data);existing['id']=p.parent.name
         existing.setdefault('name_proper',p.parent.name.replace('_',' ').title())
         target.write_text(yaml.safe_dump(existing,sort_keys=False,allow_unicode=True),encoding='utf-8')
@@ -209,7 +280,8 @@ def build(part_filter='', workers=2, native=False, legacy_actions=False, populat
     if populate:
         import working_oomp_populate
         working_oomp_populate.main(filter=part_filter)
-    sync_sources(root,part_filter)
+    import working_oomp
+    working_oomp.main(catalogue_only=True, root=root, filter=part_filter)
     import working_scad
     modes=config(root).get('modes',['3dpr'])
     working_scad.main(filter=part_filter,typ='fast',save_type='none',navigation=False,overwrite=True,modes=modes,oomp_run=False,generate_stl=False)
@@ -222,7 +294,10 @@ def build(part_filter='', workers=2, native=False, legacy_actions=False, populat
     for source,part in records(root):
         if part_filter not in part['id'] or not part.get('oobb_details'):continue
         if config(root).get('native_primary'):continue
-        for mode in modes:
+        output_modes = list(modes)
+        if '3dpr' in modes:
+            output_modes.extend('3dpr_color_' + color for color in part.get('color_parts', []))
+        for mode in output_modes:
             scad=source/(mode+'.scad')
             if not scad.exists():raise ValueError(f'CAD generation failed to produce {scad}')
             jobs.append(scad)
@@ -245,25 +320,78 @@ def build(part_filter='', workers=2, native=False, legacy_actions=False, populat
         working_action.main(filter=part_filter)
     import render_parts
     render_parts.main(part_filter=part_filter,workers=min(workers,2))
+    build_manual(root)
     navigation(root)
     return verify(root)
+
+def build_manual(root=ROOT):
+    cfg = config(root)
+    if cfg.get("version_folder"):
+        from screwdriver_book.cap_faces import draw
+        from screwdriver_book.instructions import publish
+        for folder, part in records(root):
+            if part.get("oobb_name") == "label_top":
+                draw(folder)
+        publish(cfg)
 
 def verify(root=ROOT):
     root=Path(root).resolve();parts=records(root);expected={p['id'] for _,p in parts}
     txt=list((root/'navigation_oobb').rglob('oomp_id.txt'))
     if len(txt)!=len(expected) or {p.read_text().strip() for p in txt}!=expected:raise ValueError('Navigation coverage mismatch')
-    for p in (root/'navigation_oobb').rglob('*'):
-        if p.is_file() and p.name not in ('README.md','oomp_id.txt'):raise ValueError('Navigation contains assets')
+    printable_leaves = {p['id'] for _, p in parts if p.get("oobb_details")}
+    copies = {}
+    if config(root).get("assembly_folder"):
+        copies = {leaf.with_name("3dpr.stl"): root / "parts" / leaf.read_text().strip() / "3dpr.stl"
+                  for leaf in txt if leaf.read_text().strip() in printable_leaves}
+    for target, source in copies.items():
+        if not target.is_file() or sha(target) != sha(source):
+            raise ValueError(f"Navigation mesh differs from production: {target}")
+    for p in (root / "navigation_oobb").rglob("*"):
+        if p.is_file() and p.name not in ("README.md", "oomp_id.txt") and p not in copies:
+            raise ValueError(f"Unexpected navigation file: {p}")
     manifest=json.loads((root/'presentation/catalogue.json').read_text())
     rendered={r['id'] for r in manifest['renders'] if r['variant']=='3dpr'}
     printable={p['id'] for _,p in parts if p.get('oobb_details')}
     if rendered!=printable:raise ValueError(f'Render coverage mismatch: {printable-rendered}, {rendered-printable}')
+    cap_ids = {part['id'] for _, part in parts if part.get('colour_bands')}
+    handle_ids = {part['id'] for _, part in parts if "diameter_bit_main" in part}
+    if cap_ids:
+        expected_sheets = {(part_id, mode) for part_id in printable for mode in ('3dpr', 'true')}
+        if {(row['id'], row['variant']) for row in manifest['renders']} != expected_sheets:
+            raise ValueError('Both production and nominal sheets are required for each printable part')
     from render_parts import valid_png
     for r in manifest['renders']:
+        if r['id'] in handle_ids and r['variant'] == '3dpr':
+            package = f"parts/{r['id']}/3dpr_teal.3mf"
+            if r.get('handle_package') != package or sha(root / package) != r.get('handle_package_sha256'):
+                raise ValueError("Stale teal handle package for " + r['id'])
+        if r['id'] in cap_ids and r.get('banded_source') != f"parts/{r['id']}/3dpr_banded.3mf":
+            raise ValueError("Missing colour package for " + r['id'])
         for pathkey,hashkey in [('source','source_sha256'),('image','image_sha256')]:
             if sha(root/r[pathkey])!=r[hashkey]:raise ValueError('Stale artifact: '+r[pathkey])
+        if r.get("banded_source") and sha(root / r["banded_source"]) != r["banded_sha256"]:
+            raise ValueError("Stale colour package or preview: " + r["id"])
         if not valid_png(root/r['image'],(1600,1000)):raise ValueError('Invalid PNG')
     pages=[root/'README.md',*(s/'README.md' for s,_ in parts),*(root/'navigation_oobb').rglob('README.md')]
+    cfg = config(root)
+    if cfg.get("version_folder"):
+        version = root / cfg["version_folder"]
+        pages.append(version / "README.md")
+        assembly = root / cfg["assembly_folder"]
+        pages.append(assembly / "README.md")
+        manual = json.loads((assembly / "assembly_manifest.json").read_text())
+        validation = json.loads((assembly / "validation.json").read_text())
+        for path, digest in manual["source_sha256"].items():
+            if sha(root / path) != digest:
+                raise ValueError(f"Stale assembly diagrams for {path}")
+        if cfg["steps"] != [{key: step[key] for key in cfg["steps"][0]} for step in manual["steps"]]:
+            raise ValueError("Rebuild the assembly sequence")
+        for ext in ("pdf", "html"):
+            if sha(assembly / ("assembly_instructions." + ext)) != validation[ext + "_sha256"]:
+                raise ValueError(f"Stale assembly {ext}")
+        source_ids = {p.parent.name for p in (root / "parts_source").glob("*/working.yaml")}
+        if source_ids != expected:
+            raise ValueError("Source and published catalogue differ")
     links=0
     for p in pages:
         content=p.read_text(encoding='utf-8')
@@ -295,6 +423,9 @@ def cli():
     elif a.command=='verify':verify()
     else:
         import render_parts
-        render_parts.main(part_filter=a.filter,workers=min(a.workers,2));navigation();verify()
+        render_parts.main(part_filter=a.filter,workers=min(a.workers,2))
+        build_manual()
+        navigation()
+        verify()
 
 if __name__=='__main__':cli()

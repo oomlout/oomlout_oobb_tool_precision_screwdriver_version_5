@@ -295,8 +295,8 @@ def make_scad_generic(part):
                         ink_mesh = scad_path.with_stem("3dpr_color_support").with_suffix(".stl").resolve()
                         display.write_text(
                             f'rotate([180,0,0]) {{\n'
-                            f'  color("Ivory") import("{main_mesh.as_posix()}");\n'
-                            f'  color("DarkSlateBlue") import("{ink_mesh.as_posix()}");\n}}\n',
+                            f'  color("#00B1B7") import("{main_mesh.as_posix()}");\n'
+                            f'  color("#000000") import("{ink_mesh.as_posix()}");\n}}\n',
                             encoding="utf-8",
                         )
                         subprocess.run([openscad, "--preview", "--camera", "0,-10,35,0,0,-3",

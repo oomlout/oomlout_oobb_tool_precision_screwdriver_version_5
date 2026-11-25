@@ -5,22 +5,7 @@ import os
 import scad_help
 
 # Framework dispatch looks up get_<oobb_type> in this module.
-from working_scad_version_1 import (
-    get_base_version_1,
-    get_bit_lock_version_1,
-    get_label_top_version_1,
-    get_precision_screwdriver_version_1,
-    get_tool_screwdriver_bit_quarter_inch_drive_100_mm_depth_version_1,
-)
-from working_scad_version_2 import (
-    get_base_version_2,
-    get_bearing_mount_version_2,
-    get_fit_coupons_version_2,
-    get_bit_lock_version_2,
-    get_label_top_version_2,
-    get_precision_screwdriver_version_2,
-    get_tool_screwdriver_bit_quarter_inch_drive_100_mm_depth_version_2,
-)
+from working_scad_version_3 import get_label_top_version_3, get_precision_screwdriver_version_3
 
 def main(**kwargs):
     make_scad(**kwargs)

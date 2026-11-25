@@ -1,0 +1,3380 @@
+classification: project
+color: oomlout_oobb_tool_precision_screwdriver
+description_extra: 2.25_mm_diameter_bit_main_extra
+description_main: precision_screwdriver_1_width_1_height_91.5_mm_depth
+diameter_bit_main: 2.25
+extra: 2.25_mm_diameter_bit_main
+id: tool_precision_screwdriver_version_3_precision_screwdriver_2_25_mm_diameter_bit_main
+id_oobb: tool_precision_screwdriver_version_3_precision_screwdriver_2_25_mm_diameter_bit_main
+kwargs:
+  diameter_bit_main: 2.25
+  extra: 2.25_mm_diameter_bit_main
+  filter: version_3_precision_screwdriver
+  generate_stl: false
+  height: 1
+  modes:
+  - 3dpr
+  - 'true'
+  navigation: false
+  oobb_name: precision_screwdriver
+  oomp_mode: project
+  oomp_run: false
+  overwrite: true
+  radius_bit_main: 1.125
+  thickness: 91.5
+  typ: fast
+  width: 1
+name_proper: Tool Precision Screwdriver Version 3 Precision Screwdriver 2 25 Mm Diameter
+  Bit Main
+oobb_details:
+  diameter_bit_main: 2.25
+  extra: 2.25_mm_diameter_bit_main
+  height: 1
+  oobb_name: precision_screwdriver
+  oobb_type: precision_screwdriver_version_3
+  radius_bit_main: 1.125
+  run_scad: true
+  run_solidcraft: false
+  thickness: 91.5
+  width: 1
+oobb_name: precision_screwdriver
+project_name: oomlout_oobb_tool_precision_screwdriver
+radius_bit_main: 1.125
+size: oomlout
+taxonomy_1: tool_precision_screwdriver
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: version_3
+taxonomy_3: precision_screwdriver
+taxonomy_4: 2_25_mm_diameter_bit_main
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+thickness: 91.5
+thing:
+  classification: project
+  color: oomlout_oobb_tool_precision_screwdriver
+  components:
+  - objects:
+    - - objects:
+        - - - clearance: 0.2
+              extra: 2.25_mm_diameter_bit_main
+              height: 228.2
+              pos:
+              - 0.1
+              - 0
+              - 0
+              r: 3.8658550000000003
+              shape: polyg
+              sides: 6
+              type: positive
+              width: 1
+        - clearance: 0.2
+          extra: 2.25_mm_diameter_bit_main
+          height: 2
+          pos:
+          - 0
+          - 0
+          - 0
+          r1: 1.125
+          r2: 3.775
+          shape: tube_new
+          type: negative
+          wall_thickness: 8
+          width: 1
+        - - - clearance: 0.2
+              depth: 100
+              extra: 2.25_mm_diameter_bit_main
+              h: 100
+              height: 1
+              inclusion: laser
+              m: '#'
+              pos: &id001
+              - 0
+              - 0
+              - -71.8
+              r: 1.25
+              radius: 1.25
+              shape: cylinder
+              type: positive
+              width: 1
+            - clearance: 0.2
+              depth: 100
+              extra: 2.25_mm_diameter_bit_main
+              h: 100
+              height: 1
+              inclusion: 3dpr
+              m: '#'
+              pos: *id001
+              r: 1.25
+              shape: cylinder
+              type: positive
+              width: 1
+            - clearance: 0.2
+              depth: 100
+              extra: 2.25_mm_diameter_bit_main
+              h: 100
+              height: 1
+              inclusion: 'true'
+              m: '#'
+              pos: *id001
+              r: 1.25
+              shape: cylinder
+              type: positive
+              width: 1
+        pos:
+        - 0
+        - 0
+        - 25
+        rot:
+        - 0
+        - 0
+        - 0
+        type: rotation
+        typetype: negative
+    - - depth: 6
+        extra: 2.25_mm_diameter_bit_main
+        h: 6
+        height: 1
+        inclusion: laser
+        pos: &id002
+        - 0
+        - 0
+        - 0.0
+        r1: 2.2
+        r2: 5.5
+        shape: cylinder
+        type: positive
+        width: 1
+      - depth: 6
+        extra: 2.25_mm_diameter_bit_main
+        h: 6
+        height: 1
+        inclusion: 3dpr
+        pos: *id002
+        r1: 2.2
+        r2: 5.5
+        shape: cylinder
+        type: positive
+        width: 1
+      - depth: 6
+        extra: 2.25_mm_diameter_bit_main
+        h: 6
+        height: 1
+        inclusion: 'true'
+        pos: *id002
+        r1: 2.2
+        r2: 5.5
+        shape: cylinder
+        type: positive
+        width: 1
+    - - extra: 2.25_mm_diameter_bit_main
+        height: 6
+        pos:
+        - 0
+        - 0
+        - 6
+        r: 5.7735
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 1
+    - - depth: 12.5
+        extra: 2.25_mm_diameter_bit_main
+        height: 1
+        id: 5.0
+        pos:
+        - 0
+        - 0
+        - 6
+        shape: oring
+        type: negative
+        width: 1
+    - - depth: 12.5
+        extra: 2.25_mm_diameter_bit_main
+        height: 1
+        id: 5.0
+        pos:
+        - 0
+        - 0
+        - 12
+        shape: oring
+        type: negative
+        width: 1
+    - - depth: 6
+        extra: 2.25_mm_diameter_bit_main
+        h: 6
+        height: 1
+        inclusion: laser
+        pos: &id003
+        - 0
+        - 0
+        - 12.0
+        r1: 5.5
+        r2: 5.15
+        shape: cylinder
+        type: positive
+        width: 1
+      - depth: 6
+        extra: 2.25_mm_diameter_bit_main
+        h: 6
+        height: 1
+        inclusion: 3dpr
+        pos: *id003
+        r1: 5.5
+        r2: 5.15
+        shape: cylinder
+        type: positive
+        width: 1
+      - depth: 6
+        extra: 2.25_mm_diameter_bit_main
+        h: 6
+        height: 1
+        inclusion: 'true'
+        pos: *id003
+        r1: 5.5
+        r2: 5.15
+        shape: cylinder
+        type: positive
+        width: 1
+    - - depth: 6
+        extra: 2.25_mm_diameter_bit_main
+        h: 6
+        height: 1
+        inclusion: laser
+        pos: &id004
+        - 0
+        - 0
+        - 18.0
+        r1: 5.15
+        r2: 5.15
+        shape: cylinder
+        type: positive
+        width: 1
+      - depth: 6
+        extra: 2.25_mm_diameter_bit_main
+        h: 6
+        height: 1
+        inclusion: 3dpr
+        pos: *id004
+        r1: 5.15
+        r2: 5.15
+        shape: cylinder
+        type: positive
+        width: 1
+      - depth: 6
+        extra: 2.25_mm_diameter_bit_main
+        h: 6
+        height: 1
+        inclusion: 'true'
+        pos: *id004
+        r1: 5.15
+        r2: 5.15
+        shape: cylinder
+        type: positive
+        width: 1
+    - - depth: 9
+        extra: 2.25_mm_diameter_bit_main
+        h: 9
+        height: 1
+        inclusion: laser
+        pos: &id005
+        - 0
+        - 0
+        - 24.0
+        r1: 5.15
+        r2: 6.35
+        shape: cylinder
+        type: positive
+        width: 1
+      - depth: 9
+        extra: 2.25_mm_diameter_bit_main
+        h: 9
+        height: 1
+        inclusion: 3dpr
+        pos: *id005
+        r1: 5.15
+        r2: 6.35
+        shape: cylinder
+        type: positive
+        width: 1
+      - depth: 9
+        extra: 2.25_mm_diameter_bit_main
+        h: 9
+        height: 1
+        inclusion: 'true'
+        pos: *id005
+        r1: 5.15
+        r2: 6.35
+        shape: cylinder
+        type: positive
+        width: 1
+    - - depth: 12
+        extra: 2.25_mm_diameter_bit_main
+        h: 12
+        height: 1
+        inclusion: laser
+        pos: &id006
+        - 0
+        - 0
+        - 33.0
+        r1: 6.35
+        r2: 6.35
+        shape: cylinder
+        type: positive
+        width: 1
+      - depth: 12
+        extra: 2.25_mm_diameter_bit_main
+        h: 12
+        height: 1
+        inclusion: 3dpr
+        pos: *id006
+        r1: 6.35
+        r2: 6.35
+        shape: cylinder
+        type: positive
+        width: 1
+      - depth: 12
+        extra: 2.25_mm_diameter_bit_main
+        h: 12
+        height: 1
+        inclusion: 'true'
+        pos: *id006
+        r1: 6.35
+        r2: 6.35
+        shape: cylinder
+        type: positive
+        width: 1
+    - - depth: 7
+        extra: 2.25_mm_diameter_bit_main
+        h: 7
+        height: 1
+        inclusion: laser
+        pos: &id007
+        - 0
+        - 0
+        - 45.0
+        r1: 6.35
+        r2: 5.5
+        shape: cylinder
+        type: positive
+        width: 1
+      - depth: 7
+        extra: 2.25_mm_diameter_bit_main
+        h: 7
+        height: 1
+        inclusion: 3dpr
+        pos: *id007
+        r1: 6.35
+        r2: 5.5
+        shape: cylinder
+        type: positive
+        width: 1
+      - depth: 7
+        extra: 2.25_mm_diameter_bit_main
+        h: 7
+        height: 1
+        inclusion: 'true'
+        pos: *id007
+        r1: 6.35
+        r2: 5.5
+        shape: cylinder
+        type: positive
+        width: 1
+    - - extra: 2.25_mm_diameter_bit_main
+        height: 12
+        pos:
+        - 0
+        - 0
+        - 52
+        r: 7.50555
+        rot:
+        - 0
+        - 0
+        - 30.0
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 1
+    - - depth: 5.0
+        extra: 2.25_mm_diameter_bit_main
+        height: 1
+        id: 5.5
+        pos:
+        - 0
+        - 0
+        - 52
+        shape: oring
+        type: negative
+        width: 1
+    - - depth: 5.0
+        extra: 2.25_mm_diameter_bit_main
+        height: 1
+        id: 5.5
+        pos:
+        - 0
+        - 0
+        - 64
+        shape: oring
+        type: negative
+        width: 1
+    - - depth: 25
+        extra: 2.25_mm_diameter_bit_main
+        h: 25
+        height: 1
+        inclusion: laser
+        pos: &id008
+        - 0
+        - 0
+        - 64.0
+        r1: 5.5
+        r2: 6.5
+        shape: cylinder
+        type: positive
+        width: 1
+      - depth: 25
+        extra: 2.25_mm_diameter_bit_main
+        h: 25
+        height: 1
+        inclusion: 3dpr
+        pos: *id008
+        r1: 5.5
+        r2: 6.5
+        shape: cylinder
+        type: positive
+        width: 1
+      - depth: 25
+        extra: 2.25_mm_diameter_bit_main
+        h: 25
+        height: 1
+        inclusion: 'true'
+        pos: *id008
+        r1: 5.5
+        r2: 6.5
+        shape: cylinder
+        type: positive
+        width: 1
+    - - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: laser
+        pos: &id009
+        - 7.2
+        - 0.0
+        - 29.0
+        r1: 0.35
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: 3dpr
+        pos: *id009
+        r1: 0.35
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: 'true'
+        pos: *id009
+        r1: 0.35
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+    - - depth: 12
+        extra: 2.25_mm_diameter_bit_main
+        h: 12
+        height: 1
+        inclusion: laser
+        pos: &id010
+        - 7.2
+        - 0.0
+        - 33.0
+        r1: 1.5
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 12
+        extra: 2.25_mm_diameter_bit_main
+        h: 12
+        height: 1
+        inclusion: 3dpr
+        pos: *id010
+        r1: 1.5
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 12
+        extra: 2.25_mm_diameter_bit_main
+        h: 12
+        height: 1
+        inclusion: 'true'
+        pos: *id010
+        r1: 1.5
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+    - - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: laser
+        pos: &id011
+        - 7.2
+        - 0.0
+        - 45.0
+        r1: 1.5
+        r2: 0.35
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: 3dpr
+        pos: *id011
+        r1: 1.5
+        r2: 0.35
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: 'true'
+        pos: *id011
+        r1: 1.5
+        r2: 0.35
+        shape: cylinder
+        type: negative
+        width: 1
+    - - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: laser
+        pos: &id012
+        - 5.091168824543143
+        - 5.091168824543143
+        - 29.0
+        r1: 0.35
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: 3dpr
+        pos: *id012
+        r1: 0.35
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: 'true'
+        pos: *id012
+        r1: 0.35
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+    - - depth: 12
+        extra: 2.25_mm_diameter_bit_main
+        h: 12
+        height: 1
+        inclusion: laser
+        pos: &id013
+        - 5.091168824543143
+        - 5.091168824543143
+        - 33.0
+        r1: 1.5
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 12
+        extra: 2.25_mm_diameter_bit_main
+        h: 12
+        height: 1
+        inclusion: 3dpr
+        pos: *id013
+        r1: 1.5
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 12
+        extra: 2.25_mm_diameter_bit_main
+        h: 12
+        height: 1
+        inclusion: 'true'
+        pos: *id013
+        r1: 1.5
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+    - - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: laser
+        pos: &id014
+        - 5.091168824543143
+        - 5.091168824543143
+        - 45.0
+        r1: 1.5
+        r2: 0.35
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: 3dpr
+        pos: *id014
+        r1: 1.5
+        r2: 0.35
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: 'true'
+        pos: *id014
+        r1: 1.5
+        r2: 0.35
+        shape: cylinder
+        type: negative
+        width: 1
+    - - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: laser
+        pos: &id015
+        - 4.4087284769304716e-16
+        - 7.2
+        - 29.0
+        r1: 0.35
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: 3dpr
+        pos: *id015
+        r1: 0.35
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: 'true'
+        pos: *id015
+        r1: 0.35
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+    - - depth: 12
+        extra: 2.25_mm_diameter_bit_main
+        h: 12
+        height: 1
+        inclusion: laser
+        pos: &id016
+        - 4.4087284769304716e-16
+        - 7.2
+        - 33.0
+        r1: 1.5
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 12
+        extra: 2.25_mm_diameter_bit_main
+        h: 12
+        height: 1
+        inclusion: 3dpr
+        pos: *id016
+        r1: 1.5
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 12
+        extra: 2.25_mm_diameter_bit_main
+        h: 12
+        height: 1
+        inclusion: 'true'
+        pos: *id016
+        r1: 1.5
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+    - - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: laser
+        pos: &id017
+        - 4.4087284769304716e-16
+        - 7.2
+        - 45.0
+        r1: 1.5
+        r2: 0.35
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: 3dpr
+        pos: *id017
+        r1: 1.5
+        r2: 0.35
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: 'true'
+        pos: *id017
+        r1: 1.5
+        r2: 0.35
+        shape: cylinder
+        type: negative
+        width: 1
+    - - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: laser
+        pos: &id018
+        - -5.091168824543142
+        - 5.091168824543143
+        - 29.0
+        r1: 0.35
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: 3dpr
+        pos: *id018
+        r1: 0.35
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: 'true'
+        pos: *id018
+        r1: 0.35
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+    - - depth: 12
+        extra: 2.25_mm_diameter_bit_main
+        h: 12
+        height: 1
+        inclusion: laser
+        pos: &id019
+        - -5.091168824543142
+        - 5.091168824543143
+        - 33.0
+        r1: 1.5
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 12
+        extra: 2.25_mm_diameter_bit_main
+        h: 12
+        height: 1
+        inclusion: 3dpr
+        pos: *id019
+        r1: 1.5
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 12
+        extra: 2.25_mm_diameter_bit_main
+        h: 12
+        height: 1
+        inclusion: 'true'
+        pos: *id019
+        r1: 1.5
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+    - - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: laser
+        pos: &id020
+        - -5.091168824543142
+        - 5.091168824543143
+        - 45.0
+        r1: 1.5
+        r2: 0.35
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: 3dpr
+        pos: *id020
+        r1: 1.5
+        r2: 0.35
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: 'true'
+        pos: *id020
+        r1: 1.5
+        r2: 0.35
+        shape: cylinder
+        type: negative
+        width: 1
+    - - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: laser
+        pos: &id021
+        - -7.2
+        - 8.817456953860943e-16
+        - 29.0
+        r1: 0.35
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: 3dpr
+        pos: *id021
+        r1: 0.35
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: 'true'
+        pos: *id021
+        r1: 0.35
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+    - - depth: 12
+        extra: 2.25_mm_diameter_bit_main
+        h: 12
+        height: 1
+        inclusion: laser
+        pos: &id022
+        - -7.2
+        - 8.817456953860943e-16
+        - 33.0
+        r1: 1.5
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 12
+        extra: 2.25_mm_diameter_bit_main
+        h: 12
+        height: 1
+        inclusion: 3dpr
+        pos: *id022
+        r1: 1.5
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 12
+        extra: 2.25_mm_diameter_bit_main
+        h: 12
+        height: 1
+        inclusion: 'true'
+        pos: *id022
+        r1: 1.5
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+    - - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: laser
+        pos: &id023
+        - -7.2
+        - 8.817456953860943e-16
+        - 45.0
+        r1: 1.5
+        r2: 0.35
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: 3dpr
+        pos: *id023
+        r1: 1.5
+        r2: 0.35
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: 'true'
+        pos: *id023
+        r1: 1.5
+        r2: 0.35
+        shape: cylinder
+        type: negative
+        width: 1
+    - - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: laser
+        pos: &id024
+        - -5.091168824543144
+        - -5.091168824543142
+        - 29.0
+        r1: 0.35
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: 3dpr
+        pos: *id024
+        r1: 0.35
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: 'true'
+        pos: *id024
+        r1: 0.35
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+    - - depth: 12
+        extra: 2.25_mm_diameter_bit_main
+        h: 12
+        height: 1
+        inclusion: laser
+        pos: &id025
+        - -5.091168824543144
+        - -5.091168824543142
+        - 33.0
+        r1: 1.5
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 12
+        extra: 2.25_mm_diameter_bit_main
+        h: 12
+        height: 1
+        inclusion: 3dpr
+        pos: *id025
+        r1: 1.5
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 12
+        extra: 2.25_mm_diameter_bit_main
+        h: 12
+        height: 1
+        inclusion: 'true'
+        pos: *id025
+        r1: 1.5
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+    - - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: laser
+        pos: &id026
+        - -5.091168824543144
+        - -5.091168824543142
+        - 45.0
+        r1: 1.5
+        r2: 0.35
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: 3dpr
+        pos: *id026
+        r1: 1.5
+        r2: 0.35
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: 'true'
+        pos: *id026
+        r1: 1.5
+        r2: 0.35
+        shape: cylinder
+        type: negative
+        width: 1
+    - - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: laser
+        pos: &id027
+        - -1.3226185430791415e-15
+        - -7.2
+        - 29.0
+        r1: 0.35
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: 3dpr
+        pos: *id027
+        r1: 0.35
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: 'true'
+        pos: *id027
+        r1: 0.35
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+    - - depth: 12
+        extra: 2.25_mm_diameter_bit_main
+        h: 12
+        height: 1
+        inclusion: laser
+        pos: &id028
+        - -1.3226185430791415e-15
+        - -7.2
+        - 33.0
+        r1: 1.5
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 12
+        extra: 2.25_mm_diameter_bit_main
+        h: 12
+        height: 1
+        inclusion: 3dpr
+        pos: *id028
+        r1: 1.5
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 12
+        extra: 2.25_mm_diameter_bit_main
+        h: 12
+        height: 1
+        inclusion: 'true'
+        pos: *id028
+        r1: 1.5
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+    - - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: laser
+        pos: &id029
+        - -1.3226185430791415e-15
+        - -7.2
+        - 45.0
+        r1: 1.5
+        r2: 0.35
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: 3dpr
+        pos: *id029
+        r1: 1.5
+        r2: 0.35
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: 'true'
+        pos: *id029
+        r1: 1.5
+        r2: 0.35
+        shape: cylinder
+        type: negative
+        width: 1
+    - - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: laser
+        pos: &id030
+        - 5.091168824543141
+        - -5.091168824543144
+        - 29.0
+        r1: 0.35
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: 3dpr
+        pos: *id030
+        r1: 0.35
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: 'true'
+        pos: *id030
+        r1: 0.35
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+    - - depth: 12
+        extra: 2.25_mm_diameter_bit_main
+        h: 12
+        height: 1
+        inclusion: laser
+        pos: &id031
+        - 5.091168824543141
+        - -5.091168824543144
+        - 33.0
+        r1: 1.5
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 12
+        extra: 2.25_mm_diameter_bit_main
+        h: 12
+        height: 1
+        inclusion: 3dpr
+        pos: *id031
+        r1: 1.5
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 12
+        extra: 2.25_mm_diameter_bit_main
+        h: 12
+        height: 1
+        inclusion: 'true'
+        pos: *id031
+        r1: 1.5
+        r2: 1.5
+        shape: cylinder
+        type: negative
+        width: 1
+    - - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: laser
+        pos: &id032
+        - 5.091168824543141
+        - -5.091168824543144
+        - 45.0
+        r1: 1.5
+        r2: 0.35
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: 3dpr
+        pos: *id032
+        r1: 1.5
+        r2: 0.35
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 4
+        extra: 2.25_mm_diameter_bit_main
+        h: 4
+        height: 1
+        inclusion: 'true'
+        pos: *id032
+        r1: 1.5
+        r2: 0.35
+        shape: cylinder
+        type: negative
+        width: 1
+    - - depth: 2.5
+        extra: 2.25_mm_diameter_bit_main
+        h: 2.5
+        height: 1
+        inclusion: laser
+        pos: &id033
+        - 0
+        - 0
+        - 89.0
+        r1: 6.5
+        r2: 8.35
+        shape: cylinder
+        type: positive
+        width: 1
+      - depth: 2.5
+        extra: 2.25_mm_diameter_bit_main
+        h: 2.5
+        height: 1
+        inclusion: 3dpr
+        pos: *id033
+        r1: 6.5
+        r2: 8.35
+        shape: cylinder
+        type: positive
+        width: 1
+      - depth: 2.5
+        extra: 2.25_mm_diameter_bit_main
+        h: 2.5
+        height: 1
+        inclusion: 'true'
+        pos: *id033
+        r1: 6.5
+        r2: 8.35
+        shape: cylinder
+        type: positive
+        width: 1
+    - - depth: 3.299999999999997
+        extra: 2.25_mm_diameter_bit_main
+        h: 3.299999999999997
+        height: 1
+        inclusion: laser
+        pos: &id034
+        - 0
+        - 0
+        - 88.29999999999998
+        r: 4.4
+        radius: 4.4
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 3.299999999999997
+        extra: 2.25_mm_diameter_bit_main
+        h: 3.299999999999997
+        height: 1
+        inclusion: 3dpr
+        pos: *id034
+        r: 4.4
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 3.299999999999997
+        extra: 2.25_mm_diameter_bit_main
+        h: 3.299999999999997
+        height: 1
+        inclusion: 'true'
+        pos: *id034
+        r: 4.4
+        shape: cylinder
+        type: negative
+        width: 1
+    - - - extra: 2.25_mm_diameter_bit_main
+          height: 1
+          pos:
+          - -3.75
+          - -3.7000000000000006
+          - 83.45
+          shape: cube
+          size:
+          - 7.5
+          - 12.100000000000001
+          - 4.9
+          type: negative
+          width: 1
+    - - - extra: 2.25_mm_diameter_bit_main
+          height: 1
+          pos:
+          - -2.35
+          - -4.949999999999999
+          - 83.45
+          shape: cube
+          size:
+          - 4.7
+          - 1.4500000000000002
+          - 4.9
+          type: negative
+          width: 1
+    - - objects:
+        - - clearance:
+            - top
+            - bottom
+            depth: 8
+            extra: 2.25_mm_diameter_bit_main
+            h: 1.7
+            height: 1
+            inclusion: laser
+            pos:
+            - 0
+            - 0
+            - -1.7
+            r1: 1.5
+            r2: 2.4
+            shape: cylinder
+            type: positive
+            width: 1
+        - - - clearance:
+              - top
+              - bottom
+              depth: 8
+              extra: 2.25_mm_diameter_bit_main
+              h: 250
+              height: 1
+              inclusion: laser
+              pos:
+              - 0
+              - 0
+              - 0.0
+              r: 2.4
+              shape: cylinder
+              type: positive
+              width: 1
+        - - clearance:
+            - top
+            - bottom
+            depth: 8
+            extra: 2.25_mm_diameter_bit_main
+            h: 8
+            height: 1
+            inclusion: laser
+            pos:
+            - 0
+            - 0
+            - -8.0
+            r: 1.5
+            radius: 1.5
+            shape: cylinder
+            type: positive
+            width: 1
+          - clearance:
+            - top
+            - bottom
+            depth: 8
+            extra: 2.25_mm_diameter_bit_main
+            h: 8
+            height: 1
+            inclusion: 3dpr
+            pos:
+            - 0
+            - 0
+            - -8.0
+            r: 1.5
+            shape: cylinder
+            type: positive
+            width: 1
+          - clearance:
+            - top
+            - bottom
+            depth: 8
+            extra: 2.25_mm_diameter_bit_main
+            h: 8
+            height: 1
+            inclusion: 'true'
+            pos:
+            - 0
+            - 0
+            - -8.0
+            r: 1.5
+            shape: cylinder
+            type: positive
+            width: 1
+        - - objects:
+            - depth: 250
+              height: 250
+              inclusion: laser
+              pos:
+              - 0
+              - 0
+              - -250
+              r: 2.9734999999999996
+              shape: polyg
+              sides: 6
+              type: positive
+              width: 1
+            - - - - - - depth: 250
+                        height: 1
+                        inclusion: 3dpr
+                        pos:
+                        - -1.75
+                        - -3.25
+                        - -250.3
+                        rotX: 0
+                        rotY: 0
+                        rotZ: 0
+                        shape: cube
+                        size:
+                        - 3.5
+                        - 6.5
+                        - 0.3
+                        type: positive
+                        width: 1
+                - - - - depth: 250
+                        height: 1
+                        inclusion: 3dpr
+                        pos:
+                        - -1.75
+                        - -1.75
+                        - -250.60000000000002
+                        rotX: 0
+                        rotY: 0
+                        rotZ: 0
+                        shape: cube
+                        size:
+                        - 3.5
+                        - 3.5
+                        - 0.3
+                        type: positive
+                        width: 1
+            - - - - - - depth: 250
+                        height: 1
+                        inclusion: 3dpr
+                        pos:
+                        - -1.75
+                        - -3.25
+                        - 0
+                        rotX: 0
+                        rotY: 0
+                        rotZ: 0
+                        shape: cube
+                        size:
+                        - 3.5
+                        - 6.5
+                        - 0.3
+                        type: positive
+                        width: 1
+                - - - - depth: 250
+                        height: 1
+                        inclusion: 3dpr
+                        pos:
+                        - -1.75
+                        - -1.75
+                        - 0.3
+                        rotX: 0
+                        rotY: 0
+                        rotZ: 0
+                        shape: cube
+                        size:
+                        - 3.5
+                        - 3.5
+                        - 0.3
+                        type: positive
+                        width: 1
+            - depth: 250
+              height: 250
+              inclusion: 3dpr
+              pos:
+              - 0
+              - 0
+              - -250
+              r: 3.2619999999999996
+              shape: polyg
+              sides: 6
+              type: positive
+              width: 1
+            - - - - - - depth: 250
+                        height: 1
+                        inclusion: 3dpr
+                        pos:
+                        - -1.75
+                        - -3.25
+                        - -250.3
+                        rotX: 0
+                        rotY: 0
+                        rotZ: 0
+                        shape: cube
+                        size:
+                        - 3.5
+                        - 6.5
+                        - 0.3
+                        type: positive
+                        width: 1
+                - - - - depth: 250
+                        height: 1
+                        inclusion: 3dpr
+                        pos:
+                        - -1.75
+                        - -1.75
+                        - -250.60000000000002
+                        rotX: 0
+                        rotY: 0
+                        rotZ: 0
+                        shape: cube
+                        size:
+                        - 3.5
+                        - 3.5
+                        - 0.3
+                        type: positive
+                        width: 1
+            - - - - - - depth: 250
+                        height: 1
+                        inclusion: 3dpr
+                        pos:
+                        - -1.75
+                        - -3.25
+                        - 0
+                        rotX: 0
+                        rotY: 0
+                        rotZ: 0
+                        shape: cube
+                        size:
+                        - 3.5
+                        - 6.5
+                        - 0.3
+                        type: positive
+                        width: 1
+                - - - - depth: 250
+                        height: 1
+                        inclusion: 3dpr
+                        pos:
+                        - -1.75
+                        - -1.75
+                        - 0.3
+                        rotX: 0
+                        rotY: 0
+                        rotZ: 0
+                        shape: cube
+                        size:
+                        - 3.5
+                        - 3.5
+                        - 0.3
+                        type: positive
+                        width: 1
+            - depth: 250
+              height: 250
+              inclusion: 'true'
+              pos:
+              - 0
+              - 0
+              - -250
+              r: 2.9734999999999996
+              shape: polyg
+              sides: 6
+              type: positive
+              width: 1
+            - - - - - - depth: 250
+                        height: 1
+                        inclusion: 3dpr
+                        pos:
+                        - -1.75
+                        - -3.25
+                        - -250.3
+                        rotX: 0
+                        rotY: 0
+                        rotZ: 0
+                        shape: cube
+                        size:
+                        - 3.5
+                        - 6.5
+                        - 0.3
+                        type: positive
+                        width: 1
+                - - - - depth: 250
+                        height: 1
+                        inclusion: 3dpr
+                        pos:
+                        - -1.75
+                        - -1.75
+                        - -250.60000000000002
+                        rotX: 0
+                        rotY: 0
+                        rotZ: 0
+                        shape: cube
+                        size:
+                        - 3.5
+                        - 3.5
+                        - 0.3
+                        type: positive
+                        width: 1
+            - - - - - - depth: 250
+                        height: 1
+                        inclusion: 3dpr
+                        pos:
+                        - -1.75
+                        - -3.25
+                        - 0
+                        rotX: 0
+                        rotY: 0
+                        rotZ: 0
+                        shape: cube
+                        size:
+                        - 3.5
+                        - 6.5
+                        - 0.3
+                        type: positive
+                        width: 1
+                - - - - depth: 250
+                        height: 1
+                        inclusion: 3dpr
+                        pos:
+                        - -1.75
+                        - -1.75
+                        - 0.3
+                        rotX: 0
+                        rotY: 0
+                        rotZ: 0
+                        shape: cube
+                        size:
+                        - 3.5
+                        - 3.5
+                        - 0.3
+                        type: positive
+                        width: 1
+            pos:
+            - 0
+            - 0
+            - -5.5
+            rot:
+            - 0
+            - 0
+            - 0
+            type: rotation
+            typetype: positive
+        - - clearance:
+            - top
+            - bottom
+            depth: 8
+            extra: 2.25_mm_diameter_bit_main
+            h: 1.9
+            height: 1
+            inclusion: 3dpr
+            pos:
+            - 0
+            - 0
+            - -1.9
+            r1: 1.8
+            r2: 3.6
+            shape: cylinder
+            type: positive
+            width: 1
+        - - - clearance:
+              - top
+              - bottom
+              depth: 8
+              extra: 2.25_mm_diameter_bit_main
+              h: 250
+              height: 1
+              inclusion: 3dpr
+              pos:
+              - 0
+              - 0
+              - 0.0
+              r: 3.6
+              shape: cylinder
+              type: positive
+              width: 1
+        - - clearance:
+            - top
+            - bottom
+            depth: 8
+            extra: 2.25_mm_diameter_bit_main
+            h: 8
+            height: 1
+            inclusion: laser
+            pos:
+            - 0
+            - 0
+            - -8.0
+            r: 1.8
+            radius: 1.8
+            shape: cylinder
+            type: positive
+            width: 1
+          - clearance:
+            - top
+            - bottom
+            depth: 8
+            extra: 2.25_mm_diameter_bit_main
+            h: 8
+            height: 1
+            inclusion: 3dpr
+            pos:
+            - 0
+            - 0
+            - -8.0
+            r: 1.8
+            shape: cylinder
+            type: positive
+            width: 1
+          - clearance:
+            - top
+            - bottom
+            depth: 8
+            extra: 2.25_mm_diameter_bit_main
+            h: 8
+            height: 1
+            inclusion: 'true'
+            pos:
+            - 0
+            - 0
+            - -8.0
+            r: 1.8
+            shape: cylinder
+            type: positive
+            width: 1
+        - - objects:
+            - depth: 250
+              height: 250
+              inclusion: laser
+              pos:
+              - 0
+              - 0
+              - -250
+              r: 2.9734999999999996
+              shape: polyg
+              sides: 6
+              type: positive
+              width: 1
+            - - - - - - depth: 250
+                        height: 1
+                        inclusion: 3dpr
+                        pos:
+                        - -1.75
+                        - -3.25
+                        - -250.3
+                        rotX: 0
+                        rotY: 0
+                        rotZ: 0
+                        shape: cube
+                        size:
+                        - 3.5
+                        - 6.5
+                        - 0.3
+                        type: positive
+                        width: 1
+                - - - - depth: 250
+                        height: 1
+                        inclusion: 3dpr
+                        pos:
+                        - -1.75
+                        - -1.75
+                        - -250.60000000000002
+                        rotX: 0
+                        rotY: 0
+                        rotZ: 0
+                        shape: cube
+                        size:
+                        - 3.5
+                        - 3.5
+                        - 0.3
+                        type: positive
+                        width: 1
+            - - - - - - depth: 250
+                        height: 1
+                        inclusion: 3dpr
+                        pos:
+                        - -1.75
+                        - -3.25
+                        - 0
+                        rotX: 0
+                        rotY: 0
+                        rotZ: 0
+                        shape: cube
+                        size:
+                        - 3.5
+                        - 6.5
+                        - 0.3
+                        type: positive
+                        width: 1
+                - - - - depth: 250
+                        height: 1
+                        inclusion: 3dpr
+                        pos:
+                        - -1.75
+                        - -1.75
+                        - 0.3
+                        rotX: 0
+                        rotY: 0
+                        rotZ: 0
+                        shape: cube
+                        size:
+                        - 3.5
+                        - 3.5
+                        - 0.3
+                        type: positive
+                        width: 1
+            - depth: 250
+              height: 250
+              inclusion: 3dpr
+              pos:
+              - 0
+              - 0
+              - -250
+              r: 3.2619999999999996
+              shape: polyg
+              sides: 6
+              type: positive
+              width: 1
+            - - - - - - depth: 250
+                        height: 1
+                        inclusion: 3dpr
+                        pos:
+                        - -1.75
+                        - -3.25
+                        - -250.3
+                        rotX: 0
+                        rotY: 0
+                        rotZ: 0
+                        shape: cube
+                        size:
+                        - 3.5
+                        - 6.5
+                        - 0.3
+                        type: positive
+                        width: 1
+                - - - - depth: 250
+                        height: 1
+                        inclusion: 3dpr
+                        pos:
+                        - -1.75
+                        - -1.75
+                        - -250.60000000000002
+                        rotX: 0
+                        rotY: 0
+                        rotZ: 0
+                        shape: cube
+                        size:
+                        - 3.5
+                        - 3.5
+                        - 0.3
+                        type: positive
+                        width: 1
+            - - - - - - depth: 250
+                        height: 1
+                        inclusion: 3dpr
+                        pos:
+                        - -1.75
+                        - -3.25
+                        - 0
+                        rotX: 0
+                        rotY: 0
+                        rotZ: 0
+                        shape: cube
+                        size:
+                        - 3.5
+                        - 6.5
+                        - 0.3
+                        type: positive
+                        width: 1
+                - - - - depth: 250
+                        height: 1
+                        inclusion: 3dpr
+                        pos:
+                        - -1.75
+                        - -1.75
+                        - 0.3
+                        rotX: 0
+                        rotY: 0
+                        rotZ: 0
+                        shape: cube
+                        size:
+                        - 3.5
+                        - 3.5
+                        - 0.3
+                        type: positive
+                        width: 1
+            - depth: 250
+              height: 250
+              inclusion: 'true'
+              pos:
+              - 0
+              - 0
+              - -250
+              r: 2.9734999999999996
+              shape: polyg
+              sides: 6
+              type: positive
+              width: 1
+            - - - - - - depth: 250
+                        height: 1
+                        inclusion: 3dpr
+                        pos:
+                        - -1.75
+                        - -3.25
+                        - -250.3
+                        rotX: 0
+                        rotY: 0
+                        rotZ: 0
+                        shape: cube
+                        size:
+                        - 3.5
+                        - 6.5
+                        - 0.3
+                        type: positive
+                        width: 1
+                - - - - depth: 250
+                        height: 1
+                        inclusion: 3dpr
+                        pos:
+                        - -1.75
+                        - -1.75
+                        - -250.60000000000002
+                        rotX: 0
+                        rotY: 0
+                        rotZ: 0
+                        shape: cube
+                        size:
+                        - 3.5
+                        - 3.5
+                        - 0.3
+                        type: positive
+                        width: 1
+            - - - - - - depth: 250
+                        height: 1
+                        inclusion: 3dpr
+                        pos:
+                        - -1.75
+                        - -3.25
+                        - 0
+                        rotX: 0
+                        rotY: 0
+                        rotZ: 0
+                        shape: cube
+                        size:
+                        - 3.5
+                        - 6.5
+                        - 0.3
+                        type: positive
+                        width: 1
+                - - - - depth: 250
+                        height: 1
+                        inclusion: 3dpr
+                        pos:
+                        - -1.75
+                        - -1.75
+                        - 0.3
+                        rotX: 0
+                        rotY: 0
+                        rotZ: 0
+                        shape: cube
+                        size:
+                        - 3.5
+                        - 3.5
+                        - 0.3
+                        type: positive
+                        width: 1
+            pos:
+            - 0
+            - 0
+            - -5.0
+            rot:
+            - 0
+            - 0
+            - 0
+            type: rotation
+            typetype: positive
+        - - clearance:
+            - top
+            - bottom
+            depth: 8
+            extra: 2.25_mm_diameter_bit_main
+            h: 1.7
+            height: 1
+            inclusion: 'true'
+            pos:
+            - 0
+            - 0
+            - -1.7
+            r1: 1.5
+            r2: 2.9
+            shape: cylinder
+            type: positive
+            width: 1
+        - - - clearance:
+              - top
+              - bottom
+              depth: 8
+              extra: 2.25_mm_diameter_bit_main
+              h: 250
+              height: 1
+              inclusion: 'true'
+              pos:
+              - 0
+              - 0
+              - 0.0
+              r: 2.9
+              shape: cylinder
+              type: positive
+              width: 1
+        - - clearance:
+            - top
+            - bottom
+            depth: 8
+            extra: 2.25_mm_diameter_bit_main
+            h: 8
+            height: 1
+            inclusion: laser
+            pos:
+            - 0
+            - 0
+            - -8.0
+            r: 1.5
+            radius: 1.5
+            shape: cylinder
+            type: positive
+            width: 1
+          - clearance:
+            - top
+            - bottom
+            depth: 8
+            extra: 2.25_mm_diameter_bit_main
+            h: 8
+            height: 1
+            inclusion: 3dpr
+            pos:
+            - 0
+            - 0
+            - -8.0
+            r: 1.5
+            shape: cylinder
+            type: positive
+            width: 1
+          - clearance:
+            - top
+            - bottom
+            depth: 8
+            extra: 2.25_mm_diameter_bit_main
+            h: 8
+            height: 1
+            inclusion: 'true'
+            pos:
+            - 0
+            - 0
+            - -8.0
+            r: 1.5
+            shape: cylinder
+            type: positive
+            width: 1
+        - - objects:
+            - depth: 250
+              height: 250
+              inclusion: laser
+              pos:
+              - 0
+              - 0
+              - -250
+              r: 2.9734999999999996
+              shape: polyg
+              sides: 6
+              type: positive
+              width: 1
+            - - - - - - depth: 250
+                        height: 1
+                        inclusion: 3dpr
+                        pos:
+                        - -1.75
+                        - -3.25
+                        - -250.3
+                        rotX: 0
+                        rotY: 0
+                        rotZ: 0
+                        shape: cube
+                        size:
+                        - 3.5
+                        - 6.5
+                        - 0.3
+                        type: positive
+                        width: 1
+                - - - - depth: 250
+                        height: 1
+                        inclusion: 3dpr
+                        pos:
+                        - -1.75
+                        - -1.75
+                        - -250.60000000000002
+                        rotX: 0
+                        rotY: 0
+                        rotZ: 0
+                        shape: cube
+                        size:
+                        - 3.5
+                        - 3.5
+                        - 0.3
+                        type: positive
+                        width: 1
+            - - - - - - depth: 250
+                        height: 1
+                        inclusion: 3dpr
+                        pos:
+                        - -1.75
+                        - -3.25
+                        - 0
+                        rotX: 0
+                        rotY: 0
+                        rotZ: 0
+                        shape: cube
+                        size:
+                        - 3.5
+                        - 6.5
+                        - 0.3
+                        type: positive
+                        width: 1
+                - - - - depth: 250
+                        height: 1
+                        inclusion: 3dpr
+                        pos:
+                        - -1.75
+                        - -1.75
+                        - 0.3
+                        rotX: 0
+                        rotY: 0
+                        rotZ: 0
+                        shape: cube
+                        size:
+                        - 3.5
+                        - 3.5
+                        - 0.3
+                        type: positive
+                        width: 1
+            - depth: 250
+              height: 250
+              inclusion: 3dpr
+              pos:
+              - 0
+              - 0
+              - -250
+              r: 3.2619999999999996
+              shape: polyg
+              sides: 6
+              type: positive
+              width: 1
+            - - - - - - depth: 250
+                        height: 1
+                        inclusion: 3dpr
+                        pos:
+                        - -1.75
+                        - -3.25
+                        - -250.3
+                        rotX: 0
+                        rotY: 0
+                        rotZ: 0
+                        shape: cube
+                        size:
+                        - 3.5
+                        - 6.5
+                        - 0.3
+                        type: positive
+                        width: 1
+                - - - - depth: 250
+                        height: 1
+                        inclusion: 3dpr
+                        pos:
+                        - -1.75
+                        - -1.75
+                        - -250.60000000000002
+                        rotX: 0
+                        rotY: 0
+                        rotZ: 0
+                        shape: cube
+                        size:
+                        - 3.5
+                        - 3.5
+                        - 0.3
+                        type: positive
+                        width: 1
+            - - - - - - depth: 250
+                        height: 1
+                        inclusion: 3dpr
+                        pos:
+                        - -1.75
+                        - -3.25
+                        - 0
+                        rotX: 0
+                        rotY: 0
+                        rotZ: 0
+                        shape: cube
+                        size:
+                        - 3.5
+                        - 6.5
+                        - 0.3
+                        type: positive
+                        width: 1
+                - - - - depth: 250
+                        height: 1
+                        inclusion: 3dpr
+                        pos:
+                        - -1.75
+                        - -1.75
+                        - 0.3
+                        rotX: 0
+                        rotY: 0
+                        rotZ: 0
+                        shape: cube
+                        size:
+                        - 3.5
+                        - 3.5
+                        - 0.3
+                        type: positive
+                        width: 1
+            - depth: 250
+              height: 250
+              inclusion: 'true'
+              pos:
+              - 0
+              - 0
+              - -250
+              r: 2.9734999999999996
+              shape: polyg
+              sides: 6
+              type: positive
+              width: 1
+            - - - - - - depth: 250
+                        height: 1
+                        inclusion: 3dpr
+                        pos:
+                        - -1.75
+                        - -3.25
+                        - -250.3
+                        rotX: 0
+                        rotY: 0
+                        rotZ: 0
+                        shape: cube
+                        size:
+                        - 3.5
+                        - 6.5
+                        - 0.3
+                        type: positive
+                        width: 1
+                - - - - depth: 250
+                        height: 1
+                        inclusion: 3dpr
+                        pos:
+                        - -1.75
+                        - -1.75
+                        - -250.60000000000002
+                        rotX: 0
+                        rotY: 0
+                        rotZ: 0
+                        shape: cube
+                        size:
+                        - 3.5
+                        - 3.5
+                        - 0.3
+                        type: positive
+                        width: 1
+            - - - - - - depth: 250
+                        height: 1
+                        inclusion: 3dpr
+                        pos:
+                        - -1.75
+                        - -3.25
+                        - 0
+                        rotX: 0
+                        rotY: 0
+                        rotZ: 0
+                        shape: cube
+                        size:
+                        - 3.5
+                        - 6.5
+                        - 0.3
+                        type: positive
+                        width: 1
+                - - - - depth: 250
+                        height: 1
+                        inclusion: 3dpr
+                        pos:
+                        - -1.75
+                        - -1.75
+                        - 0.3
+                        rotX: 0
+                        rotY: 0
+                        rotZ: 0
+                        shape: cube
+                        size:
+                        - 3.5
+                        - 3.5
+                        - 0.3
+                        type: positive
+                        width: 1
+            pos:
+            - 0
+            - 0
+            - -5.5
+            rot:
+            - 0
+            - 0
+            - 0
+            type: rotation
+            typetype: positive
+        pos:
+        - 6.5
+        - 0
+        - 58.0
+        rot:
+        - 0
+        - 90
+        - 0
+        type: rotation
+        typetype: negative
+    - - - extra: 2.25_mm_diameter_bit_main
+          height: 1
+          pos:
+          - -1.75
+          - -3.75
+          - 48.0
+          shape: cube
+          size:
+          - 3.5
+          - 7.5
+          - 72.0
+          type: negative
+          width: 1
+    pos:
+    - 0
+    - 0
+    - 91.5
+    rot:
+    - 180
+    - 0
+    - 0
+    type: rotation
+    typetype: positive
+  - objects:
+    - - - extra: 2.25_mm_diameter_bit_main
+          height: 1
+          pos:
+          - -3.5
+          - -1.5
+          - 0
+          shape: cube
+          size:
+          - 7
+          - 3
+          - 14
+          type: positive
+          width: 1
+    - inclusion: laser
+      objects:
+      - h: 3
+        pos:
+        - -2.5
+        - 0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: positive
+      - h: 3
+        pos:
+        - 2.5
+        - 0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: positive
+      pos:
+      - 0
+      - -1.5
+      - 9.0
+      rot:
+      - 0
+      - 90
+      - 90
+      type: hull
+      typetype: negative
+    - inclusion: 3dpr
+      objects:
+      - h: 3
+        pos:
+        - -2.5
+        - 0
+        - 0
+        r: 1.8
+        shape: cylinder
+        type: positive
+      - h: 3
+        pos:
+        - 2.5
+        - 0
+        - 0
+        r: 1.8
+        shape: cylinder
+        type: positive
+      pos:
+      - 0
+      - -1.5
+      - 9.0
+      rot:
+      - 0
+      - 90
+      - 90
+      type: hull
+      typetype: negative
+    - inclusion: 'true'
+      objects:
+      - h: 3
+        pos:
+        - -2.5
+        - 0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: positive
+      - h: 3
+        pos:
+        - 2.5
+        - 0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: positive
+      pos:
+      - 0
+      - -1.5
+      - 9.0
+      rot:
+      - 0
+      - 90
+      - 90
+      type: hull
+      typetype: negative
+    pos:
+    - 17
+    - -7
+    - 1.5
+    rot:
+    - -90
+    - 0
+    - 0
+    type: rotation
+    typetype: positive
+  - objects:
+    - - depth: 4.6
+        extra: 2.25_mm_diameter_bit_main
+        h: 4.6
+        height: 1
+        inclusion: laser
+        pos: &id035
+        - 0
+        - 0
+        - 0.0
+        r1: 6.29
+        r2: 6.474
+        shape: cylinder
+        type: positive
+        width: 1
+      - depth: 4.6
+        extra: 2.25_mm_diameter_bit_main
+        h: 4.6
+        height: 1
+        inclusion: 3dpr
+        pos: *id035
+        r1: 6.29
+        r2: 6.474
+        shape: cylinder
+        type: positive
+        width: 1
+      - depth: 4.6
+        extra: 2.25_mm_diameter_bit_main
+        h: 4.6
+        height: 1
+        inclusion: 'true'
+        pos: *id035
+        r1: 6.29
+        r2: 6.474
+        shape: cylinder
+        type: positive
+        width: 1
+    - - - extra: 2.25_mm_diameter_bit_main
+          height: 1
+          pos:
+          - -13.6
+          - -9.0
+          - -0.2
+          shape: cube
+          size:
+          - 10
+          - 18
+          - 5
+          type: negative
+          width: 1
+    - - - extra: 2.25_mm_diameter_bit_main
+          height: 1
+          pos:
+          - 3.5999999999999996
+          - -9.0
+          - -0.2
+          shape: cube
+          size:
+          - 10
+          - 18
+          - 5
+          type: negative
+          width: 1
+    - - - extra: 2.25_mm_diameter_bit_main
+          height: 1
+          pos:
+          - -8.0
+          - -14.95
+          - -0.2
+          shape: cube
+          size:
+          - 16
+          - 10
+          - 5
+          type: negative
+          width: 1
+    - - - extra: 2.25_mm_diameter_bit_main
+          height: 1
+          pos:
+          - -8.2
+          - -13.6
+          - -0.2
+          shape: cube
+          size:
+          - 6
+          - 10
+          - 5
+          type: negative
+          width: 1
+    - - - extra: 2.25_mm_diameter_bit_main
+          height: 1
+          pos:
+          - 2.2
+          - -13.6
+          - -0.2
+          shape: cube
+          size:
+          - 6
+          - 10
+          - 5
+          type: negative
+          width: 1
+    - - - extra: 2.25_mm_diameter_bit_main
+          height: 1
+          pos:
+          - -3.8
+          - -5.15
+          - 0.6
+          shape: cube
+          size:
+          - 7.6
+          - 8.5
+          - 2.55
+          type: negative
+          width: 1
+    - - extra: 2.25_mm_diameter_bit_main
+        height: 3.12
+        pos:
+        - 0
+        - 0
+        - 0.58
+        r: 3.290896534380867
+        rot:
+        - 0
+        - 0
+        - 30
+        shape: polyg
+        sides: 6
+        type: negative
+        width: 1
+    - - depth: 5.0
+        extra: 2.25_mm_diameter_bit_main
+        h: 5.0
+        height: 1
+        inclusion: laser
+        pos: &id036
+        - 0
+        - 0
+        - -0.20000000000000018
+        r: 1.7
+        radius: 1.7
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 5.0
+        extra: 2.25_mm_diameter_bit_main
+        h: 5.0
+        height: 1
+        inclusion: 3dpr
+        pos: *id036
+        r: 1.7
+        shape: cylinder
+        type: negative
+        width: 1
+      - depth: 5.0
+        extra: 2.25_mm_diameter_bit_main
+        h: 5.0
+        height: 1
+        inclusion: 'true'
+        pos: *id036
+        r: 1.7
+        shape: cylinder
+        type: negative
+        width: 1
+    pos:
+    - 25.7
+    - 0
+    - 3.6
+    rot:
+    - 0
+    - 90
+    - 0
+    type: rotation
+    typetype: positive
+  - - depth: 0.22
+      extra: 2.25_mm_diameter_bit_main
+      h: 0.22
+      height: 1
+      inclusion: laser
+      pos: &id037
+      - 42
+      - 0
+      - 0.0
+      r1: 4.0
+      r2: 4.0
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 0.22
+      extra: 2.25_mm_diameter_bit_main
+      h: 0.22
+      height: 1
+      inclusion: 3dpr
+      pos: *id037
+      r1: 4.0
+      r2: 4.0
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 0.22
+      extra: 2.25_mm_diameter_bit_main
+      h: 0.22
+      height: 1
+      inclusion: 'true'
+      pos: *id037
+      r1: 4.0
+      r2: 4.0
+      shape: cylinder
+      type: positive
+      width: 1
+  - - depth: 1.2
+      extra: 2.25_mm_diameter_bit_main
+      h: 1.2
+      height: 1
+      inclusion: laser
+      pos: &id038
+      - 42
+      - 0
+      - 0.19999999999999996
+      r1: 4.0
+      r2: 5.25
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 1.2
+      extra: 2.25_mm_diameter_bit_main
+      h: 1.2
+      height: 1
+      inclusion: 3dpr
+      pos: *id038
+      r1: 4.0
+      r2: 5.25
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 1.2
+      extra: 2.25_mm_diameter_bit_main
+      h: 1.2
+      height: 1
+      inclusion: 'true'
+      pos: *id038
+      r1: 4.0
+      r2: 5.25
+      shape: cylinder
+      type: positive
+      width: 1
+  - - depth: 1.17
+      extra: 2.25_mm_diameter_bit_main
+      h: 1.17
+      height: 1
+      inclusion: laser
+      pos: &id039
+      - 42
+      - 0
+      - 1.38
+      r1: 4.225
+      r2: 4.225
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 1.17
+      extra: 2.25_mm_diameter_bit_main
+      h: 1.17
+      height: 1
+      inclusion: 3dpr
+      pos: *id039
+      r1: 4.225
+      r2: 4.225
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 1.17
+      extra: 2.25_mm_diameter_bit_main
+      h: 1.17
+      height: 1
+      inclusion: 'true'
+      pos: *id039
+      r1: 4.225
+      r2: 4.225
+      shape: cylinder
+      type: positive
+      width: 1
+  - - depth: 0.3700000000000001
+      extra: 2.25_mm_diameter_bit_main
+      h: 0.3700000000000001
+      height: 1
+      inclusion: laser
+      pos: &id040
+      - 42
+      - 0
+      - 2.53
+      r1: 4.225
+      r2: 3.95
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 0.3700000000000001
+      extra: 2.25_mm_diameter_bit_main
+      h: 0.3700000000000001
+      height: 1
+      inclusion: 3dpr
+      pos: *id040
+      r1: 4.225
+      r2: 3.95
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 0.3700000000000001
+      extra: 2.25_mm_diameter_bit_main
+      h: 0.3700000000000001
+      height: 1
+      inclusion: 'true'
+      pos: *id040
+      r1: 4.225
+      r2: 3.95
+      shape: cylinder
+      type: positive
+      width: 1
+  - - depth: 3.3
+      extra: 2.25_mm_diameter_bit_main
+      h: 3.3
+      height: 1
+      inclusion: laser
+      pos: &id041
+      - 42
+      - 0
+      - -0.19999999999999996
+      r: 1.7
+      radius: 1.7
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 3.3
+      extra: 2.25_mm_diameter_bit_main
+      h: 3.3
+      height: 1
+      inclusion: 3dpr
+      pos: *id041
+      r: 1.7
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 3.3
+      extra: 2.25_mm_diameter_bit_main
+      h: 3.3
+      height: 1
+      inclusion: 'true'
+      pos: *id041
+      r: 1.7
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 1.0
+      extra: 2.25_mm_diameter_bit_main
+      h: 1.0
+      height: 1
+      inclusion: laser
+      pos: &id042
+      - 55
+      - 0
+      - 0.0
+      r: 4
+      radius: 4
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 1.0
+      extra: 2.25_mm_diameter_bit_main
+      h: 1.0
+      height: 1
+      inclusion: 3dpr
+      pos: *id042
+      r: 4
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 1.0
+      extra: 2.25_mm_diameter_bit_main
+      h: 1.0
+      height: 1
+      inclusion: 'true'
+      pos: *id042
+      r: 4
+      shape: cylinder
+      type: positive
+      width: 1
+  - - depth: 5.77
+      extra: 2.25_mm_diameter_bit_main
+      h: 5.77
+      height: 1
+      inclusion: laser
+      pos: &id043
+      - 55
+      - 0
+      - 0.9800000000000004
+      r: 2.9
+      radius: 2.9
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 5.77
+      extra: 2.25_mm_diameter_bit_main
+      h: 5.77
+      height: 1
+      inclusion: 3dpr
+      pos: *id043
+      r: 2.9
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 5.77
+      extra: 2.25_mm_diameter_bit_main
+      h: 5.77
+      height: 1
+      inclusion: 'true'
+      pos: *id043
+      r: 2.9
+      shape: cylinder
+      type: positive
+      width: 1
+  - - depth: 1.77
+      extra: 2.25_mm_diameter_bit_main
+      h: 1.77
+      height: 1
+      inclusion: laser
+      pos: &id044
+      - 55
+      - 0
+      - -0.050000000000000044
+      r1: 3.47
+      r2: 1.7
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.77
+      extra: 2.25_mm_diameter_bit_main
+      h: 1.77
+      height: 1
+      inclusion: 3dpr
+      pos: *id044
+      r1: 3.47
+      r2: 1.7
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 1.77
+      extra: 2.25_mm_diameter_bit_main
+      h: 1.77
+      height: 1
+      inclusion: 'true'
+      pos: *id044
+      r1: 3.47
+      r2: 1.7
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 5.1
+      extra: 2.25_mm_diameter_bit_main
+      h: 5.1
+      height: 1
+      inclusion: laser
+      pos: &id045
+      - 55
+      - 0
+      - 1.7000000000000002
+      r1: 1.7
+      r2: 1.7
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 5.1
+      extra: 2.25_mm_diameter_bit_main
+      h: 5.1
+      height: 1
+      inclusion: 3dpr
+      pos: *id045
+      r1: 1.7
+      r2: 1.7
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 5.1
+      extra: 2.25_mm_diameter_bit_main
+      h: 5.1
+      height: 1
+      inclusion: 'true'
+      pos: *id045
+      r1: 1.7
+      r2: 1.7
+      shape: cylinder
+      type: negative
+      width: 1
+  components_objects:
+  - depth: 0.22
+    diameter_bit_main: 2.25
+    extra: 2.25_mm_diameter_bit_main
+    filter: version_3_precision_screwdriver
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: precision_screwdriver
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 42
+    - 0
+    - 0.11
+    r1: 4.0
+    r2: 4.0
+    radius_bit_main: 1.125
+    save_type: none
+    shape: oobb_cylinder
+    thickness: 91.5
+    typ: fast
+    type: positive
+    width: 1
+  - depth: 1.2
+    diameter_bit_main: 2.25
+    extra: 2.25_mm_diameter_bit_main
+    filter: version_3_precision_screwdriver
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: precision_screwdriver
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 42
+    - 0
+    - 0.7999999999999999
+    r1: 4.0
+    r2: 5.25
+    radius_bit_main: 1.125
+    save_type: none
+    shape: oobb_cylinder
+    thickness: 91.5
+    typ: fast
+    type: positive
+    width: 1
+  - depth: 1.17
+    diameter_bit_main: 2.25
+    extra: 2.25_mm_diameter_bit_main
+    filter: version_3_precision_screwdriver
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: precision_screwdriver
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 42
+    - 0
+    - 1.9649999999999999
+    r1: 4.225
+    r2: 4.225
+    radius_bit_main: 1.125
+    save_type: none
+    shape: oobb_cylinder
+    thickness: 91.5
+    typ: fast
+    type: positive
+    width: 1
+  - depth: 0.3700000000000001
+    diameter_bit_main: 2.25
+    extra: 2.25_mm_diameter_bit_main
+    filter: version_3_precision_screwdriver
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: precision_screwdriver
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 42
+    - 0
+    - 2.715
+    r1: 4.225
+    r2: 3.95
+    radius_bit_main: 1.125
+    save_type: none
+    shape: oobb_cylinder
+    thickness: 91.5
+    typ: fast
+    type: positive
+    width: 1
+  - depth: 3.3
+    diameter_bit_main: 2.25
+    extra: 2.25_mm_diameter_bit_main
+    filter: version_3_precision_screwdriver
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: precision_screwdriver
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 42
+    - 0
+    - 1.45
+    radius: 1.7
+    radius_bit_main: 1.125
+    save_type: none
+    shape: oobb_cylinder
+    thickness: 91.5
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 1.0
+    diameter_bit_main: 2.25
+    extra: 2.25_mm_diameter_bit_main
+    filter: version_3_precision_screwdriver
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: precision_screwdriver
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 55
+    - 0
+    - 0.5
+    radius: 4
+    radius_bit_main: 1.125
+    save_type: none
+    shape: oobb_cylinder
+    thickness: 91.5
+    typ: fast
+    type: positive
+    width: 1
+  - depth: 5.77
+    diameter_bit_main: 2.25
+    extra: 2.25_mm_diameter_bit_main
+    filter: version_3_precision_screwdriver
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: precision_screwdriver
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 55
+    - 0
+    - 3.865
+    radius: 2.9
+    radius_bit_main: 1.125
+    save_type: none
+    shape: oobb_cylinder
+    thickness: 91.5
+    typ: fast
+    type: positive
+    width: 1
+  - depth: 1.77
+    diameter_bit_main: 2.25
+    extra: 2.25_mm_diameter_bit_main
+    filter: version_3_precision_screwdriver
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: precision_screwdriver
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 55
+    - 0
+    - 0.835
+    r1: 3.47
+    r2: 1.7
+    radius_bit_main: 1.125
+    save_type: none
+    shape: oobb_cylinder
+    thickness: 91.5
+    typ: fast
+    type: negative
+    width: 1
+  - depth: 5.1
+    diameter_bit_main: 2.25
+    extra: 2.25_mm_diameter_bit_main
+    filter: version_3_precision_screwdriver
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: precision_screwdriver
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    pos:
+    - 55
+    - 0
+    - 4.25
+    r1: 1.7
+    r2: 1.7
+    radius_bit_main: 1.125
+    save_type: none
+    shape: oobb_cylinder
+    thickness: 91.5
+    typ: fast
+    type: negative
+    width: 1
+  components_string:
+  - oobb_cylinder_shape_positive_type_0.22_depth_42_0_0.11_pos_version_3_precision_screwdriver_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_project_oomp_mode_2.25_diameter_bit_main_2.25_mm_diameter_bit_main_extra_false_generate_stl_1_height_precision_screwdriver_oobb_name_1.125_radius_bit_main_91.5_thickness_1_width_4.0_r1_4.0_r2
+  - oobb_cylinder_shape_positive_type_1.2_depth_42_0_0.7999999999999999_pos_version_3_precision_screwdriver_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_project_oomp_mode_2.25_diameter_bit_main_2.25_mm_diameter_bit_main_extra_false_generate_stl_1_height_precision_screwdriver_oobb_name_1.125_radius_bit_main_91.5_thickness_1_width_4.0_r1_5.25_r2
+  - oobb_cylinder_shape_positive_type_1.17_depth_42_0_1.9649999999999999_pos_version_3_precision_screwdriver_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_project_oomp_mode_2.25_diameter_bit_main_2.25_mm_diameter_bit_main_extra_false_generate_stl_1_height_precision_screwdriver_oobb_name_1.125_radius_bit_main_91.5_thickness_1_width_4.225_r1_4.225_r2
+  - oobb_cylinder_shape_positive_type_0.3700000000000001_depth_42_0_2.715_pos_version_3_precision_screwdriver_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_project_oomp_mode_2.25_diameter_bit_main_2.25_mm_diameter_bit_main_extra_false_generate_stl_1_height_precision_screwdriver_oobb_name_1.125_radius_bit_main_91.5_thickness_1_width_4.225_r1_3.95_r2
+  - oobb_cylinder_shape_negative_type_3.3_depth_42_0_1.45_pos_version_3_precision_screwdriver_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_project_oomp_mode_2.25_diameter_bit_main_2.25_mm_diameter_bit_main_extra_false_generate_stl_1_height_precision_screwdriver_oobb_name_1.125_radius_bit_main_91.5_thickness_1_width_1.7_radius
+  - oobb_cylinder_shape_positive_type_1.0_depth_55_0_0.5_pos_version_3_precision_screwdriver_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_project_oomp_mode_2.25_diameter_bit_main_2.25_mm_diameter_bit_main_extra_false_generate_stl_1_height_precision_screwdriver_oobb_name_1.125_radius_bit_main_91.5_thickness_1_width_4_radius
+  - oobb_cylinder_shape_positive_type_5.77_depth_55_0_3.865_pos_version_3_precision_screwdriver_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_project_oomp_mode_2.25_diameter_bit_main_2.25_mm_diameter_bit_main_extra_false_generate_stl_1_height_precision_screwdriver_oobb_name_1.125_radius_bit_main_91.5_thickness_1_width_2.9_radius
+  - oobb_cylinder_shape_negative_type_1.77_depth_55_0_0.835_pos_version_3_precision_screwdriver_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_project_oomp_mode_2.25_diameter_bit_main_2.25_mm_diameter_bit_main_extra_false_generate_stl_1_height_precision_screwdriver_oobb_name_1.125_radius_bit_main_91.5_thickness_1_width_3.47_r1_1.7_r2
+  - oobb_cylinder_shape_negative_type_5.1_depth_55_0_4.25_pos_version_3_precision_screwdriver_filter_fast_typ_none_save_type_false_navigation_true_overwrite_'3dpr'_'true'_modes_false_oomp_run_project_oomp_mode_2.25_diameter_bit_main_2.25_mm_diameter_bit_main_extra_false_generate_stl_1_height_precision_screwdriver_oobb_name_1.125_radius_bit_main_91.5_thickness_1_width_1.7_r1_1.7_r2
+  description: oomlout oobb tool precision screwdriver precision screwdriver 1x1x91.5
+  description_extra: 2.25_mm_diameter_bit_main_extra
+  description_main: precision_screwdriver_1_width_1_height_91.5_mm_depth
+  diameter_bit_main: 2.25
+  extra: 2.25_mm_diameter_bit_main
+  height: 1
+  height_mm: 14
+  id: tool_precision_screwdriver_version_3_precision_screwdriver_2_25_mm_diameter_bit_main
+  id_oobb: tool_precision_screwdriver_version_3_precision_screwdriver_2_25_mm_diameter_bit_main
+  kwargs:
+    diameter_bit_main: 2.25
+    extra: 2.25_mm_diameter_bit_main
+    filter: version_3_precision_screwdriver
+    generate_stl: false
+    height: 1
+    modes:
+    - 3dpr
+    - 'true'
+    navigation: false
+    oobb_name: precision_screwdriver
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    radius_bit_main: 1.125
+    save_type: none
+    thickness: 91.5
+    typ: fast
+    width: 1
+  link_main: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/navigation_oomp/oobb/part/oomlout_oobb_tool_precision_screwdriver_precision_screwdriver/1_width_1_height_91_5_mm_depth/2.25_mm_diameter_bit_main_extra/part
+  link_redirect: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/parts/_oomlout_oobb_tool_precision_screwdriver_precision_screwdriver_01_01_91d5_nm_precision_screwdriver_ex_2d25_mm_diameter_bit_main
+  manufacturer: ''
+  name_proper: Tool Precision Screwdriver Version 3 Precision Screwdriver 2 25 Mm
+    Diameter Bit Main
+  name_short: Oomlout Oobb Tool Precision Screwdriver
+  name_text: Oobb Part Oomlout Oobb Tool Precision Screwdriver Precision Screwdriver
+    1 Width 1 Height 91 5 mm Depth 2D25 mm Diameter Bit Main Extra
+  oobb_details:
+    diameter_bit_main: 2.25
+    extra: 2.25_mm_diameter_bit_main
+    height: 1
+    oobb_name: precision_screwdriver
+    oobb_type: precision_screwdriver_version_3
+    radius_bit_main: 1.125
+    run_scad: true
+    run_solidcraft: false
+    thickness: 91.5
+    width: 1
+  oobb_name: precision_screwdriver
+  part_number: ''
+  project_name: oomlout_oobb_tool_precision_screwdriver
+  radius_bit_main: 1.125
+  short_name: ''
+  size: oomlout
+  taxonomy_1: tool_precision_screwdriver
+  taxonomy_10: ''
+  taxonomy_11: ''
+  taxonomy_12: ''
+  taxonomy_13: ''
+  taxonomy_14: ''
+  taxonomy_15: ''
+  taxonomy_2: version_3
+  taxonomy_3: precision_screwdriver
+  taxonomy_4: 2_25_mm_diameter_bit_main
+  taxonomy_5: ''
+  taxonomy_6: ''
+  taxonomy_7: ''
+  taxonomy_8: ''
+  taxonomy_9: ''
+  thickness: 91.5
+  thickness_mm: 91.5
+  type: github
+  width: 1
+  width_mm: 14
+type: github

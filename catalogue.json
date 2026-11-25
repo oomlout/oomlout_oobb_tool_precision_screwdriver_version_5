@@ -1,10 +1,227 @@
 {
   "title": "OOBB precision screwdriver",
-  "summary": "Precision screwdriver components, fit samples, labels and referenced purchased hardware.",
-  "parts": "Select the intended screwdriver generation and component. Purchased hardware records are clearly identified and do not receive invented printable meshes.",
-  "assembly": "Follow the existing project guide and version-specific build notes for assembly and two-colour printing. Keep the selected generation\u2019s mating parts together.",
+  "summary": "A printable, bearing-capped handle for long quarter-inch hex bits. Choose the handle by the round shaft diameter and the cap by the drive marking.",
+  "parts": "Print one handle plate and one cap. Each handle plate contains the body, slotted key, side-loading nut cradle, bearing lifter and countersunk insert.",
+  "assembly": "Load the bit and lock before fitting the cradle, lifter and bearing. The cap presses onto the outer ring.",
+  "credit": "The Oomlout precision screwdriver is the starting design. Wera Kraftform Micro and the iFixit Precision Bit Driver informed the fingertip waist and grip texture.",
+  "credits": [
+    [
+      "Original screwdriver by Oomlout",
+      "https://github.com/oomlout/oomlout_oobb_tool_precision_screwdriver"
+    ],
+    [
+      "Oomlout",
+      "https://github.com/oomlout"
+    ]
+  ],
+  "study": [
+    {
+      "driver": "Wera Kraftform Micro",
+      "observation": "Wera divides the handle into a precision zone near the tip, a wider torque grip and a fast-turning zone near the cap.",
+      "decision": "Give the fingertips a 10.3 mm waist, increase the thumb pad to 12.7 mm, and keep the rear taper smooth for spinning.",
+      "source": "https://www.wera.de/en/tools/highlights-great-tools/kraftform-micro/"
+    },
+    {
+      "driver": "iFixit Precision Bit Driver",
+      "observation": "The 115 mm aluminium driver combines a knurled grip with a swivel cap.",
+      "decision": "Use eight broad axial flutes on the thumb pad. Their tapered ends follow the print direction and leave the adjacent spanner flats accessible.",
+      "source": "https://www.ifixit.com/products/ifixit-precision-bit-driver-aluminum"
+    },
+    {
+      "driver": "Wiha PicoFinish",
+      "observation": "Wiha puts the drive symbol on its rotating end cap so a driver can be identified in the rack.",
+      "decision": "Pair the printed drive symbol with its size on the closed cap face. Torx caps carry a T prefix and a rounded six-lobe mark.",
+      "source": "https://digicat.wiha.com/int/en/tools/screwdrivers/precision-screwdrivers/picofinish/sets/fine-screwdriver-set-picofinish/42996"
+    }
+  ],
+  "archive_versions": [
+    {
+      "title": "Version 2",
+      "description": "First 606 bearing assembly, 111.6 mm nose to palm",
+      "page": "archive/v1-v2/VERSION_2_BUILD.md",
+      "image": "archive/v1-v2/assembly_version_2.png"
+    },
+    {
+      "title": "Version 1",
+      "description": "Original plug-style topper and handle",
+      "page": "archive/v1-v2/navigation_oobb/tool_precision_screwdriver/version_1/README.md",
+      "image": "archive/v1-v2/parts/tool_precision_screwdriver_version_1_precision_screwdriver_3_5_mm_diameter_bit_main/3dpr_presentation.png"
+    }
+  ],
+  "example_id": "tool_precision_screwdriver_version_3_precision_screwdriver_3_5_mm_diameter_bit_main",
+  "example_cap": "tool_precision_screwdriver_version_3_label_top_torx_t5_size",
   "modes": [
     "3dpr",
     "true"
+  ],
+  "assembly_folder": "assembly",
+  "version_folder": "parts/version_3",
+  "version_name": "Version 3",
+  "version_title": "Version 3 \u00b7 compact bearing handle",
+  "version_description": "101.6 mm capped, waisted grip and Torx labels",
+  "part_labels": {
+    "body": {
+      "name": "Handle, 3.5 mm shaft"
+    },
+    "key": {
+      "name": "Slotted lock key"
+    },
+    "cradle": {
+      "name": "Side-loading cradle"
+    },
+    "lifter": {
+      "name": "Bearing lifter"
+    },
+    "insert": {
+      "name": "Countersunk insert"
+    },
+    "cap": {
+      "name": "T5 palm cap"
+    },
+    "bit": {
+      "name": "100 mm bit, 1/4 inch shank",
+      "id": "precision_screwdriver_bit_100_mm_quarter_inch_3_5_mm_shaft_t5",
+      "identity_source": "project-local representative bit"
+    },
+    "bearing": {
+      "name": "606 bearing, 6 x 17 x 6",
+      "id": "hardware_bearing_600_series_606_size_6_mm_id_17_mm_od_6_mm_depth",
+      "identity_source": "OOMP bearing catalogue"
+    },
+    "side_screw": {
+      "name": "M3 x 6 countersunk hex",
+      "id": "hardware_screw_countersunk_m3_black_6_mm_length_hex_head",
+      "identity_source": "project purchased hardware record"
+    },
+    "top_screw": {
+      "name": "M3 x 16 countersunk hex",
+      "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+      "identity_source": "OOMP screw catalogue"
+    },
+    "top_nut": {
+      "name": "M3 hex nut",
+      "id": "hardware_nut_m3",
+      "identity_source": "OOMP bolt catalogue"
+    },
+    "side_nut": {
+      "name": "M3 hex nut",
+      "id": "hardware_nut_m3",
+      "identity_source": "OOMP bolt catalogue"
+    }
+  },
+  "book": {
+    "cover_title": "Precision screwdriver",
+    "cover_subtitle": "Version 3 / 606 bearing / quarter-inch drive",
+    "project_name": "oomlout_oobb_tool_precision_screwdriver_version_5",
+    "project_url": "https://github.com/oomlout/oomlout_oobb_tool_precision_screwdriver_version_5",
+    "viewer_layout": "a4-landscape-four-step",
+    "viewer_start": "page-01",
+    "materials": "One handle plate, one cap, one 100 mm quarter-inch bit, one 606 bearing (6 \u00d7 17 \u00d7 6 mm), two M3 nuts, and M3 \u00d7 6 mm and M3 \u00d7 16 mm countersunk screws."
+  },
+  "style": {
+    "page_mm": [
+      297,
+      210
+    ],
+    "columns": 2,
+    "rows": 2,
+    "caption_background": "#00B1B7",
+    "caption_text": "#000000"
+  },
+  "steps": [
+    {
+      "title": "Lock the bit",
+      "action": "Feed the bit tip-first from the rear. Slide in the key, align its slot, and secure it with the side nut and M3 \u00d7 6 mm screw.",
+      "add": [
+        "body",
+        "bit",
+        "key",
+        "side_screw",
+        "side_nut"
+      ],
+      "move": {
+        "key": [
+          0,
+          0,
+          45
+        ],
+        "side_screw": [
+          10,
+          0,
+          0
+        ],
+        "side_nut": [
+          -10,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "title": "Load the cradle",
+      "action": "Slide the second M3 nut edge-first into the cradle, thread facing up. Push the cradle into the side slot until its curved face is flush.",
+      "add": [
+        "cradle",
+        "top_nut"
+      ],
+      "move": {
+        "cradle": [
+          0,
+          13,
+          0
+        ],
+        "top_nut": [
+          0,
+          9,
+          -0.65
+        ]
+      }
+    },
+    {
+      "title": "Seat the bearing",
+      "action": "Seat the lifter in the handle. Place the 606 on its raised centre, then fit the insert into the bearing bore, countersink facing up.",
+      "add": [
+        "lifter",
+        "bearing",
+        "insert"
+      ],
+      "move": {
+        "lifter": [
+          0,
+          0,
+          5
+        ],
+        "bearing": [
+          0,
+          0,
+          13
+        ],
+        "insert": [
+          0,
+          0,
+          24
+        ]
+      }
+    },
+    {
+      "title": "Fit the cap",
+      "action": "Tighten the M3 \u00d7 16 mm screw into the captive nut. Check the outer ring spins, press the cap onto it, and spin again under light pressure.",
+      "add": [
+        "top_screw",
+        "cap"
+      ],
+      "move": {
+        "top_screw": [
+          0,
+          0,
+          8
+        ],
+        "cap": [
+          0,
+          0,
+          23
+        ]
+      }
+    }
   ]
 }

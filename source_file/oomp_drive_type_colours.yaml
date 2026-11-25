@@ -1,0 +1,38 @@
+schema_version: 1
+proper_name: Band 5 Drive Type Color Code
+namespace:
+  taxonomy_1: hardware
+  taxonomy_2: color_code
+  taxonomy_3: band_5
+  taxonomy_4: base
+band:
+  number: 5
+  key: drive_type
+  label: Drive Type
+  reading_order: 5
+  optional: true
+  default_color: black
+  omission_rule: Omit Band 5 when drive type is default, unspecified, or not applicable.
+  description: Optional screw or bolt drive type; black means default or unspecified and may be omitted.
+  prompts:
+    square: >-
+      Square 1:1 technical catalog illustration representing screw drive type. Arrange clean front-facing
+      screw-head silhouettes with unmistakable slot, cross, star, and hex-socket recesses as a compact centered
+      family. Use precise medium black outlines, restrained flat neutral fills, crisp geometry, and a plain
+      warm-white background. No text, labels, dimensions, hands, border, or decorative scenery.
+    circle: >-
+      Square 1:1 technical catalog badge representing screw drive type. Arrange clean front-facing screw-head
+      silhouettes with unmistakable slot, cross, star, and hex-socket recesses inside one clean black circular
+      boundary, fully contained with no cropping. Use precise medium black outlines, restrained flat neutral
+      fills, crisp geometry, and a plain warm-white background. No text, labels, dimensions, hands, or scenery.
+entries:
+  - {resistor_digit: 0, color: black,  hex: '#000000', text_hex: '#FFFFFF', value: default,       slug: default_black,        proper_name: Default Drive Black,        status: default, description: 'Default, unspecified, or not-applicable drive; omit this optional band.'}
+  - {resistor_digit: 1, color: brown,  hex: '#7B3F00', text_hex: '#FFFFFF', value: slotted,       slug: slotted_brown,        proper_name: Slotted Brown,              status: active, selectors: [slotted, slot]}
+  - {resistor_digit: 2, color: red,    hex: '#D32F2F', text_hex: '#FFFFFF', value: phillips,      slug: phillips_red,         proper_name: Phillips Red,               status: active, selectors: [phillips, cross_head]}
+  - {resistor_digit: 3, color: orange, hex: '#F57C00', text_hex: '#000000', value: pozidriv,      slug: pozidriv_orange,      proper_name: Pozidriv Orange,            status: active, selectors: [pozidriv, pozi]}
+  - {resistor_digit: 4, color: yellow, hex: '#FBC02D', text_hex: '#000000', value: torx,          slug: torx_yellow,          proper_name: Torx Yellow,                status: active, selectors: [torx, star_drive]}
+  - {resistor_digit: 5, color: green,  hex: '#388E3C', text_hex: '#000000', value: hex_socket,    slug: hex_socket_green,     proper_name: Hex Socket Green,           status: active, selectors: [hex_socket, allen]}
+  - {resistor_digit: 6, color: blue,   hex: '#1976D2', text_hex: '#FFFFFF', value: square,        slug: square_blue,          proper_name: Square Drive Blue,          status: active, selectors: [square, square_drive]}
+  - {resistor_digit: 7, color: violet, hex: '#7B1FA2', text_hex: '#FFFFFF', value: security_torx, slug: security_torx_violet, proper_name: Security Torx Violet,        status: active, aliases: [purple], selectors: [security_torx, torx_pin]}
+  - {resistor_digit: 8, color: grey,   hex: '#757575', text_hex: '#FFFFFF', value: robertson,     slug: robertson_grey,       proper_name: Robertson Grey,             status: active, aliases: [gray], selectors: [robertson, robertson_drive]}
+  - {resistor_digit: 9, color: white,  hex: '#FFFFFF', text_hex: '#000000', value: other,         slug: other_white,          proper_name: Other Drive White,          status: fallback}

@@ -1,26 +1,20 @@
 <!-- oobb-presentation:start -->
 # Hardware Screw Countersunk M3 Black 6 Mm Length Hex Head
 
-AI-generated images and instructions. Errors possible.
-
-## Summary
-
 Purchased hardware referenced by this project.
 
-This is an entirely AI-generated coding project. The generated outputs are included and usually work, but the main purpose of publishing it is to give others a starting point for modifying the project with their own AI tools.
 
-## Details
+[Shared assembly guide](../../assembly/README.md) · [Choose handles and caps](../version_3/README.md)
 
-**Full OOMP ID:** `hardware_screw_countersunk_m3_black_6_mm_length_hex_head`
+**OOMP ID**  
+`hardware_screw_countersunk_m3_black_6_mm_length_hex_head`
 
-[Part folder](./) · [OOBB navigation](../../navigation_oobb/)
+[Full part definition (YAML)](working.yaml)
 
-| Field | Value |
-| --- | --- |
-| Taxonomy | hardware / screw_countersunk / m3 / black / 6_mm_length / hex_head |
+[Part folder](.) · [OOBB navigation](../../navigation_oobb)
 
 <details>
-<summary>Full part details: all working.yaml fields</summary>
+<summary>Full part metadata</summary>
 
 ```yaml
 barcode_manufacturer_metalmate: '5050420669030'
@@ -1052,16 +1046,6 @@ weight_10: '3.58'
 ```
 
 </details>
-
-## Parts
-
-Purchased hardware; no printable mesh is generated for this record.
-
-## Assembly
-
-Use the hardware specification above when sourcing this item.
-
-[Project guide and existing assembly notes](../../PROJECT_GUIDE.md)
 <!-- oobb-presentation:end -->
 
 # Hardware Screw Countersunk M3 Black 6 mm Length Hex Head  

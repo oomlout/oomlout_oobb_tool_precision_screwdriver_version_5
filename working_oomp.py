@@ -4,6 +4,9 @@ import copy
 import oomlout_roboclick
 
 def main(**kwargs):
+    if kwargs.get("catalogue_only"):
+        from catalogue import sync_sources
+        return sync_sources(kwargs["root"], kwargs.get("filter", ""))
     load_parts(**kwargs)
 
 def load_parts(**kwargs):

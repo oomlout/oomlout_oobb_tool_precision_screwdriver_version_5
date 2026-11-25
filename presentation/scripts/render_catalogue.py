@@ -21,6 +21,38 @@ def material(name, colour, roughness=.4):
     return m
 
 
+def import_banded_cap(path):
+    """Import the production 3MF components in their shared print coordinates."""
+    import xml.etree.ElementTree as ET
+    from zipfile import ZipFile
+    with ZipFile(path) as package:
+        root = ET.fromstring(package.read("3D/3dmodel.model"))
+    colours = []
+    for base in root.findall(".//{*}basematerials/{*}base"):
+        rgb = bytes.fromhex(base.attrib["displaycolor"][1:7])
+        colours.append(material(base.attrib["name"], rgb))
+    vertices, faces, assignments = [], [], []
+    for obj in root.findall(".//{*}object"):
+        mesh = obj.find("{*}mesh")
+        if mesh is None:
+            continue
+        offset = len(vertices)
+        for v in mesh.findall("{*}vertices/{*}vertex"):
+            vertices.append(tuple(float(v.attrib[k]) for k in ("x", "y", "z")))
+        for t in mesh.findall("{*}triangles/{*}triangle"):
+            faces.append(tuple(offset + int(t.attrib[k]) for k in ("v1", "v2", "v3")))
+            assignments.append(int(t.attrib.get("p1", obj.attrib["pindex"])))
+    mesh = bpy.data.meshes.new("Cap colour separations")
+    mesh.from_pydata(vertices, [], faces)
+    for colour in colours:
+        mesh.materials.append(colour)
+    mesh.polygons.foreach_set("material_index", assignments)
+    mesh.update()
+    obj = bpy.data.objects.new("Marked bearing cap", mesh)
+    bpy.context.scene.collection.objects.link(obj)
+    return obj
+
+
 def aim(obj, point):
     obj.rotation_euler = (Vector(point) - obj.location).to_track_quat('-Z', 'Y').to_euler()
 
@@ -54,8 +86,13 @@ def render(job):
     scene.world.use_nodes = True
     scene.world.node_tree.nodes['Background'].inputs[0].default_value = (.8, .8, .8, 1)
     scene.world.node_tree.nodes['Background'].inputs[1].default_value = .35
-    bpy.ops.wm.stl_import(filepath=job['source'])
-    part = bpy.context.object
+    if job.get("banded"):
+        part = import_banded_cap(job["banded"])
+        part.rotation_euler.x = math.pi
+    else:
+        bpy.ops.wm.stl_import(filepath=job['source'])
+        part = bpy.context.object
+        part.data.materials.append(material('Satin teal PLA', (0, 177, 183)))
     # STL is in millimetres. Preserve geometry; translate to the floor and centre.
     part.scale = (.001,) * 3
     bpy.context.view_layer.update()
@@ -64,7 +101,6 @@ def render(job):
     hi = Vector([max(v[i] for v in corners) for i in range(3)])
     part.location -= Vector(((lo.x + hi.x) / 2, (lo.y + hi.y) / 2, lo.z))
     size = hi - lo
-    part.data.materials.append(material('Satin teal PLA', (0, 177, 183)))
     # No remeshing, bevel modifier or smoothing of real holes and sharp edges.
     # An open background keeps through-holes legible; floor shadows can resemble hardware.
     span = max(size)

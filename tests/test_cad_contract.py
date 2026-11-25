@@ -31,18 +31,27 @@ class CadContractTests(unittest.TestCase):
         hardware = [part for part in options if 'oobb_details' not in part]
         self.assertEqual(len(hardware), 1)
         self.assertEqual(hardware[0]['id'], 'hardware_screw_countersunk_m3_black_6_mm_length_hex_head')
-        archived = {f.parent.name for f in (PROJECT / 'old_version/parts').glob('*/3dpr.scad')}
-        for version in ('version_1', 'version_2'):
-            records = [part for part in printable if part['taxonomy_2'] == version]
-            self.assertEqual(len(records), 38 if version == "version_1" else 40)
-            self.assertEqual({part['legacy_id'] for part in records if 'legacy_id' in part}, archived)
-            for part in records:
-                details = part['oobb_details']
-                self.assertEqual(details['oobb_type'], f"{part['oobb_name']}_{version}")
-                self.assertIs(details['run_scad'], True)
-                self.assertIs(details['run_solidcraft'], False)
-                if details['oobb_name'] == 'label_top':
-                    self.assertIsInstance(details['siz'], str)
+        handles = [part for part in printable if part['oobb_name'] == 'precision_screwdriver']
+        caps = [part for part in printable if part['oobb_name'] == 'label_top']
+        self.assertEqual(len(printable), 49)
+        self.assertEqual(len(handles), 13)
+        self.assertEqual({p['diameter_bit_main'] for p in handles}, {2 + i / 4 for i in range(13)})
+        self.assertEqual(len({(p['shape'], p['siz']) for p in caps}), 36)
+        self.assertTrue(any(p['shape'] == 'phillips' and p['siz'] == '00' for p in caps))
+        self.assertTrue(any(p['shape'] == 'torx' and p['siz'] == 'T5' for p in caps))
+        codes = {(p['shape'], p['siz']): tuple(band['colour'] for band in p['colour_bands']) for p in caps}
+        self.assertEqual(len(set(codes.values())), len(caps))
+        self.assertEqual(codes['torx', 'T5'], ('yellow', 'green'))
+        self.assertEqual(codes['hex', '0.7'], ('green', 'black', 'violet'))
+        self.assertEqual(codes['slotted', '1.5'], ('brown', 'brown', 'green'))
+        for zeros in ('0', '00', '000'):
+            self.assertEqual(codes['phillips', zeros], ('red',) + ('black',) * len(zeros))
+        for part in printable:
+            self.assertEqual(part['taxonomy_2'], 'version_3')
+            details = part['oobb_details']
+            self.assertEqual(details['oobb_type'], part['oobb_name'] + '_version_3')
+            self.assertIs(details['run_scad'], True)
+            self.assertIs(details['run_solidcraft'], False)
 
     def test_scad_dispatches_type_instead_of_variant_and_skips_disabled(self):
         selected=Mock(side_effect=RuntimeError('selected type'))

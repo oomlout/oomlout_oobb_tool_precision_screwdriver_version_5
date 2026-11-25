@@ -1,0 +1,13 @@
+key,name,quantity,id,identity_source,md5,md5_6_alpha,short_url
+body,"Handle, 3.5 mm shaft",1,tool_precision_screwdriver_version_3_precision_screwdriver_3_5_mm_diameter_bit_main,printed plate,,,
+key,Slotted lock key,1,tool_precision_screwdriver_version_3_precision_screwdriver_3_5_mm_diameter_bit_main,printed plate,,,
+cradle,Side-loading cradle,1,tool_precision_screwdriver_version_3_precision_screwdriver_3_5_mm_diameter_bit_main,printed plate,,,
+lifter,Bearing lifter,1,tool_precision_screwdriver_version_3_precision_screwdriver_3_5_mm_diameter_bit_main,printed plate,,,
+insert,Countersunk insert,1,tool_precision_screwdriver_version_3_precision_screwdriver_3_5_mm_diameter_bit_main,printed plate,,,
+cap,T5 palm cap,1,tool_precision_screwdriver_version_3_label_top_torx_t5_size,printed plate,,,
+bit,"100 mm bit, 1/4 inch shank",1,precision_screwdriver_bit_100_mm_quarter_inch_3_5_mm_shaft_t5,project-local representative bit,5ea45ead68c1a45e8ece149937281336,3oxum,https://oom.lt/a/3oxum
+bearing,"606 bearing, 6 x 17 x 6",1,hardware_bearing_600_series_606_size_6_mm_id_17_mm_od_6_mm_depth,OOMP bearing catalogue,a795a1608c179f5904eb6928596eed7c,6jee9,https://oom.lt/a/6jee9
+side_screw,M3 x 6 countersunk hex,1,hardware_screw_countersunk_m3_black_6_mm_length_hex_head,project purchased hardware record,c5be8c6dfac86e376ca43e915477ae6e,7prik,https://oom.lt/a/7prik
+top_screw,M3 x 16 countersunk hex,1,hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length,OOMP screw catalogue,8dc04ae0424362764ab344c4d6c2d0ef,5j422,https://oom.lt/a/5j422
+top_nut,M3 hex nut,1,hardware_nut_m3,OOMP bolt catalogue,632d2f1cf592d38bafebf6dcced02499,3vb5b,https://oom.lt/a/3vb5b
+side_nut,M3 hex nut,1,hardware_nut_m3,OOMP bolt catalogue,632d2f1cf592d38bafebf6dcced02499,3vb5b,https://oom.lt/a/3vb5b

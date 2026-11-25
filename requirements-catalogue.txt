@@ -2,3 +2,10 @@ PyYAML
 Pillow
 numpy
 trimesh
+manifold3d
+shapely
+scipy
+networkx
+reportlab
+PyMuPDF
+svglib

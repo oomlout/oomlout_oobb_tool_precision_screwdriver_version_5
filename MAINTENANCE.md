@@ -41,3 +41,5 @@ This project is kept local; no GitHub destination is configured or published by 
 The version-one and version-two bit-lock slots use explicit cylinder hulls, preserving their original translation and radii while removing ambiguous SCAD parameters. All 38 version-one meshes are compared with the archived originals; the purchased hardware record has no invented mesh. The required old_version validation references remain local.
 
 Only the archived part references needed by the geometry regression checks remain under old_version. Unused legacy navigation, scad_output duplicates and older support files were moved to the external recovery directory.
+
+The compact version 3 migration moved the earlier catalogues, their sources and the original validation meshes into the [project archive](archive/README.md).

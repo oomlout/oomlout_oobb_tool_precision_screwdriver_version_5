@@ -64,13 +64,15 @@ def sheet(cache, destination, label, size):
         canvas.paste(image, (40 + 800 * i, 105), image)
     draw = ImageDraw.Draw(canvas)
     import textwrap
+    draw.rectangle((0, 0, 1600, 100), fill="#00B1B7")
+    draw.rectangle((0, 840, 1600, 1000), fill="#00B1B7")
     for i, line in enumerate(textwrap.wrap(label, width=95)):
-        draw.text((48, 18 + 34*i), line, fill="#243a3b", font=font(28))
-    draw.text((48, 850), "Angled view", fill="#3b4b4b", font=font(26))
-    draw.text((848, 850), "Top view", fill="#3b4b4b", font=font(26))
+        draw.text((48, 18 + 34*i), line, fill="#000000", font=font(28))
+    draw.text((48, 850), "Angled view", fill="#000000", font=font(26))
+    draw.text((848, 850), "Top view", fill="#000000", font=font(26))
     extent = " × ".join(f"{v:g}" for v in size)
-    draw.text((48, 904), f"Mesh envelope  {extent} mm", fill="#243a3b", font=font(26))
-    draw.text((48, 955), "AI-generated CAD illustration. Errors possible.", fill="#616966", font=font(21))
+    draw.text((48, 904), f"Mesh envelope  {extent} mm", fill="#000000", font=font(26))
+    draw.text((48, 955), "AI-generated CAD illustration. Errors possible.", fill="#000000", font=font(21))
     temporary = destination.with_suffix(".tmp")
     canvas.save(temporary, format="PNG", optimize=True)
     os.replace(temporary, destination)
@@ -98,6 +100,7 @@ def main(part_filter="", force=False, blender=None, root=ROOT, workers=2):
     executable = find_blender(blender)
     version = subprocess.check_output([executable, "--version"], text=True).splitlines()[0]
     worker_hash = sha(WORKER)
+    sheet_hash = sha(Path(__file__))
     manifest_path = root / "presentation/catalogue.json"
     previous = json.loads(manifest_path.read_text()) if manifest_path.exists() else {}
     old = {r["source"]: r for r in previous.get("renders", [])}
@@ -109,24 +112,47 @@ def main(part_filter="", force=False, blender=None, root=ROOT, workers=2):
     if not selected:
         raise ValueError(f"No parts match {part_filter!r}")
     import catalogue
+    cap_packages = {}
     for folder, part, mode, source in catalogue.sources(root, part_filter):
         source_hash = sha(source)
         variant = "Print layout" if mode == "3dpr" else "Nominal / assembly"
         label = part.get("name_proper", part["id"].replace("_", " ")) + " — " + variant
+        if part.get("shape") and part.get("siz"):
+            variant = "Print model, face shown upright" if mode == "3dpr" else "Nominal model, face shown upright"
+            label = f"{part['shape'].title()} {part['siz']} bearing cap · {variant}"
+        elif "diameter_bit_main" in part:
+            label = f"{part['diameter_bit_main']} mm shaft handle · {variant}"
         label = label.removeprefix("Oobb Part ").removeprefix("Oobb Tool ")
-        key = hashlib.sha256((source_hash + worker_hash + version + label + str(SHEET_VERSION) + sha(Path(__file__))).encode()).hexdigest()[:24]
+        banded = None
+        band_hash = ""
+        if part.get("colour_bands"):
+            from screwdriver_book.bands import write_cap
+            if folder not in cap_packages:
+                package = write_cap(folder, part)
+                cap_packages[folder] = (package, sha(package))
+            banded, band_hash = cap_packages[folder]
+        geometry_key = hashlib.sha256((source_hash + band_hash + worker_hash + version).encode()).hexdigest()[:24]
+        key = hashlib.sha256((geometry_key + sheet_hash + label + str(SHEET_VERSION)).encode()).hexdigest()[:24]
         destination = folder / f"{mode}_presentation.png"
         record = dict(id=part["id"], variant=mode, source=source.relative_to(root).as_posix(),
                       source_sha256=source_hash, image=destination.relative_to(root).as_posix(),
                       dimensions_mm=dimensions(source), key=key, sheet_version=SHEET_VERSION,
                       renderer_sha256=worker_hash, blender=version, label=label)
+        if banded:
+            record["banded_source"] = banded.relative_to(root).as_posix()
+            record["banded_sha256"] = band_hash
+        if mode == "3dpr" and "diameter_bit_main" in part:
+            from screwdriver_book.bands import write_handle
+            package = write_handle(folder, part)
+            record["handle_package"] = package.relative_to(root).as_posix()
+            record["handle_package_sha256"] = sha(package)
         if not force and reusable(record, old.get(record["source"]), root):
             record["image_sha256"] = old[record["source"]]["image_sha256"]
         else:
-            directory = cache / key
+            directory = cache / geometry_key
             directory.mkdir(exist_ok=True)
             if force or not all(valid_png(directory / f"{v}.png", (1000, 1000)) for v in ("angle", "top")):
-                jobs[key] = dict(source=str(source), directory=str(directory), key=key)
+                jobs[geometry_key] = dict(source=str(source), directory=str(directory), key=geometry_key, banded=str(banded) if banded else None)
             pending.append((record, directory, destination, label))
         records.append(record)
     print(f"Presentation: {len(selected)} parts, {len(records)} sheets, {len(jobs)} meshes need rendering", flush=True)
