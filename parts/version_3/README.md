@@ -50,7 +50,7 @@ The 10 mm reduction comes from the taper between the 13 mm hex and the flare. Th
 
 ## Assembly
 
-[One shared four-step guide for every handle and cap](../../assembly/README.md) · [One-page PDF](../../assembly/assembly_instructions.pdf)
+[Five steps for every handle and cap](../../assembly/README.md) · [Assembly booklet (PDF)](../../assembly/assembly_instructions.pdf)
 
 
 ## Bench trial

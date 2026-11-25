@@ -2,7 +2,7 @@ key,name,quantity,id,identity_source,md5,md5_6_alpha,short_url
 body,"Handle, 3.5 mm shaft",1,tool_precision_screwdriver_version_3_precision_screwdriver_3_5_mm_diameter_bit_main,printed plate,,,
 key,Slotted lock key,1,tool_precision_screwdriver_version_3_precision_screwdriver_3_5_mm_diameter_bit_main,printed plate,,,
 cradle,Side-loading cradle,1,tool_precision_screwdriver_version_3_precision_screwdriver_3_5_mm_diameter_bit_main,printed plate,,,
-lifter,Bearing lifter,1,tool_precision_screwdriver_version_3_precision_screwdriver_3_5_mm_diameter_bit_main,printed plate,,,
+lifter,"Bearing lifter, 10.5 mm OD × 2.9 mm",1,tool_precision_screwdriver_version_3_precision_screwdriver_3_5_mm_diameter_bit_main,printed plate,,,
 insert,Countersunk insert,1,tool_precision_screwdriver_version_3_precision_screwdriver_3_5_mm_diameter_bit_main,printed plate,,,
 cap,T5 palm cap,1,tool_precision_screwdriver_version_3_label_top_torx_t5_size,printed plate,,,
 bit,"100 mm bit, 1/4 inch shank",1,precision_screwdriver_bit_100_mm_quarter_inch_3_5_mm_shaft_t5,project-local representative bit,5ea45ead68c1a45e8ece149937281336,3oxum,https://oom.lt/a/3oxum

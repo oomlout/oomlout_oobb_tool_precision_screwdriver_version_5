@@ -14,7 +14,7 @@ def version_pages(root, cfg, records):
     lines = ["# " + cfg["title"], "", cfg["summary"] + " Each printable part includes STL and OpenSCAD files.",
              "", cfg["credit"] + " " + credits, "",
              f'[![Assembled teal precision driver with a banded cap]({photo})]({index})', "",
-             f'[Choose a handle and cap]({index}#choose-the-two-print-files) · [Four-step assembly]({manual}/README.md)', "", ORIGIN, "", NOTICE, "",
+             f'[Choose a handle and cap]({index}#choose-the-two-print-files) · [Assembly instructions]({manual}/README.md)', "", ORIGIN, "", NOTICE, "",
              "The dimensions and assembly clearances have been checked in CAD. The compact grip and the bearing press fit still need a physical trial.", "",
              "| Image | Version and description | Main README | HTML assembly instructions | PDF download |",
              "| --- | --- | --- | --- | --- |",
@@ -55,17 +55,17 @@ def version_pages(root, cfg, records):
     for item in cfg["study"]:
         lines.append(f'| [{item["driver"]}]({item["source"]}) | {item["observation"]} | {item["decision"]} |')
     lines += ["", "The 10 mm reduction comes from the taper between the 13 mm hex and the flare. The cradle follows the revised taper so its outer face sits flush. The 17.07 mm bearing socket, recessed screw insert and 0.65 mm radial skirt clearance carry over from version 2.", "",
-              "## Assembly", "", "[One shared four-step guide for every handle and cap](../../assembly/README.md) · [One-page PDF](../../assembly/assembly_instructions.pdf)", ""]
+              "## Assembly", "", "[Five steps for every handle and cap](../../assembly/README.md) · [Assembly booklet (PDF)](../../assembly/assembly_instructions.pdf)", ""]
     lines += ["", "## Bench trial", "",
               "Compare this handle with version 2 using the same bit and bearing. Check whether your thumb and forefinger can spin the waist with your palm on the cap, then move to the fluted pad for the final turn. Check that the key holds, the cradle sits flush and the cap clears the flare under light pressure.", "",
               NOTICE, "", "[Editable drawing](../../working_scad_version_3.py) · [Part definitions and assembly sequence](../../working_oomp_populate.py) · [Build and verification](../../CATALOGUE_BUILD.md)"]
     shared = ["# Assemble the precision screwdriver", "",
               cfg["book"]["materials"], "",
-              "[Open the illustrated sheet](assembly_instructions.html) · [Print the single-page PDF](assembly_instructions.pdf) · [Parts list](parts.csv)", "",
+              "[Open the offline viewer](assembly_instructions.html) · [Download the landscape A4 booklet](assembly_instructions.pdf) · [Parts list](parts.csv)", "",
               "## Assembly", ""]
     for number, step in enumerate(cfg["steps"], 1):
-        shared.append(f'{number}. **[{step["title"]}](render/raw/step_{number:02d}.png).** {step["action"]}')
-    shared.extend(["", "![Four illustrated assembly steps](pages/page_01.png)", "", NOTICE, "",
+        shared.append(f'{number}. **[{step["title"]}](cards/step_{number:02d}.png).** {step["action"]}')
+    shared.extend(["", "![Assembly steps 1–4](pages/page_03.png)", "", "![Assembly step 5](cards/step_05.png)", "", NOTICE, "",
                    "[Choose print files](../parts/version_3/README.md) · [Project](../README.md)"])
     return {root / "README.md": landing, root / index: "\n".join(lines),
             root / manual / "README.md": "\n".join(shared)}

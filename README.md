@@ -7,7 +7,7 @@ The Oomlout precision screwdriver is the starting design. Wera Kraftform Micro a
 
 [![Assembled teal precision driver with a banded cap](assembly/render/raw/book_cover.png)](parts/version_3/README.md)
 
-[Choose a handle and cap](parts/version_3/README.md#choose-the-two-print-files) · [Four-step assembly](assembly/README.md)
+[Choose a handle and cap](parts/version_3/README.md#choose-the-two-print-files) · [Assembly instructions](assembly/README.md)
 
 This is an entirely AI-generated coding project. The source code is largely unreadable by humans, but usable generated files are included. It is published so others can use their own AI tools to understand, modify and regenerate the design.
 

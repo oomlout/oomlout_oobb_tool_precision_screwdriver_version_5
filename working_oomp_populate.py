@@ -113,8 +113,19 @@ def define_assembly_card_style(**kwargs):
     kwargs.setdefault("page_mm", [297, 210])
     kwargs.setdefault("columns", 2)
     kwargs.setdefault("rows", 2)
-    kwargs.setdefault("caption_background", "#00B1B7")
-    kwargs.setdefault("caption_text", "#000000")
+    kwargs.setdefault("margin_mm", 6)
+    kwargs.setdefault("gutter_mm", 4)
+    kwargs.setdefault("border", "000000")
+    kwargs.setdefault("border_radius_mm", 3)
+    kwargs.setdefault("border_width_pt", 3)
+    kwargs.setdefault("component_border_width_pt", 1.1)
+    kwargs.setdefault("thumbnail_height_mm", 8.5)
+    kwargs.setdefault("quantity_shift_mm", 1)
+    kwargs.setdefault("font_body_pt", 7)
+    kwargs.setdefault("font_code_pt", 6.4)
+    kwargs.setdefault("font_url_prefix_pt", 4.8)
+    kwargs.setdefault("quantity_pt", 5.8)
+    kwargs.setdefault("explosion_scale", 1.35)
     return kwargs
 
 
@@ -165,7 +176,7 @@ def define_project():
         "body": {"name": "Handle, 3.5 mm shaft"},
         "key": {"name": "Slotted lock key"},
         "cradle": {"name": "Side-loading cradle"},
-        "lifter": {"name": "Bearing lifter"},
+        "lifter": {"name": "Bearing lifter, 10.5 mm OD × 2.9 mm"},
         "insert": {"name": "Countersunk insert"},
         "cap": {"name": "T5 palm cap"},
         "bit": {
@@ -201,31 +212,56 @@ def define_project():
     book["project_name"] = "oomlout_oobb_tool_precision_screwdriver_version_5"
     book["project_url"] = "https://github.com/oomlout/" + book["project_name"]
     book["viewer_layout"] = "a4-landscape-four-step"
-    book["viewer_start"] = "page-01"
+    book["viewer_start"] = "page-03"
+    book["signature_pages"] = 4
+    book["summary_step"] = True
+    book["summary_view"] = "book_cover"
+    book["summary_title"] = "Printed parts"
+    book["hardware_title"] = "Hardware"
+    book["logo_svg"] = "source_file/oomlout_logo_unshaded_original.svg"
+    book["logo_symbol_subpaths"] = 3
+    book["details_title"] = "Dimensions and preparation"
+    book["details"] = [
+        "Match the handle bore to the round shaft just behind the bit tip. Handles cover 2–5 mm in 0.25 mm increments.",
+        "The example uses a 100 mm bit with a quarter-inch hex shank, a 3.5 mm round shaft and a T5 cap.",
+        "The 606 bearing is 6 mm bore × 17 mm outside diameter × 6 mm wide.",
+        "Use the M3 × 6 mm countersunk screw at the side and the M3 × 16 mm countersunk screw through the bearing. Each takes one M3 nut.",
+        "The assembled handle is 101.6 mm from nose to palm. The spanner flats measure 10 mm and 13 mm.",
+        "Regenerate with python catalogue.py build --populate. The CAD clearances have been checked. Bearing fit and grip feel await a physical print.",
+    ]
     book["materials"] = "One handle plate, one cap, one 100 mm quarter-inch bit, one 606 bearing (6 × 17 × 6 mm), two M3 nuts, and M3 × 6 mm and M3 × 16 mm countersunk screws."
     project["book"] = book
     project["style"] = define_assembly_card_style()
     project["steps"] = [
         {
+            "title": "Slide in the driver bit",
+            "action": "Feed the bit tip-first through the open bearing end. Slide it in until the hex shank seats and the tip projects from the nose.",
+            "add": ["body", "bit"],
+            "move": {"bit": [0, 0, 112]},
+        },
+        {
             "title": "Lock the bit",
-            "action": "Feed the bit tip-first from the rear. Slide in the key, align its slot, and secure it with the side nut and M3 × 6 mm screw.",
-            "add": ["body", "bit", "key", "side_screw", "side_nut"],
+            "action": "Slide the lock key in behind the bit. Align its slot with the side hole, fit the side nut and tighten the M3 × 6 mm countersunk screw.",
+            "add": ["key", "side_screw", "side_nut"],
             "move": {"key": [0, 0, 45], "side_screw": [10, 0, 0], "side_nut": [-10, 0, 0]},
         },
         {
             "title": "Load the cradle",
+            "detail_from_z": 75,
             "action": "Slide the second M3 nut edge-first into the cradle, thread facing up. Push the cradle into the side slot until its curved face is flush.",
             "add": ["cradle", "top_nut"],
             "move": {"cradle": [0, 13, 0], "top_nut": [0, 9, -0.65]},
         },
         {
             "title": "Seat the bearing",
+            "detail_from_z": 75,
             "action": "Seat the lifter in the handle. Place the 606 on its raised centre, then fit the insert into the bearing bore, countersink facing up.",
             "add": ["lifter", "bearing", "insert"],
             "move": {"lifter": [0, 0, 5], "bearing": [0, 0, 13], "insert": [0, 0, 24]},
         },
         {
             "title": "Fit the cap",
+            "detail_from_z": 75,
             "action": "Tighten the M3 × 16 mm screw into the captive nut. Check the outer ring spins, press the cap onto it, and spin again under light pressure.",
             "add": ["top_screw", "cap"],
             "move": {"top_screw": [0, 0, 8], "cap": [0, 0, 23]},

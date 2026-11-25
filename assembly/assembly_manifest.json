@@ -6,7 +6,23 @@
     "project_name": "oomlout_oobb_tool_precision_screwdriver_version_5",
     "project_url": "https://github.com/oomlout/oomlout_oobb_tool_precision_screwdriver_version_5",
     "viewer_layout": "a4-landscape-four-step",
-    "viewer_start": "page-01",
+    "viewer_start": "page-03",
+    "signature_pages": 4,
+    "summary_step": true,
+    "summary_view": "book_cover",
+    "summary_title": "Printed parts",
+    "hardware_title": "Hardware",
+    "logo_svg": "source_file/oomlout_logo_unshaded_original.svg",
+    "logo_symbol_subpaths": 3,
+    "details_title": "Dimensions and preparation",
+    "details": [
+      "Match the handle bore to the round shaft just behind the bit tip. Handles cover 2\u20135 mm in 0.25 mm increments.",
+      "The example uses a 100 mm bit with a quarter-inch hex shank, a 3.5 mm round shaft and a T5 cap.",
+      "The 606 bearing is 6 mm bore \u00d7 17 mm outside diameter \u00d7 6 mm wide.",
+      "Use the M3 \u00d7 6 mm countersunk screw at the side and the M3 \u00d7 16 mm countersunk screw through the bearing. Each takes one M3 nut.",
+      "The assembled handle is 101.6 mm from nose to palm. The spanner flats measure 10 mm and 13 mm.",
+      "Regenerate with python catalogue.py build --populate. The CAD clearances have been checked. Bearing fit and grip feel await a physical print."
+    ],
     "materials": "One handle plate, one cap, one 100 mm quarter-inch bit, one 606 bearing (6 \u00d7 17 \u00d7 6 mm), two M3 nuts, and M3 \u00d7 6 mm and M3 \u00d7 16 mm countersunk screws."
   },
   "style": {
@@ -16,8 +32,19 @@
     ],
     "columns": 2,
     "rows": 2,
-    "caption_background": "#00B1B7",
-    "caption_text": "#000000"
+    "margin_mm": 6,
+    "gutter_mm": 4,
+    "border": "000000",
+    "border_radius_mm": 3,
+    "border_width_pt": 3,
+    "component_border_width_pt": 1.1,
+    "thumbnail_height_mm": 8.5,
+    "quantity_shift_mm": 1,
+    "font_body_pt": 7,
+    "font_code_pt": 6.4,
+    "font_url_prefix_pt": 4.8,
+    "quantity_pt": 5.8,
+    "explosion_scale": 1.35
   },
   "parts": {
     "body": {
@@ -43,7 +70,7 @@
     },
     "lifter": {
       "key": "lifter",
-      "name": "Bearing lifter",
+      "name": "Bearing lifter, 10.5 mm OD \u00d7 2.9 mm",
       "quantity": 1,
       "id": "tool_precision_screwdriver_version_3_precision_screwdriver_3_5_mm_diameter_bit_main",
       "identity_source": "printed plate"
@@ -133,11 +160,29 @@
   ],
   "steps": [
     {
-      "title": "Lock the bit",
-      "action": "Feed the bit tip-first from the rear. Slide in the key, align its slot, and secure it with the side nut and M3 \u00d7 6 mm screw.",
+      "title": "Slide in the driver bit",
+      "action": "Feed the bit tip-first through the open bearing end. Slide it in until the hex shank seats and the tip projects from the nose.",
       "add": [
         "body",
-        "bit",
+        "bit"
+      ],
+      "move": {
+        "bit": [
+          0,
+          0,
+          112
+        ]
+      },
+      "key": "step_01",
+      "loose_parts": {
+        "body": 1,
+        "bit": 1
+      }
+    },
+    {
+      "title": "Lock the bit",
+      "action": "Slide the lock key in behind the bit. Align its slot with the side hole, fit the side nut and tighten the M3 \u00d7 6 mm countersunk screw.",
+      "add": [
         "key",
         "side_screw",
         "side_nut"
@@ -159,10 +204,8 @@
           0
         ]
       },
-      "key": "step_01",
+      "key": "step_02",
       "loose_parts": {
-        "body": 1,
-        "bit": 1,
         "key": 1,
         "side_screw": 1,
         "side_nut": 1
@@ -170,6 +213,7 @@
     },
     {
       "title": "Load the cradle",
+      "detail_from_z": 75,
       "action": "Slide the second M3 nut edge-first into the cradle, thread facing up. Push the cradle into the side slot until its curved face is flush.",
       "add": [
         "cradle",
@@ -187,7 +231,7 @@
           -0.65
         ]
       },
-      "key": "step_02",
+      "key": "step_03",
       "loose_parts": {
         "cradle": 1,
         "top_nut": 1
@@ -195,6 +239,7 @@
     },
     {
       "title": "Seat the bearing",
+      "detail_from_z": 75,
       "action": "Seat the lifter in the handle. Place the 606 on its raised centre, then fit the insert into the bearing bore, countersink facing up.",
       "add": [
         "lifter",
@@ -218,7 +263,7 @@
           24
         ]
       },
-      "key": "step_03",
+      "key": "step_04",
       "loose_parts": {
         "lifter": 1,
         "bearing": 1,
@@ -227,6 +272,7 @@
     },
     {
       "title": "Fit the cap",
+      "detail_from_z": 75,
       "action": "Tighten the M3 \u00d7 16 mm screw into the captive nut. Check the outer ring spins, press the cap onto it, and spin again under light pressure.",
       "add": [
         "top_screw",
@@ -244,7 +290,7 @@
           23
         ]
       },
-      "key": "step_04",
+      "key": "step_05",
       "loose_parts": {
         "top_screw": 1,
         "cap": 1
@@ -256,12 +302,135 @@
     "parts/tool_precision_screwdriver_version_3_precision_screwdriver_3_5_mm_diameter_bit_main/3dpr.stl": "76c1c4a1f74c46fe5b63835c379b74d3300448afadf7bbc4d4f5570b337990a3",
     "parts/tool_precision_screwdriver_version_3_label_top_torx_t5_size/3dpr_color_main.stl": "539d1905e909c5a56b90282b9b619c065c123c0b18d43fa4d8910e6d10b5d2f2",
     "parts/tool_precision_screwdriver_version_3_label_top_torx_t5_size/3dpr_color_support.stl": "d4f489abf7293a9b303cec3d23df72431cdd3124497950390fa6c413fba0ce53",
-    "parts/tool_precision_screwdriver_version_3_label_top_torx_t5_size/3dpr_banded.3mf": "a66e254c1190b614f47875a04b9432f2eba7f0811ee3e93c77823caaf6460778"
+    "parts/tool_precision_screwdriver_version_3_label_top_torx_t5_size/3dpr_banded.3mf": "a66e254c1190b614f47875a04b9432f2eba7f0811ee3e93c77823caaf6460778",
+    "source_file/oomlout_logo_unshaded_original.svg": "72918ba326599a1e6ae495ae4cabb51cc7a462035d35ee30de984229e30d9d67"
+  },
+  "summary_inventory": {
+    "printed": [
+      {
+        "key": "body",
+        "name": "Handle, 3.5 mm shaft",
+        "quantity": 1,
+        "id": "tool_precision_screwdriver_version_3_precision_screwdriver_3_5_mm_diameter_bit_main",
+        "identity_source": "printed plate"
+      },
+      {
+        "key": "key",
+        "name": "Slotted lock key",
+        "quantity": 1,
+        "id": "tool_precision_screwdriver_version_3_precision_screwdriver_3_5_mm_diameter_bit_main",
+        "identity_source": "printed plate"
+      },
+      {
+        "key": "cradle",
+        "name": "Side-loading cradle",
+        "quantity": 1,
+        "id": "tool_precision_screwdriver_version_3_precision_screwdriver_3_5_mm_diameter_bit_main",
+        "identity_source": "printed plate"
+      },
+      {
+        "key": "lifter",
+        "name": "Bearing lifter, 10.5 mm OD \u00d7 2.9 mm",
+        "quantity": 1,
+        "id": "tool_precision_screwdriver_version_3_precision_screwdriver_3_5_mm_diameter_bit_main",
+        "identity_source": "printed plate"
+      },
+      {
+        "key": "insert",
+        "name": "Countersunk insert",
+        "quantity": 1,
+        "id": "tool_precision_screwdriver_version_3_precision_screwdriver_3_5_mm_diameter_bit_main",
+        "identity_source": "printed plate"
+      },
+      {
+        "key": "cap",
+        "name": "T5 palm cap",
+        "quantity": 1,
+        "id": "tool_precision_screwdriver_version_3_label_top_torx_t5_size",
+        "identity_source": "printed plate"
+      }
+    ],
+    "hardware": [
+      {
+        "key": "bit",
+        "name": "100 mm bit, 1/4 inch shank",
+        "quantity": 1,
+        "id": "precision_screwdriver_bit_100_mm_quarter_inch_3_5_mm_shaft_t5",
+        "identity_source": "project-local representative bit",
+        "md5": "5ea45ead68c1a45e8ece149937281336",
+        "md5_6_alpha": "3oxum",
+        "short_url": "https://oom.lt/a/3oxum"
+      },
+      {
+        "key": "bearing",
+        "name": "606 bearing, 6 x 17 x 6",
+        "quantity": 1,
+        "id": "hardware_bearing_600_series_606_size_6_mm_id_17_mm_od_6_mm_depth",
+        "identity_source": "OOMP bearing catalogue",
+        "md5": "a795a1608c179f5904eb6928596eed7c",
+        "md5_6_alpha": "6jee9",
+        "short_url": "https://oom.lt/a/6jee9"
+      },
+      {
+        "key": "side_screw",
+        "name": "M3 x 6 countersunk hex",
+        "quantity": 1,
+        "id": "hardware_screw_countersunk_m3_black_6_mm_length_hex_head",
+        "identity_source": "project purchased hardware record",
+        "md5": "c5be8c6dfac86e376ca43e915477ae6e",
+        "md5_6_alpha": "7prik",
+        "short_url": "https://oom.lt/a/7prik"
+      },
+      {
+        "key": "top_screw",
+        "name": "M3 x 16 countersunk hex",
+        "quantity": 1,
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length",
+        "identity_source": "OOMP screw catalogue",
+        "md5": "8dc04ae0424362764ab344c4d6c2d0ef",
+        "md5_6_alpha": "5j422",
+        "short_url": "https://oom.lt/a/5j422"
+      },
+      {
+        "key": "top_nut",
+        "name": "M3 hex nut",
+        "quantity": 2,
+        "id": "hardware_nut_m3",
+        "identity_source": "OOMP bolt catalogue",
+        "md5": "632d2f1cf592d38bafebf6dcced02499",
+        "md5_6_alpha": "3vb5b",
+        "short_url": "https://oom.lt/a/3vb5b"
+      }
+    ]
   },
   "book_pages": [
     {
+      "kind": "cover"
+    },
+    {
+      "kind": "details"
+    },
+    {
       "kind": "instructions",
       "group": 0
+    },
+    {
+      "kind": "instructions",
+      "group": 1
+    },
+    {
+      "kind": "summary",
+      "number": 6
+    },
+    {
+      "kind": "spacer"
+    },
+    {
+      "kind": "parts"
+    },
+    {
+      "kind": "back"
     }
-  ]
+  ],
+  "printed_piece_count": 6
 }

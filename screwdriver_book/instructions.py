@@ -68,12 +68,20 @@ def assembly_meshes(handle_stl, cap_main, cap_ink):
     for piece in (cap, ink):
         rotate(piece, 180, [1, 0, 0])
         piece.apply_translation([0, 0, 101.6])
-    # Representative purchased hardware envelopes. A T5 tip is identification only.
-    stem = shaft(1.75, 72)
-    stem.apply_translation([0, 0, -47])
+    # This is an illustration of the purchased bit. Show its narrow drive end
+    # and full-size hex shank so the insertion direction is visible in print.
+    stem = trimesh.creation.revolve([[0, -45], [.7, -45], [.7, -44],
+                                     [1.75, -41], [1.75, 25], [0, 25]])
+    angles = np.linspace(0, 2 * math.pi, 72, endpoint=False)
+    radii = .59 + .11 * np.cos(6 * angles)
+    outline = np.column_stack((radii * np.cos(angles), radii * np.sin(angles)))
+    centre = len(outline)
+    tip_faces = [[centre, i, (i+1) % len(outline)] for i in range(len(outline))]
+    tip = trimesh.creation.extrude_triangulation(np.vstack([outline, [0, 0]]), tip_faces, height=2)
+    tip.apply_translation([0, 0, -47])
     shank = shaft(6.35 / math.sqrt(3), 28, 6)
     shank.apply_translation([0, 0, 25])
-    bit = trimesh.util.concatenate([stem, shank])
+    bit = trimesh.util.concatenate([tip, stem, shank])
     bearing = trimesh.util.concatenate([ring(8.5, 7.35, 6), ring(7.34, 4.11, 5.6), ring(4.1, 3, 6)])
     bearing.apply_translation([0, 0, 92.9])
     top_nut = ring(5.5 / math.sqrt(3), 1.3, 2.4, 6)
@@ -102,7 +110,8 @@ def publish(cfg):
     cap = ROOT / "parts" / cfg["example_cap"]
     sources = [handle, cap / "3dpr_color_main.stl", cap / "3dpr_color_support.stl"]
     package = cap / "3dpr_banded.3mf"
-    hashes = {p.relative_to(ROOT).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest() for p in [*sources, package]}
+    hashes = {p.relative_to(ROOT).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest()
+              for p in [*sources, package, ROOT / cfg["book"]["logo_svg"]]}
     meshes = assembly_meshes(*sources)
     labels = cfg["part_labels"]
     parts = {}
@@ -129,19 +138,28 @@ def publish(cfg):
         consumed.extend(step["add"])
         step["loose_parts"] = dict.fromkeys(step["add"], 1)
         steps.append(step)
-        views[step["key"]] = {name: step["move"].get(name, [0, 0, 0]) for name in consumed}
+        views[step["key"]] = {
+            name: [distance * cfg["style"]["explosion_scale"] for distance in step["move"].get(name, [0, 0, 0])]
+            for name in consumed
+        }
+        if "detail_from_z" in step:
+            views[step["key"] + "_detail"] = views[step["key"]]
     if set(consumed) != set(parts):
         raise ValueError("Assembly inventory does not match steps")
     views["book_cover"] = dict.fromkeys(consumed, [0, 0, 0])
+    for name in consumed:
+        views["part_" + name] = {name: [0, 0, 0]}
     stage = ROOT / "build" / "screwdriver_assembly"
     stage.mkdir(parents=True, exist_ok=True)
     for key, mesh in meshes.items():
         mesh.export(stage / (key + ".stl"))
-    scene = dict(views=views, output=str(raw), stage=str(stage), banded=str(package))
+    details = {step["key"] + "_detail": step["detail_from_z"] for step in steps if "detail_from_z" in step}
+    scene = dict(views=views, detail_from_z=details, output=str(raw), stage=str(stage), banded=str(package))
     job = stage / "views.json"
     job.write_text(json.dumps(scene))
     worker = Path(__file__).with_name("render_assembly.py")
-    signature = hashlib.sha256(worker.read_bytes() + Path(__file__).read_bytes() + json.dumps([hashes, views]).encode()).hexdigest()
+    studio = ROOT / "presentation/scripts/render_catalogue.py"
+    signature = hashlib.sha256(worker.read_bytes() + studio.read_bytes() + Path(__file__).read_bytes() + json.dumps([hashes, views, details]).encode()).hexdigest()
     stamp = stage / "render.sha256"
     if not stamp.exists() or stamp.read_text() != signature or any(not (raw / (name + ".png")).exists() for name in views):
         with (stage / "blender.log").open("w") as log:
@@ -155,5 +173,6 @@ def publish(cfg):
         writer.writeheader()
         writer.writerows(parts.values())
     assembly_booklet.publish(output=output, data=data)
+    assembly_booklet.review_outputs(output=output, data=data)
     assembly_viewer.publish(output=output, data=data)
 

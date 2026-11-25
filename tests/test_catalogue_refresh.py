@@ -69,6 +69,28 @@ class CatalogueTests(unittest.TestCase):
             self.assertIn(step['action'], pages[self.root / 'assembly/README.md'])
     def test_missing_printable_geometry_is_an_error(self):
         with self.assertRaisesRegex(ValueError,'Missing production mesh'):catalogue.sources(self.root)
+
+    def test_shared_book_inserts_the_bit_before_locking(self):
+        from screwdriver_book.assembly_booklet import page_plan
+        from screwdriver_book.instructions import assembly_meshes
+        cfg = catalogue.config()
+        steps = cfg['steps']
+        self.assertEqual(len(steps), 5)
+        self.assertEqual(steps[0]['add'], ['body', 'bit'])
+        self.assertEqual(set(steps[1]['add']), {'key', 'side_screw', 'side_nut'})
+        handle = catalogue.ROOT / 'parts' / cfg['example_id']
+        cap = catalogue.ROOT / 'parts' / cfg['example_cap']
+        meshes = assembly_meshes(handle/'3dpr.stl', cap/'3dpr_color_main.stl', cap/'3dpr_color_support.stl')
+        dx, dy, dz = steps[0]['move']['bit']
+        self.assertEqual((dx, dy), (0, 0))
+        self.assertGreater(meshes['bit'].bounds[0, 2] + dz * cfg['style']['explosion_scale'],
+                           meshes['body'].bounds[1, 2])
+        added = [name for step in steps for name in step['add']]
+        self.assertCountEqual(added, cfg['part_labels'])
+        plan = page_plan(step_count=len(steps))
+        self.assertEqual([page['kind'] for page in plan],
+                         ['cover', 'details', 'instructions', 'instructions', 'summary', 'spacer', 'parts', 'back'])
+        self.assertEqual(cfg['book']['viewer_start'], 'page-03')
     def test_purchased_hardware_needs_no_invented_mesh(self):
         for source,part in catalogue.records(self.root):
             part.pop('oobb_details');(source/'working.yaml').write_text(yaml.safe_dump(part))

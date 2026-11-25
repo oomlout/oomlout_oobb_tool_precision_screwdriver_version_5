@@ -384,7 +384,9 @@ def verify(root=ROOT):
         for path, digest in manual["source_sha256"].items():
             if sha(root / path) != digest:
                 raise ValueError(f"Stale assembly diagrams for {path}")
-        if cfg["steps"] != [{key: step[key] for key in cfg["steps"][0]} for step in manual["steps"]]:
+        if len(cfg["steps"]) != len(manual["steps"]) or any(
+                any(actual.get(key) != value for key, value in definition.items())
+                for definition, actual in zip(cfg["steps"], manual["steps"])):
             raise ValueError("Rebuild the assembly sequence")
         for ext in ("pdf", "html"):
             if sha(assembly / ("assembly_instructions." + ext)) != validation[ext + "_sha256"]:

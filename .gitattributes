@@ -6,6 +6,9 @@
 /navigation_oobb/** text eol=lf
 *.png -text
 *.stl -text
+/assembly/*.pdf binary
+/assembly/assembly_instructions.html text eol=lf
+/source_file/oomlout_logo_unshaded_original.svg -text
 
 # Keep provenance hashes stable across fresh clones and platforms.
 *.py -text

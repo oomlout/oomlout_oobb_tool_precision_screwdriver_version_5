@@ -28,7 +28,7 @@ def publish(**kwargs):
                 first = spec['group'] * per_page + 1
                 last = min(first + per_page - 1, len(data['steps']))
                 numbers = list(range(first, last + 1))
-                label = f'Steps {first}-{last}'
+                label = f'Step {first}' if first == last else f'Steps {first}-{last}'
             elif kind == 'summary':
                 label = 'Completed assembly'
             else:
@@ -48,7 +48,7 @@ def publish(**kwargs):
     result = result.replace('__PROJECT_URL__', html.escape(book['project_url'], quote=True))
     result = result.replace('__DATA__', json.dumps(payload, separators=(',', ':')).replace('<', '\\u003c'))
     target = output/'assembly_instructions.html'
-    target.write_text(result, encoding='utf-8')
+    target.write_bytes(result.encode('utf-8'))
     report_path = output/'validation.json'
     report = json.loads(report_path.read_text())
     report.update(html_sha256=hashlib.sha256(target.read_bytes()).hexdigest(), html_slides=len(slides), html_steps=len(data['steps']), html_self_contained=True, html_layout=book['viewer_layout'], html_instruction_page_steps=[s['steps'] for s in slides if s['kind']=='instructions'])

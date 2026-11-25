@@ -70,7 +70,7 @@
       "name": "Side-loading cradle"
     },
     "lifter": {
-      "name": "Bearing lifter"
+      "name": "Bearing lifter, 10.5 mm OD \u00d7 2.9 mm"
     },
     "insert": {
       "name": "Countersunk insert"
@@ -115,7 +115,23 @@
     "project_name": "oomlout_oobb_tool_precision_screwdriver_version_5",
     "project_url": "https://github.com/oomlout/oomlout_oobb_tool_precision_screwdriver_version_5",
     "viewer_layout": "a4-landscape-four-step",
-    "viewer_start": "page-01",
+    "viewer_start": "page-03",
+    "signature_pages": 4,
+    "summary_step": true,
+    "summary_view": "book_cover",
+    "summary_title": "Printed parts",
+    "hardware_title": "Hardware",
+    "logo_svg": "source_file/oomlout_logo_unshaded_original.svg",
+    "logo_symbol_subpaths": 3,
+    "details_title": "Dimensions and preparation",
+    "details": [
+      "Match the handle bore to the round shaft just behind the bit tip. Handles cover 2\u20135 mm in 0.25 mm increments.",
+      "The example uses a 100 mm bit with a quarter-inch hex shank, a 3.5 mm round shaft and a T5 cap.",
+      "The 606 bearing is 6 mm bore \u00d7 17 mm outside diameter \u00d7 6 mm wide.",
+      "Use the M3 \u00d7 6 mm countersunk screw at the side and the M3 \u00d7 16 mm countersunk screw through the bearing. Each takes one M3 nut.",
+      "The assembled handle is 101.6 mm from nose to palm. The spanner flats measure 10 mm and 13 mm.",
+      "Regenerate with python catalogue.py build --populate. The CAD clearances have been checked. Bearing fit and grip feel await a physical print."
+    ],
     "materials": "One handle plate, one cap, one 100 mm quarter-inch bit, one 606 bearing (6 \u00d7 17 \u00d7 6 mm), two M3 nuts, and M3 \u00d7 6 mm and M3 \u00d7 16 mm countersunk screws."
   },
   "style": {
@@ -125,16 +141,40 @@
     ],
     "columns": 2,
     "rows": 2,
-    "caption_background": "#00B1B7",
-    "caption_text": "#000000"
+    "margin_mm": 6,
+    "gutter_mm": 4,
+    "border": "000000",
+    "border_radius_mm": 3,
+    "border_width_pt": 3,
+    "component_border_width_pt": 1.1,
+    "thumbnail_height_mm": 8.5,
+    "quantity_shift_mm": 1,
+    "font_body_pt": 7,
+    "font_code_pt": 6.4,
+    "font_url_prefix_pt": 4.8,
+    "quantity_pt": 5.8,
+    "explosion_scale": 1.35
   },
   "steps": [
     {
-      "title": "Lock the bit",
-      "action": "Feed the bit tip-first from the rear. Slide in the key, align its slot, and secure it with the side nut and M3 \u00d7 6 mm screw.",
+      "title": "Slide in the driver bit",
+      "action": "Feed the bit tip-first through the open bearing end. Slide it in until the hex shank seats and the tip projects from the nose.",
       "add": [
         "body",
-        "bit",
+        "bit"
+      ],
+      "move": {
+        "bit": [
+          0,
+          0,
+          112
+        ]
+      }
+    },
+    {
+      "title": "Lock the bit",
+      "action": "Slide the lock key in behind the bit. Align its slot with the side hole, fit the side nut and tighten the M3 \u00d7 6 mm countersunk screw.",
+      "add": [
         "key",
         "side_screw",
         "side_nut"
@@ -159,6 +199,7 @@
     },
     {
       "title": "Load the cradle",
+      "detail_from_z": 75,
       "action": "Slide the second M3 nut edge-first into the cradle, thread facing up. Push the cradle into the side slot until its curved face is flush.",
       "add": [
         "cradle",
@@ -179,6 +220,7 @@
     },
     {
       "title": "Seat the bearing",
+      "detail_from_z": 75,
       "action": "Seat the lifter in the handle. Place the 606 on its raised centre, then fit the insert into the bearing bore, countersink facing up.",
       "add": [
         "lifter",
@@ -205,6 +247,7 @@
     },
     {
       "title": "Fit the cap",
+      "detail_from_z": 75,
       "action": "Tighten the M3 \u00d7 16 mm screw into the captive nut. Check the outer ring spins, press the cap onto it, and spin again under light pressure.",
       "add": [
         "top_screw",

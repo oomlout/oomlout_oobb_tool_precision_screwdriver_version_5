@@ -26,8 +26,8 @@ scene.render.film_transparent = True
 scene.world = bpy.data.worlds.new("Studio")
 scene.world.use_nodes = True
 scene.world.node_tree.nodes["Background"].inputs[1].default_value = .8
-colours = dict(body=(0,177,183), key=(30,30,30), cradle=(30,30,30), insert=(30,30,30),
-               lifter=(30,30,30), bearing=(125,139,150))
+colours = {name: (0,177,183) for name in ("body", "key", "cradle", "insert", "lifter")}
+colours["bearing"] = (125,139,150)
 palette = {name: material(name, rgb) for name, rgb in colours.items()}
 metal = material("Steel", (145,151,160))
 objects = {}
@@ -67,10 +67,10 @@ for view, pieces in job["views"].items():
     inv = camera.rotation_quaternion.inverted()
     # Frame real vertices to keep thin, diagonal assemblies readable.
     coords = [inv @ (v.co + objects[k].location) for k in pieces for v in objects[k].data.vertices]
-    if view in ("step_02", "step_03", "step_04"):
-        # Detail the receiving slot and bearing seat at the palm end.
+    if view in job["detail_from_z"]:
+        # The separate inset enlarges the working end of the full assembly view.
         coords = [inv @ (v.co + objects[k].location) for k in pieces for v in objects[k].data.vertices
-                  if (v.co + objects[k].location).z >= 73]
+                  if (v.co + objects[k].location).z >= job["detail_from_z"][view]]
     low = Vector([min(v[i] for v in coords) for i in range(3)])
     high = Vector([max(v[i] for v in coords) for i in range(3)])
     centre = (low + high) * .5
